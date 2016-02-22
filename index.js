@@ -8,12 +8,12 @@ module.exports = function (content) {
 
   var query = loaderUtils.parseQuery(this.query)
   var languages = query.languages || config.languages
-  var set = util.parseContent(content)
+  var keys = util.parseKeys(content)
 
   var results = ['var i18n = require(\'tb-i18n\');']
   for (var i = 0, len = languages.length; i < len; i++) {
     var lang = languages[i]
-    var result = util.localesToString(lang, set.namespace, set.keys)
+    var result = util.localesToString(lang, keys)
     results.push(result)
   }
   return results.join('\n')

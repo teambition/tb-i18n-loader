@@ -25,18 +25,18 @@ function getLocales (language) {
 }
 
 exports.localesToString = localesToString
-function localesToString (language, namespace, keys) {
+function localesToString (language, keys) {
   var originLocales = getLocales(language)
   var locales = {}
   keys.forEach(function (key) {
-    locales[key] = originLocales[namespace + key] || ''
+    locales[key] = originLocales[key] || ''
   })
   return 'i18n.setLocales(\'' + language + '\', ' + JSON.stringify(locales, null, 2) + ');'
 }
 
 var NAMESPACE_MARK = '@namespace:'
-exports.parseContent = parseContent
-function parseContent (content) {
+exports.parseKeys = parseKeys
+function parseKeys (content) {
   var namespace = ''
   var results = []
   var keys = content.split('\n')
@@ -52,7 +52,11 @@ function parseContent (content) {
     }
   }
 
-  return {namespace: namespace, keys: results}
+  if (namespace) {
+    return results.map(function (item) { return namespace + item })
+  } else {
+    return results
+  }
 }
 
 exports.readKeys = readKeys
@@ -61,9 +65,8 @@ function readKeys () {
   fs.readdirSync('./keys').forEach(function (fileName) {
     var path = sysPath.resolve('./keys', fileName)
     var contents = fs.readFileSync(path, 'utf-8')
-    var set = parseContent(contents)
-    set.keys.forEach(function (key) {
-      if (!~results.indexOf(key)) results.push(set.namespace + key)
+    parseKeys(contents).forEach(function (key) {
+      if (!~results.indexOf(key)) results.push(key)
     })
   })
   return results

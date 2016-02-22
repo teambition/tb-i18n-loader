@@ -84,9 +84,9 @@ describe('test tb-i18n-loader', function () {
     var expects = [
       'var i18n = require(\'tb-i18n\');',
       'i18n.setLocales(\'en\', {',
-      '  "member": "' + (localesEN['all.member'] || '') + '",',
-      '  "project": "' + (localesEN['all.project'] || '') + '",',
-      '  "key1": "' + (localesEN['all.key1'] || '') + '"',
+      '  "all.member": "' + (localesEN['all.member'] || '') + '",',
+      '  "all.project": "' + (localesEN['all.project'] || '') + '",',
+      '  "all.key1": "' + (localesEN['all.key1'] || '') + '"',
       '});'
     ]
     contextTranslate(keys.join('\n')).should.eql(expects.join('\n'))
