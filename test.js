@@ -5,10 +5,10 @@ var describe = global.describe
 var it = global.it
 
 var localesJA = require('./locales/ja.json')
-var localesEN = require('./locales/ja.json')
-var localesZH = require('./locales/ja.json')
-var localesZH_TW = require('./locales/ja.json')
-var localesKO = require('./locales/ja.json')
+var localesEN = require('./locales/en.json')
+var localesZH = require('./locales/zh.json')
+var localesZH_TW = require('./locales/zh_tw.json')
+var localesKO = require('./locales/ko.json')
 
 describe('test tb-i18n-loader', function () {
   it('translate keys', function () {

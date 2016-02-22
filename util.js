@@ -2,10 +2,10 @@
 var sysPath = require('path')
 var fs = require('fs')
 var localesJA = require('./locales/ja.json')
-var localesEN = require('./locales/ja.json')
-var localesZH = require('./locales/ja.json')
-var localesZH_TW = require('./locales/ja.json')
-var localesKO = require('./locales/ja.json')
+var localesEN = require('./locales/en.json')
+var localesZH = require('./locales/zh.json')
+var localesZH_TW = require('./locales/zh_tw.json')
+var localesKO = require('./locales/ko.json')
 
 exports.getLocales = getLocales
 function getLocales (language) {
