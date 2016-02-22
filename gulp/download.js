@@ -30,7 +30,6 @@ module.exports = function (languages) {
 
       gutil.log('Download \'' + col.cyan(lang + '.json') + '\' from OneSky ...')
       onesky.getFile(util.getHttpOptions(lang)).then(function (content) {
-
         var json = JSON.parse(content)
         for (var key in oldJson) {
           if (oldJson[key] && !json[key]) {

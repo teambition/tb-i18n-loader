@@ -24,8 +24,8 @@ describe('test tb-i18n-loader', function () {
       'var i18n = require(\'tb-i18n\');',
       'i18n.setLocales(\'en\', {',
       '  "FRI": "' + localesEN['FRI'] + '",',
-      '  "MON": "' + localesEN['MON']  + '",',
-      '  "key1": "' + (localesEN['key1'] || '')  + '"',
+      '  "MON": "' + localesEN['MON'] + '",',
+      '  "key1": "' + (localesEN['key1'] || '') + '"',
       '});'
     ]
     contextTranslate(keys.join('\n')).should.eql(expects.join('\n'))
@@ -44,28 +44,49 @@ describe('test tb-i18n-loader', function () {
       'var i18n = require(\'tb-i18n\');',
       'i18n.setLocales(\'zh\', {',
       '  "FRI": "' + localesZH['FRI'] + '",',
-      '  "MON": "' + localesZH['MON']  + '",',
-      '  "key1": "' + (localesZH['key1'] || '')  + '"',
+      '  "MON": "' + localesZH['MON'] + '",',
+      '  "key1": "' + (localesZH['key1'] || '') + '"',
       '});',
       'i18n.setLocales(\'zh_tw\', {',
       '  "FRI": "' + localesZH_TW['FRI'] + '",',
-      '  "MON": "' + localesZH_TW['MON']  + '",',
-      '  "key1": "' + (localesZH_TW['key1'] || '')  + '"',
+      '  "MON": "' + localesZH_TW['MON'] + '",',
+      '  "key1": "' + (localesZH_TW['key1'] || '') + '"',
       '});',
       'i18n.setLocales(\'en\', {',
       '  "FRI": "' + localesEN['FRI'] + '",',
-      '  "MON": "' + localesEN['MON']  + '",',
-      '  "key1": "' + (localesEN['key1'] || '')  + '"',
+      '  "MON": "' + localesEN['MON'] + '",',
+      '  "key1": "' + (localesEN['key1'] || '') + '"',
       '});',
       'i18n.setLocales(\'ja\', {',
       '  "FRI": "' + localesJA['FRI'] + '",',
-      '  "MON": "' + localesJA['MON']  + '",',
-      '  "key1": "' + (localesJA['key1'] || '')  + '"',
+      '  "MON": "' + localesJA['MON'] + '",',
+      '  "key1": "' + (localesJA['key1'] || '') + '"',
       '});',
       'i18n.setLocales(\'ko\', {',
       '  "FRI": "' + localesKO['FRI'] + '",',
-      '  "MON": "' + localesKO['MON']  + '",',
-      '  "key1": "' + (localesKO['key1'] || '')  + '"',
+      '  "MON": "' + localesKO['MON'] + '",',
+      '  "key1": "' + (localesKO['key1'] || '') + '"',
+      '});'
+    ]
+    contextTranslate(keys.join('\n')).should.eql(expects.join('\n'))
+  })
+
+  it('with namespace', function () {
+    var query = '?languages[]=en'
+    var contextTranslate = translate.bind({query: query})
+
+    var keys = [
+      '@namespace: all.',
+      'member',
+      'project',
+      'key1'
+    ]
+    var expects = [
+      'var i18n = require(\'tb-i18n\');',
+      'i18n.setLocales(\'en\', {',
+      '  "member": "' + (localesEN['all.member'] || '') + '",',
+      '  "project": "' + (localesEN['all.project'] || '') + '",',
+      '  "key1": "' + (localesEN['all.key1'] || '') + '"',
       '});'
     ]
     contextTranslate(keys.join('\n')).should.eql(expects.join('\n'))

@@ -37,6 +37,11 @@ i18n.setLocales('zh', {
 })
 ```
 
+## Develop
+export ONESKY_SECRET='OneSky Secret'
+export ONESKY_API_KEY='OneSky ApiKey'
+export TRANSLATE_KEY='Baidu Translate Key'
+
 ## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)

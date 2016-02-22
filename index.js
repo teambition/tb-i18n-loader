@@ -1,19 +1,19 @@
 
-var loaderUtils = require("loader-utils")
+var loaderUtils = require('loader-utils')
 var config = require('./config.json')
 var util = require('./util')
 
 module.exports = function (content) {
-	this.cacheable && this.cacheable()
+  if (this.cacheable) this.cacheable()
 
-	var query = loaderUtils.parseQuery(this.query)
+  var query = loaderUtils.parseQuery(this.query)
   var languages = query.languages || config.languages
-  var keys = util.parseKeys(content)
+  var set = util.parseContent(content)
 
   var results = ['var i18n = require(\'tb-i18n\');']
   for (var i = 0, len = languages.length; i < len; i++) {
     var lang = languages[i]
-    var result = util.localesToString(lang, keys)
+    var result = util.localesToString(lang, set.namespace, set.keys)
     results.push(result)
   }
   return results.join('\n')

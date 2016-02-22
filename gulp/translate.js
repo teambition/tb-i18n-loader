@@ -1,10 +1,8 @@
 
 var urllib = require('urllib')
-var util = require('./util')
 var through = require('through2')
 var gutil = require('gulp-util')
 var path = require('path')
-var fs = require('fs')
 var MD5 = require('./md5')
 var defaults = require('../locales/zh.json')
 
@@ -15,9 +13,8 @@ var PLUGIN_NAME = 'gulp-i18n-translate'
 // 文档页面 http://developer.baidu.com/ms/translate
 // 使用百度翻译，每小时1000次请求，每月200万字符，超过会收费的，注意频率
 var TRANSLATE_ID = '20151130000006954'
-var TRANSLATE_KEY = 'MPNe55IMPKs_TwVleajp'
+var TRANSLATE_KEY = process.env.TRANSLATE_KEY
 var TRANSLATE_URL = 'http://api.fanyi.baidu.com/api/trans/vip/translate'
-var TRANSLATE_NAME = 'i18n-translate'
 var TRANSLATE_MAP = {
   'ja': 'jp',
   'ko': 'kor',
@@ -52,7 +49,7 @@ function translate (contents, from, to, callback) {
 
     urllib.request(TRANSLATE_URL, {data: optionsData}, function (err, result, res) {
       if (err) {
-        throw new PluginError(TRANSLATE_NAME, err.toString())
+        throw new PluginError(PLUGIN_NAME, err.toString())
       }
       result = JSON.parse(result.toString())
       data[next.key] = result.trans_result[0].dst

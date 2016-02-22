@@ -1,4 +1,5 @@
 
+var _ = require('lodash')
 var util = require('./util')
 var through = require('through2')
 var gutil = require('gulp-util')
@@ -23,9 +24,9 @@ module.exports = function (lang) {
     options.content = JSON.stringify(json)
 
     gutil.log('Upload \'' + col.cyan(lang + '.json') + '\' to OneSky ...')
-    onesky.postFile(options).then(function(content) {
+    onesky.postFile(options).then(function (content) {
       gutil.log('Upload finished')
-    }).catch(function(err) {
+    }).catch(function (err) {
       throw new PluginError(PLUGIN_NAME, err.message)
     })
     return next()
