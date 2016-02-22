@@ -27,7 +27,8 @@
     "onesky-utils": "0.0.3",
     "should": "^8.2.2",
     "standard": "^6.0.7",
-    "through2": "^2.0.1"
+    "through2": "^2.0.1",
+    "urllib": "^2.7.1"
   },
   "license": "MIT",
   "dependencies": {
