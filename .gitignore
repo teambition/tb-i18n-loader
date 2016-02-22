@@ -1,0 +1,15 @@
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.bat
+*~
+.idea
+*.iml
+.vscode
+.DS_Store
+
+node_modules

@@ -1,0 +1,36 @@
+{
+  "name": "tb-i18n-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader for teambition i18n",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teambition/tb-i18n-loader.git"
+  },
+  "keywords": [
+    "i18n",
+    "i18n-loader"
+  ],
+  "author": "suyu34",
+  "bugs": {
+    "url": "https://github.com/teambition/tb-i18n-loader/issues"
+  },
+  "homepage": "https://github.com/teambition/tb-i18n-loader#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "lodash": "^4.5.0",
+    "mocha": "^2.4.5",
+    "onesky-utils": "0.0.3",
+    "should": "^8.2.2",
+    "standard": "^6.0.7",
+    "through2": "^2.0.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^0.2.12"
+  }
+}
