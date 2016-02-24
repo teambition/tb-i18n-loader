@@ -9,16 +9,19 @@
 Translate keys to register locales in `tb-i18n`
 
 ``` javascript
-require("locales.i18n?languages[]=en&languages[]=zh");
-// => define
+var i18n = require("locales.i18n?languages[]=en&languages[]=zh&descriptionAs=zh");
+// register locales to i18n and return i18n object
 ```
 
 Translate from
 
 ```
-key1
-key2
-key3
+@namespace: example
+{
+  "key1": "description1",
+  "key2": "description2",
+  "key3": "description3"
+}
 ```
 
 to
@@ -26,20 +29,34 @@ to
 ```javascript
 var i18n = require('tb-i18n');
 i18n.setLocales('en', {
-  "key1": "en.value1",
-  "key2": "en.value2",
-  "key3": "en.value3"
+  "example.key1": "en.value1",
+  "example.key2": "en.value2",
+  "example.key3": "en.value3"
 })
 i18n.setLocales('zh', {
-  "key1": "zh.value1",
-  "key2": "zh.value2",
-  "key3": "zh.value3"
+  "example.key1": "zh.value1",
+  "example.key2": "zh.value2",
+  "example.key3": "zh.value3"
 })
 ```
 
+## query
+
+### languages: []string
+The string array of languages those to register.
+
+### desciptionAs: string = ''
+Set the desciption as default value of the specified language.
+
+
+## Attention
+Set the namespace at the first line!!!
+
 ## Develop
 export ONESKY_SECRET='OneSky Secret'
+
 export ONESKY_API_KEY='OneSky ApiKey'
+
 export TRANSLATE_KEY='Baidu Translate Key'
 
 ## License
