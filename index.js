@@ -7,18 +7,18 @@ module.exports = function (content) {
   if (this.cacheable) this.cacheable()
 
   var query = loaderUtils.parseQuery(this.query)
-  var desciptionAs = query.desciptionAs
+  var descriptionAs = query.descriptionAs
   var languages = query.languages || config.languages
-  var desciption = util.parseDescription(content)
+  var description = util.parseDescription(content)
 
   var results = ['var i18n = require(\'tb-i18n\');']
   for (var i = 0, len = languages.length; i < len; i++) {
     var lang = languages[i]
     var result
-    if (lang === desciptionAs) {
-      result = util.mergeLocales(lang, desciption)
+    if (lang === descriptionAs) {
+      result = util.mergeLocales(lang, description)
     } else {
-      result = util.translateLocales(lang, Object.keys(desciption))
+      result = util.translateLocales(lang, Object.keys(description))
     }
     results.push(result)
   }

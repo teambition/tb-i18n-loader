@@ -61,7 +61,7 @@ function translate (contents, from, to, callback) {
 
 module.exports = function (options) {
   options = options || {}
-  var fromLang = options.fromLang || 'zh'
+  var fromLang = options.from || 'zh'
 
   var outputStream = through.obj(function (file, enc, next) {
     if (!file.isBuffer()) return next()

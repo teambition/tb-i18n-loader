@@ -35,12 +35,12 @@ function translateLocales (language, keys) {
 }
 
 exports.mergeLocales = mergeLocales
-function mergeLocales (language, desciption) {
+function mergeLocales (language, description) {
   var originLocales = getLocales(language)
-  var keys = Object.keys(desciption)
+  var keys = Object.keys(description)
   var locales = {}
   keys.forEach(function (key) {
-    locales[key] = originLocales[key] || desciption[key] || ''
+    locales[key] = originLocales[key] || description[key] || ''
   })
   return translate(language, locales)
 }
@@ -52,6 +52,24 @@ function translate (language, locales) {
 var NAMESPACE_MARK = '@namespace:'
 exports.parseDescription = parseDescription
 function parseDescription (content) {
+  var set = parseDescriptionSet(content)
+  var namespace = set.namespace
+  var description = set.description
+  if (namespace) {
+    var result = {}
+    var keys = Object.keys(description)
+    for (var i = 0, len = keys.length; i < len; i++) {
+      var key = keys[i]
+      result[namespace + key] = description[key]
+    }
+    return result
+  } else {
+    return description
+  }
+}
+
+exports.parseDescriptionSet = parseDescriptionSet
+function parseDescriptionSet (content) {
   var namespace = ''
   var lines = content.trim().split('\n')
   var first = (lines[0] || '').trim()
@@ -61,29 +79,6 @@ function parseDescription (content) {
     lines.shift()
   }
 
-  var desciption = JSON.parse(lines.join('\n'))
-  if (namespace) {
-    var result = {}
-    var keys = Object.keys(desciption)
-    for (var i = 0, len = keys.length; i < len; i++) {
-      var key = keys[i]
-      result[namespace + key] = desciption[key]
-    }
-    return result
-  } else {
-    return desciption
-  }
-}
-
-exports.readKeys = readKeys
-function readKeys () {
-  var results = []
-  fs.readdirSync('./keys').forEach(function (fileName) {
-    var path = sysPath.resolve('./keys', fileName)
-    var contents = fs.readFileSync(path, 'utf-8')
-    parseDescription(contents).forEach(function (key) {
-      if (!~results.indexOf(key)) results.push(key)
-    })
-  })
-  return results
+  var description = JSON.parse(lines.join('\n'))
+  return {namespace: namespace, description: description}
 }

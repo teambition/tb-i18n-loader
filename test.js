@@ -102,7 +102,7 @@ describe('test tb-i18n-loader', function () {
   })
 
   it('desciption as', function () {
-    var query = '?languages[]=en&&desciptionAs=en'
+    var query = '?languages[]=en&&descriptionAs=en'
     var contextTranslate = translate.bind({query: query})
 
     var desciption = `
