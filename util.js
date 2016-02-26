@@ -1,6 +1,4 @@
 
-var sysPath = require('path')
-var fs = require('fs')
 var localesJA = require('./locales/ja.json')
 var localesEN = require('./locales/en.json')
 var localesZH = require('./locales/zh.json')
