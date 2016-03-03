@@ -973,6 +973,7 @@
   "organization.statistics.weeklyActiveness.hint": "企业成员每周在所有项目产生的内容",
   "organization.statistics.year": "年",
   "organization.switcher.placeholder": "你还没有加入任何企业。<br />你可以创建企业，来进行数据统计和团队管理。",
+  "organization.visible": "企业可见",
   "payment.center": "支付中心",
   "popover.search.current": "在当前项目里搜索 “%s”",
   "popover.search.whole": "在所有项目里搜索 “%s”",

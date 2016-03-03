@@ -973,6 +973,7 @@
   "organization.statistics.weeklyActiveness.hint": "各週この組織のメンバーが作った<br>コンテンツ数/プロジェクトメンバー数",
   "organization.statistics.year": "年",
   "organization.switcher.placeholder": "所属する組織はまだありません<br>組織を作成する",
+  "organization.visible": "企业可见",
   "payment.center": "購入管理",
   "popover.search.current": "現プロジェクト内で “%s” を検索します",
   "popover.search.whole": "すべてのプロジェクトで “%s” を検索します",

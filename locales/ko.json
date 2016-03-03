@@ -973,6 +973,7 @@
   "organization.statistics.weeklyActiveness.hint": "단체 멤버가 주마다 모든 프로젝트생산한 내용",
   "organization.statistics.year": "년",
   "organization.switcher.placeholder": "소속된  기업가 없습니다. <br /> 기업를 만들면 데이터통계 및 기업관리가 가능합니다.",
+  "organization.visible": "企业可见",
   "payment.center": "지불 센터",
   "popover.search.current": "현재 프로젝트 안에서 검색“%s”",
   "popover.search.whole": "모든 프로젝트 안에서 검색“%s”",

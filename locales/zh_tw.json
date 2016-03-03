@@ -973,6 +973,7 @@
   "organization.statistics.weeklyActiveness.hint": "企業成員每周在所有項目產生的內容",
   "organization.statistics.year": "年",
   "organization.switcher.placeholder": "你還沒有加入任何企業。<br />你可以創建企業，來進行數據統計和團隊管理。",
+  "organization.visible": "企業可見",
   "payment.center": "支付中心",
   "popover.search.current": "在當前項目裡搜索 “%s”",
   "popover.search.whole": "在所有項目裡搜索 “%s”",
