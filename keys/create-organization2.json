@@ -1,0 +1,45 @@
+@namespace: apps.create-organization.
+
+{
+  "title": "创建组织",
+  "introContent": "协作之上，是更有意义的企业管理。Teambition 组织帮助你更好地管理团队、成员，并拥有无限项目数量。可以免费使用14天。",
+
+  "tabTitleCreate": "创建企业",
+  "tabTitleContact": "联系方式",
+
+  "tabInfoCreateGuide": "输入企业名称，专享企业独有服务。",
+  "tabInfoOrgNamePlaceholder": "企业名称",
+
+  "tabContactPhoneGuide": "请留下联系方式为您提供免费企业顾问服务。<br>或拨打 400-060-5576 免费咨询",
+  "tabContactContactName": "联系人姓名",
+  "tabContactPhoneNumber": "手机号",
+  "tabContactRetryGetVerifyCode": "重新获取",
+  "tabContactRetryGetVerifyCodeCD": "重新获取 (%s)",
+  "tabContactNotValidVerifyCode": "验证码错误",
+  "tabContactSendingVerifyCode": "正在发送中...",
+  "tabContactSMSVerifyCode": "短信验证码",
+  "tabContactPhoneBound": "该号码已通过验证",
+  "tabContactNoSMSNeeded": "该号码无需验证",
+
+  "tabFooterDone": "完成",
+  "tabFooterStepNext": "下一步",
+  "tabFooterCreatingOrg": "企业创建中",
+  "tabFooterGetSMSVerify": "获取短信验证码",
+
+  "countrycode": "国际区号",
+  "country_chn": "中国",
+  "country_hk": "中国香港",
+  "country_tw": "台湾",
+  "country_jp": "日本",
+  "country_us": "美国",
+  "country_other": "其他",
+
+  "captchaTitle": "请点击下图中的 %s",
+  "captchaInvalided": "验证失败",
+  "captchaValided": "验证成功",
+  "captchaTooFrequency": "图片验证码错误次数过多, 请明天再试",
+  "captchaTips": "请先选择图片验证码",
+  "captchaNotNeeded": "无需验证",
+  "captchaRefresh": "刷新验证码",
+  "captchaSetupErr": "获取验证码出错, 请刷新重试"
+}
