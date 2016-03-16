@@ -33,7 +33,7 @@ gulp.task('translate', function () {
 
 gulp.task('download', function () {
   return download(config.languages)
-    // .pipe(filter(readDescription(), 'zh'))
+    .pipe(filter(readDescription(), 'zh'))
     .pipe(sorter())
     .pipe(gulp.dest('locales'))
 })

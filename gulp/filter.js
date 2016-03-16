@@ -10,16 +10,13 @@ module.exports = function (description, descriptionAs) {
     var extname = path.extname(file.path)
     var lang = path.basename(file.path, extname)
     var json = JSON.parse(file.contents.toString())
-    var result = {}
     Object.keys(description).forEach(function (key) {
-      if (lang === descriptionAs) {
-        result[key] = json[key] || description[key] || ''
-      } else {
-        result[key] = json[key] || ''
+      if (!json[key] && lang === descriptionAs) {
+        json[key] = description[key]
       }
     })
 
-    file.contents = new Buffer(JSON.stringify(result, null, 2))
+    file.contents = new Buffer(JSON.stringify(json, null, 2))
     this.push(file)
     next()
   })
