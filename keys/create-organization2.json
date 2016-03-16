@@ -4,14 +4,15 @@
   "title": "创建组织",
   "introContent": "协作之上，是更有意义的企业管理。Teambition 组织帮助你更好地管理团队、成员，并拥有无限项目数量。可以免费使用14天。",
 
-  "tabTitleCreate": "创建企业",
-  "tabTitleContact": "联系方式",
+  "tabTitleCreate": "( 1/2 ) 免费试用",
+  "tabTitleContact": "( 2/2 ) 联络方式",
 
-  "tabInfoCreateGuide": "输入企业名称，专享企业独有服务。",
+  "tabInfoCreateGuide": "现在创建组织，14天免费试用",
+  "tabInfoCreateGuideBusinessLink": "Teambition企业版",
   "tabInfoOrgNamePlaceholder": "企业名称",
 
-  "tabContactPhoneGuide": "请留下联系方式为您提供免费企业顾问服务。<br>或拨打 400-060-5576 免费咨询",
-  "tabContactContactName": "联系人姓名",
+  "tabContactPhoneGuide": "验证一下创建者的联络方式<br>如果遇到问题，请联络 400-060-5576",
+  "tabContactName": "联系人",
   "tabContactPhoneNumber": "手机号",
   "tabContactRetryGetVerifyCode": "重新获取",
   "tabContactRetryGetVerifyCodeCD": "重新获取 (%s)",
