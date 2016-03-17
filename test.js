@@ -105,22 +105,21 @@ describe('test tb-i18n-loader', function () {
     var query = '?languages[]=en&&descriptionAs=en'
     var contextTranslate = translate.bind({query: query})
 
-    var desciption = `
-    {
-      "FRI": "FRI",
-      "MON": "MON",
-      "key1": "key1"
+    var desciption = {
+      'FRI': 'desciption FRI',
+      'MON': 'desciption MON',
+      'key1': 'desciption key1'
     }
-    `
+
     var expects = [
       'var i18n = require(\'tb-i18n\');',
       'i18n.setLocales(\'en\', {',
-      `  "FRI": "${localesEN['FRI'] || ''}",`,
-      `  "MON": "${localesEN['MON'] || ''}",`,
-      `  "key1": "${localesEN['key1'] || 'key1'}"`,
+      `  "FRI": "${desciption['FRI']}",`,
+      `  "MON": "${desciption['MON']}",`,
+      `  "key1": "${desciption['key1']}"`,
       '});',
       'module.exports = i18n;'
     ]
-    contextTranslate(desciption).should.eql(expects.join('\n'))
+    contextTranslate(JSON.stringify(desciption)).should.eql(expects.join('\n'))
   })
 })

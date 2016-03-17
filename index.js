@@ -16,7 +16,7 @@ module.exports = function (content) {
     var lang = languages[i]
     var result
     if (lang === descriptionAs) {
-      result = util.mergeLocales(lang, description)
+      result = util.translate(lang, description)
     } else {
       result = util.translateLocales(lang, Object.keys(description))
     }

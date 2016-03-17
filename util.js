@@ -43,6 +43,7 @@ function mergeLocales (language, description) {
   return translate(language, locales)
 }
 
+exports.translate = translate
 function translate (language, locales) {
   return 'i18n.setLocales(\'' + language + '\', ' + JSON.stringify(locales, null, 2) + ');'
 }
