@@ -14,8 +14,8 @@ var LANGUAGE_MAP = {
   'zh_tw': 'zh-TW'
 }
 
-exports.getHttpOptions = function (lang) {
+exports.getHttpOptions = function (lang, options) {
   return _.extend({}, ONESKY_CONFIG, {
     language: LANGUAGE_MAP[lang] || lang
-  })
+  }, options)
 }

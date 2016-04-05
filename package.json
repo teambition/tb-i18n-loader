@@ -22,16 +22,16 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-util": "^3.0.7",
-    "lodash": "^4.5.0",
     "mocha": "^2.4.5",
-    "onesky-utils": "0.0.3",
     "should": "^8.2.2",
-    "standard": "^6.0.7",
-    "through2": "^2.0.1",
-    "urllib": "^2.7.1"
+    "standard": "^6.0.7"
   },
   "license": "MIT",
   "dependencies": {
-    "loader-utils": "^0.2.12"
+    "loader-utils": "^0.2.12",
+    "lodash": "^4.8.2",
+    "onesky-utils": "0.0.3",
+    "through2": "^2.0.1",
+    "urllib": "^2.8.0"
   }
 }

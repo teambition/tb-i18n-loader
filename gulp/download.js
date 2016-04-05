@@ -17,7 +17,7 @@ function readOldJson (lang, extname) {
   return JSON.parse(contents)
 }
 
-module.exports = function (languages) {
+module.exports = function (languages, options) {
   var outputStream = through.obj(function (file, enc, next) {
     this.push(file)
     return next()
@@ -27,9 +27,8 @@ module.exports = function (languages) {
     var count = languages.length
     languages.map(function (lang) {
       var oldJson = readOldJson(lang)
-
       gutil.log('Download \'' + col.cyan(lang + '.json') + '\' from OneSky ...')
-      onesky.getFile(util.getHttpOptions(lang)).then(function (content) {
+      onesky.getFile(util.getHttpOptions(lang, options)).then(function (content) {
         var json = JSON.parse(content)
         for (var key in oldJson) {
           if (oldJson[key] && !json[key]) {
