@@ -989,7 +989,7 @@
   "organization.business": "기업판",
   "organization.contact.us": "문의 전화 <br /> <span>400-060-5576</span>",
   "organization.desc": "기업 소개",
-  "organization.dueday": "%s일 후 만료",
+  "organization.dueday": "%s",
   "organization.dueday.period": "试用期",
   "organization.expiring.content": "기업판 이용 기한이 가까워져 기간 안에 연장해 주시기를 바랍니다.",
   "organization.expiring.go.pay": "지불 센터에 가기",

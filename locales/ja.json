@@ -989,7 +989,7 @@
   "organization.business": "企業版",
   "organization.contact.us": "サポート <br /> <span>400-060-5576</span>",
   "organization.desc": "組織の概要",
-  "organization.dueday": "あと%s 日",
+  "organization.dueday": "%s",
   "organization.dueday.period": "试用期",
   "organization.expiring.content": "使用期限が切れになるためライセンス更新をお願いします",
   "organization.expiring.go.pay": "今すぐライセンスを更新する",

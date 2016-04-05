@@ -989,7 +989,7 @@
   "organization.business": "企業版",
   "organization.contact.us": "咨詢電話 <br /> <span>400-060-5576</span>",
   "organization.desc": "企業簡介",
-  "organization.dueday": "還有%s天到期",
+  "organization.dueday": "%s",
   "organization.dueday.period": "试用期",
   "organization.expiring.content": "的企業版即將到期，請及時續費",
   "organization.expiring.go.pay": "前往支付中心",

@@ -989,7 +989,7 @@
   "organization.business": "Free trial",
   "organization.contact.us": "Contact Us <br /> <span>400-060-5576</span>",
   "organization.desc": "Organization Description",
-  "organization.dueday": "expires in %s days",
+  "organization.dueday": "%s",
   "organization.dueday.period": "Trial",
   "organization.expiring.content": "'s business version soon will be overdue, please renew your payment plan",
   "organization.expiring.go.pay": "Renew Now",
