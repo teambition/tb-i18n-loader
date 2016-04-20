@@ -4,6 +4,7 @@ var util = require('./util')
 var through = require('through2')
 var gutil = require('gulp-util')
 var onesky = require('onesky-utils')
+var loaderUtil = require('../uitl')
 
 var col = gutil.colors
 var PluginError = gutil.PluginError
@@ -14,7 +15,7 @@ module.exports = function (lang, options) {
   return through.obj(function (file, ence, next) {
     if (!file.isBuffer()) return next()
 
-    var obj = JSON.parse(file.contents.toString())
+    var obj = loaderUtil.parseDescription(file.contents.toString())
     _.extend(json, obj)
 
     this.push(file)
