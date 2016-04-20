@@ -1300,7 +1300,7 @@
   "project.memberadd.orgTeam": "企业团队",
   "project.memberadd.placeholder": "请输入邮箱或手机号，回车确认",
   "project.memberadd.placeholderForOrg": "请输入企业成员/团队名称，或邮箱/手机号",
-  "project.memberadd.searchCantfind": "找不到<wbr>“%s”，输入完整邮箱直接将其添加至项目。",
+  "project.memberadd.searchCantfind": "找不到<wbr>“%s”，<wbr>输入完整邮箱直接将其添加至项目。",
   "project.menu.all": "All projects",
   "project.menu.calendar": "Subscribe Project",
   "project.menu.copy": "Copy Project",
