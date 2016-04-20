@@ -4,7 +4,7 @@ var util = require('./util')
 var through = require('through2')
 var gutil = require('gulp-util')
 var onesky = require('onesky-utils')
-var loaderUtil = require('../uitl')
+var loaderUtil = require('../util')
 
 var col = gutil.colors
 var PluginError = gutil.PluginError
