@@ -6,6 +6,7 @@ var post = require('./gulp/post')
 var filter = require('./gulp/filter')
 var sorter = require('./gulp/sorter')
 var tranlsate = require('./gulp/translate')
+var pickEmpty = require('./gulp/pick-empty')
 var util = require('./util')
 var fs = require('fs')
 var path = require('path')
@@ -26,9 +27,9 @@ function readDescription () {
 }
 
 gulp.task('translate', function () {
-  return gulp.src('locales/*.json')
+  return gulp.src('tmp/*.json')
     .pipe(tranlsate({from: 'zh'}))
-    .pipe(gulp.dest('locales'))
+    .pipe(gulp.dest('tmp/translated'))
 })
 
 gulp.task('download', function () {
@@ -36,6 +37,12 @@ gulp.task('download', function () {
     .pipe(filter(readDescription(), 'zh'))
     .pipe(sorter())
     .pipe(gulp.dest('locales'))
+})
+
+gulp.task('pick-empty', function () {
+  return gulp.src('locales/*.json')
+    .pipe(pickEmpty('zh'))
+    .pipe(gulp.dest('tmp'))
 })
 
 gulp.task('post', function () {
