@@ -249,7 +249,7 @@
   "apps.create-organization.tabFooterGetSMSVerify": "获取短信验证码",
   "apps.create-organization.tabFooterStepNext": "下一步",
   "apps.create-organization.tabInfo": "完善企业信息",
-  "apps.create-organization.tabInfoCreateGuide": "现在创建企业，免费试用14天",
+  "apps.create-organization.tabInfoCreateGuide": "输入企业名称，专享企业独有功能",
   "apps.create-organization.tabInfoCreateGuideBusinessLink": "Teambition企业版",
   "apps.create-organization.tabInfoOrgDesc": "描述",
   "apps.create-organization.tabInfoOrgDescPlace": "一句话描述",
