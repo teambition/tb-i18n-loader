@@ -5,7 +5,7 @@ var ONESKY_CONFIG = {
   fileName: 'zh.json',
   secret: process.env.ONESKY_SECRET,
   apiKey: process.env.ONESKY_API_KEY,
-  projectId: '124053',
+  projectId: '',
   format: 'HIERARCHICAL_JSON',
   keepStrings: true
 }
