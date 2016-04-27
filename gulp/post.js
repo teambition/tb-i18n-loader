@@ -10,7 +10,7 @@ var col = gutil.colors
 var PluginError = gutil.PluginError
 var PLUGIN_NAME = 'gulp-i18n-post'
 
-module.exports = function (lang, options) {
+module.exports = function (lang, extOptions) {
   var json = {}
   return through.obj(function (file, ence, next) {
     if (!file.isBuffer()) return next()
@@ -21,7 +21,7 @@ module.exports = function (lang, options) {
     this.push(file)
     return next()
   }, function (next) {
-    var options = util.getHttpOptions(lang, options)
+    var options = util.getHttpOptions(lang, extOptions)
     options.content = JSON.stringify(json)
 
     gutil.log('Upload \'' + col.cyan(lang + '.json') + '\' to OneSky ...')
