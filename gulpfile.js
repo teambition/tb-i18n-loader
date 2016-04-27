@@ -11,6 +11,10 @@ var util = require('./util')
 var fs = require('fs')
 var path = require('path')
 
+var ONESKY_OPTIONS = {
+  projectId: 124053
+}
+
 function readDescription () {
   var result = {}
   fs.readdirSync('./keys').forEach(function (fileName) {
@@ -33,7 +37,7 @@ gulp.task('translate', function () {
 })
 
 gulp.task('download', function () {
-  return download(config.languages)
+  return download(config.languages, ONESKY_OPTIONS)
     .pipe(filter(readDescription(), 'zh'))
     .pipe(sorter())
     .pipe(gulp.dest('locales'))
@@ -47,5 +51,5 @@ gulp.task('pick-empty', function () {
 
 gulp.task('post', function () {
   return gulp.src('locales/zh.json')
-    .pipe(post('zh'))
+    .pipe(post('zh', ONESKY_OPTIONS))
 })
