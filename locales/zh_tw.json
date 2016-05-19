@@ -1067,6 +1067,7 @@
   "organization.created.key": "創建時間",
   "organization.current.members.limit": "，共%s個名額",
   "organization.current.members.number": "%s比特企業成員",
+  "organization.current.members.unlimit": "，名额不限",
   "organization.desc": "企業簡介",
   "organization.dueday": "%s",
   "organization.dueday.period": "試用期",

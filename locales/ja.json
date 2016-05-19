@@ -1067,6 +1067,7 @@
   "organization.created.key": "创建时间",
   "organization.current.members.limit": "，共 %s 个名额",
   "organization.current.members.number": "%s 位企业成员",
+  "organization.current.members.unlimit": "，名额不限",
   "organization.desc": "組織の概要",
   "organization.dueday": "%s",
   "organization.dueday.period": "试用期",
