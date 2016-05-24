@@ -786,7 +786,7 @@
   "guide.point.tasks.group.note": "任务分组可以帮助你整理一个项目下的不同类型的工作。例如，研发部可以按照迭代版本分组，行政部可以按照事务类型分组",
   "guide.point.tasks.group.title": "创建、切换任务分组",
   "guide.sort.task.btn": "我知道了",
-  "guide.sort.task.note": "默认排序可以由拥有者或管理员拖动调整，所有成员将看到相同的排序结果。<br>其他三种智能排序将自动整理任务，方便临时查看。",
+  "guide.sort.task.note": "管理员和拥有者权限可以自定义“默认排序”，并将此排序同步至全部项目成员。<br>所有成员可以选择智能排序方式（按任务优先级、截止时间、创建时间）进行查看。",
   "guide.sort.task.title": "任务排序",
   "help-test.checking": "测试中...",
   "help-test.description.checking": "正在检测网络状况，可能需要一点时间才能结束...",
