@@ -425,7 +425,7 @@
   "apps.permissions.pms.task.put.fork": "タスクをコピーする",
   "apps.permissions.pms.task.put.move": "タスクを移動する",
   "apps.permissions.pms.task.put.note": "タスクを更新する",
-  "apps.permissions.pms.task.put.pos": "移动任务到指定阶段中的位置",
+  "apps.permissions.pms.task.put.pos": "移动任务到指定的位置",
   "apps.permissions.pms.task.put.status": "タスクの状況をアップデートする",
   "apps.permissions.pms.tasklist.del": "タスクグループを削除する",
   "apps.permissions.pms.tasklist.get.dumpTasks": "タスクグループをエクスポートする",

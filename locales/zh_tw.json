@@ -425,7 +425,7 @@
   "apps.permissions.pms.task.put.fork": "復制任務",
   "apps.permissions.pms.task.put.move": "移動任務",
   "apps.permissions.pms.task.put.note": "更新任務備忘",
-  "apps.permissions.pms.task.put.pos": "移动任务到指定阶段中的位置",
+  "apps.permissions.pms.task.put.pos": "移动任务到指定的位置",
   "apps.permissions.pms.task.put.status": "更新任務狀態",
   "apps.permissions.pms.tasklist.del": "刪除任務分組",
   "apps.permissions.pms.tasklist.get.dumpTasks": "導出分組任務",

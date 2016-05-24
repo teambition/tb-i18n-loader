@@ -425,7 +425,7 @@
   "apps.permissions.pms.task.put.fork": "태스크 복사",
   "apps.permissions.pms.task.put.move": "태스크 이동",
   "apps.permissions.pms.task.put.note": "태스크 비고 업데이트",
-  "apps.permissions.pms.task.put.pos": "移动任务到指定阶段中的位置",
+  "apps.permissions.pms.task.put.pos": "移动任务到指定的位置",
   "apps.permissions.pms.task.put.status": "태스크 상태 업데이트",
   "apps.permissions.pms.tasklist.del": "태스크 패킷 삭제",
   "apps.permissions.pms.tasklist.get.dumpTasks": "태스크 패킷을 가져가기",
