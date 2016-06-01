@@ -866,6 +866,7 @@
   "iCalendar.msg2": "Click the link below to subscribe「%s」. Or copy and add it to your calendar.",
   "iCalendar.reset": "Regenerate iCalender URL",
   "iCalendar.title": "Subscribe「%s」",
+  "inbox.all.message": "All",
   "inbox.at.me": "[@me]",
   "inbox.ated.empty.tip1": "When a project is updated, ",
   "inbox.ated.empty.tip2": "you will receive mentions here.",

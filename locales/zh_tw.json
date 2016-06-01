@@ -866,6 +866,7 @@
   "iCalendar.msg2": "你可以在電腦上點擊以下鏈接直接訂閱「%s」，或者將鏈接復制到日歷軟件手動訂閱",
   "iCalendar.reset": "重新生成訂閱鏈接",
   "iCalendar.title": "訂閱「%s」",
+  "inbox.all.message": "通知",
   "inbox.at.me": "[@我]",
   "inbox.ated.empty.tip1": "項目內容更新時",
   "inbox.ated.empty.tip2": "你就會在這裡收到@你的通知提醒",

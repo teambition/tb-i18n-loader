@@ -866,6 +866,7 @@
   "iCalendar.msg2": "リンクをクリックして「%s」を直接に購読する。またはカレンダーアプリの中でコピーして手動で購読を追加する",
   "iCalendar.reset": "購読リンクを再生成",
   "iCalendar.title": "「%s」の購読",
+  "inbox.all.message": "通知",
   "inbox.at.me": "[自分]",
   "inbox.ated.empty.tip1": "プロジェクトに更新があった際",
   "inbox.ated.empty.tip2": "あなたについてのコメント言及があった際にこちらに通知が表示されます。",

@@ -866,6 +866,7 @@
   "iCalendar.msg2": "「%s」클릭하고 구독할 수 있습니다. 또한 링크를 캘린더 앱으로 복사해서 구독할 수 있습니다.",
   "iCalendar.reset": "구독 신청 링크 다시 생기기",
   "iCalendar.title": "구독「%s」",
+  "inbox.all.message": "通知",
   "inbox.at.me": "[@나]",
   "inbox.ated.empty.tip1": "프로젝트 내용 업데이트할 때",
   "inbox.ated.empty.tip2": "여기서 언급된 알림을 받을 수 있습니다",
