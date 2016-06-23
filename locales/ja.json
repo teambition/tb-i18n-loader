@@ -584,6 +584,7 @@
   "chat.room.editor.title": "编辑消息",
   "chat.room.group.empty1": "还没有群聊消息",
   "chat.room.group.empty2": "项目中的成员都可以在这里参与群聊",
+  "chat.room.group.mute": "消息免打扰",
   "chat.room.member.empty1": "暂无成员",
   "chat.room.member.empty2": "邀请你的同伴开始协作吧！",
   "chat.room.new.private.msg": "私信",

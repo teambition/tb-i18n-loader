@@ -584,6 +584,7 @@
   "chat.room.editor.title": "編輯消息",
   "chat.room.group.empty1": "還沒有群聊消息",
   "chat.room.group.empty2": "項目中的成員都可以在這裡參與群聊",
+  "chat.room.group.mute": "消息免打扰",
   "chat.room.member.empty1": "暫無成員",
   "chat.room.member.empty2": "邀請你的同伴開始合作吧！",
   "chat.room.new.private.msg": "私信",
