@@ -905,7 +905,7 @@
   "inbox.at.me": "[Someone @me]",
   "inbox.ated.empty.tip1": "When a project is updated, ",
   "inbox.ated.empty.tip2": "you will receive mentions here.",
-  "inbox.clear.messages": "Clear all",
+  "inbox.clear.messages": "Clear all read",
   "inbox.clear.messages.desc": "Are you sure you want to clear all the read alerts?",
   "inbox.delete.message": "Delete Message",
   "inbox.go.to.entry": "Go to Entries",
