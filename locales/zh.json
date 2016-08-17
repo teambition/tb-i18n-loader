@@ -431,7 +431,7 @@
   "apps.permissions.pms.stage.del": "删除任务列表",
   "apps.permissions.pms.stage.post": "新增任务列表",
   "apps.permissions.pms.stage.put": "更新任务列表",
-  "apps.permissions.pms.stage.put.archive": "归档阶段",
+  "apps.permissions.pms.stage.put.archive": "归档列表",
   "apps.permissions.pms.stagetemplate.post": "保存阶段模版",
   "apps.permissions.pms.subtask.del": "删除子任务",
   "apps.permissions.pms.subtask.post": "添加子任务",
