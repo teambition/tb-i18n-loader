@@ -1624,7 +1624,7 @@
   "processon.cooperated": "I collaborated on",
   "processon.myFiles": "I created",
   "processon.recent": "Recently modified",
-  "profession.expired": "Pro account expired",
+  "profession.expired": "Account valid until: <span class='expired-time'>%s</span>",
   "profession.setting.permission.hint": "Project admin can be assigned in Pro account,",
   "profession.warning.tip1": "Pro account is expired, please renew to continue using the abundant applications, extensions and other upgraded functions that Pro account offers. You can contact the owner of this project to renew Pro account.",
   "profession.warning.tip2": "Pro account is expired, please renew to continue using the abundant applications, extensions and other upgraded functions that Pro account offers. <br/><span class='star'>*</span> If you choose free version, all of your data will not be affected, but upgraded functions cannot be used.",
