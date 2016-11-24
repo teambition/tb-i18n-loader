@@ -1798,7 +1798,6 @@
   "powerups.powerup.plugin": "功能插件",
   "powerups.preciseDate": "任务精确时间",
   "powerups.preciseDate.des": "启用后，任务将增加「设置精确时间」的选项，起止时间会同步出现在任务板。",
-  "powerups.preciseDate.short.des": "",
   "powerups.processon.des": "ProcessOnはオンライン製図プラットホームです。ユーザーに一番強力でやさしく使える製図道具です！オンライン流れ図、BPMN、UML 图、UI \n試作インタフェースデザイン、iOS試作インタフェースデザインなどをサポートする。",
   "powerups.processon.short.des": "ProcessOn 支持协同绘图，开启后可在 Teambition 中关联对应内容。",
   "powerups.settings.tab.app": "应用",

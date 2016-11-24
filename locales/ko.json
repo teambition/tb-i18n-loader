@@ -1798,7 +1798,6 @@
   "powerups.powerup.plugin": "기능 플러그",
   "powerups.preciseDate": "任务精确时间",
   "powerups.preciseDate.des": "启用后，任务将增加「设置精确时间」的选项，起止时间会同步出现在任务板。",
-  "powerups.preciseDate.short.des": "",
   "powerups.processon.des": "ProcessOn는 온라인 협력 제도 플랫폼이며 유저에게 가장 강력하고 쉽게 사용할 수 있는 도구를 제공합니다! 흐름도, BPMN, UML 도, UI 인터페이스 원형 디자인, iOS 인터페이스 원형 디자인 등의 온라인 창조를 지원함.",
   "powerups.processon.short.des": "ProcessOn 支持协同绘图，开启后可在 Teambition 中关联对应内容。",
   "powerups.settings.tab.app": "应用",
