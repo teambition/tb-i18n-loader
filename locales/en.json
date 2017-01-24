@@ -2583,7 +2583,7 @@
   "share.permission.activity": "Comments",
   "share.permission.activity.isolated_comment": "Private",
   "share.permission.activity.isolated_comment.description": "Visitors can comment, but they can only view their own comments and mentions. You and other participants can view all comments.",
-  "share.permission.activity.no_comment": "No comments allowed",
+  "share.permission.activity.no_comment": "No comments",
   "share.permission.activity.no_comment.description": "Visitors can neither comment nor view any comments.",
   "share.permission.activity.public_comment": "Public",
   "share.permission.activity.public_comment.description": "Visitors can comment and view all other comments on the shared page. You and other participants must visit the shared link to view these comments independently.",
