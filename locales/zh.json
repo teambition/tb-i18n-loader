@@ -2471,7 +2471,7 @@
   "project.section.up": "上移分组",
   "project.select.list.hint": "请选择一个项目",
   "project.setting.add.app": "添加",
-  "project.setting.defaultrole.help": "项目所在企业的拥有者可新增管理自定义角色，<a class=\"link-add-handler\" href=\"/applications/permissions/%s\" target=\"_blank\">查看权限表</a>",
+  "project.setting.defaultrole.help": "企业拥有者或管理员可新增管理项目自定义角色，请联系他们操作。",
   "project.setting.defaultrole.tips": "每添加一个项目成员，该成员权限默认被设置为：",
   "project.setting.defaultrole.title": "项目成员默认权限",
   "project.setting.handler.transfer": "移交",
