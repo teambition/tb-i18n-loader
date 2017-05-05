@@ -10,6 +10,12 @@ var pickEmpty = require('./gulp/pick-empty')
 var util = require('./util')
 var fs = require('fs')
 var path = require('path')
+var config = require('config')
+
+require('isomorphic-fetch')
+var sdk = require('teambition-sdk')
+
+var request = new sdk.Fetch()
 
 var ONESKY_OPTIONS = {
   projectId: 153977
@@ -47,6 +53,25 @@ gulp.task('pick-empty', function () {
   return gulp.src('locales/*.json')
     .pipe(pickEmpty('zh'))
     .pipe(gulp.dest('tmp'))
+})
+
+gulp.task('notice', function () {
+  var enEmpty = require('./tmp/en.json')
+  var version = require('./package.json').version
+  request.setToken(config.TOKEN)
+  var team$ = request.get('teams/5763667798cb0609458bacdd')
+    .map(team => team.hasMembers.map(m => m._id))
+
+  return team$.concatMap(members => request.post('tasks', {
+    content: version + ' i18n check',
+    _tasklistId: config.TASKLIST_ID,
+    note: '```' + JSON.stringify(enEmpty, null, 2) + '```',
+    involveMembers: members
+  }))
+    .toPromise()
+    .catch(e => {
+      console.error(e)
+    })
 })
 
 gulp.task('post', function () {

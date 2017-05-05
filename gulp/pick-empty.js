@@ -7,7 +7,7 @@ var path = require('path')
 function compare (base, current) {
   var result = {}
   Object.keys(current).forEach(function (key) {
-    if (current[key] === base[key]) {
+    if (current[key] === base[key] && !/^[a-zA-Z0-9?><;,{}[\]\-_+=!@#$%\^&*|']*$/.test(current[key])) {
       result[key] = ''
     }
   })
