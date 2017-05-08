@@ -1,6 +1,6 @@
 
 var gulp = require('gulp')
-var config = require('./config.json')
+var config = require('config')
 var download = require('./gulp/download')
 var post = require('./gulp/post')
 var filter = require('./gulp/filter')
@@ -10,7 +10,6 @@ var pickEmpty = require('./gulp/pick-empty')
 var util = require('./util')
 var fs = require('fs')
 var path = require('path')
-var config = require('config')
 
 require('isomorphic-fetch')
 var sdk = require('teambition-sdk')
@@ -43,7 +42,7 @@ gulp.task('translate', function () {
 })
 
 gulp.task('download', function () {
-  return download(config.languages, ONESKY_OPTIONS)
+  return download(config.LANGUAGES, ONESKY_OPTIONS)
     .pipe(filter(readDescription(), 'zh'))
     .pipe(sorter())
     .pipe(gulp.dest('locales'))

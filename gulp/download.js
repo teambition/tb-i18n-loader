@@ -38,7 +38,7 @@ module.exports = function (languages, options) {
 
         outputStream.push(new gutil.File({
           path: lang + '.json',
-          contents: new Buffer(JSON.stringify(json, null, 2))
+          contents: Buffer.from(JSON.stringify(json, null, 2))
         }))
 
         if (--count <= 0) {

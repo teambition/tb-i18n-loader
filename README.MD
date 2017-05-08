@@ -1,5 +1,17 @@
 # i18n loader of teambition web for webpack
 
+## Config
+```
+mkdir config && touch config/default.json
+{
+  "LANGUAGES": ["zh", "zh_tw", "en", "ja", "ko"],
+  // use for gulp notice
+  "TOKEN": "Your Teambition AccessToken",
+  "TASKLIST_ID": "5809ebecad0e08685f6e49a8",
+  "TEAM_ID": "5763667798cb0609458bacdd"
+}
+```
+
 ## Usage
 
 [Documentation: Using loaders](http://webpack.github.io/docs/using-loaders.html)
