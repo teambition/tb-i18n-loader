@@ -1,7 +1,8 @@
 
 var loaderUtils = require('loader-utils')
-var config = require('./config.json')
 var util = require('./util')
+
+var languages = ['zh', 'zh_tw', 'en', 'ja', 'ko']
 
 module.exports = function (content) {
   if (this.cacheable) this.cacheable()
