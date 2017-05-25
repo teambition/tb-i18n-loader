@@ -1362,7 +1362,7 @@
   "link.delete": "Delete Object Link",
   "link.delete.fail": "Failed, please try again later",
   "link.delete.success": "Successfully deleted",
-  "link.event.invisible.hint": "%s unavailable linked Posts(available only to Follower)",
+  "link.event.invisible.hint": "%s unavailable linked Meetings(available only to Follower)",
   "link.event.title": "Linked Meetings",
   "link.evernote.title": "Evernote",
   "link.file.title": "Linked files",
