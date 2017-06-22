@@ -3189,7 +3189,7 @@
   "task.detail.add.note": "Add note",
   "task.detail.archived": "Archived Task can not be edited.",
   "task.detail.complete": "Completed the Task",
-  "task.detail.dependency.length": "%s dependencies",
+  "task.detail.dependency.length": "%s dependent Task(s)",
   "task.detail.due.date": "Due Date",
   "task.detail.due.date.info": "Due Date",
   "task.detail.executor": "Executor",

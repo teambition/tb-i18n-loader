@@ -14,7 +14,7 @@ var path = require('path')
 require('isomorphic-fetch')
 var sdk = require('teambition-sdk')
 
-var request = new sdk.Fetch()
+var request = new sdk.SDKFetch()
 
 var ONESKY_OPTIONS = {
   projectId: 153977
