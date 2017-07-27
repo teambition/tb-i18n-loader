@@ -2922,7 +2922,7 @@
   "project.settings.remove.team.confirm": "Once removing the Team, all Members of this Team will be removed.",
   "project.settings.remove.team.confirm.title": "Confirm removing Team",
   "project.settings.removing.member": "Removing",
-  "project.settings.resend": "Resend invitation (Initial password %s)",
+  "project.settings.resend": "Resend invitation",
   "project.settings.save.success": "Saved successfully",
   "project.settings.select.org": "Select an existing Organization",
   "project.settings.select.owner": "Select a new Owner",

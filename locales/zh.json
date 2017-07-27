@@ -2922,7 +2922,7 @@
   "project.settings.remove.team.confirm": "一旦移除了部门，该部门下的所有成员将会被移除",
   "project.settings.remove.team.confirm.title": "确认移除部门",
   "project.settings.removing.member": "正在移除",
-  "project.settings.resend": "重发邀请信（初始密码 %s）",
+  "project.settings.resend": "重发邀请信",
   "project.settings.save.success": "保存成功",
   "project.settings.select.org": "选择已有企业",
   "project.settings.select.owner": "请选择新的拥有者",
