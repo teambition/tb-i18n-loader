@@ -3380,7 +3380,7 @@
   "skitch.destroyer.delete": "Delete Skitch",
   "skitch.handler.delete": "Delete",
   "stage.add.tip": "New List",
-  "stage.count.limited": "Task Stage counts had reached the limit",
+  "stage.count.limited": "Upper limit reached",
   "stage.edit.title": "Add or edit Task List",
   "stage.menu.add.next.stage.title": "Add new List",
   "stage.menu.add.stage.hint": "The new List will be added next to the current one",
