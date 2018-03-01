@@ -3599,7 +3599,7 @@
   "searcher.task.storyPoint": "Story Point",
   "searcher.task.updated": "Updated",
   "searcher.task.workTime.totalTime": "Capacity",
-  "searcher.task.workTime.usedTime": "Total Hours",
+  "searcher.task.workTime.usedTime": "Total Hour",
   "select.all": "Select all",
   "select.teams": "Select Team",
   "sending.inviting.email.to.join": "Send an email and invite",
