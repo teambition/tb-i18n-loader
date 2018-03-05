@@ -4091,7 +4091,7 @@
   "task.dependency.conflict.parentChain": "任務存在父子關係，請檢查後再試",
   "task.detail.add.note": "添加備註",
   "task.detail.archived": "任務已在回收站中，不可修改",
-  "task.detail.changeState.denied": "您尚未登录,暂无权限操作任务状态",
+  "task.detail.changeState.denied": "您尚未登錄,暫無許可權操作任務狀態",
   "task.detail.complete": "完成任務",
   "task.detail.dependency.length": "該任務存在 %s 個依賴關係",
   "task.detail.due.date": "截止時間",

@@ -4091,7 +4091,7 @@
   "task.dependency.conflict.parentChain": "There is a subsidiary relationship between these Tasks, please check and try again",
   "task.detail.add.note": "Add note...",
   "task.detail.archived": "Content in Recycle Bin cannot be changed",
-  "task.detail.changeState.denied": "您尚未登录,暂无权限操作任务状态",
+  "task.detail.changeState.denied": "Please log in first",
   "task.detail.complete": "Completed the Task",
   "task.detail.dependency.length": "%s dependent Task(s)",
   "task.detail.due.date": "Due Date",
