@@ -1474,7 +1474,7 @@
   "import.excel.tasks.failed": "Failed, please try again later.",
   "import.excel.tasks.success": "Success,please try refreshing this page.",
   "inbox.all.message": "All",
-  "inbox.at.me": "[Someone @me]",
+  "inbox.at.me": "[@me]",
   "inbox.ated.empty.tip1": "When a Project is updated,",
   "inbox.ated.empty.tip2": "you will receive Notifications here.",
   "inbox.clear.messages": "Clear all read message",

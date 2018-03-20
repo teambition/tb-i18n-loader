@@ -1474,7 +1474,7 @@
   "import.excel.tasks.failed": "导入任务失败，请稍后重试",
   "import.excel.tasks.success": "导入任务成功，请刷新后查看",
   "inbox.all.message": "通知",
-  "inbox.at.me": "[有人@我]",
+  "inbox.at.me": "[@我]",
   "inbox.ated.empty.tip1": "项目内容更新时",
   "inbox.ated.empty.tip2": "你就会在这里收到@你的通知提醒",
   "inbox.clear.messages": "清空已读消息",
