@@ -2166,7 +2166,7 @@
   "organization.memberadd.batch.invite": "批量邀请",
   "organization.memberadd.cooperatedMember": "合作过的成员",
   "organization.memberadd.inviteText": "帐号邀请",
-  "organization.memberadd.noMemberInviteSomeone": "现在企业中只有你一个，<br>你可以在此邀请你的小伙伴一起协作。",
+  "organization.memberadd.noMemberInviteSomeone": "现在企业中只有你一个，你可以在此邀请你的小伙伴一起协作。",
   "organization.memberadd.qr.members.exceed": "无法执行此操作，请提高企业成员数上限",
   "organization.memberadd.searchCantfind": "找不到“%s”，输入完整邮箱直接将其添加至企业",
   "organization.memberadd.searchTip": "请输入邮箱查找",

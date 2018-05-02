@@ -2166,7 +2166,7 @@
   "organization.memberadd.batch.invite": "Batch Invitation",
   "organization.memberadd.cooperatedMember": "Recommended",
   "organization.memberadd.inviteText": "Account Invitation",
-  "organization.memberadd.noMemberInviteSomeone": "You are the only Member in this Organization! <br>Invite your teammates and start collaborating.",
+  "organization.memberadd.noMemberInviteSomeone": "You are the only Member in this Organization! Invite your teammates and start collaborating.",
   "organization.memberadd.qr.members.exceed": "error,please increase Member quota",
   "organization.memberadd.searchCantfind": "Cannot locate “%s”. Please enter the full email address.",
   "organization.memberadd.searchTip": "Search via email address",

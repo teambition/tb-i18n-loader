@@ -2166,7 +2166,7 @@
   "organization.memberadd.batch.invite": "批量邀請",
   "organization.memberadd.cooperatedMember": "合作過的成員",
   "organization.memberadd.inviteText": "帳號邀請",
-  "organization.memberadd.noMemberInviteSomeone": "現在項目中只有你一個，<br>你可以在此邀請你的小夥伴一起合作。",
+  "organization.memberadd.noMemberInviteSomeone": "現在項目中只有你一個，你可以在此邀請你的小夥伴一起合作。",
   "organization.memberadd.qr.members.exceed": "無法執行此操作，請提高企業成員數上限",
   "organization.memberadd.searchCantfind": "找不到“%s”，輸入完整郵箱直接將其添加至企業",
   "organization.memberadd.searchTip": "请输入邮箱查找",
