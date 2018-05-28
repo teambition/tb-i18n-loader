@@ -71,6 +71,24 @@ export ONESKY_API_KEY='OneSky ApiKey'
 
 export TRANSLATE_KEY='Baidu Translate Key'
 
+## 简体中文 翻译为 繁体中文
+调用百度翻译 API 翻译 `/locales/zh.json` 并覆盖 `/locales/zh_tw.json`
+将当前 简体中文 文档缓存（可省，但需保证 cache 内文档与 最新文档 不同）
+
+`$ gulp cache`
+
+下载 最新文档 并比对与 cache 下版本的不同 
+
+`$ gulp download`
+
+翻译 - 参数：`-a | --all` 全量翻译； `-f | --force` 不执行 确认修改 直接覆盖
+
+`$ gulp chs-to-cht`
+
+上传
+
+`$ gulp post-cht`
+
 ## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)
