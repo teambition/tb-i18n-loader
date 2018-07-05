@@ -1539,6 +1539,7 @@
   "helper.shortcuts.for.event": "Shortcuts for Meetings",
   "helper.shortcuts.for.event.new": "New Meeting",
   "helper.shortcuts.for.global": "Global Shortcuts",
+  "helper.shortcuts.for.global.dashboard": "Open Workbench",
   "helper.shortcuts.for.global.event": "Open Calendar",
   "helper.shortcuts.for.global.inbox": "Open Inbox",
   "helper.shortcuts.for.global.myboard": "Open My Dashboard",

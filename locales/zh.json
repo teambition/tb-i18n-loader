@@ -1539,6 +1539,7 @@
   "helper.shortcuts.for.event": "日程表的快捷键",
   "helper.shortcuts.for.event.new": "创建新日程",
   "helper.shortcuts.for.global": "全局快捷键",
+  "helper.shortcuts.for.global.dashboard": "打开工作台",
   "helper.shortcuts.for.global.event": "打开日历",
   "helper.shortcuts.for.global.inbox": "打开收件箱",
   "helper.shortcuts.for.global.myboard": "进入我的控制台",
