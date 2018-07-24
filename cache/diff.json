@@ -1,5 +1,227 @@
 {
-  "added": [],
-  "modified": [],
+  "added": [
+    {
+      "key": "tasklist.dump.export.error.no.permission",
+      "value": "没有导出分组内所有任务的权限"
+    },
+    {
+      "key": "tasklist.creator.tasklist.placeholder",
+      "value": "请输入"
+    },
+    {
+      "key": "story.group.un.categorized",
+      "value": "未分类需求"
+    },
+    {
+      "key": "story.group.edit.menu",
+      "value": "需求分类菜单"
+    },
+    {
+      "key": "story.group.edit.error.duplicate.name",
+      "value": "同级分类不能重名"
+    },
+    {
+      "key": "story.group.edit",
+      "value": "编辑需求分类"
+    },
+    {
+      "key": "story.group.delete.hint",
+      "value": "删除后此分类和其子分类将一并删除，对应任务上的分类信息也会清除。"
+    },
+    {
+      "key": "story.group.delete",
+      "value": "删除需求分类"
+    },
+    {
+      "key": "story.group.create",
+      "value": "创建需求分类"
+    },
+    {
+      "key": "story.group.all.categories",
+      "value": "所有需求"
+    },
+    {
+      "key": "project.setting.task.creator.title",
+      "value": "看板任务创建模式"
+    },
+    {
+      "key": "project.setting.task.creator.tips",
+      "value": "在看板视图下创建新任务时，默认使用卡片模式或大窗模式，针对整个项目生效"
+    },
+    {
+      "key": "project.setting.task.creator.small",
+      "value": "卡片模式（快速填写系统字段）"
+    },
+    {
+      "key": "project.setting.task.creator.global",
+      "value": "弹窗模式（支持填写所有字段）"
+    },
+    {
+      "key": "project.info.template.previewer.title",
+      "value": "「%s」字段预览"
+    },
+    {
+      "key": "project.info.template.previewer.confirm.add",
+      "value": "确定添加"
+    },
+    {
+      "key": "project.info.set.item.permission.success",
+      "value": "字段权限设置成功"
+    },
+    {
+      "key": "project.info.set.item.permission.failed",
+      "value": "字段权限设置失败，请重试"
+    },
+    {
+      "key": "project.info.set.item.permission",
+      "value": "填写权限"
+    },
+    {
+      "key": "project.info.delete.item.prompt",
+      "value": "确定要删除当前字段吗？"
+    },
+    {
+      "key": "project.info.delete.item.confirm",
+      "value": "确定删除"
+    },
+    {
+      "key": "project.info.add.custom.field.manually",
+      "value": "自主添加字段"
+    },
+    {
+      "key": "project.info.add.custom.field.from.template",
+      "value": "选择企业模板快速添加"
+    },
+    {
+      "key": "project.creator.template.upgrade.pro.upgrade.org.required",
+      "value": "切换企业使用该模板"
+    },
+    {
+      "key": "please.enter",
+      "value": "请输入..."
+    },
+    {
+      "key": "organization.trail.pro.getStarted.title",
+      "value": "试用企业专业版"
+    },
+    {
+      "key": "organization.trail.pro.getStarted.table",
+      "value": "通过灵活配置表头和排序，更简明地展现任务信息，支持对任务进行批量操作。"
+    },
+    {
+      "key": "organization.trail.pro.getStarted.success.more",
+      "value": "点此了解功能详情"
+    },
+    {
+      "key": "organization.pro.overdue.desc.call",
+      "value": "当前企业专业版已到期，无法继续该功能。请联系企业管理员操作。"
+    },
+    {
+      "key": "organization.pro.overdue.desc",
+      "value": "当前企业专业版已到期，无法继续该功能。"
+    },
+    {
+      "key": "organization.pro.dueday.planTips.trial",
+      "value": "当前企业将在 %s 天后到期，到期后将无法访问，目前正在企业专业版试用中。"
+    },
+    {
+      "key": "labs.name.project.panel",
+      "value": "任务侧栏"
+    },
+    {
+      "key": "labs.description.project.panel",
+      "value": "任务应用中增加侧栏，整合显示任务分组和视图功能。敏捷研发模板项目中需求、缺陷、迭代应用也使用此方式。"
+    },
+    {
+      "key": "common.group.un.categorized",
+      "value": "未分类需求"
+    },
+    {
+      "key": "common.group.edit.menu",
+      "value": "需求分类菜单"
+    },
+    {
+      "key": "common.group.edit.error.duplicate.name",
+      "value": "同级分类不能重名"
+    },
+    {
+      "key": "common.group.edit",
+      "value": "编辑需求分类"
+    },
+    {
+      "key": "common.group.delete.hint",
+      "value": "删除后此分类和其子分类将一并删除，对应任务上的分类信息也会清除。"
+    },
+    {
+      "key": "common.group.delete",
+      "value": "删除需求分类"
+    },
+    {
+      "key": "common.group.create",
+      "value": "创建需求分类"
+    },
+    {
+      "key": "common.group.all.categories",
+      "value": "所有需求"
+    },
+    {
+      "key": "common.field.selector.search",
+      "value": "搜索%s"
+    },
+    {
+      "key": "common.field.selector.recommend.title",
+      "value": "常用分类"
+    },
+    {
+      "key": "common.field.selector.no.group",
+      "value": "无分类"
+    },
+    {
+      "key": "common.field.selector.belong.to",
+      "value": "隶属：%s"
+    },
+    {
+      "key": "app.disable.success",
+      "value": "%s已停用"
+    },
+    {
+      "key": "app.disable.failure",
+      "value": "%s停用失败"
+    },
+    {
+      "key": "app.disable",
+      "value": "停用应用"
+    },
+    {
+      "key": "sort",
+      "value": "排序"
+    },
+    {
+      "key": "name",
+      "value": "名称"
+    }
+  ],
+  "modified": [
+    {
+      "key": "organization.trail.pro.getStarted.success",
+      "oldValue": "已成功试用企业专业版",
+      "newValue": "您所在的企业「%s」已成功试用企业专业版，剩余试用期 %s 天，试用期结束后将默认恢复为企业版。"
+    },
+    {
+      "key": "organization.trail.dueday.planTips.pro",
+      "oldValue": "当前企业正在试用企业专业版，还剩 %s 天。",
+      "newValue": "企业专业版试用期剩余 %s 天，试用期结束后将默认恢复为企业版。"
+    },
+    {
+      "key": "organization.pro.overdue",
+      "oldValue": "企业版已到期",
+      "newValue": "企业专业版已到期"
+    },
+    {
+      "key": "organization.pro.dueday.planTips",
+      "oldValue": "当前企业即将在 %s 天内过期，过期后将无法访问。",
+      "newValue": "当前企业将在 %s 天后到期，到期后将无法访问。"
+    }
+  ],
   "deleted": []
 }
