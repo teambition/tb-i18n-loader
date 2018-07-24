@@ -1,11 +1,14 @@
 
 var gulp = require('gulp')
 var config = require('config')
+var minimist = require('minimist')
 var download = require('./gulp/download')
 var post = require('./gulp/post')
 var filter = require('./gulp/filter')
 var sorter = require('./gulp/sorter')
-var tranlsate = require('./gulp/translate')
+var compare = require('./gulp/compare')
+var translate = require('./gulp/translate')
+var chsToCht = require('./gulp/chs-to-cht-parallel')
 var pickEmpty = require('./gulp/pick-empty')
 var util = require('./util')
 var fs = require('fs')
@@ -18,6 +21,16 @@ var request = new sdk.SDKFetch()
 
 var ONESKY_OPTIONS = {
   projectId: 153977
+}
+
+var params = minimist(process.argv.slice(3))
+var chsToChtOptions = {
+  all: false,
+  force: false,
+}
+if (process.argv[2] && process.argv[2] === 'chs-to-cht') {
+  chsToChtOptions.all = params.a || params.all
+  chsToChtOptions.force = params.f || params.force
 }
 
 function readDescription () {
@@ -37,16 +50,35 @@ function readDescription () {
 
 gulp.task('translate', function () {
   return gulp.src('tmp/*.json')
-    .pipe(tranlsate({from: 'zh'}))
+    .pipe(translate({from: 'zh'}))
     .pipe(gulp.dest('tmp/translated'))
 })
 
-gulp.task('download', function () {
+gulp.task('chs-to-cht', function () {
+  return gulp.src('locales/zh.json')
+    .pipe(chsToCht(chsToChtOptions))
+    .pipe(gulp.dest('locales'))
+})
+
+gulp.task('cache', function () {
+  return gulp.src('locales/zh.json')
+    .pipe(gulp.dest('cache'))
+})
+
+gulp.task('raw-download', function () {
   return download(config.LANGUAGES, ONESKY_OPTIONS)
     .pipe(filter(readDescription(), 'zh'))
     .pipe(sorter())
     .pipe(gulp.dest('locales'))
 })
+
+gulp.task('compare', ['raw-download'], function () {
+  return gulp.src('locales/zh.json')
+    .pipe(compare())
+    .pipe(gulp.dest('cache'))
+})
+
+gulp.task('download', ['compare'])
 
 gulp.task('pick-empty', function () {
   return gulp.src('locales/*.json')
@@ -76,4 +108,9 @@ gulp.task('notice', function () {
 gulp.task('post', function () {
   return gulp.src('locales/zh.json')
     .pipe(post('zh', ONESKY_OPTIONS))
+})
+
+gulp.task('post-cht', ['cache'], function () {
+  return gulp.src('locales/zh_tw.json')
+    .pipe(post('zh_tw', ONESKY_OPTIONS))
 })
