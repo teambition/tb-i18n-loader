@@ -4,7 +4,8 @@
   "description": "Webpack loader for teambition i18n",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha test"
+    "test": "standard && mocha test",
+    "cht": "gulp download && gulp cache && gulp chs-to-cht && gulp post-cht"
   },
   "repository": {
     "type": "git",
