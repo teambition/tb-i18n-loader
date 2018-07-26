@@ -15,9 +15,8 @@ var fs = require('fs')
 var path = require('path')
 
 require('isomorphic-fetch')
-var sdk = require('teambition-sdk')
 
-var request = new sdk.SDKFetch()
+var i18nCacheDir = process.env.i18n_cache || 'cache'
 
 var ONESKY_OPTIONS = {
   projectId: 153977
@@ -27,16 +26,29 @@ var params = minimist(process.argv.slice(3))
 var chsToChtOptions = {
   all: false,
   force: false,
+  exec: false
 }
+
 if (process.argv[2] && process.argv[2] === 'chs-to-cht') {
   chsToChtOptions.all = params.a || params.all
   chsToChtOptions.force = params.f || params.force
 }
 
+if (params.y || params.exec) {
+  chsToChtOptions.exec = true
+}
+
+var localesDir = path.join(__dirname, 'locales')
+var getLocalesJson = function(file) {
+  file = file || 'zh.json'
+  return path.join(localesDir, file)
+}
+
 function readDescription () {
   var result = {}
-  fs.readdirSync('./keys').forEach(function (fileName) {
-    var filePath = path.resolve('./keys', fileName)
+  var dir = path.resolve(__dirname, './keys')
+  fs.readdirSync(dir).forEach(function (fileName) {
+    var filePath = path.resolve(dir, fileName)
     var contents = fs.readFileSync(filePath, 'utf-8')
     var description = util.parseDescription(contents)
     var keys = Object.keys(description)
@@ -49,68 +61,54 @@ function readDescription () {
 }
 
 gulp.task('translate', function () {
-  return gulp.src('tmp/*.json')
+  var tmpDir = path.join(__dirname, 'tmp', '*.json')
+  var translatedDir = path.join(__dirname, 'translated')
+
+  return gulp.src(tmpDir)
     .pipe(translate({from: 'zh'}))
-    .pipe(gulp.dest('tmp/translated'))
+    .pipe(gulp.dest(translatedDir))
 })
 
 gulp.task('chs-to-cht', function () {
-  return gulp.src('locales/zh.json')
+  return gulp.src(getLocalesJson())
     .pipe(chsToCht(chsToChtOptions))
-    .pipe(gulp.dest('locales'))
+    .pipe(gulp.dest(localesDir))
 })
 
 gulp.task('cache', function () {
-  return gulp.src('locales/zh.json')
-    .pipe(gulp.dest('cache'))
+  return gulp.src(getLocalesJson())
+    .pipe(gulp.dest(i18nCacheDir))
 })
 
 gulp.task('raw-download', function () {
   return download(config.LANGUAGES, ONESKY_OPTIONS)
     .pipe(filter(readDescription(), 'zh'))
     .pipe(sorter())
-    .pipe(gulp.dest('locales'))
+    .pipe(gulp.dest(localesDir))
 })
 
 gulp.task('compare', ['raw-download'], function () {
-  return gulp.src('locales/zh.json')
+  return gulp.src(getLocalesJson())
     .pipe(compare())
-    .pipe(gulp.dest('cache'))
+    .pipe(gulp.dest(i18nCacheDir))
 })
 
 gulp.task('download', ['compare'])
 
 gulp.task('pick-empty', function () {
-  return gulp.src('locales/*.json')
+  return gulp.src(getLocalesJson('*.json'))
     .pipe(pickEmpty('zh'))
     .pipe(gulp.dest('tmp'))
 })
 
-gulp.task('notice', function () {
-  var enEmpty = require('./tmp/en.json')
-  var version = require('./package.json').version
-  request.setToken(config.TOKEN)
-  var team$ = request.get('teams/5763667798cb0609458bacdd')
-    .map(team => team.hasMembers.map(m => m._id))
-
-  return team$.concatMap(members => request.post('tasks', {
-    content: version + ' i18n check',
-    _tasklistId: config.TASKLIST_ID,
-    note: '```' + JSON.stringify(enEmpty, null, 2) + '```',
-    involveMembers: members
-  }))
-    .toPromise()
-    .catch(e => {
-      console.error(e)
-    })
-})
-
 gulp.task('post', function () {
-  return gulp.src('locales/zh.json')
+  return gulp.src(getLocalesJson())
     .pipe(post('zh', ONESKY_OPTIONS))
 })
 
 gulp.task('post-cht', ['cache'], function () {
-  return gulp.src('locales/zh_tw.json')
+  return gulp.src(getLocalesJson('zh_tw.json'))
     .pipe(post('zh_tw', ONESKY_OPTIONS))
 })
+
+gulp.task('ci:i18n', ['download', 'chs-to-cht', 'post-cht'])

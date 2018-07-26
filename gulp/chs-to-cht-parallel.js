@@ -76,7 +76,7 @@ function translate(contents, from, to, callback) {
       )
     }
   })
-  
+
   Promise.all(promiseList)
     .then(() => {
       if (!isEmpty(errorMessages)) {
@@ -139,17 +139,21 @@ module.exports = function (options) {
 
     if (!options.force) {
       printDiff()
-      inquirer.prompt({
-        type: 'confirm',
-        name: 'confirmTranslate',
-        message: 'Execute Translating ?',
-      }).then(answers => {
-        if (answers.confirmTranslate) {
-          execute()
-        } else {
-          return next()
-        }
-      })
+      if (!options.exec) {
+        inquirer.prompt({
+          type: 'confirm',
+          name: 'confirmTranslate',
+          message: 'Execute Translating ?',
+        }).then(answers => {
+          if (answers.confirmTranslate) {
+            execute()
+          } else {
+            return next()
+          }
+        })
+      } else {
+        execute()
+      }
     } else {
       execute()
     }
