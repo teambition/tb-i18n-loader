@@ -5,7 +5,7 @@ var gutil = require('gulp-util')
 var onesky = require('onesky-utils')
 var sysPath = require('path')
 var fs = require('fs')
-var rootDir = process.cwd()
+var rootDir = sysPath.resolve(__dirname, '../')
 
 var col = gutil.colors
 var PluginError = gutil.PluginError
