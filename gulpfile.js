@@ -19,6 +19,8 @@ var sdk = require('teambition-sdk')
 
 var request = new sdk.SDKFetch()
 
+var i18nCacheDir = process.env.i18n_cache || 'cache'
+
 var ONESKY_OPTIONS = {
   projectId: 153977
 }
@@ -27,10 +29,16 @@ var params = minimist(process.argv.slice(3))
 var chsToChtOptions = {
   all: false,
   force: false,
+  exec: false
 }
+
 if (process.argv[2] && process.argv[2] === 'chs-to-cht') {
   chsToChtOptions.all = params.a || params.all
   chsToChtOptions.force = params.f || params.force
+}
+
+if (params.y || params.exec) {
+  chsToChtOptions.exec = true
 }
 
 function readDescription () {
@@ -62,7 +70,7 @@ gulp.task('chs-to-cht', function () {
 
 gulp.task('cache', function () {
   return gulp.src('locales/zh.json')
-    .pipe(gulp.dest('cache'))
+    .pipe(gulp.dest(i18nCacheDir))
 })
 
 gulp.task('raw-download', function () {
@@ -75,7 +83,7 @@ gulp.task('raw-download', function () {
 gulp.task('compare', ['raw-download'], function () {
   return gulp.src('locales/zh.json')
     .pipe(compare())
-    .pipe(gulp.dest('cache'))
+    .pipe(gulp.dest(i18nCacheDir))
 })
 
 gulp.task('download', ['compare'])
@@ -114,3 +122,5 @@ gulp.task('post-cht', ['cache'], function () {
   return gulp.src('locales/zh_tw.json')
     .pipe(post('zh_tw', ONESKY_OPTIONS))
 })
+
+gulp.task('ci:i18n', ['download', 'chs-to-cht', 'post-cht'])

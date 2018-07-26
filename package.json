@@ -7,6 +7,9 @@
     "test": "standard && mocha test",
     "cht": "gulp download && gulp cache && gulp chs-to-cht && gulp post-cht"
   },
+  "bin": {
+    "tb-i18n": "./bin/index.js --exec"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:teambition/tb-i18n-loader.git"
