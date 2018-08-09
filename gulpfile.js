@@ -114,4 +114,4 @@ gulp.task('post-cht', ['cache'], function () {
 
 gulp.task('ci:i18n', sequence('download', 'chs-to-cht', 'post-cht'))
 
-gulp.task('default', 'download')
+gulp.task('default', ['download'])
