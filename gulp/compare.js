@@ -1,5 +1,6 @@
 var gutil = require('gulp-util')
 var through = require('through2')
+var path = require('path')
 var cache = require('../cache/zh.json')
 
 var col = gutil.colors
@@ -11,7 +12,7 @@ function compare(data) {
   var cacheKeys = Object.keys(cache)
   var dataKeys = Object.keys(data)
   var allKeys = Object.keys(Object.assign({}, cache, data))
-  
+
   while (!!allKeys.length) {
     var last = allKeys[allKeys.length - 1]
     if (!!data[last] && !!cache[last] && data[last] !== cache[last]) {
@@ -50,12 +51,12 @@ function compare(data) {
 module.exports = function () {
   return through.obj(function (file, enc, next) {
     if (!file.isBuffer()) return next()
-    
+
     gutil.log('Compare Origin with OneSky ...')
 
     var contents = JSON.parse(file.contents.toString())
     var newFile = file
-    newFile.path = './cache/diff.json'
+    newFile.path = path.join(__dirname, '../cache/diff.json')
     newFile.contents = new Buffer(compare(contents))
     this.push(file)
     next()

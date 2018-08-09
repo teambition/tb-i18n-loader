@@ -1,5 +1,6 @@
 
 var gulp = require('gulp')
+var sequence = require('gulp-sequence')
 var config = require('config')
 var minimist = require('minimist')
 var download = require('./gulp/download')
@@ -16,7 +17,7 @@ var path = require('path')
 
 require('isomorphic-fetch')
 
-var i18nCacheDir = process.env.i18n_cache || 'cache'
+var i18nCacheDir = path.join(__dirname, './cache')
 
 var ONESKY_OPTIONS = {
   projectId: 153977
@@ -111,4 +112,6 @@ gulp.task('post-cht', ['cache'], function () {
     .pipe(post('zh_tw', ONESKY_OPTIONS))
 })
 
-gulp.task('ci:i18n', ['download', 'chs-to-cht', 'post-cht'])
+gulp.task('ci:i18n', sequence('download', 'chs-to-cht', 'post-cht'))
+
+gulp.task('default', 'download')

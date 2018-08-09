@@ -32,15 +32,16 @@
   },
   "license": "MIT",
   "dependencies": {
+    "gulp-sequence": "^1.0.0",
+    "gulp-util": "^3.0.7",
+    "inquirer": "^5.2.0",
+    "isomorphic-fetch": "^2.2.1",
     "loader-utils": "^0.2.12",
     "lodash": "^4.8.2",
+    "minimist": "^1.2.0",
     "onesky-utils": "0.0.3",
     "through2": "^2.0.1",
-    "urllib": "^2.8.0",
     "tslib": "^1.7.0",
-    "minimist": "^1.2.0",
-    "inquirer": "^5.2.0",
-    "gulp-util": "^3.0.7",
-    "isomorphic-fetch": "^2.2.1"
+    "urllib": "^2.8.0"
   }
 }
