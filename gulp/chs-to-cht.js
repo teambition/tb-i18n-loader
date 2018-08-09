@@ -4,11 +4,11 @@ var through = require('through2')
 var inquirer = require('inquirer')
 var gutil = require('gulp-util')
 var path = require('path')
+var fs = require('fs')
 var isEmpty = require('lodash').isEmpty
 var MD5 = require('./md5')
 var defaults = require('../locales/zh.json')
 var defaultsTW = require('../locales/zh_tw.json')
-var diff = require('../cache/diff.json')
 
 var col = gutil.colors
 var PluginError = gutil.PluginError
@@ -72,7 +72,7 @@ function translate(contents, from, to, callback) {
       optionsData.salt = time
       optionsData.q = next.value
       optionsData.sign = MD5(TRANSLATE_ID + next.value + time + TRANSLATE_KEY)
-  
+
       urllib.request(TRANSLATE_URL, {data: optionsData}, function (err, result, res) {
         if (err) {
           throw new PluginError(PLUGIN_NAME, err.toString())
@@ -100,6 +100,8 @@ module.exports = function (options) {
   options = options || {}
   var fromLang = 'zh'
   var lang = 'zh_tw'
+  var diffFile = fs.readFileSync(path.join(__dirname, '../cache/diff.json'), 'utf-8')
+  var diff = JSON.parse(diffFile)
 
   var outputStream = through.obj(function (file, enc, next) {
     if (!file.isBuffer()) return next()
