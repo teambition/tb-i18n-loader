@@ -1,226 +1,534 @@
 {
   "added": [
     {
-      "key": "tasklist.dump.export.error.no.permission",
-      "value": "没有导出分组内所有任务的权限"
+      "key": "task.reminder.modal.unset",
+      "value": "不提醒"
     },
     {
-      "key": "tasklist.creator.tasklist.placeholder",
-      "value": "请输入"
+      "key": "task.reminder.modal.title",
+      "value": "任务提醒设置"
     },
     {
-      "key": "story.group.un.categorized",
-      "value": "未分类需求"
+      "key": "task.reminder.modal.startDate",
+      "value": "任务开始时"
     },
     {
-      "key": "story.group.edit.menu",
-      "value": "需求分类菜单"
+      "key": "task.reminder.modal.set.success",
+      "value": "任务提醒设置更改成功"
     },
     {
-      "key": "story.group.edit.error.duplicate.name",
-      "value": "同级分类不能重名"
+      "key": "task.reminder.modal.list.title",
+      "value": "提醒规则"
     },
     {
-      "key": "story.group.edit",
-      "value": "编辑需求分类"
+      "key": "task.reminder.modal.dueDate",
+      "value": "任务截止时"
     },
     {
-      "key": "story.group.delete.hint",
-      "value": "删除后此分类和其子分类将一并删除，对应任务上的分类信息也会清除。"
+      "key": "task.reminder.modal.customize",
+      "value": "自定义时间"
     },
     {
-      "key": "story.group.delete",
-      "value": "删除需求分类"
+      "key": "task.reminder.modal.beforeStartDate",
+      "value": "任务开始前"
     },
     {
-      "key": "story.group.create",
-      "value": "创建需求分类"
+      "key": "task.reminder.modal.beforeDueDate",
+      "value": "任务截止前"
     },
     {
-      "key": "story.group.all.categories",
-      "value": "所有需求"
+      "key": "task.reminder.modal.afterStartDate",
+      "value": "任务开始后"
     },
     {
-      "key": "project.setting.task.creator.title",
-      "value": "看板任务创建模式"
+      "key": "task.reminder.modal.afterDueDate",
+      "value": "任务截止后"
     },
     {
-      "key": "project.setting.task.creator.tips",
-      "value": "在看板视图下创建新任务时，默认使用卡片模式或大窗模式，针对整个项目生效"
+      "key": "task.reminder.modal.add.members.tips",
+      "value": "请先添加需要提醒的成员"
     },
     {
-      "key": "project.setting.task.creator.small",
-      "value": "卡片模式（快速填写系统字段）"
+      "key": "task.reminder.modal.add.members",
+      "value": "添加提醒对象"
     },
     {
-      "key": "project.setting.task.creator.global",
-      "value": "弹窗模式（支持填写所有字段）"
+      "key": "task.reminder.modal.add",
+      "value": "添加新提醒"
     },
     {
-      "key": "project.info.template.previewer.title",
-      "value": "「%s」字段预览"
+      "key": "searcher.task.progress",
+      "value": "进度"
     },
     {
-      "key": "project.info.template.previewer.confirm.add",
-      "value": "确定添加"
+      "key": "searcher.project.isSuspended",
+      "value": "是否已归档"
     },
     {
-      "key": "project.info.set.item.permission.success",
-      "value": "字段权限设置成功"
+      "key": "searcher.options.project.isSuspended.true",
+      "value": "是"
     },
     {
-      "key": "project.info.set.item.permission.failed",
-      "value": "字段权限设置失败，请重试"
+      "key": "searcher.options.project.isSuspended.false",
+      "value": "否"
     },
     {
-      "key": "project.info.set.item.permission",
-      "value": "填写权限"
+      "key": "searcher.isInSuspendedProject.true",
+      "value": "是"
     },
     {
-      "key": "project.info.delete.item.prompt",
-      "value": "确定要删除当前字段吗？"
+      "key": "searcher.isInSuspendedProject.false",
+      "value": "否"
     },
     {
-      "key": "project.info.delete.item.confirm",
-      "value": "确定删除"
+      "key": "searcher.isInSuspendedProject",
+      "value": "是否在归档项目中"
     },
     {
-      "key": "project.info.add.custom.field.manually",
-      "value": "自主添加字段"
+      "key": "search.suspended",
+      "value": "已归档"
     },
     {
-      "key": "project.info.add.custom.field.from.template",
-      "value": "选择企业模板快速添加"
+      "key": "projects.suspended",
+      "value": "已归档"
     },
     {
-      "key": "project.creator.template.upgrade.pro.upgrade.org.required",
-      "value": "切换企业使用该模板"
+      "key": "projects.archived",
+      "value": "回收站"
     },
     {
-      "key": "please.enter",
-      "value": "请输入..."
+      "key": "project.settings.taskflow.transform.name",
+      "value": "流转"
     },
     {
-      "key": "organization.trail.pro.getStarted.title",
-      "value": "试用企业专业版"
+      "key": "project.settings.taskflow.switch.config.no.applied",
+      "value": "暂未应用"
     },
     {
-      "key": "organization.trail.pro.getStarted.table",
-      "value": "通过灵活配置表头和排序，更简明地展现任务信息，支持对任务进行批量操作。"
+      "key": "project.settings.taskflow.switch.config.hint.2",
+      "value": "你确定将「%1」的工作流切换为「%2」吗？"
     },
     {
-      "key": "organization.trail.pro.getStarted.success.more",
-      "value": "点此了解功能详情"
+      "key": "project.settings.taskflow.switch.config.hint.1",
+      "value": "切换工作流之后，当前类型的任务处于结束状态的任务对应新工作流的结束状态，其他任务对应新工作流的起始状态。"
     },
     {
-      "key": "organization.pro.overdue.desc.call",
-      "value": "当前企业专业版已到期，无法继续该功能。请联系企业管理员操作。"
+      "key": "project.settings.taskflow.switch.config.apply.to",
+      "value": "应用于："
     },
     {
-      "key": "organization.pro.overdue.desc",
-      "value": "当前企业专业版已到期，无法继续该功能。"
+      "key": "project.settings.taskflow.switch.config.apply.hint",
+      "value": "拖拽到此处更换工作流"
     },
     {
-      "key": "organization.pro.dueday.planTips.trial",
-      "value": "当前企业将在 %s 天后到期，到期后将无法访问，目前正在企业专业版试用中。"
+      "key": "project.settings.taskflow.popup.edit.menu",
+      "value": "编辑工作流名称"
     },
     {
-      "key": "labs.name.project.panel",
-      "value": "任务侧栏"
+      "key": "project.settings.taskflow.popup.delete.menu",
+      "value": "删除工作流"
     },
     {
-      "key": "labs.description.project.panel",
-      "value": "任务应用中增加侧栏，整合显示任务分组和视图功能。敏捷研发模板项目中需求、缺陷、迭代应用也使用此方式。"
+      "key": "project.settings.taskflow.move.hint",
+      "value": "可拖拽至其他工作流"
     },
     {
-      "key": "common.group.un.categorized",
-      "value": "未分类需求"
+      "key": "project.settings.taskflow.guide.v2",
+      "value": "可直接拖拽任务类型来更改工作流"
     },
     {
-      "key": "common.group.edit.menu",
-      "value": "需求分类菜单"
+      "key": "project.settings.taskflow.delete.success",
+      "value": "工作流删除成功"
     },
     {
-      "key": "common.group.edit.error.duplicate.name",
-      "value": "同级分类不能重名"
+      "key": "project.settings.taskflow.delete.hint.3",
+      "value": "当前项目仅有一种工作流，不可被删除。"
     },
     {
-      "key": "common.group.edit",
-      "value": "编辑需求分类"
+      "key": "project.settings.taskflow.delete.hint.2",
+      "value": "工作流上已有任务类型应用，把类型应用到其他工作流上再删除。"
     },
     {
-      "key": "common.group.delete.hint",
-      "value": "删除后此分类和其子分类将一并删除，对应任务上的分类信息也会清除。"
+      "key": "project.settings.taskflow.delete.hint.1",
+      "value": "你确定要删除当前工作流吗？删除后不可恢复。"
     },
     {
-      "key": "common.group.delete",
-      "value": "删除需求分类"
+      "key": "project.settings.taskflow.delete.failed",
+      "value": "工作流删除失败，请重试"
     },
     {
-      "key": "common.group.create",
-      "value": "创建需求分类"
+      "key": "project.settings.taskflow.add.taskflow.max.count",
+      "value": "项目中最多创建 9 个工作流"
     },
     {
-      "key": "common.group.all.categories",
-      "value": "所有需求"
+      "key": "project.settings.taskflow.add.taskflow",
+      "value": "新建工作流"
     },
     {
-      "key": "common.field.selector.search",
-      "value": "搜索%s"
+      "key": "project.settings.taskflow.add.modal.subtitle",
+      "value": "工作流名称"
     },
     {
-      "key": "common.field.selector.recommend.title",
-      "value": "常用分类"
+      "key": "project.settings.taskflow.add.modal.name.error",
+      "value": "该工作流已重名"
     },
     {
-      "key": "common.field.selector.no.group",
-      "value": "无分类"
+      "key": "project.settings.task.visibility.title",
+      "value": "新任务默认开启隐私模式"
     },
     {
-      "key": "common.field.selector.belong.to",
-      "value": "隶属：%s"
+      "key": "project.settings.task.visibility.tips",
+      "value": "对本项目内的新任务默认开启隐私模式，创建成功后仅参与者可见"
     },
     {
-      "key": "app.disable.success",
-      "value": "%s已停用"
+      "key": "project.settings.task.visibility.tasklist.tips",
+      "value": "被勾选的任务分组中创建的新任务将开启默认隐私模式"
     },
     {
-      "key": "app.disable.failure",
-      "value": "%s停用失败"
+      "key": "project.settings.task.visibility.save.success",
+      "value": "任务分组隐私模式已更新"
     },
     {
-      "key": "app.disable",
-      "value": "停用应用"
+      "key": "project.settings.task.visibility.save.fail",
+      "value": "未能正常保存设置"
     },
     {
-      "key": "sort",
-      "value": "排序"
+      "key": "project.settings.task.visibility.options.partial",
+      "value": "开启部分任务分组"
     },
     {
-      "key": "name",
-      "value": "名称"
+      "key": "project.settings.task.visibility.options.none",
+      "value": "关闭"
+    },
+    {
+      "key": "project.settings.task.visibility.options.all.without.tasklist",
+      "value": "开启"
+    },
+    {
+      "key": "project.settings.task.visibility.options.all.with.tasklist",
+      "value": "开启全部任务分组"
+    },
+    {
+      "key": "project.settings.suspend.success.inorganizaiton",
+      "value": "已成功将项目移至归档，你可以在“全部项目”页面内的“归档项目”分类下找到所有被归档的项目"
+    },
+    {
+      "key": "project.settings.suspend.success",
+      "value": "已成功将项目移至归档，你可以在首页的底部找到所有被移入归档中的项目"
+    },
+    {
+      "key": "project.settings.scenarioFieldConfig.popup.edit.taskflow",
+      "value": "切换工作流"
+    },
+    {
+      "key": "project.settings.scenarioFieldConfig.edit.taskflow.hint",
+      "value": "切换工作流之后，当前类型的任务除了处于结束状态的任务，都将移动到新工作流的起始状态，请谨慎操作。"
+    },
+    {
+      "key": "project.settings.archive.success.inorganizaiton",
+      "value": "已成功将项目移至回收站，你可以在“全部项目”页面内的“回收站”分类下找到所有被移入回收站的项目"
+    },
+    {
+      "key": "project.setting.handler.unsuspend",
+      "value": "取消归档"
+    },
+    {
+      "key": "project.setting.handler.unarchive",
+      "value": "恢复项目"
+    },
+    {
+      "key": "project.setting.handler.suspend",
+      "value": "归档项目"
+    },
+    {
+      "key": "project.setting.handler.quit",
+      "value": "退出"
+    },
+    {
+      "key": "project.setting.handler.delete",
+      "value": "彻底删除"
+    },
+    {
+      "key": "project.setting.handler.archive",
+      "value": "移至回收站"
+    },
+    {
+      "key": "project.panel.activity.project.unsuspend",
+      "value": "恢复了项目"
+    },
+    {
+      "key": "project.panel.activity.project.suspend",
+      "value": "归档了项目"
+    },
+    {
+      "key": "project.hierarchy.suspended.projects",
+      "value": "已归档项目"
+    },
+    {
+      "key": "portal.unsuspend.project.title",
+      "value": "取消归档项目"
+    },
+    {
+      "key": "portal.unsuspend.project.success",
+      "value": "取消归档成功"
+    },
+    {
+      "key": "portal.unsuspend.project.error",
+      "value": "取消归档失败"
+    },
+    {
+      "key": "portal.unsuspend.project.description",
+      "value": "取消归档项目后，你就可以正常使用该项目了。"
+    },
+    {
+      "key": "portal.unsuspend.project.confirm",
+      "value": "取消归档"
+    },
+    {
+      "key": "portal.suspend.project.title",
+      "value": "归档项目"
+    },
+    {
+      "key": "portal.suspend.project.error",
+      "value": "归档项目失败"
+    },
+    {
+      "key": "portal.suspend.project.description",
+      "value": "一旦将项目「%s」归档，本项目和所含信息将会被移到「归档项目」内，其中的内容依然会被统计和搜索收录，归档项目可以随时恢复并继续使用。"
+    },
+    {
+      "key": "portal.suspend.project.confirm",
+      "value": "归档"
+    },
+    {
+      "key": "personal.settings.dateFormat.switch.success",
+      "value": "切换成功，时间将以%s显示"
+    },
+    {
+      "key": "personal.setting.dateFormat.success",
+      "value": "切换成功，时间将以%s显示"
+    },
+    {
+      "key": "more.projects",
+      "value": "更多项目"
+    },
+    {
+      "key": "message.system.activity.project.unsuspend",
+      "value": "你可以查看该项目所有内容"
+    },
+    {
+      "key": "message.system.activity.project.suspend",
+      "value": "你仍可以从归档入口查看该项目的内容"
+    },
+    {
+      "key": "kanban.taskflow.no.task",
+      "value": "该工作流中暂无内容"
+    },
+    {
+      "key": "import.tasks.upload.file",
+      "value": "上传文件"
+    },
+    {
+      "key": "import.tasks.success",
+      "value": "成功导入 %s 条%s"
+    },
+    {
+      "key": "import.tasks.steps.select.task.type",
+      "value": "选择要导入的任务类型"
+    },
+    {
+      "key": "import.tasks.steps.import.task.file",
+      "value": "导入任务文件"
+    },
+    {
+      "key": "import.tasks.steps.download.template",
+      "value": "下载对应任务类型的模板"
+    },
+    {
+      "key": "import.tasks.reUpload",
+      "value": "重新上传"
+    },
+    {
+      "key": "import.tasks.parse.success.tips",
+      "value": "文件解析成功，点击「确定导入」即可导入"
+    },
+    {
+      "key": "import.tasks.parse.failure.tips",
+      "value": "文件解析失败，请查看导入规则并更新文件"
+    },
+    {
+      "key": "import.tasks.parse.error.not.match",
+      "value": "所选文件与当前任务类型不匹配"
+    },
+    {
+      "key": "import.tasks.modal.title",
+      "value": "导入任务"
+    },
+    {
+      "key": "import.tasks.file.status.uploading",
+      "value": "上传中"
+    },
+    {
+      "key": "import.tasks.file.status.updateFile",
+      "value": "更新文件"
+    },
+    {
+      "key": "import.tasks.file.status.parsing",
+      "value": "解析中"
+    },
+    {
+      "key": "import.tasks.file.requirements.maxTaskCount",
+      "value": "一次至多导入 %s 条任务"
+    },
+    {
+      "key": "import.tasks.file.requirements.maxScenarioFieldConfigCount",
+      "value": "每个任务至多支持 %s 个自定义字段"
+    },
+    {
+      "key": "import.tasks.file.requirements.fileType",
+      "value": "支持文件类型：xls，xlsx，csv"
+    },
+    {
+      "key": "import.tasks.file.requirements.fieldRule",
+      "value": "任务字段不符合规则，整条任务不予以导入"
+    },
+    {
+      "key": "import.tasks.file.requirements.basicField",
+      "value": "支持所有基础字段的导入"
+    },
+    {
+      "key": "import.tasks.error.tips",
+      "value": "发现以下 %s 条不符合要求的%s，将不会被导入"
+    },
+    {
+      "key": "import.tasks.error.table.row",
+      "value": "行号"
+    },
+    {
+      "key": "import.tasks.error.table.reason",
+      "value": "错误原因"
+    },
+    {
+      "key": "import.tasks.error.table.content",
+      "value": "单元格内容"
+    },
+    {
+      "key": "import.tasks.error.table.cellName",
+      "value": "列标题"
+    },
+    {
+      "key": "import.tasks.error.label",
+      "value": "文件上传成功。共 %s 条%s，其中 %s 条可成功导入。"
+    },
+    {
+      "key": "import.tasks.download.template.tips",
+      "value": "请先下载「%s_模板」并按照模板填写后再上传。"
+    },
+    {
+      "key": "import.tasks.download.template",
+      "value": "下载模板"
+    },
+    {
+      "key": "import.tasks.confirm.import",
+      "value": "确定导入"
+    },
+    {
+      "key": "has.none.suspended.projects",
+      "value": "暂无已归档项目"
+    },
+    {
+      "key": "custom.fields.file.length.limit.error",
+      "value": "文件最多只能添加 %s 个。"
+    },
+    {
+      "key": "custom.fields.data.type.work",
+      "value": "文件"
+    },
+    {
+      "key": "custom.field.file.upload.from.location",
+      "value": "从本地上传"
+    },
+    {
+      "key": "custom.field.file.remove.confirm",
+      "value": "你确认移除当前文件吗？"
+    },
+    {
+      "key": "custom.field.file.remove",
+      "value": "移除文件"
+    },
+    {
+      "key": "custom.field.file.link.placeholder",
+      "value": "粘贴已有文件地址"
+    },
+    {
+      "key": "custom.field.file.choose.exist.file",
+      "value": "选择已有文件"
+    },
+    {
+      "key": "create.and.continuity",
+      "value": "完成并创建下一个"
+    },
+    {
+      "key": "activity.panel.import.tasks",
+      "value": "导入任务"
+    },
+    {
+      "key": "activity.panel.export.tasks",
+      "value": "导出任务"
+    },
+    {
+      "key": "taskflow",
+      "value": "工作流"
+    },
+    {
+      "key": "minute",
+      "value": "分钟"
+    },
+    {
+      "key": "hour",
+      "value": "小时"
     }
   ],
   "modified": [
     {
-      "key": "organization.trail.pro.getStarted.success",
-      "oldValue": "已成功试用企业专业版",
-      "newValue": "您所在的企业「%s」已成功试用企业专业版，剩余试用期 %s 天，试用期结束后将默认恢复为企业版。"
+      "key": "scrum.panel.status",
+      "oldValue": "看板状态显示为",
+      "newValue": "看板列按以下工作流显示"
     },
     {
-      "key": "organization.trail.dueday.planTips.pro",
-      "oldValue": "当前企业正在试用企业专业版，还剩 %s 天。",
-      "newValue": "企业专业版试用期剩余 %s 天，试用期结束后将默认恢复为企业版。"
+      "key": "project.settings.taskFieldConfig.create.notice",
+      "oldValue": "任务类型已升级到企业纬度，由企业管理员等特定角色统一管理。",
+      "newValue": "任务类型已升级到企业维度，由企业管理员等特定角色统一管理。"
     },
     {
-      "key": "organization.pro.overdue",
-      "oldValue": "企业版已到期",
-      "newValue": "企业专业版已到期"
+      "key": "project.settings.eventFieldConfig.create.notice",
+      "oldValue": "日程类型已升级到企业纬度，由企业管理员等特定角色统一管理。",
+      "newValue": "日程类型已升级到企业维度，由企业管理员等特定角色统一管理。"
     },
     {
-      "key": "organization.pro.dueday.planTips",
-      "oldValue": "当前企业即将在 %s 天内过期，过期后将无法访问。",
-      "newValue": "当前企业将在 %s 天后到期，到期后将无法访问。"
+      "key": "project.settings.delete.msg",
+      "oldValue": "一旦你删除了项目「%s」，所有与项目有关的信息将会被永久删除。这是一个不可恢复的操作，请谨慎对待！",
+      "newValue": "一旦你彻底删除项目「%s」，所有与项目有关的信息将会被永久删除。这是一个不可恢复的操作，请谨慎对待！"
+    },
+    {
+      "key": "project.settings.delete",
+      "oldValue": "删除项目",
+      "newValue": "彻底删除项目"
+    },
+    {
+      "key": "project.settings.archive.msg",
+      "oldValue": "一旦将项目「%s」移到回收站, 所有与项目有关的信息将会被移到回收站。请谨慎对待！",
+      "newValue": "一旦将项目「%s」移到回收站，所有与项目有关的信息将会被移到回收站，其中的内容也不会被统计和搜索收录，需要去回收站恢复后才能继续使用。"
+    },
+    {
+      "key": "portal.unarchive.project.description",
+      "oldValue": "恢复项目后，您就可以正常使用该项目了",
+      "newValue": "恢复项目后，你就可以正常使用该项目了。"
+    },
+    {
+      "key": "message.system.activity.project.archive",
+      "oldValue": "无法查看该项目内容",
+      "newValue": "你仍可以从回收站入口查看该项目的内容"
     }
   ],
   "deleted": []
