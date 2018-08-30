@@ -1,6 +1,18 @@
 {
   "added": [
     {
+      "key": "view.filter.guide.button",
+      "value": "我知道了"
+    },
+    {
+      "key": "view.filter.guide",
+      "value": "视图筛选功能与分组侧栏整合。点击「视图筛选」可展开视图、筛选、排序面板。"
+    },
+    {
+      "key": "tasklist.view.filter",
+      "value": "视图筛选"
+    },
+    {
       "key": "task.reminder.modal.unset",
       "value": "不提醒"
     },
@@ -87,6 +99,22 @@
     {
       "key": "search.suspended",
       "value": "已归档"
+    },
+    {
+      "key": "scrum.panel.taskflow.lane.top.level",
+      "value": "顶级任务"
+    },
+    {
+      "key": "scrum.panel.taskflow.lane.choice",
+      "value": "看板泳道"
+    },
+    {
+      "key": "scrum.panel.taskflow",
+      "value": "看板列字段"
+    },
+    {
+      "key": "scrum.panel.kanban",
+      "value": "看板视图"
     },
     {
       "key": "projects.suspended",
@@ -225,6 +253,14 @@
       "value": "切换工作流之后，当前类型的任务除了处于结束状态的任务，都将移动到新工作流的起始状态，请谨慎操作。"
     },
     {
+      "key": "project.settings.scenarioFieldConfig.edit.note.preview",
+      "value": "预设内容"
+    },
+    {
+      "key": "project.settings.scenarioFieldConfig.edit.note.placeholder",
+      "value": "可选填，最多 2000 字"
+    },
+    {
       "key": "project.settings.archive.success.inorganizaiton",
       "value": "已成功将项目移至回收站，你可以在“全部项目”页面内的“回收站”分类下找到所有被移入回收站的项目"
     },
@@ -301,12 +337,24 @@
       "value": "归档"
     },
     {
+      "key": "personal.settings.display.project.orderBy.recentVisit.text",
+      "value": "最近访问"
+    },
+    {
       "key": "personal.settings.dateFormat.switch.success",
       "value": "切换成功，时间将以%s显示"
     },
     {
       "key": "personal.setting.dateFormat.success",
       "value": "切换成功，时间将以%s显示"
+    },
+    {
+      "key": "organization.report.app.has.leaving.lock",
+      "value": "关闭窗口会导致未保存的修改丢失，请确认"
+    },
+    {
+      "key": "my.rencent.visit.projects",
+      "value": "我最近访问的项目"
     },
     {
       "key": "more.projects",
@@ -323,6 +371,10 @@
     {
       "key": "kanban.taskflow.no.task",
       "value": "该工作流中暂无内容"
+    },
+    {
+      "key": "kanban.taskflow.no.subtask",
+      "value": "该任务下暂无符合条件的子任务"
     },
     {
       "key": "import.tasks.upload.file",
@@ -437,6 +489,10 @@
       "value": "暂无已归档项目"
     },
     {
+      "key": "edit.note",
+      "value": "编辑备注"
+    },
+    {
       "key": "custom.fields.file.length.limit.error",
       "value": "文件最多只能添加 %s 个。"
     },
@@ -479,6 +535,10 @@
     {
       "key": "taskflow",
       "value": "工作流"
+    },
+    {
+      "key": "preview",
+      "value": "预览"
     },
     {
       "key": "minute",
@@ -529,6 +589,11 @@
       "key": "message.system.activity.project.archive",
       "oldValue": "无法查看该项目内容",
       "newValue": "你仍可以从回收站入口查看该项目的内容"
+    },
+    {
+      "key": "custom.field.advanced.hint.2",
+      "oldValue": "「成员」类型可选择 Teambition 成员组织架构中的成员；",
+      "newValue": "「成员」类型可选择 Teambition 成员组织架构中的成员。"
     }
   ],
   "deleted": []
