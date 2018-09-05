@@ -4569,6 +4569,8 @@
   "table.task.content": "標題",
   "table.task.content.bug": "缺陷",
   "table.task.content.story": "需求",
+  "table.task.created.at.date": "创建时间",
+  "table.task.creator": "创建者",
   "table.task.customField": "自訂專案欄位",
   "table.task.dueDate": "截止時間",
   "table.task.executor": "執行者",

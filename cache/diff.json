@@ -69,6 +69,14 @@
       "value": "添加新提醒"
     },
     {
+      "key": "table.task.creator",
+      "value": "创建者"
+    },
+    {
+      "key": "table.task.created.at.date",
+      "value": "创建时间"
+    },
+    {
       "key": "searcher.task.progress",
       "value": "进度"
     },
