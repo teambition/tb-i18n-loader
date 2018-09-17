@@ -11,13 +11,14 @@ var col = gutil.colors
 var PluginError = gutil.PluginError
 var PLUGIN_NAME = 'gulp-i18n-download'
 
-function readOldJson (lang, extname) {
-  var path = sysPath.resolve(rootDir, 'locales', lang + '.json')
+function readOldJson (lang, useLocalLocales) {
+  var path = sysPath.resolve((useLocalLocales ? process.cwd() : rootDir), 'locales', lang + '.json')
   var contents = fs.readFileSync(path, 'utf-8')
   return JSON.parse(contents)
 }
 
-module.exports = function (languages, options) {
+module.exports = function (languages, options, useLocalLocales) {
+  useLocalLocales = typeof useLocalLocales === 'undefined' ? false : useLocalLocales
   var outputStream = through.obj(function (file, enc, next) {
     this.push(file)
     return next()
@@ -26,7 +27,7 @@ module.exports = function (languages, options) {
   if (languages && languages.length) {
     var count = languages.length
     languages.map(function (lang) {
-      var oldJson = readOldJson(lang)
+      var oldJson = readOldJson(lang, useLocalLocales)
       gutil.log('Download \'' + col.cyan(lang + '.json') + '\' from OneSky ...')
       onesky.getFile(util.getHttpOptions(lang, options)).then(function (content) {
         var json = JSON.parse(content)
