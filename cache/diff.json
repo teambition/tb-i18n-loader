@@ -9,6 +9,394 @@
       "value": "视图筛选功能与分组侧栏整合。点击「视图筛选」可展开视图、筛选、排序面板。"
     },
     {
+      "key": "unarchived.success.hint.testcase",
+      "value": "请在测试计划中查看，<a>打开测试用例</a>"
+    },
+    {
+      "key": "toast.testcase.move.success",
+      "value": "成功变更执行用例"
+    },
+    {
+      "key": "toast.testcase.fork.success",
+      "value": "成功复制执行用例："
+    },
+    {
+      "key": "toast.testcase.delete.success",
+      "value": "删除成功"
+    },
+    {
+      "key": "toast.testcase.create.success",
+      "value": "成功创建执行用例："
+    },
+    {
+      "key": "testplan.uncompleted.testcases.count",
+      "value": "待执行用例：%s"
+    },
+    {
+      "key": "testplan.step.cell.placeholder",
+      "value": "待添加"
+    },
+    {
+      "key": "testplan.no.testcase",
+      "value": "暂无可执行用例"
+    },
+    {
+      "key": "testplan.name",
+      "value": "测试计划名称"
+    },
+    {
+      "key": "testplan.menu",
+      "value": "测试计划菜单"
+    },
+    {
+      "key": "testplan.input.name",
+      "value": "输入测试计划名称"
+    },
+    {
+      "key": "testplan.import.testcases",
+      "value": "批量导入"
+    },
+    {
+      "key": "testplan.edit",
+      "value": "编辑测试计划"
+    },
+    {
+      "key": "testplan.dumb.selector.input.placeholder",
+      "value": "搜索计划"
+    },
+    {
+      "key": "testplan.delete.confirm.with.testcases",
+      "value": "当前测试计划中有 %s 个用例，删除后用例内容会保留在回收站中，是否确定删除"
+    },
+    {
+      "key": "testplan.delete.confirm",
+      "value": "是否确定删除测试计划「 %s 」"
+    },
+    {
+      "key": "testplan.delete",
+      "value": "删除测试计划"
+    },
+    {
+      "key": "testplan.create.testcase",
+      "value": "创建用例"
+    },
+    {
+      "key": "testplan.create",
+      "value": "创建测试计划"
+    },
+    {
+      "key": "testplan.completed.percentage",
+      "value": "测试完成度：%s %"
+    },
+    {
+      "key": "testplan.choose.start.date",
+      "value": "选择开始时间（选填）"
+    },
+    {
+      "key": "testplan.choose.due.date",
+      "value": "选择结束时间（选填）"
+    },
+    {
+      "key": "testcase.title",
+      "value": "标题"
+    },
+    {
+      "key": "testcase.testplan.selector.placeholder",
+      "value": "选择计划"
+    },
+    {
+      "key": "testcase.task.linker.placeholder",
+      "value": "任务来源"
+    },
+    {
+      "key": "testcase.step.row.remove.title",
+      "value": "移除操作步骤"
+    },
+    {
+      "key": "testcase.step.row.remove.submit",
+      "value": "确定"
+    },
+    {
+      "key": "testcase.step.row.remove.description",
+      "value": "确定移除该步骤吗？"
+    },
+    {
+      "key": "testcase.step.expected",
+      "value": "预期结果"
+    },
+    {
+      "key": "testcase.step.desc",
+      "value": "步骤描述"
+    },
+    {
+      "key": "testcase.scenariofields.precondition.placeholder",
+      "value": "待添加"
+    },
+    {
+      "key": "testcase.scenariofield.steps",
+      "value": "操作步骤"
+    },
+    {
+      "key": "testcase.scenariofield.priority.p5",
+      "value": "P5"
+    },
+    {
+      "key": "testcase.scenariofield.priority.p4",
+      "value": "P4"
+    },
+    {
+      "key": "testcase.scenariofield.priority.p3",
+      "value": "P3"
+    },
+    {
+      "key": "testcase.scenariofield.priority.p2",
+      "value": "P2"
+    },
+    {
+      "key": "testcase.scenariofield.priority.p1",
+      "value": "P1"
+    },
+    {
+      "key": "testcase.scenariofield.priority.p0",
+      "value": "P0"
+    },
+    {
+      "key": "testcase.scenariofield.priority",
+      "value": "用例等级"
+    },
+    {
+      "key": "testcase.scenariofield.precondition",
+      "value": "前置条件"
+    },
+    {
+      "key": "testcase.scenariofield.more",
+      "value": "更多"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.unset",
+      "value": "无"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.security",
+      "value": "安全相关"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.placeholder",
+      "value": "待添加"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.performance",
+      "value": "性能测试"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.other",
+      "value": "其它"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.function",
+      "value": "功能测试"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.deployment",
+      "value": "安装部署"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.config",
+      "value": "配置相关"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.api",
+      "value": "接口测试"
+    },
+    {
+      "key": "testcase.scenariofield.caseType",
+      "value": "用例类型"
+    },
+    {
+      "key": "testcase.requirements.linker.placeholder",
+      "value": "需求来源"
+    },
+    {
+      "key": "testcase.menu.title.delete",
+      "value": "移到回收站"
+    },
+    {
+      "key": "testcase.menu.title",
+      "value": "用例菜单"
+    },
+    {
+      "key": "testcase.menu.submit",
+      "value": "确定"
+    },
+    {
+      "key": "testcase.menu.move.title",
+      "value": "变更到"
+    },
+    {
+      "key": "testcase.menu.move.testplan",
+      "value": "测试计划"
+    },
+    {
+      "key": "testcase.menu.move.hint",
+      "value": "执行用例状态默认为当前状态"
+    },
+    {
+      "key": "testcase.menu.move",
+      "value": "变更计划"
+    },
+    {
+      "key": "testcase.menu.fork",
+      "value": "复制执行用例"
+    },
+    {
+      "key": "testcase.menu.delete.description",
+      "value": "确定将该执行用例移到回收站吗？"
+    },
+    {
+      "key": "testcase.menu.delete",
+      "value": "移到回收站"
+    },
+    {
+      "key": "testcase.menu.copy.title",
+      "value": "复制到"
+    },
+    {
+      "key": "testcase.menu.copy.testplan",
+      "value": "测试计划"
+    },
+    {
+      "key": "testcase.menu.copy.link",
+      "value": "复制链接"
+    },
+    {
+      "key": "testcase.menu.copy.hint",
+      "value": "执行者、参与者、动态将不会被复制"
+    },
+    {
+      "key": "testcase.menu.copy",
+      "value": "复制用例"
+    },
+    {
+      "key": "testcase.link.task",
+      "value": "关联任务"
+    },
+    {
+      "key": "testcase.import.upload",
+      "value": "上传文件"
+    },
+    {
+      "key": "testcase.import.title",
+      "value": "用例导入"
+    },
+    {
+      "key": "testcase.import.steps.title.import.file",
+      "value": "导入文件"
+    },
+    {
+      "key": "testcase.import.steps.title.downloadtemplate",
+      "value": "下载执行用例的模板"
+    },
+    {
+      "key": "testcase.import.steps.subtitle.rule",
+      "value": "任务字段不符合规则，整条任务不予以导入"
+    },
+    {
+      "key": "testcase.import.steps.subtitle.fileType",
+      "value": "支持文件类型：xls，xlsx，csv"
+    },
+    {
+      "key": "testcase.import.steps.subtitle.downloadTemplate",
+      "value": "请先下载「%s_执行用例_导入模板」并按照模板填写后再上传。"
+    },
+    {
+      "key": "testcase.import.steps.subtitle.caseLimit",
+      "value": "支持所有基础字段的导入，一次至多导入 500 条任务"
+    },
+    {
+      "key": "testcase.import.info.success",
+      "value": "文件解析成功，点击「确定导入」即可导入"
+    },
+    {
+      "key": "testcase.import.info.error",
+      "value": "文件解析失败，请查看导入规则并更新文件"
+    },
+    {
+      "key": "testcase.import.file.status.uploading",
+      "value": "正在上传"
+    },
+    {
+      "key": "testcase.import.file.status.update",
+      "value": "更新文件"
+    },
+    {
+      "key": "testcase.import.file.status.parsing",
+      "value": "正在解析"
+    },
+    {
+      "key": "testcase.import.error.table.row",
+      "value": "行号"
+    },
+    {
+      "key": "testcase.import.error.table.reason",
+      "value": "错误原因"
+    },
+    {
+      "key": "testcase.import.error.table.content",
+      "value": "单元格内容"
+    },
+    {
+      "key": "testcase.import.error.table.celName",
+      "value": "列标题"
+    },
+    {
+      "key": "testcase.import.error.reUpload",
+      "value": "重新上传"
+    },
+    {
+      "key": "testcase.import.error.content.title",
+      "value": "文件上传成功，共 %s 条执行用例，其中 %s 条可成功导入。"
+    },
+    {
+      "key": "testcase.import.error.content.subtitle",
+      "value": "发现以下 %s 条不符合要求的执行用例，将不会被导入"
+    },
+    {
+      "key": "testcase.import.downloadTemplate",
+      "value": "下载模板"
+    },
+    {
+      "key": "testcase.import.confirm.import",
+      "value": "确定导入"
+    },
+    {
+      "key": "testcase.flowstatus",
+      "value": "状态"
+    },
+    {
+      "key": "testcase.edit.flowstatus",
+      "value": "修改状态"
+    },
+    {
+      "key": "testcase.detail.linked.length",
+      "value": "该测试用例被关联 %s 次"
+    },
+    {
+      "key": "testcase.creator.title",
+      "value": "创建执行用例"
+    },
+    {
+      "key": "testcase.creator.testplan.trigger.placeholder",
+      "value": "未选择"
+    },
+    {
+      "key": "testcase.creator.content.editor.placeholder",
+      "value": "输入执行用例标题"
+    },
+    {
+      "key": "testcase.archived.header.delete.message",
+      "value": "该执行用例将被永久删除。"
+    },
+    {
       "key": "tasklist.view.filter",
       "value": "视图筛选"
     },
@@ -309,6 +697,18 @@
       "value": "已归档项目"
     },
     {
+      "key": "powerups.testplan.short.des",
+      "value": "帮助测试人员进行测试过程的全跟踪"
+    },
+    {
+      "key": "powerups.testplan.des",
+      "value": "测试计划可以帮助测试人员对测试过程进行管理和协同，可以有效提高测试工作的效率。支持状态的修改和执行过程的记录，可以方便的创建、关联缺陷，并提供全面的测试报告分析。"
+    },
+    {
+      "key": "powerups.testplan",
+      "value": "测试计划"
+    },
+    {
       "key": "portal.unsuspend.project.title",
       "value": "取消归档项目"
     },
@@ -361,6 +761,26 @@
       "value": "关闭窗口会导致未保存的修改丢失，请确认"
     },
     {
+      "key": "object.detail.lined.testcase.title",
+      "value": "被以下测试用例关联"
+    },
+    {
+      "key": "object.creator.submit.and.continue",
+      "value": "完成并创建下一个"
+    },
+    {
+      "key": "object.creator.submit",
+      "value": "完成"
+    },
+    {
+      "key": "no.testplan",
+      "value": "暂无测试计划"
+    },
+    {
+      "key": "navigation.testcase",
+      "value": "测试用例"
+    },
+    {
       "key": "my.rencent.visit.projects",
       "value": "我最近访问的项目"
     },
@@ -377,12 +797,20 @@
       "value": "你仍可以从归档入口查看该项目的内容"
     },
     {
+      "key": "link.testcase.title",
+      "value": "关联的测试用例"
+    },
+    {
       "key": "kanban.taskflow.no.task",
       "value": "该工作流中暂无内容"
     },
     {
       "key": "kanban.taskflow.no.subtask",
       "value": "该任务下暂无符合条件的子任务"
+    },
+    {
+      "key": "inbox.go.to.testplan",
+      "value": "前往测试计划"
     },
     {
       "key": "import.tasks.upload.file",
@@ -497,6 +925,10 @@
       "value": "暂无已归档项目"
     },
     {
+      "key": "filter.selector.placeholder",
+      "value": "搜索"
+    },
+    {
       "key": "edit.note",
       "value": "编辑备注"
     },
@@ -533,12 +965,52 @@
       "value": "完成并创建下一个"
     },
     {
+      "key": "archived.header.unarchive",
+      "value": "恢复内容"
+    },
+    {
+      "key": "archived.header.type.testcase",
+      "value": "测试用例"
+    },
+    {
+      "key": "archived.header.message",
+      "value": "%s已在回收站中，不可修改"
+    },
+    {
+      "key": "archived.header.delete.title",
+      "value": "彻底删除"
+    },
+    {
+      "key": "archived.header.delete.confirm",
+      "value": "确定"
+    },
+    {
+      "key": "archived.header.delete",
+      "value": "彻底删除"
+    },
+    {
+      "key": "archive.list.menu.confirm.delete.testcase",
+      "value": "该执行用例将被永久删除。"
+    },
+    {
+      "key": "agile.test.plan",
+      "value": "测试计划"
+    },
+    {
       "key": "activity.panel.import.tasks",
       "value": "导入任务"
     },
     {
       "key": "activity.panel.export.tasks",
       "value": "导出任务"
+    },
+    {
+      "key": "testplan",
+      "value": "测试计划"
+    },
+    {
+      "key": "testcase",
+      "value": "测试用例"
     },
     {
       "key": "taskflow",
