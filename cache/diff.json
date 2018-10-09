@@ -1,6 +1,10 @@
 {
   "added": [
     {
+      "key": "visible.setting",
+      "value": "隐私设置"
+    },
+    {
       "key": "view.filter.guide.button",
       "value": "我知道了"
     },
@@ -9,8 +13,76 @@
       "value": "视图筛选功能与分组侧栏整合。点击「视图筛选」可展开视图、筛选、排序面板。"
     },
     {
+      "key": "usercase.set.executor.success",
+      "value": "设置维护人成功"
+    },
+    {
+      "key": "usercase.set.executor",
+      "value": "设置维护人"
+    },
+    {
+      "key": "usercase.menu.title.delete",
+      "value": "删除基础用例"
+    },
+    {
+      "key": "usercase.menu.move.hint",
+      "value": "跨用例库移动时部分维护人信息不会保留"
+    },
+    {
+      "key": "usercase.menu.move",
+      "value": "移动用例"
+    },
+    {
+      "key": "usercase.menu.fork",
+      "value": "复制用例"
+    },
+    {
+      "key": "usercase.menu.delete.description",
+      "value": "是否确定删除？删除后，数据不可再恢复。"
+    },
+    {
+      "key": "usercase.menu.delete",
+      "value": "删除用例"
+    },
+    {
+      "key": "usercase.menu.copy.hint",
+      "value": "系统将新生成一条内容一致的用例"
+    },
+    {
+      "key": "usercase.creator.title",
+      "value": "创建基础用例"
+    },
+    {
+      "key": "update.reminders",
+      "value": "更新提醒"
+    },
+    {
       "key": "unarchived.success.hint.testcase",
       "value": "请在测试计划中查看，<a>打开测试用例</a>"
+    },
+    {
+      "key": "toast.usercase.plan.success",
+      "value": "成功规划用例至："
+    },
+    {
+      "key": "toast.usercase.move.success",
+      "value": "移动成功"
+    },
+    {
+      "key": "toast.usercase.fork.success",
+      "value": "成功复制用例："
+    },
+    {
+      "key": "toast.usercase.delete.success",
+      "value": "删除成功"
+    },
+    {
+      "key": "toast.testcase.sync.success",
+      "value": "成功同步用例内容至用例库"
+    },
+    {
+      "key": "toast.testcase.save.success",
+      "value": "成功保存用例内容至用例库"
     },
     {
       "key": "toast.testcase.move.success",
@@ -33,12 +105,36 @@
       "value": "待执行用例：%s"
     },
     {
+      "key": "testplan.testgroup.unplanned.name",
+      "value": "未归入用例库的用例"
+    },
+    {
       "key": "testplan.step.cell.placeholder",
       "value": "待添加"
     },
     {
+      "key": "testplan.selector.placeholder",
+      "value": "选择项目"
+    },
+    {
+      "key": "testplan.plan.toast.not.activiate",
+      "value": "当前未开启「测试用例」应用，无法使用规划用例功能；如需使用，请联系管理员开启"
+    },
+    {
+      "key": "testplan.plan.toast.no.testhub",
+      "value": "当前无任何用例库的使用权限，无法使用规划用例功能；如需使用，请联系管理员授权"
+    },
+    {
+      "key": "testplan.plan.testcase",
+      "value": "规划用例"
+    },
+    {
       "key": "testplan.no.testcase",
       "value": "暂无可执行用例"
+    },
+    {
+      "key": "testplan.no.duration",
+      "value": "无指定时间"
     },
     {
       "key": "testplan.name",
@@ -66,7 +162,7 @@
     },
     {
       "key": "testplan.delete.confirm.with.testcases",
-      "value": "当前测试计划中有 %s 个用例，删除后用例内容会保留在回收站中，是否确定删除"
+      "value": "当前测试计划中有 %s 个用例，删除后用例内容会直接被删除，是否确定删除"
     },
     {
       "key": "testplan.delete.confirm",
@@ -79,6 +175,10 @@
     {
       "key": "testplan.create.testcase",
       "value": "创建用例"
+    },
+    {
+      "key": "testplan.create.success",
+      "value": "测试计划创建成功"
     },
     {
       "key": "testplan.create",
@@ -95,6 +195,238 @@
     {
       "key": "testplan.choose.due.date",
       "value": "选择结束时间（选填）"
+    },
+    {
+      "key": "testhub.testgroup.rootgroup.name",
+      "value": "未分组的用例"
+    },
+    {
+      "key": "testhub.sidebar.breadcrumb.home",
+      "value": "首页"
+    },
+    {
+      "key": "testhub.settings.title",
+      "value": "用例库设置"
+    },
+    {
+      "key": "testhub.settings.tab.more",
+      "value": "更多"
+    },
+    {
+      "key": "testhub.settings.tab.info",
+      "value": "用例库信息"
+    },
+    {
+      "key": "testhub.settings.more.delete.title",
+      "value": "删除用例库"
+    },
+    {
+      "key": "testhub.settings.more.delete.submit",
+      "value": "删除用例库"
+    },
+    {
+      "key": "testhub.settings.more.delete.description",
+      "value": "请谨慎执行删除操作，删除后不可恢复"
+    },
+    {
+      "key": "testhub.settings.more.delete.confirm.title",
+      "value": "删除用例库"
+    },
+    {
+      "key": "testhub.settings.more.delete.confirm.message",
+      "value": "一旦将用例库「%s」删除，所有与用例库相关的信息将会被彻底删除，删除后不可恢复，请谨慎对待！"
+    },
+    {
+      "key": "testhub.settings.info.title",
+      "value": "用例库信息"
+    },
+    {
+      "key": "testhub.settings.info.success",
+      "value": "保存成功"
+    },
+    {
+      "key": "testhub.settings.info.save",
+      "value": "保存"
+    },
+    {
+      "key": "testhub.settings.delete.success",
+      "value": "用例库删除成功"
+    },
+    {
+      "key": "testhub.no.usercase",
+      "value": "暂无基础用例"
+    },
+    {
+      "key": "testhub.delete.usercases.notice2",
+      "value": "删除后，数据不可再恢复。"
+    },
+    {
+      "key": "testhub.delete.usercases.notice1",
+      "value": "是否确定删除 %s 个基础用例？"
+    },
+    {
+      "key": "testhub.delete.usercases",
+      "value": "删除基础用例"
+    },
+    {
+      "key": "testhub.delete.cases",
+      "value": "删除用例"
+    },
+    {
+      "key": "testhub.creator.success",
+      "value": "用例库创建成功"
+    },
+    {
+      "key": "testhub.creator.message",
+      "value": "为不同的产品线建立各自的用例库"
+    },
+    {
+      "key": "testhub.app.header",
+      "value": "所有用例库"
+    },
+    {
+      "key": "testhub.app.creator.title",
+      "value": "创建用例库"
+    },
+    {
+      "key": "testhub.app.creator.submit",
+      "value": "完成并创建"
+    },
+    {
+      "key": "testhub.app.creator.name.placeholder",
+      "value": "用例库名称（必填）"
+    },
+    {
+      "key": "testhub.app.creator.description.placeholder",
+      "value": "用例库简介（选填）"
+    },
+    {
+      "key": "testhub.app.creator",
+      "value": "创建用例库"
+    },
+    {
+      "key": "testgroup.tree.nohub",
+      "value": "未归入用例库的分组"
+    },
+    {
+      "key": "testgroup.tree.all",
+      "value": "全部用例"
+    },
+    {
+      "key": "testgroup.seletor.trigger.placeholder",
+      "value": "未归入用例库"
+    },
+    {
+      "key": "testgroup.selector.title",
+      "value": "选择位置"
+    },
+    {
+      "key": "testgroup.selector.testhub.select.title",
+      "value": "选择用例库"
+    },
+    {
+      "key": "testgroup.selector.testhub.select.input.placeholder",
+      "value": "搜索用例库"
+    },
+    {
+      "key": "testgroup.selector.testhub.name",
+      "value": "未归入用例库"
+    },
+    {
+      "key": "testgroup.selector.testhub.label",
+      "value": "用例库"
+    },
+    {
+      "key": "testgroup.selector.testgroup.unset.name",
+      "value": "选择分组"
+    },
+    {
+      "key": "testgroup.selector.testgroup.select.title",
+      "value": "选择分组"
+    },
+    {
+      "key": "testgroup.selector.testgroup.select.input.placeholder",
+      "value": "搜索分组"
+    },
+    {
+      "key": "testgroup.selector.testgroup.name",
+      "value": "未分组的用例"
+    },
+    {
+      "key": "testgroup.selector.testgroup.label",
+      "value": "分组"
+    },
+    {
+      "key": "testgroup.selector.submit",
+      "value": "确定"
+    },
+    {
+      "key": "testgroup.menu.edit",
+      "value": "编辑分组"
+    },
+    {
+      "key": "testgroup.menu.delete",
+      "value": "删除分组"
+    },
+    {
+      "key": "testgroup.editor.title",
+      "value": "编辑分组"
+    },
+    {
+      "key": "testgroup.editor.save",
+      "value": "保存"
+    },
+    {
+      "key": "testgroup.editor.edit.title",
+      "value": "编辑分组"
+    },
+    {
+      "key": "testgroup.editor.delete.title",
+      "value": "删除分组"
+    },
+    {
+      "key": "testgroup.editor.delete.submit",
+      "value": "删除"
+    },
+    {
+      "key": "testgroup.editor.delete.message",
+      "value": "确定删除此分组吗？"
+    },
+    {
+      "key": "testgroup.doublecheck.submit",
+      "value": "删除"
+    },
+    {
+      "key": "testgroup.doublecheck.option.move",
+      "value": "仅删除分组，用例移至未分组用例中"
+    },
+    {
+      "key": "testgroup.doublecheck.option.delete",
+      "value": "将分组下的所有用例删除，不可恢复"
+    },
+    {
+      "key": "testgroup.doublecheck.message",
+      "value": "当前分组下有 %s 条基础用例："
+    },
+    {
+      "key": "testgroup.creator.title.placeholder",
+      "value": "分组名称"
+    },
+    {
+      "key": "testgroup.creator.title.error",
+      "value": "请限制在 12 字以内"
+    },
+    {
+      "key": "testgroup.creator.title",
+      "value": "创建分组"
+    },
+    {
+      "key": "testgroup.creator.save",
+      "value": "创建"
+    },
+    {
+      "key": "testgroup.creator.handler",
+      "value": "添加分组"
     },
     {
       "key": "testcase.title",
@@ -213,8 +545,36 @@
       "value": "用例类型"
     },
     {
+      "key": "testcase.save.to.testhub.success",
+      "value": "成功保存用例内容至用例库"
+    },
+    {
+      "key": "testcase.save.to.testhub",
+      "value": "保存至用例库"
+    },
+    {
       "key": "testcase.requirements.linker.placeholder",
       "value": "需求来源"
+    },
+    {
+      "key": "testcase.plan.submit",
+      "value": "确定"
+    },
+    {
+      "key": "testcase.plan.modal.title",
+      "value": "规划用例"
+    },
+    {
+      "key": "testcase.menu.update.to.testhub.description",
+      "value": "确认将当前执行用例的内容同步至用例库中吗？系统将会自动更新关联的基础用例内容。"
+    },
+    {
+      "key": "testcase.menu.update.to.testhub",
+      "value": "同步至用例库"
+    },
+    {
+      "key": "testcase.menu.title.update.to.testhub",
+      "value": "同步至用例库"
     },
     {
       "key": "testcase.menu.title.delete",
@@ -229,12 +589,20 @@
       "value": "确定"
     },
     {
+      "key": "testcase.menu.save.to.testhub",
+      "value": "保存至用例库"
+    },
+    {
       "key": "testcase.menu.move.title",
       "value": "变更到"
     },
     {
       "key": "testcase.menu.move.testplan",
       "value": "测试计划"
+    },
+    {
+      "key": "testcase.menu.move.success",
+      "value": "变更计划成功"
     },
     {
       "key": "testcase.menu.move.hint",
@@ -285,8 +653,20 @@
       "value": "上传文件"
     },
     {
+      "key": "testcase.import.type.usercase",
+      "value": "基础用例"
+    },
+    {
+      "key": "testcase.import.type.testcase",
+      "value": "执行用例"
+    },
+    {
       "key": "testcase.import.title",
       "value": "用例导入"
+    },
+    {
+      "key": "testcase.import.success",
+      "value": "成功导入 %s 条用例"
     },
     {
       "key": "testcase.import.steps.title.import.file",
@@ -294,11 +674,11 @@
     },
     {
       "key": "testcase.import.steps.title.downloadtemplate",
-      "value": "下载执行用例的模板"
+      "value": "下载%s的模板"
     },
     {
       "key": "testcase.import.steps.subtitle.rule",
-      "value": "任务字段不符合规则，整条任务不予以导入"
+      "value": "用例字段不符合规则，整条用例不予以导入"
     },
     {
       "key": "testcase.import.steps.subtitle.fileType",
@@ -306,11 +686,11 @@
     },
     {
       "key": "testcase.import.steps.subtitle.downloadTemplate",
-      "value": "请先下载「%s_执行用例_导入模板」并按照模板填写后再上传。"
+      "value": "请先下载「%s_%s_导入模板」并按照模板填写后再上传。"
     },
     {
       "key": "testcase.import.steps.subtitle.caseLimit",
-      "value": "支持所有基础字段的导入，一次至多导入 500 条任务"
+      "value": "支持所有基础字段的导入，一次至多导入 500 条用例"
     },
     {
       "key": "testcase.import.info.success",
@@ -331,6 +711,10 @@
     {
       "key": "testcase.import.file.status.parsing",
       "value": "正在解析"
+    },
+    {
+      "key": "testcase.import.exceed.limit",
+      "value": "最多只能导入 500 个用例"
     },
     {
       "key": "testcase.import.error.table.row",
@@ -373,8 +757,20 @@
       "value": "状态"
     },
     {
+      "key": "testcase.executor.title",
+      "value": "维护人"
+    },
+    {
+      "key": "testcase.edit.flowstatus.success",
+      "value": "修改状态成功"
+    },
+    {
       "key": "testcase.edit.flowstatus",
       "value": "修改状态"
+    },
+    {
+      "key": "testcase.edit.executor.success",
+      "value": "设置执行者成功"
     },
     {
       "key": "testcase.detail.linked.length",
@@ -389,12 +785,52 @@
       "value": "未选择"
     },
     {
+      "key": "testcase.creator.testhub.tip",
+      "value": "创建执行用例的同时，系统会同步创建对应用例库中关联的基础用例"
+    },
+    {
       "key": "testcase.creator.content.editor.placeholder",
       "value": "输入执行用例标题"
     },
     {
+      "key": "testcase.bulk.save",
+      "value": "批量保存"
+    },
+    {
       "key": "testcase.archived.header.delete.message",
       "value": "该执行用例将被永久删除。"
+    },
+    {
+      "key": "testapp.guide.modal.title",
+      "value": "聚焦产品交付质量提升 - 「测试应用」正式上线！"
+    },
+    {
+      "key": "testapp.guide.modal.open.testplan",
+      "value": "开启「测试计划」"
+    },
+    {
+      "key": "testapp.guide.modal.open.testhub",
+      "value": "开启「测试用例」"
+    },
+    {
+      "key": "testapp.guide.modal.goto.testplan",
+      "value": "打开「测试计划」"
+    },
+    {
+      "key": "testapp.guide.modal.goto.testhub",
+      "value": "打开「测试用例」"
+    },
+    {
+      "key": "testapp.guide.modal.description.2",
+      "value": "通过「测试计划」有序管理测试过程，并关联需求缺陷、提供全面的测试分析报告"
+    },
+    {
+      "key": "testapp.guide.modal.description.1",
+      "value": "高效撰写、沉淀用例、重复可用；"
+    },
+    {
+      "key": "testapp.guide.modal.contact.admin",
+      "value": "联系企业管理员或项目管理员打开测试应用"
     },
     {
       "key": "tasklist.view.filter",
@@ -457,12 +893,44 @@
       "value": "添加新提醒"
     },
     {
+      "key": "task.id.previous",
+      "value": "历史 ID: "
+    },
+    {
+      "key": "task.id.click.to.copy.success",
+      "value": "任务 ID 复制成功"
+    },
+    {
+      "key": "task.copy.reminder",
+      "value": "任务提醒"
+    },
+    {
+      "key": "task.copy.recurrence",
+      "value": "任务重复设置"
+    },
+    {
+      "key": "task.copy.executor.hint",
+      "value": "如果当前选择的执行者与参与者没有被添加到目标项目中，复制过程中可能被丢失"
+    },
+    {
+      "key": "task.copy.batch.scenario",
+      "value": "所配置的字段"
+    },
+    {
+      "key": "task.content",
+      "value": "任务名称"
+    },
+    {
       "key": "table.task.creator",
       "value": "创建者"
     },
     {
       "key": "table.task.created.at.date",
       "value": "创建时间"
+    },
+    {
+      "key": "table.batch.testcase.executor",
+      "value": "设置维护人"
     },
     {
       "key": "searcher.task.progress",
@@ -685,6 +1153,18 @@
       "value": "移至回收站"
     },
     {
+      "key": "project.selector.overdue",
+      "value": "该项目已过期"
+    },
+    {
+      "key": "project.selector.no.permission",
+      "value": "暂无权限"
+    },
+    {
+      "key": "project.selector.application.disabled.tasks",
+      "value": "任务未开启"
+    },
+    {
       "key": "project.panel.activity.project.unsuspend",
       "value": "恢复了项目"
     },
@@ -693,8 +1173,444 @@
       "value": "归档了项目"
     },
     {
+      "key": "project.overview.template.title",
+      "value": "「%s」字段预览"
+    },
+    {
+      "key": "project.overview.template.confirm",
+      "value": "确定"
+    },
+    {
+      "key": "project.overview.status.send.to.group.chat",
+      "value": "推送到项目群聊"
+    },
+    {
+      "key": "project.overview.status.send",
+      "value": "发布"
+    },
+    {
+      "key": "project.overview.status.post.success.description",
+      "value": "开通 <a>群聊</a> 即可推送状态"
+    },
+    {
+      "key": "project.overview.status.post.success",
+      "value": "发布成功"
+    },
+    {
+      "key": "project.overview.status.placeholder",
+      "value": "暂无项目状态"
+    },
+    {
+      "key": "project.overview.status.more",
+      "value": "查看历史状态"
+    },
+    {
+      "key": "project.overview.status.modal.title",
+      "value": "项目状态"
+    },
+    {
+      "key": "project.overview.status.info.placeholder",
+      "value": "输入项目状态变更理由"
+    },
+    {
+      "key": "project.overview.status.date",
+      "value": "%s月%s日"
+    },
+    {
+      "key": "project.overview.progress.update.success.toast",
+      "value": "项目简介已更新"
+    },
+    {
+      "key": "project.overview.progress.description.placeholder",
+      "value": "点击添加项目简介"
+    },
+    {
+      "key": "project.overview.info.placeholder",
+      "value": "暂无项目信息"
+    },
+    {
+      "key": "project.overview.info.create.from.templates",
+      "value": "从项目模版中添加"
+    },
+    {
+      "key": "project.overview.info.create.directly",
+      "value": "直接添加"
+    },
+    {
+      "key": "project.overview.info",
+      "value": "项目信息"
+    },
+    {
+      "key": "project.overview.entry.outcome",
+      "value": "支出 ¥ %s"
+    },
+    {
+      "key": "project.overview.entry.income",
+      "value": "收入 ¥ %s"
+    },
+    {
+      "key": "project.overview.degree.urgent",
+      "value": "进度失控"
+    },
+    {
+      "key": "project.overview.degree.risky",
+      "value": "存在风险"
+    },
+    {
+      "key": "project.overview.degree.normal",
+      "value": "进度正常"
+    },
+    {
+      "key": "project.overview.click.show.more",
+      "value": "点击查看更多"
+    },
+    {
+      "key": "project.overview.app.notice.title",
+      "value": "项目信息升级为「概览」"
+    },
+    {
+      "key": "project.overview.app.notice.enable",
+      "value": "立即开启"
+    },
+    {
+      "key": "project.overview.app.notice.desc",
+      "value": "项目进展及动态已迁移到「概览」应用中，并新增项目状态等更多功能。"
+    },
+    {
+      "key": "project.overview.activity.project.update.visibility",
+      "value": "将项目设置为"
+    },
+    {
+      "key": "project.overview.activity.project.update.name",
+      "value": "修改了项目名称"
+    },
+    {
+      "key": "project.overview.activity.project.update.logo",
+      "value": "更新了项目封面"
+    },
+    {
+      "key": "project.overview.activity.project.update.description",
+      "value": "修改了项目简介"
+    },
+    {
+      "key": "project.overview.activity.project.unsuspend",
+      "value": "恢复了项目"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.work.readonly",
+      "value": "取消了文件只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.work.invited",
+      "value": "取消了文件邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.task.readonly",
+      "value": "取消了任务只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.task.invited",
+      "value": "取消了任务邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.post.readonly",
+      "value": "取消了分享只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.post.invited",
+      "value": "取消了分享邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.event.readonly",
+      "value": "取消了日程只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.unshare.event.invited",
+      "value": "取消了日程邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.work",
+      "value": "恢复了文件"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.tasklist",
+      "value": "恢复了任务分组"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.task",
+      "value": "恢复了任务"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.tag",
+      "value": "恢复了标签"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.post",
+      "value": "恢复了分享"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.event",
+      "value": "恢复了日程"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.entry",
+      "value": "恢复了记账"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive.collection",
+      "value": "恢复了文件夹"
+    },
+    {
+      "key": "project.overview.activity.project.unarchive",
+      "value": "恢复了项目"
+    },
+    {
+      "key": "project.overview.activity.project.transfer.to.user",
+      "value": "将项目移交给用户"
+    },
+    {
+      "key": "project.overview.activity.project.transfer.to.organization",
+      "value": "将项目移交给企业"
+    },
+    {
+      "key": "project.overview.activity.project.suspend",
+      "value": "归档了项目"
+    },
+    {
+      "key": "project.overview.activity.project.share.work.readonly",
+      "value": "开启了文件只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.share.work.invited",
+      "value": "开启了文件邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.share.task.readonly",
+      "value": "开启了任务只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.share.task.invited",
+      "value": "开启了任务邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.share.post.readonly",
+      "value": "开启了分享只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.share.post.invited",
+      "value": "开启了分享邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.share.event.readonly",
+      "value": "开启了日程只读共享"
+    },
+    {
+      "key": "project.overview.activity.project.share.event.invited",
+      "value": "开启了日程邀请共享"
+    },
+    {
+      "key": "project.overview.activity.project.remove.work",
+      "value": "删除了文件"
+    },
+    {
+      "key": "project.overview.activity.project.remove.team.and.members",
+      "value": "移除了企业部门及部门成员"
+    },
+    {
+      "key": "project.overview.activity.project.remove.team",
+      "value": "移除了企业部门 %s，但保留部门成员"
+    },
+    {
+      "key": "project.overview.activity.project.remove.tasklist",
+      "value": "删除了任务分组"
+    },
+    {
+      "key": "project.overview.activity.project.remove.task",
+      "value": "删除了任务"
+    },
+    {
+      "key": "project.overview.activity.project.remove.tag",
+      "value": "删除了标签"
+    },
+    {
+      "key": "project.overview.activity.project.remove.self",
+      "value": "退出了项目"
+    },
+    {
+      "key": "project.overview.activity.project.remove.post",
+      "value": "删除了分享"
+    },
+    {
+      "key": "project.overview.activity.project.remove.member",
+      "value": "移除了成员"
+    },
+    {
+      "key": "project.overview.activity.project.remove.event",
+      "value": "删除了日程"
+    },
+    {
+      "key": "project.overview.activity.project.remove.entry",
+      "value": "删除了记账"
+    },
+    {
+      "key": "project.overview.activity.project.remove.collection",
+      "value": "删除了文件夹"
+    },
+    {
+      "key": "project.overview.activity.project.remove",
+      "value": "删除了项目"
+    },
+    {
+      "key": "project.overview.activity.project.redo.task",
+      "value": "重做了任务"
+    },
+    {
+      "key": "project.overview.activity.project.join.from.weixin",
+      "value": "通过微信平台加入项目"
+    },
+    {
+      "key": "project.overview.activity.project.join.from.user.qrcode",
+      "value": "通过 %s 分享的二维码加入项目"
+    },
+    {
+      "key": "project.overview.activity.project.join.from.user.invite.link",
+      "value": "通过 %s 分享的邀请链接加入项目"
+    },
+    {
+      "key": "project.overview.activity.project.join.from.qrcode",
+      "value": "通过二维码加入项目"
+    },
+    {
+      "key": "project.overview.activity.project.join.from.invite.link",
+      "value": "通过项目链接加入项目"
+    },
+    {
+      "key": "project.overview.activity.project.join.as.organization.owner",
+      "value": "作为企业拥有者加入项目"
+    },
+    {
+      "key": "project.overview.activity.project.invite.members",
+      "value": "邀请 %s 加入项目"
+    },
+    {
+      "key": "project.overview.activity.project.finish.task",
+      "value": "完成了任务"
+    },
+    {
+      "key": "project.overview.activity.project.enable.plugin",
+      "value": "打开了插件"
+    },
+    {
+      "key": "project.overview.activity.project.enable.application",
+      "value": "打开了应用"
+    },
+    {
+      "key": "project.overview.activity.project.disable.plugin",
+      "value": "关闭了插件"
+    },
+    {
+      "key": "project.overview.activity.project.disable.application",
+      "value": "关闭了应用"
+    },
+    {
+      "key": "project.overview.activity.project.create.works",
+      "value": "上传了文件"
+    },
+    {
+      "key": "project.overview.activity.project.create.tasklist",
+      "value": "创建了任务分组"
+    },
+    {
+      "key": "project.overview.activity.project.create.task",
+      "value": "创建了任务"
+    },
+    {
+      "key": "project.overview.activity.project.create.tag",
+      "value": "创建了标签"
+    },
+    {
+      "key": "project.overview.activity.project.create.post",
+      "value": "创建了分享"
+    },
+    {
+      "key": "project.overview.activity.project.create.event",
+      "value": "创建了日程"
+    },
+    {
+      "key": "project.overview.activity.project.create.entry",
+      "value": "创建了记账"
+    },
+    {
+      "key": "project.overview.activity.project.create.collection",
+      "value": "创建了文件夹"
+    },
+    {
+      "key": "project.overview.activity.project.archive.work",
+      "value": "把文件移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive.tasklist",
+      "value": "把任务分组移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive.task",
+      "value": "把任务移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive.tag",
+      "value": "把标签移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive.post",
+      "value": "把分享移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive.event",
+      "value": "把日程移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive.entry",
+      "value": "把记账移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive.collection",
+      "value": "把文件夹移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.archive",
+      "value": "把项目移到了回收站"
+    },
+    {
+      "key": "project.overview.activity.project.add.team.and.members",
+      "value": "添加了企业部门及部门成员"
+    },
+    {
+      "key": "project.overview.activities.empty",
+      "value": "暂无项目动态"
+    },
+    {
+      "key": "project.number.task.id.prefix",
+      "value": "项目编号（任务 ID 前缀）"
+    },
+    {
+      "key": "project.info.set.menu",
+      "value": "字段菜单"
+    },
+    {
       "key": "project.hierarchy.suspended.projects",
       "value": "已归档项目"
+    },
+    {
+      "key": "project.belongsTo",
+      "value": "属于："
+    },
+    {
+      "key": "project.addmenu.search.not.found",
+      "value": "没有匹配的项目"
+    },
+    {
+      "key": "project.addmenu.content.empty",
+      "value": "暂无可选择的项目"
     },
     {
       "key": "powerups.testplan.short.des",
@@ -707,6 +1623,10 @@
     {
       "key": "powerups.testplan",
       "value": "测试计划"
+    },
+    {
+      "key": "powerups.taskUniqueId.dialog.hint.existant",
+      "value": "项目编号重复，请重新输入"
     },
     {
       "key": "portal.unsuspend.project.title",
@@ -745,6 +1665,10 @@
       "value": "归档"
     },
     {
+      "key": "plan.to.testplan",
+      "value": "规划进计划"
+    },
+    {
       "key": "personal.settings.display.project.orderBy.recentVisit.text",
       "value": "最近访问"
     },
@@ -761,6 +1685,110 @@
       "value": "关闭窗口会导致未保存的修改丢失，请确认"
     },
     {
+      "key": "org.gantt.zoomOut.limit.content",
+      "value": "当前显示的任务较多，为保证浏览体验，暂不支持进一步缩放视图"
+    },
+    {
+      "key": "org.gantt.view.switcher.project",
+      "value": "按项目查看"
+    },
+    {
+      "key": "org.gantt.view.switcher.executor",
+      "value": "按成员查看"
+    },
+    {
+      "key": "org.gantt.too.much.subscribers.warning",
+      "value": "为保证浏览体验，建议订阅数量控制在 %s 个以内"
+    },
+    {
+      "key": "org.gantt.task.update.error.message",
+      "value": "尝试更新任务失败，请点开任务从详情页发起更新。"
+    },
+    {
+      "key": "org.gantt.task.project.updated.message",
+      "value": "任务项目已更新"
+    },
+    {
+      "key": "org.gantt.task.private.content",
+      "value": "已有任务"
+    },
+    {
+      "key": "org.gantt.task.folded.count",
+      "value": "%s 个任务"
+    },
+    {
+      "key": "org.gantt.task.executor.updated.message",
+      "value": "任务执行者已更新"
+    },
+    {
+      "key": "org.gantt.task.date.updated.message",
+      "value": "任务时间已更新"
+    },
+    {
+      "key": "org.gantt.task.date.and.project.updated.message",
+      "value": "任务时间、项目已更新"
+    },
+    {
+      "key": "org.gantt.task.date.and.executor.updated.message",
+      "value": "任务时间、执行者已更新"
+    },
+    {
+      "key": "org.gantt.subscribe.no.project",
+      "value": "暂无项目"
+    },
+    {
+      "key": "org.gantt.subscribe.no.executor",
+      "value": "暂无成员"
+    },
+    {
+      "key": "org.gantt.error.fallback.title",
+      "value": "好像出错了"
+    },
+    {
+      "key": "org.gantt.error.fallback.reload",
+      "value": "重新加载"
+    },
+    {
+      "key": "org.gantt.error.fallback.content",
+      "value": "请尝试重新载入本功能"
+    },
+    {
+      "key": "org.gantt.dependency.repeat.task.error",
+      "value": "重复任务暂不支持设置依赖关系"
+    },
+    {
+      "key": "org.gantt.dependency.error.message",
+      "value": "无法设置此依赖关系"
+    },
+    {
+      "key": "org.gantt.dependency.error.content",
+      "value": "存在依赖冲突，请重新设置"
+    },
+    {
+      "key": "org.gantt.delete.dependency.success.message",
+      "value": "成功删除依赖关系"
+    },
+    {
+      "key": "org.gantt.calendar.year",
+      "value": "%s年"
+    },
+    {
+      "key": "org.gantt.calendar.month.with.year",
+      "value": "%1年%2"
+    },
+    {
+      "key": "org.gantt.back.to.today",
+      "value": "今天"
+    },
+    {
+      "key": "org.gantt.add.project.error.message",
+      "value": "你不是这个项目的参与者，修改操作会受限，请先加入对应项目再操作"
+    },
+    {
+      "key": "org.gantt.add.dependency.success.message",
+      "value": "成功添加依赖关系"
+    },
+    {
       "key": "object.detail.lined.testcase.title",
       "value": "被以下测试用例关联"
     },
@@ -775,6 +1803,10 @@
     {
       "key": "no.testplan",
       "value": "暂无测试计划"
+    },
+    {
+      "key": "no.testcase",
+      "value": "暂无测试用例"
     },
     {
       "key": "navigation.testcase",
@@ -797,8 +1829,20 @@
       "value": "你仍可以从归档入口查看该项目的内容"
     },
     {
+      "key": "member.addmenu.search.not.found.in.organization",
+      "value": "没有匹配的成员、部门或群组"
+    },
+    {
+      "key": "member.addmenu.content.empty",
+      "value": "暂无可选择的成员、部门或群组"
+    },
+    {
       "key": "link.testcase.title",
       "value": "关联的测试用例"
+    },
+    {
+      "key": "link.contents",
+      "value": "关联内容"
     },
     {
       "key": "kanban.taskflow.no.task",
@@ -965,6 +2009,14 @@
       "value": "完成并创建下一个"
     },
     {
+      "key": "copy.contents",
+      "value": "复制内容"
+    },
+    {
+      "key": "choose.testplan",
+      "value": "选择测试计划"
+    },
+    {
       "key": "archived.header.unarchive",
       "value": "恢复内容"
     },
@@ -1027,9 +2079,22 @@
     {
       "key": "hour",
       "value": "小时"
+    },
+    {
+      "key": "due",
+      "value": "结束"
+    },
+    {
+      "key": "copy",
+      "value": "复制"
     }
   ],
   "modified": [
+    {
+      "key": "searcher.fileType",
+      "oldValue": "文档后缀",
+      "newValue": "文件后缀"
+    },
     {
       "key": "scrum.panel.status",
       "oldValue": "看板状态显示为",
@@ -1059,6 +2124,11 @@
       "key": "project.settings.archive.msg",
       "oldValue": "一旦将项目「%s」移到回收站, 所有与项目有关的信息将会被移到回收站。请谨慎对待！",
       "newValue": "一旦将项目「%s」移到回收站，所有与项目有关的信息将会被移到回收站，其中的内容也不会被统计和搜索收录，需要去回收站恢复后才能继续使用。"
+    },
+    {
+      "key": "project.creator.template.unique.id.prefix.title",
+      "oldValue": "项目编号（ID 前缀）",
+      "newValue": "项目编号（任务 ID 前缀）"
     },
     {
       "key": "portal.unarchive.project.description",
