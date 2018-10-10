@@ -845,6 +845,10 @@
       "value": "联系企业管理员或项目管理员打开测试应用"
     },
     {
+      "key": "testapp.guide.modal.close",
+      "value": "我知道了"
+    },
+    {
       "key": "tasklist.view.filter",
       "value": "视图筛选"
     },
@@ -1171,6 +1175,10 @@
     {
       "key": "project.selector.no.permission",
       "value": "暂无权限"
+    },
+    {
+      "key": "project.selector.application.disabled.testplan",
+      "value": "测试计划未开启"
     },
     {
       "key": "project.selector.application.disabled.tasks",
@@ -1614,7 +1622,7 @@
     },
     {
       "key": "project.belongsTo",
-      "value": "属于："
+      "value": "属于：%s"
     },
     {
       "key": "project.addmenu.search.not.found",
@@ -2107,6 +2115,11 @@
   ],
   "modified": [
     {
+      "key": "searcher.fileType",
+      "oldValue": "文档后缀",
+      "newValue": "文件后缀"
+    },
+    {
       "key": "scrum.panel.status",
       "oldValue": "看板状态显示为",
       "newValue": "看板列按以下工作流显示"
@@ -2140,6 +2153,386 @@
       "key": "project.settings.archive.msg",
       "oldValue": "一旦将项目「%s」移到回收站, 所有与项目有关的信息将会被移到回收站。请谨慎对待！",
       "newValue": "一旦将项目「%s」移到回收站，所有与项目有关的信息将会被移到回收站，其中的内容也不会被统计和搜索收录，需要去回收站恢复后才能继续使用。"
+    },
+    {
+      "key": "project.panel.activity.project.update.visibility",
+      "oldValue": " 将项目设置为",
+      "newValue": "将项目设置为"
+    },
+    {
+      "key": "project.panel.activity.project.update.name",
+      "oldValue": " 修改了项目名称:",
+      "newValue": "修改了项目名称"
+    },
+    {
+      "key": "project.panel.activity.project.update.logo",
+      "oldValue": " 更新了项目封面",
+      "newValue": "更新了项目封面"
+    },
+    {
+      "key": "project.panel.activity.project.update.description",
+      "oldValue": " 修改了项目简介:",
+      "newValue": "修改了项目简介"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.work.readonly",
+      "oldValue": "取消了文件只读共享:",
+      "newValue": "取消了文件只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.work.invited",
+      "oldValue": "取消了文件邀请共享:",
+      "newValue": "取消了文件邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.task.readonly",
+      "oldValue": "取消了任务只读共享:",
+      "newValue": "取消了任务只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.task.invited",
+      "oldValue": "取消了任务邀请共享:",
+      "newValue": "取消了任务邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.post.readonly",
+      "oldValue": "取消了分享只读共享:",
+      "newValue": "取消了分享只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.post.invited",
+      "oldValue": "取消了分享邀请共享:",
+      "newValue": "取消了分享邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.event.readonly",
+      "oldValue": "取消了日程只读共享:",
+      "newValue": "取消了日程只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.unshare.event.invited",
+      "oldValue": "取消了日程邀请共享:",
+      "newValue": "取消了日程邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.work",
+      "oldValue": " 恢复了文件:",
+      "newValue": "恢复了文件"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.tasklist",
+      "oldValue": " 恢复了任务分组:",
+      "newValue": "恢复了任务分组"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.task",
+      "oldValue": " 恢复了任务:",
+      "newValue": "恢复了任务"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.tag",
+      "oldValue": " 恢复了标签:",
+      "newValue": "恢复了标签"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.post",
+      "oldValue": " 恢复了分享:",
+      "newValue": "恢复了分享"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.event",
+      "oldValue": " 恢复了日程: %s",
+      "newValue": "恢复了日程"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.entry",
+      "oldValue": " 恢复了记账:",
+      "newValue": "恢复了记账"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive.collection",
+      "oldValue": " 恢复了文件夹:",
+      "newValue": "恢复了文件夹"
+    },
+    {
+      "key": "project.panel.activity.project.unarchive",
+      "oldValue": " 恢复了项目",
+      "newValue": "恢复了项目"
+    },
+    {
+      "key": "project.panel.activity.project.transfer.to.user",
+      "oldValue": " 将项目移交给用户",
+      "newValue": "将项目移交给用户"
+    },
+    {
+      "key": "project.panel.activity.project.transfer.to.organization",
+      "oldValue": " 将项目移交给企业",
+      "newValue": "将项目移交给企业"
+    },
+    {
+      "key": "project.panel.activity.project.share.work.readonly",
+      "oldValue": "开启了文件只读共享:",
+      "newValue": "开启了文件只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.work.invited",
+      "oldValue": "开启了文件邀请共享:",
+      "newValue": "开启了文件邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.task.readonly",
+      "oldValue": "开启了任务只读共享:",
+      "newValue": "开启了任务只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.task.invited",
+      "oldValue": "开启了任务邀请共享:",
+      "newValue": "开启了任务邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.post.readonly",
+      "oldValue": "开启了分享只读共享:",
+      "newValue": "开启了分享只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.post.invited",
+      "oldValue": "开启了分享邀请共享:",
+      "newValue": "开启了分享邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.event.readonly",
+      "oldValue": "开启了日程只读共享:",
+      "newValue": "开启了日程只读共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.event.invited",
+      "oldValue": "开启了日程邀请共享:",
+      "newValue": "开启了日程邀请共享"
+    },
+    {
+      "key": "project.panel.activity.project.remove.work",
+      "oldValue": " 删除了文件:",
+      "newValue": "删除了文件"
+    },
+    {
+      "key": "project.panel.activity.project.remove.team.and.members",
+      "oldValue": " 移除了企业部门及部门成员:",
+      "newValue": "移除了企业部门及部门成员"
+    },
+    {
+      "key": "project.panel.activity.project.remove.team",
+      "oldValue": " 移除了企业部门 %s，但保留部门成员",
+      "newValue": "移除了企业部门 %s，但保留部门成员"
+    },
+    {
+      "key": "project.panel.activity.project.remove.tasklist",
+      "oldValue": " 删除了任务分组:",
+      "newValue": "删除了任务分组"
+    },
+    {
+      "key": "project.panel.activity.project.remove.task",
+      "oldValue": " 删除了任务:",
+      "newValue": "删除了任务"
+    },
+    {
+      "key": "project.panel.activity.project.remove.tag",
+      "oldValue": " 删除了标签:",
+      "newValue": "删除了标签"
+    },
+    {
+      "key": "project.panel.activity.project.remove.self",
+      "oldValue": " 退出了项目",
+      "newValue": "退出了项目"
+    },
+    {
+      "key": "project.panel.activity.project.remove.post",
+      "oldValue": " 删除了分享:",
+      "newValue": "删除了分享"
+    },
+    {
+      "key": "project.panel.activity.project.remove.member",
+      "oldValue": " 移除了成员:",
+      "newValue": "移除了成员"
+    },
+    {
+      "key": "project.panel.activity.project.remove.event",
+      "oldValue": " 删除了日程: %s",
+      "newValue": "删除了日程"
+    },
+    {
+      "key": "project.panel.activity.project.remove.entry",
+      "oldValue": " 删除了记账:",
+      "newValue": "删除了记账"
+    },
+    {
+      "key": "project.panel.activity.project.remove.collection",
+      "oldValue": " 删除了文件夹:",
+      "newValue": "删除了文件夹"
+    },
+    {
+      "key": "project.panel.activity.project.remove",
+      "oldValue": " 删除了项目",
+      "newValue": "删除了项目"
+    },
+    {
+      "key": "project.panel.activity.project.redo.task",
+      "oldValue": " 重做了任务:",
+      "newValue": "重做了任务"
+    },
+    {
+      "key": "project.panel.activity.project.join.from.weixin",
+      "oldValue": " 通过微信平台加入项目",
+      "newValue": "通过微信平台加入项目"
+    },
+    {
+      "key": "project.panel.activity.project.join.from.user.qrcode",
+      "oldValue": " 通过 %s 分享的二维码加入项目",
+      "newValue": "通过 %s 分享的二维码加入项目"
+    },
+    {
+      "key": "project.panel.activity.project.join.from.user.invite.link",
+      "oldValue": " 通过 %s 分享的邀请链接加入项目",
+      "newValue": "通过 %s 分享的邀请链接加入项目"
+    },
+    {
+      "key": "project.panel.activity.project.join.from.qrcode",
+      "oldValue": " 通过二维码加入项目",
+      "newValue": "通过二维码加入项目"
+    },
+    {
+      "key": "project.panel.activity.project.join.from.invite.link",
+      "oldValue": " 通过项目链接加入项目",
+      "newValue": "通过项目链接加入项目"
+    },
+    {
+      "key": "project.panel.activity.project.join.as.organization.owner",
+      "oldValue": " 作为企业拥有者加入项目",
+      "newValue": "作为企业拥有者加入项目"
+    },
+    {
+      "key": "project.panel.activity.project.invite.members",
+      "oldValue": " 邀请 %s 加入项目",
+      "newValue": "邀请 %s 加入项目"
+    },
+    {
+      "key": "project.panel.activity.project.finish.task",
+      "oldValue": " 完成了任务:",
+      "newValue": "完成了任务"
+    },
+    {
+      "key": "project.panel.activity.project.enable.plugin",
+      "oldValue": " 打开了插件:",
+      "newValue": "打开了插件"
+    },
+    {
+      "key": "project.panel.activity.project.enable.application",
+      "oldValue": " 打开了应用:",
+      "newValue": "打开了应用"
+    },
+    {
+      "key": "project.panel.activity.project.disable.plugin",
+      "oldValue": " 关闭了插件:",
+      "newValue": "关闭了插件"
+    },
+    {
+      "key": "project.panel.activity.project.disable.application",
+      "oldValue": " 关闭了应用:",
+      "newValue": "关闭了应用"
+    },
+    {
+      "key": "project.panel.activity.project.create.works",
+      "oldValue": " 上传了文件:",
+      "newValue": "上传了文件"
+    },
+    {
+      "key": "project.panel.activity.project.create.tasklist",
+      "oldValue": " 创建了任务分组:",
+      "newValue": "创建了任务分组"
+    },
+    {
+      "key": "project.panel.activity.project.create.task",
+      "oldValue": " 创建了任务:",
+      "newValue": "创建了任务"
+    },
+    {
+      "key": "project.panel.activity.project.create.tag",
+      "oldValue": " 创建了标签:",
+      "newValue": "创建了标签"
+    },
+    {
+      "key": "project.panel.activity.project.create.post",
+      "oldValue": " 创建了分享:",
+      "newValue": "创建了分享"
+    },
+    {
+      "key": "project.panel.activity.project.create.event",
+      "oldValue": " 创建了日程: %s",
+      "newValue": "创建了日程"
+    },
+    {
+      "key": "project.panel.activity.project.create.entry",
+      "oldValue": " 创建了记账:",
+      "newValue": "创建了记账"
+    },
+    {
+      "key": "project.panel.activity.project.create.collection",
+      "oldValue": " 创建了文件夹:",
+      "newValue": "创建了文件夹"
+    },
+    {
+      "key": "project.panel.activity.project.archive.work",
+      "oldValue": " 把文件移到了回收站:",
+      "newValue": "把文件移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive.tasklist",
+      "oldValue": " 把任务分组移到了回收站:",
+      "newValue": "把任务分组移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive.task",
+      "oldValue": " 把任务移到了回收站:",
+      "newValue": "把任务移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive.tag",
+      "oldValue": " 把标签移到了回收站:",
+      "newValue": "把标签移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive.post",
+      "oldValue": " 把分享移到了回收站:",
+      "newValue": "把分享移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive.event",
+      "oldValue": " 把日程移到了回收站: %s",
+      "newValue": "把日程移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive.entry",
+      "oldValue": " 把记账移到了回收站:",
+      "newValue": "把记账移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive.collection",
+      "oldValue": " 把文件夹移到了回收站:",
+      "newValue": "把文件夹移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.archive",
+      "oldValue": " 把项目移到了回收站",
+      "newValue": "把项目移到了回收站"
+    },
+    {
+      "key": "project.panel.activity.project.add.team.and.members",
+      "oldValue": " 添加了企业部门及部门成员:",
+      "newValue": "添加了企业部门及部门成员"
+    },
+    {
+      "key": "project.creator.template.unique.id.prefix.title",
+      "oldValue": "项目编号（ID 前缀）",
+      "newValue": "项目编号（任务 ID 前缀）"
     },
     {
       "key": "powerups.project.info.short.des",
