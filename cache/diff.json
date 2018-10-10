@@ -49,6 +49,10 @@
       "value": "系统将新生成一条内容一致的用例"
     },
     {
+      "key": "usercase.executor.click.to.set",
+      "value": "点击设置维护人"
+    },
+    {
       "key": "usercase.creator.title",
       "value": "创建基础用例"
     },
@@ -75,6 +79,10 @@
     {
       "key": "toast.usercase.delete.success",
       "value": "删除成功"
+    },
+    {
+      "key": "toast.usercase.create.success",
+      "value": "成功创建基础用例："
     },
     {
       "key": "toast.testcase.sync.success",
@@ -151,6 +159,10 @@
     {
       "key": "testplan.import.testcases",
       "value": "批量导入"
+    },
+    {
+      "key": "testplan.filter.placeholder",
+      "value": "搜索测试计划"
     },
     {
       "key": "testplan.edit",
@@ -646,7 +658,7 @@
     },
     {
       "key": "testcase.link.task",
-      "value": "关联任务"
+      "value": "关联需求"
     },
     {
       "key": "testcase.import.upload",
@@ -1857,6 +1869,10 @@
       "value": "前往测试计划"
     },
     {
+      "key": "inbox.go.to.testcase",
+      "value": "前往测试计划"
+    },
+    {
       "key": "import.tasks.upload.file",
       "value": "上传文件"
     },
@@ -2091,11 +2107,6 @@
   ],
   "modified": [
     {
-      "key": "searcher.fileType",
-      "oldValue": "文档后缀",
-      "newValue": "文件后缀"
-    },
-    {
       "key": "scrum.panel.status",
       "oldValue": "看板状态显示为",
       "newValue": "看板列按以下工作流显示"
@@ -2104,6 +2115,11 @@
       "key": "project.settings.taskFieldConfig.create.notice",
       "oldValue": "任务类型已升级到企业纬度，由企业管理员等特定角色统一管理。",
       "newValue": "任务类型已升级到企业维度，由企业管理员等特定角色统一管理。"
+    },
+    {
+      "key": "project.settings.tab.infomation",
+      "oldValue": "项目信息",
+      "newValue": "概览"
     },
     {
       "key": "project.settings.eventFieldConfig.create.notice",
@@ -2126,9 +2142,14 @@
       "newValue": "一旦将项目「%s」移到回收站，所有与项目有关的信息将会被移到回收站，其中的内容也不会被统计和搜索收录，需要去回收站恢复后才能继续使用。"
     },
     {
-      "key": "project.creator.template.unique.id.prefix.title",
-      "oldValue": "项目编号（ID 前缀）",
-      "newValue": "项目编号（任务 ID 前缀）"
+      "key": "powerups.project.info.short.des",
+      "oldValue": "清晰记录项目的关键信息，支持字段配置，并且可以后期搜索和统计",
+      "newValue": "记录项目关键信息，支持字段配置、项目状态变更、项目简介更新。"
+    },
+    {
+      "key": "powerups.project.info",
+      "oldValue": "项目信息",
+      "newValue": "概览"
     },
     {
       "key": "portal.unarchive.project.description",
@@ -2144,6 +2165,11 @@
       "key": "custom.field.advanced.hint.2",
       "oldValue": "「成员」类型可选择 Teambition 成员组织架构中的成员；",
       "newValue": "「成员」类型可选择 Teambition 成员组织架构中的成员。"
+    },
+    {
+      "key": "projectinfoapp",
+      "oldValue": "项目信息",
+      "newValue": "概览"
     }
   ],
   "deleted": []
