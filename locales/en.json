@@ -5297,6 +5297,7 @@
   "testapp.guide.modal.goto.testhub": "Enable Test Cases",
   "testapp.guide.modal.goto.testplan": "Enable Test Plan",
   "testapp.guide.modal.open.testhub": "Enable Test Cases",
+  "testapp.guide.modal.open.testhub.member": "Use Test Cases",
   "testapp.guide.modal.open.testplan": "Enable Test Plan",
   "testapp.guide.modal.title": "Introducing Test App",
   "testcase.archived.header.delete.message": "The test run will be permanently deleted.",
