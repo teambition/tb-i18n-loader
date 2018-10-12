@@ -5296,7 +5296,7 @@
   "testapp.guide.modal.description.2": "通过「测试计划」有序管理测试过程，并关联需求缺陷、提供全面的测试分析报告",
   "testapp.guide.modal.goto.testhub": "打开「测试用例」",
   "testapp.guide.modal.goto.testplan": "打开「测试计划」",
-  "testapp.guide.modal.open.testhub": "开启「测试用例」",
+  "testapp.guide.modal.open.testhub": "用「测试用例」",
   "testapp.guide.modal.open.testplan": "开启「测试计划」",
   "testapp.guide.modal.title": "聚焦产品交付质量提升 - 「测试应用」正式上线！",
   "testcase.archived.header.delete.message": "该执行用例将被永久删除。",
