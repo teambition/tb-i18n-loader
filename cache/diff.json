@@ -821,8 +821,12 @@
       "value": "开启「测试计划」"
     },
     {
-      "key": "testapp.guide.modal.open.testhub",
+      "key": "testapp.guide.modal.open.testhub.member",
       "value": "用「测试用例」"
+    },
+    {
+      "key": "testapp.guide.modal.open.testhub",
+      "value": "开启「测试用例」"
     },
     {
       "key": "testapp.guide.modal.goto.testplan",
@@ -1259,6 +1263,18 @@
     {
       "key": "project.overview.info",
       "value": "项目信息"
+    },
+    {
+      "key": "project.overview.filter.week.this",
+      "value": "（本周）"
+    },
+    {
+      "key": "project.overview.filter.week.last",
+      "value": "（上周）"
+    },
+    {
+      "key": "project.overview.filter.week",
+      "value": "（%s周）"
     },
     {
       "key": "project.overview.entry.outcome",
@@ -1859,6 +1875,34 @@
     {
       "key": "link.testcase.title",
       "value": "关联的测试用例"
+    },
+    {
+      "key": "link.create.success",
+      "value": "成功关联"
+    },
+    {
+      "key": "link.create.search.no.result",
+      "value": "没有 \"%s\" 的搜索结果"
+    },
+    {
+      "key": "link.create.recently.viewed",
+      "value": "最近查看"
+    },
+    {
+      "key": "link.create.recent.no.result",
+      "value": "暂无最近查看"
+    },
+    {
+      "key": "link.create.load.more",
+      "value": "加载更多"
+    },
+    {
+      "key": "link.create.input.placeholder",
+      "value": "搜索内容进行关联"
+    },
+    {
+      "key": "link.create.duplicated",
+      "value": "关联内容已存在，不能重复关联"
     },
     {
       "key": "link.contents",
