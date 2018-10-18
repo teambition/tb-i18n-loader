@@ -65,6 +65,10 @@
       "value": "请在测试计划中查看，<a>打开测试用例</a>"
     },
     {
+      "key": "top.navitaion.app.more",
+      "value": "更多"
+    },
+    {
       "key": "toast.usercase.plan.success",
       "value": "成功规划用例至："
     },
@@ -985,6 +989,26 @@
       "value": "已归档"
     },
     {
+      "key": "search.export.card.to.dashborad",
+      "value": "去工作台查看"
+    },
+    {
+      "key": "search.export.card.save.tooltip",
+      "value": "将筛选条件对应的内容保存至工作台展示"
+    },
+    {
+      "key": "search.export.card.guide.save.title",
+      "value": "将内容保存至工作台"
+    },
+    {
+      "key": "search.export.card.guide.save.description",
+      "value": "不仅是任务，也可以将分享、日程和文件保存至工作台，筛选结果还可通过搜索词进一步检索"
+    },
+    {
+      "key": "search.export.card.guide.close",
+      "value": "关闭教程"
+    },
+    {
       "key": "scrum.panel.taskflow.lane.top.level",
       "value": "顶级任务"
     },
@@ -1717,8 +1741,52 @@
       "value": "切换成功，时间将以%s显示"
     },
     {
+      "key": "organization.trail.info.project.template",
+      "value": "研发、工程、测试等专业模版"
+    },
+    {
+      "key": "organization.trail.info.customfields",
+      "value": "丰富的自定义字段、工时统计"
+    },
+    {
+      "key": "organization.trail.info.architecture",
+      "value": "部门和企业组织架构管理"
+    },
+    {
+      "key": "organization.trail.info.analytics",
+      "value": "企业和项目统计报告"
+    },
+    {
+      "key": "organization.trail.contact.training",
+      "value": "来自 Teambition 专家的培训和进阶"
+    },
+    {
+      "key": "organization.trail.contact.support",
+      "value": "提供 6*10 中英文在线支持"
+    },
+    {
+      "key": "organization.trail.contact.help",
+      "value": "协助更高效地完成评估流程"
+    },
+    {
+      "key": "organization.trail.contact.desc",
+      "value": "确认联系方式，免费培训团队"
+    },
+    {
+      "key": "organization.trail.contact.cs",
+      "value": "提供客户成功服务支持"
+    },
+    {
       "key": "organization.report.app.has.leaving.lock",
       "value": "关闭窗口会导致未保存的修改丢失，请确认"
+    },
+    {
+      "key": "organization.not.found.title",
+      "value": "没有可以进入的企业"
+    },
+    {
+      "key": "organization.not.found.desc",
+      "value": "你目前不是任何一个平台上企业的成员，请联系系统管理员或者企业管理员将你加入一个企业来使用 Teambition。"
     },
     {
       "key": "org.gantt.zoomOut.limit.content",
@@ -1863,6 +1931,18 @@
     {
       "key": "message.system.activity.project.suspend",
       "value": "你仍可以从归档入口查看该项目的内容"
+    },
+    {
+      "key": "member.invite.confirm",
+      "value": "确认继承"
+    },
+    {
+      "key": "member.inherit.do.inherit",
+      "value": "是否继承任务「"
+    },
+    {
+      "key": "member.inherit.all.involvers",
+      "value": "」的所有参与者？"
     },
     {
       "key": "member.addmenu.search.not.found.in.organization",
@@ -2597,6 +2677,11 @@
       "key": "message.system.activity.project.archive",
       "oldValue": "无法查看该项目内容",
       "newValue": "你仍可以从回收站入口查看该项目的内容"
+    },
+    {
+      "key": "link.create.placeholder",
+      "oldValue": "添加关联",
+      "newValue": "添加"
     },
     {
       "key": "custom.field.advanced.hint.2",
