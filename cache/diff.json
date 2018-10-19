@@ -1765,6 +1765,14 @@
       "value": "提供 6*10 中英文在线支持"
     },
     {
+      "key": "organization.trail.contact.sms.invalid",
+      "value": "验证码错误"
+    },
+    {
+      "key": "organization.trail.contact.phone.invalid",
+      "value": "此号码不能用于验证"
+    },
+    {
       "key": "organization.trail.contact.help",
       "value": "协助更高效地完成评估流程"
     },
@@ -2238,6 +2246,11 @@
     }
   ],
   "modified": [
+    {
+      "key": "task.creator.content",
+      "oldValue": "任务内容",
+      "newValue": "任务标题"
+    },
     {
       "key": "searcher.fileType",
       "oldValue": "文档后缀",
