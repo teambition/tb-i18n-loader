@@ -1033,6 +1033,10 @@
       "value": "回收站"
     },
     {
+      "key": "project.settings.transfer.roles.change",
+      "value": "项目归属权将移交给 %s，本项目若含有任务类型、自定义字段、企业标签等企业专属数据，它们会被删除，且此过程是不可逆的。目标位置未购买的企业付费功能和未安装的企业应用将无法使用。请确定是否移交？"
+    },
+    {
       "key": "project.settings.taskflow.transform.name",
       "value": "流转"
     },
@@ -1091,6 +1095,14 @@
     {
       "key": "project.settings.taskflow.delete.failed",
       "value": "工作流删除失败，请重试"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.unset.hint",
+      "value": "该状态表示任务正在执行"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.unset",
+      "value": "进行中"
     },
     {
       "key": "project.settings.taskflow.add.taskflow.max.count",
@@ -1211,6 +1223,14 @@
     {
       "key": "project.selector.application.disabled.tasks",
       "value": "任务未开启"
+    },
+    {
+      "key": "project.selector.application.disabled.posts",
+      "value": "分享未开启"
+    },
+    {
+      "key": "project.selector.application.disabled.events",
+      "value": "日程未开启"
     },
     {
       "key": "project.panel.activity.project.unsuspend",
@@ -1785,6 +1805,14 @@
       "value": "提供客户成功服务支持"
     },
     {
+      "key": "organization.sync.interval.tips",
+      "value": "每次手动同步请求之间最少间隔 %s 个小时，请 %s 后再次进行尝试"
+    },
+    {
+      "key": "organization.sync",
+      "value": "同步"
+    },
+    {
       "key": "organization.report.app.has.leaving.lock",
       "value": "关闭窗口会导致未保存的修改丢失，请确认"
     },
@@ -1795,6 +1823,18 @@
     {
       "key": "organization.not.found.desc",
       "value": "你目前不是任何一个平台上企业的成员，请联系系统管理员或者企业管理员将你加入一个企业来使用 Teambition。"
+    },
+    {
+      "key": "organization.manual.sync",
+      "value": "手动同步"
+    },
+    {
+      "key": "organization.last.sync.time",
+      "value": "最后同步时间：%s"
+    },
+    {
+      "key": "organization.last.manual.sync.time",
+      "value": "最后于 %s 由 %s 发起手动同步"
     },
     {
       "key": "org.gantt.zoomOut.limit.content",
@@ -2247,11 +2287,6 @@
   ],
   "modified": [
     {
-      "key": "task.creator.content",
-      "oldValue": "任务内容",
-      "newValue": "任务标题"
-    },
-    {
       "key": "searcher.fileType",
       "oldValue": "文档后缀",
       "newValue": "文件后缀"
@@ -2265,11 +2300,6 @@
       "key": "project.settings.taskFieldConfig.create.notice",
       "oldValue": "任务类型已升级到企业纬度，由企业管理员等特定角色统一管理。",
       "newValue": "任务类型已升级到企业维度，由企业管理员等特定角色统一管理。"
-    },
-    {
-      "key": "project.settings.tab.infomation",
-      "oldValue": "项目信息",
-      "newValue": "概览"
     },
     {
       "key": "project.settings.eventFieldConfig.create.notice",
@@ -2687,14 +2717,14 @@
       "newValue": "恢复项目后，你就可以正常使用该项目了。"
     },
     {
+      "key": "organization.trail.info.description",
+      "oldValue": "输入企业名称，解锁企业独有功能",
+      "newValue": "免费试用企业独有功能"
+    },
+    {
       "key": "message.system.activity.project.archive",
       "oldValue": "无法查看该项目内容",
       "newValue": "你仍可以从回收站入口查看该项目的内容"
-    },
-    {
-      "key": "link.create.placeholder",
-      "oldValue": "添加关联",
-      "newValue": "添加"
     },
     {
       "key": "custom.field.advanced.hint.2",
