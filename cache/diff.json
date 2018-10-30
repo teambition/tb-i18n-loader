@@ -1225,6 +1225,10 @@
       "value": "任务未开启"
     },
     {
+      "key": "project.selector.application.disabled.tasklist",
+      "value": "任务分组未开启"
+    },
+    {
       "key": "project.selector.application.disabled.posts",
       "value": "分享未开启"
     },
@@ -2037,12 +2041,52 @@
       "value": "关联内容"
     },
     {
+      "key": "kanban.warning.title",
+      "value": "性能预警"
+    },
+    {
+      "key": "kanban.warning.contents.create.sprint.create.project",
+      "value": "任务过多会导致看板变慢，可以通过 <a class='kanban-warning-create-sprint'>新建迭代</a> 和 <a class='kanban-warning-create-project'>新建项目</a> 进行整理。"
+    },
+    {
+      "key": "kanban.warning.contents.create.project",
+      "value": "任务过多会导致看板变慢，可以通过 <a class='kanban-warning-create-project'>新建项目</a> 进行整理。"
+    },
+    {
       "key": "kanban.taskflow.no.task",
       "value": "该工作流中暂无内容"
     },
     {
       "key": "kanban.taskflow.no.subtask",
       "value": "该任务下暂无符合条件的子任务"
+    },
+    {
+      "key": "kanban.head.status.menu.transform.title",
+      "value": "设置流转规则"
+    },
+    {
+      "key": "kanban.head.status.menu.transform.executor.menu",
+      "value": "设置本状态所有任务执行者"
+    },
+    {
+      "key": "kanban.head.status.menu.transform.archive.tasks.title",
+      "value": "本状态所有任务移到回收站"
+    },
+    {
+      "key": "kanban.head.status.menu.transform.archive.tasks",
+      "value": "您确定要把该状态下的所有任务移到回收站吗？"
+    },
+    {
+      "key": "kanban.head.status.menu.executor.title",
+      "value": "选择执行者"
+    },
+    {
+      "key": "kanban.head.status.menu.deadline.title",
+      "value": "选择截止时间"
+    },
+    {
+      "key": "kanban.head.status.menu.deadline.menu",
+      "value": "设置本状态所有任务截止时间"
     },
     {
       "key": "inbox.go.to.testplan",
@@ -2209,6 +2253,10 @@
       "value": "复制内容"
     },
     {
+      "key": "confirm.and.no.reminder",
+      "value": "知道了，不再提醒"
+    },
+    {
       "key": "choose.testplan",
       "value": "选择测试计划"
     },
@@ -2286,6 +2334,16 @@
     }
   ],
   "modified": [
+    {
+      "key": "task.creator.fieldConfig.add.config",
+      "oldValue": "添加和管理任务类型",
+      "newValue": "添加或管理任务类型"
+    },
+    {
+      "key": "share.invite.confirm.text",
+      "oldValue": "被共享人将成为项目成员，并拥有该任务的操作权限",
+      "newValue": "被共享人将成为项目成员，并拥有该资源的操作权限"
+    },
     {
       "key": "searcher.fileType",
       "oldValue": "文档后缀",
@@ -2725,6 +2783,11 @@
       "key": "message.system.activity.project.archive",
       "oldValue": "无法查看该项目内容",
       "newValue": "你仍可以从回收站入口查看该项目的内容"
+    },
+    {
+      "key": "link.create.placeholder",
+      "oldValue": "添加关联",
+      "newValue": "添加"
     },
     {
       "key": "custom.field.advanced.hint.2",
