@@ -61,8 +61,12 @@
       "value": "更新提醒"
     },
     {
+      "key": "unstar.project.tag.action.success",
+      "value": "取消星标成功"
+    },
+    {
       "key": "unarchived.success.hint.testcase",
-      "value": "请在测试计划中查看，<a>打开测试用例</a>"
+      "value": "请在测试计划中查看，<a>打开执行用例</a>"
     },
     {
       "key": "top.navitaion.app.more",
@@ -430,7 +434,7 @@
     },
     {
       "key": "testgroup.creator.title.error",
-      "value": "请限制在 12 字以内"
+      "value": "请限制在 20 字以内"
     },
     {
       "key": "testgroup.creator.title",
@@ -790,7 +794,7 @@
     },
     {
       "key": "testcase.detail.linked.length",
-      "value": "该测试用例被关联 %s 次"
+      "value": "该执行用例被关联 %s 次"
     },
     {
       "key": "testcase.creator.title",
@@ -855,6 +859,10 @@
     {
       "key": "testapp.guide.modal.close",
       "value": "我知道了"
+    },
+    {
+      "key": "team.leader.who",
+      "value": "%1负责人"
     },
     {
       "key": "tasklist.view.filter",
@@ -945,6 +953,26 @@
       "value": "任务名称"
     },
     {
+      "key": "tapestry.picker.single.testplanId.empty",
+      "value": "没有测试用例"
+    },
+    {
+      "key": "tapestry.picker.mixed.isDone.yes.testcase",
+      "value": "已完成用例"
+    },
+    {
+      "key": "tapestry.picker.mixed.isDone.no.testcase",
+      "value": "未完成用例"
+    },
+    {
+      "key": "tapestry.picker.mixed.isDone.all.testcase",
+      "value": "所有用例"
+    },
+    {
+      "key": "tapestry.picker.mixed.isArchived.testcase",
+      "value": "包含在回收站中的用例"
+    },
+    {
       "key": "table.task.creator",
       "value": "创建者"
     },
@@ -955,6 +983,10 @@
     {
       "key": "table.batch.testcase.executor",
       "value": "设置维护人"
+    },
+    {
+      "key": "starred.tags",
+      "value": "星标分组"
     },
     {
       "key": "searcher.task.progress",
@@ -1031,6 +1063,18 @@
     {
       "key": "projects.archived",
       "value": "回收站"
+    },
+    {
+      "key": "project.tag.permission.inherit",
+      "value": "权限继承自：%1"
+    },
+    {
+      "key": "project.tag.members.search.not.found",
+      "value": "没有匹配的企业角色、部门负责人或成员"
+    },
+    {
+      "key": "project.tag.members.content.empty",
+      "value": "暂无可选择的企业角色、部门负责人或成员"
     },
     {
       "key": "project.settings.transfer.roles.change",
@@ -1677,12 +1721,28 @@
       "value": "项目编号（任务 ID 前缀）"
     },
     {
+      "key": "project.join.tips",
+      "value": "你不是该项目成员，特定操作可能受到限制。是否马上<a class='join-project-handler'>加入项目</a>？"
+    },
+    {
       "key": "project.info.set.menu",
       "value": "字段菜单"
     },
     {
       "key": "project.hierarchy.suspended.projects",
       "value": "已归档项目"
+    },
+    {
+      "key": "project.hierarchy.no.stars.tips",
+      "value": "快去为常访问的项目添加星标吧"
+    },
+    {
+      "key": "project.hierarchy.no.stars",
+      "value": "你还没有添加星标项目或分组"
+    },
+    {
+      "key": "project.hierarchy.no.projects.tips",
+      "value": "快尝试创建或者迁入项目吧"
     },
     {
       "key": "project.belongsTo",
@@ -1713,6 +1773,18 @@
       "value": "项目编号重复，请重新输入"
     },
     {
+      "key": "portal.view.list",
+      "value": "列表视图"
+    },
+    {
+      "key": "portal.view.grid",
+      "value": "卡片视图"
+    },
+    {
+      "key": "portal.updated.sorted",
+      "value": "更新时间"
+    },
+    {
       "key": "portal.unsuspend.project.title",
       "value": "取消归档项目"
     },
@@ -1733,6 +1805,82 @@
       "value": "取消归档"
     },
     {
+      "key": "portal.tag.member.visible.tips",
+      "value": "该对象可直接查看该分组下的所有项目，但不可操作"
+    },
+    {
+      "key": "portal.tag.member.visible",
+      "value": "可见"
+    },
+    {
+      "key": "portal.tag.member.remove.tips",
+      "value": "确定移除当前对象吗？"
+    },
+    {
+      "key": "portal.tag.member.remove.success",
+      "value": "已成功将 %1 从分组移除"
+    },
+    {
+      "key": "portal.tag.member.remove.confirm",
+      "value": "确定移除"
+    },
+    {
+      "key": "portal.tag.member.permission.role.owner",
+      "value": "作为项目拥有者"
+    },
+    {
+      "key": "portal.tag.member.permission.role.default",
+      "value": "作为项目默认角色"
+    },
+    {
+      "key": "portal.tag.member.permission.put.member",
+      "value": "管理该分组成员"
+    },
+    {
+      "key": "portal.tag.member.permission.put",
+      "value": "编辑该分组"
+    },
+    {
+      "key": "portal.tag.member.permission.post.project",
+      "value": "可在该分组下新建项目"
+    },
+    {
+      "key": "portal.tag.member.permission.join.project",
+      "value": "主动加入项目"
+    },
+    {
+      "key": "portal.tag.member.operable",
+      "value": "可操作"
+    },
+    {
+      "key": "portal.tag.member.exit.tips",
+      "value": "确定退出当前分组吗？"
+    },
+    {
+      "key": "portal.tag.member.exit.success",
+      "value": "已成功退出该分组"
+    },
+    {
+      "key": "portal.tag.member.exit.confirm",
+      "value": "确定退出"
+    },
+    {
+      "key": "portal.tag.member.exit",
+      "value": "退出分组"
+    },
+    {
+      "key": "portal.tag.member.access.title",
+      "value": "权限菜单"
+    },
+    {
+      "key": "portal.tag.member.access.tag.related",
+      "value": "项目分组相关"
+    },
+    {
+      "key": "portal.tag.member.access.project.related",
+      "value": "项目相关"
+    },
+    {
       "key": "portal.suspend.project.title",
       "value": "归档项目"
     },
@@ -1749,8 +1897,100 @@
       "value": "归档"
     },
     {
+      "key": "portal.starred.success",
+      "value": "星标成功，请到「%1」查看"
+    },
+    {
+      "key": "portal.starred",
+      "value": "我的星标"
+    },
+    {
+      "key": "portal.sorted.by",
+      "value": "按%1排序"
+    },
+    {
+      "key": "portal.recent",
+      "value": "历史查看"
+    },
+    {
+      "key": "portal.project.tag.member",
+      "value": "项目分组成员"
+    },
+    {
+      "key": "portal.name.sorted",
+      "value": "项目名称"
+    },
+    {
       "key": "plan.to.testplan",
       "value": "规划进计划"
+    },
+    {
+      "key": "personal.settings.notification.notifications.reminder.desc",
+      "value": "任务设置了提醒且你在提醒者列表中，会通过通知提醒"
+    },
+    {
+      "key": "personal.settings.notification.notifications.reminder.content",
+      "value": "任务提醒"
+    },
+    {
+      "key": "personal.settings.notification.explan.push.name",
+      "value": "推送"
+    },
+    {
+      "key": "personal.settings.notification.explan.push.desc",
+      "value": "以系统形式推送该动态"
+    },
+    {
+      "key": "personal.settings.notification.explan.mute.name",
+      "value": "无提示"
+    },
+    {
+      "key": "personal.settings.notification.explan.mute.desc",
+      "value": "动态出现在通知列表，但没有提示"
+    },
+    {
+      "key": "personal.settings.notification.explan.mail.name",
+      "value": "邮件通知"
+    },
+    {
+      "key": "personal.settings.notification.explan.mail.desc",
+      "value": "以邮件形式发送动态内容到邮箱"
+    },
+    {
+      "key": "personal.settings.notification.explan.dot.name",
+      "value": "蓝点提示"
+    },
+    {
+      "key": "personal.settings.notification.explan.dot.desc",
+      "value": "以小蓝点的形式显示动态"
+    },
+    {
+      "key": "personal.settings.notification.explan.counter.name",
+      "value": "计数"
+    },
+    {
+      "key": "personal.settings.notification.explan.counter.desc",
+      "value": "以计数徽章的形式显示动态"
+    },
+    {
+      "key": "personal.settings.notification.channel.push.number",
+      "value": "推送+计数"
+    },
+    {
+      "key": "personal.settings.notification.channel.mute",
+      "value": "无提示"
+    },
+    {
+      "key": "personal.settings.notification.channel.email",
+      "value": "邮件通知"
+    },
+    {
+      "key": "personal.settings.notification.channel.dot.only",
+      "value": "仅蓝点提示"
+    },
+    {
+      "key": "personal.settings.notification.channel.count.only",
+      "value": "仅计数"
     },
     {
       "key": "personal.settings.display.project.orderBy.recentVisit.text",
@@ -1946,7 +2186,7 @@
     },
     {
       "key": "object.detail.lined.testcase.title",
-      "value": "被以下测试用例关联"
+      "value": "被以下执行用例关联"
     },
     {
       "key": "object.creator.submit.and.continue",
@@ -1962,11 +2202,11 @@
     },
     {
       "key": "no.testcase",
-      "value": "暂无测试用例"
+      "value": "暂无执行用例"
     },
     {
       "key": "navigation.testcase",
-      "value": "测试用例"
+      "value": "执行用例"
     },
     {
       "key": "my.rencent.visit.projects",
@@ -2006,7 +2246,7 @@
     },
     {
       "key": "link.testcase.title",
-      "value": "关联的测试用例"
+      "value": "关联的执行用例"
     },
     {
       "key": "link.create.success",
@@ -2266,7 +2506,7 @@
     },
     {
       "key": "archived.header.type.testcase",
-      "value": "测试用例"
+      "value": "执行用例"
     },
     {
       "key": "archived.header.message",
@@ -2306,7 +2546,7 @@
     },
     {
       "key": "testcase",
-      "value": "测试用例"
+      "value": "执行用例"
     },
     {
       "key": "taskflow",
@@ -2319,6 +2559,10 @@
     {
       "key": "minute",
       "value": "分钟"
+    },
+    {
+      "key": "invite",
+      "value": "邀请"
     },
     {
       "key": "hour",
@@ -2340,6 +2584,11 @@
       "newValue": "添加或管理任务类型"
     },
     {
+      "key": "task.creator.content",
+      "oldValue": "任务内容",
+      "newValue": "任务标题"
+    },
+    {
       "key": "share.invite.confirm.text",
       "oldValue": "被共享人将成为项目成员，并拥有该任务的操作权限",
       "newValue": "被共享人将成为项目成员，并拥有该资源的操作权限"
@@ -2353,6 +2602,16 @@
       "key": "scrum.panel.status",
       "oldValue": "看板状态显示为",
       "newValue": "看板列按以下工作流显示"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.start.hint",
+      "oldValue": "只有在开始状态中才能创建，移动和复制进任务。",
+      "newValue": "仅允许在该状态下新建任务"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.end.hint",
+      "oldValue": "当任务被移动到此状态，自动标记为完成，可添加多个结束状态。",
+      "newValue": "自动标记该状态下任务为已完成"
     },
     {
       "key": "project.settings.taskFieldConfig.create.notice",
@@ -2755,6 +3014,31 @@
       "newValue": "添加了企业部门及部门成员"
     },
     {
+      "key": "project.hierarchy.org.public.projects",
+      "oldValue": "企业公开项目",
+      "newValue": "企业公开"
+    },
+    {
+      "key": "project.hierarchy.create.tag.success",
+      "oldValue": "创建成功",
+      "newValue": "新建成功"
+    },
+    {
+      "key": "project.hierarchy.create.tag.fail",
+      "oldValue": "创建失败，请重试",
+      "newValue": "新建失败，请重试"
+    },
+    {
+      "key": "project.hierarchy.create.tag",
+      "oldValue": "创建分组",
+      "newValue": "新建分组"
+    },
+    {
+      "key": "project.hierarchy.create.sub.tag",
+      "oldValue": "创建子分组",
+      "newValue": "添加子分组"
+    },
+    {
       "key": "project.creator.template.unique.id.prefix.title",
       "oldValue": "项目编号（ID 前缀）",
       "newValue": "项目编号（任务 ID 前缀）"
@@ -2775,9 +3059,34 @@
       "newValue": "恢复项目后，你就可以正常使用该项目了。"
     },
     {
+      "key": "personal.settings.notification.emails.title",
+      "oldValue": "邮件设置",
+      "newValue": "每日提醒"
+    },
+    {
+      "key": "personal.settings.notification.emails.description",
+      "oldValue": "用邮件订阅不同类型的消息",
+      "newValue": "每天向你发送一封包含当日工作内容的邮件"
+    },
+    {
+      "key": "personal.settings.notification.desktop.title",
+      "oldValue": "桌面推送",
+      "newValue": "浏览器桌面推送"
+    },
+    {
+      "key": "personal.settings.notification.desktop.description",
+      "oldValue": "开启后，有新消息时浏览器会向你推送动态通知",
+      "newValue": "开启后，有新消息时浏览器会以桌面提醒的方式向你推送动态通知"
+    },
+    {
       "key": "organization.trail.info.description",
       "oldValue": "输入企业名称，解锁企业独有功能",
       "newValue": "免费试用企业独有功能"
+    },
+    {
+      "key": "my.involved.projects",
+      "oldValue": "我参与的项目",
+      "newValue": "我参与的"
     },
     {
       "key": "message.system.activity.project.archive",
