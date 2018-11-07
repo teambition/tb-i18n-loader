@@ -933,6 +933,10 @@
       "value": "任务 ID 复制成功"
     },
     {
+      "key": "task.copy.subtask.dependency",
+      "value": "子任务依赖关系"
+    },
+    {
       "key": "task.copy.reminder",
       "value": "任务提醒"
     },
@@ -943,6 +947,10 @@
     {
       "key": "task.copy.executor.hint",
       "value": "如果当前选择的执行者与参与者没有被添加到目标项目中，复制过程中可能被丢失"
+    },
+    {
+      "key": "task.copy.dependency",
+      "value": "任务依赖关系"
     },
     {
       "key": "task.copy.batch.scenario",
@@ -1803,6 +1811,10 @@
     {
       "key": "portal.unsuspend.project.confirm",
       "value": "取消归档"
+    },
+    {
+      "key": "portal.tag.menu.title",
+      "value": "分组菜单"
     },
     {
       "key": "portal.tag.member.visible.tips",
