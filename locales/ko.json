@@ -3040,7 +3040,7 @@
   "personal.settings.notification.notifications.reminder.desc": "任务设置了提醒且你在提醒者列表中，会通过通知提醒",
   "personal.settings.notification.notifications.title": "通知设置",
   "personal.settings.notification.notifications.update.content": "更新动态",
-  "personal.settings.notification.notifications.update.desc": "包括更新内容、文件版本、执行者、截止时间、优先级等信息在内的通知",
+  "personal.settings.notification.notifications.update.desc": "包括评论、完成、更新内容、文件版本、执行者、截止时间、优先级等信息在内的通知",
   "personal.settings.privacy.policy.content": "当您使用 Teambition 产品时，我们可能会收集您的行为数据并进行后续分析。此信息将帮助我们改进产品，以便为您提供更好的服务。您的改动将会在下次刷新时生效。",
   "personal.settings.privacy.policy.know.about": "了解 Teambition 隐私条款",
   "personal.settings.privacy.policy.sharing": "与 Teambition 分享您的行为数据",

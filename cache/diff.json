@@ -3071,6 +3071,11 @@
       "newValue": "恢复项目后，你就可以正常使用该项目了。"
     },
     {
+      "key": "personal.settings.notification.notifications.update.desc",
+      "oldValue": "包括更新内容、文件版本、执行者、截止时间、优先级等信息在内的通知",
+      "newValue": "包括评论、完成、更新内容、文件版本、执行者、截止时间、优先级等信息在内的通知"
+    },
+    {
       "key": "personal.settings.notification.emails.title",
       "oldValue": "邮件设置",
       "newValue": "每日提醒"
