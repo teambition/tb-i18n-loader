@@ -24,20 +24,20 @@ jobs:
           root: ~/tb-i18n-loader
           paths:
             - ./*
-  deploy:
+  publish:
     <<: *defaults
     steps:
       - attach_workspace:
           at: ~/tb-i18n-loader
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-      - run: npm run publish-it
+      - run: yarn publish-it
 
 workflows:
   version: 2
-  build_test_and_deploy:
+  deploy:
     jobs:
       - build
-      - deploy:
+      - publish:
           filters:
             tags:
               only: /^[0-9]+(\.[0-9]+)*(-(alpha|beta)\.[0-9]+)?/
