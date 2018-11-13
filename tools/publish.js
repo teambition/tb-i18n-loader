@@ -10,7 +10,7 @@ const prepare = () => {
   }
 
   if (!tagRE.test(stdout)) {
-    return Promise.reject('Not a release commit.')
+    return Promise.reject(-1)
   }
 
   return Promise.resolve(stdout)
@@ -31,20 +31,27 @@ const getTag = (version) => {
 const publish = (version) => {
   const tag = getTag(version)
 
-  const { stderr, stdout } = shelljs.exec(`npm publish --tag ${tag}`)
+  const { code } = shelljs.exec(`npm publish --tag ${tag}`)
 
-  if (stderr) {
-    return Promise.reject(stderr)
+  if (code !== 0) {
+    return Promise.reject()
   }
 
-  return Promise.resolve(stdout)
+  return Promise.resolve()
 }
 
 prepare()
   .then((version) => publish(version))
-  .then((ret) => console.log(ret))
-  .then(() => process.exit(0))
+  .then(() => {
+    console.info('Published.')
+    process.exit(0)
+  })
   .catch((err) => {
+    if (err === -1) {
+      console.info('Not a release commit.')
+      process.exit(0)
+      return
+    }
     console.error(err)
     process.exit(1)
   })

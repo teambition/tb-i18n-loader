@@ -1,12 +1,12 @@
 {
   "name": "tb-i18n-loader",
-  "version": "10.2.2",
+  "version": "10.2.3-alpha.26",
   "description": "Webpack loader for teambition i18n",
   "main": "index.js",
   "scripts": {
     "test": "standard && mocha test",
     "cht": "gulp download && gulp cache && gulp chs-to-cht && gulp post-cht",
-    "publish": "node ./tools/publish.js"
+    "publish-it": "node ./tools/publish.js"
   },
   "bin": {
     "tb-i18n": "./bin/index.js"

@@ -1,0 +1,48 @@
+defaults: &defaults
+  working_directory: ~/tb-i18n-loader
+  docker:
+    - image: circleci/node:8
+
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    steps:
+      - checkout
+      - run: ls -l ~/tb-i18n-loader
+      - run: echo 'export PATH=${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin' >> $BASH_ENV
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: yarn
+          command: |
+            yarn
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ~/.cache/yarn
+      - persist_to_workspace:
+          root: ~/tb-i18n-loader
+          paths:
+            - ./*
+  deploy:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/tb-i18n-loader
+      - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/tb-i18n-loader/.npmrc
+      - run: npm run publish-it
+
+workflows:
+  version: 2
+  release:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              only: master
