@@ -6,7 +6,7 @@
   "scripts": {
     "test": "standard && mocha test",
     "cht": "gulp download && gulp cache && gulp chs-to-cht && gulp post-cht",
-    "publish": "node ./tools/publish.js"
+    "publish-it": "node ./tools/publish.js"
   },
   "bin": {
     "tb-i18n": "./bin/index.js"
