@@ -1,43 +1,24 @@
 {
   "added": [
     {
-      "key": "task.menu.detail.preivew",
-      "value": "新版详情页预览"
+      "key": "organization.manual.sync.success",
+      "value": "成员信息同步成功"
     },
     {
-      "key": "project.tag.selector.not.found.placeholder",
-      "value": "无法查到有权限使用的项目分组"
-    },
-    {
-      "key": "portal.tag.member.placeholder.desc",
-      "value": "暂无成员"
-    },
-    {
-      "key": "portal.tag.member.permission.tips",
-      "value": "企业管理后台的“企业权限”中，也可以全局地为指定角色设置该权限。"
-    },
-    {
-      "key": "object.detail.preivew.preivew.quit",
-      "value": "退出预览"
-    },
-    {
-      "key": "object.detail.preivew.preivew",
-      "value": "详情页即将全面升级，立即预览"
-    },
-    {
-      "key": "object.detail.preivew.no.remind",
-      "value": "不再提示"
-    },
-    {
-      "key": "object.detail.preivew.feedback",
-      "value": "意见反馈"
+      "key": "organization.manual.sync.failure",
+      "value": "成员信息同步失败"
     }
   ],
   "modified": [
     {
       "key": "project.tag.selector.content.placeholder",
-      "oldValue": "暂无项目分组",
-      "newValue": "暂无有权限使用的项目分组"
+      "oldValue": "暂无有权限使用的项目分组",
+      "newValue": "暂无项目分组"
+    },
+    {
+      "key": "organization.trail.dueday.planTips.pro",
+      "oldValue": "企业专业版试用期还剩 %s 天，试用期结束后将默认恢复为企业版。",
+      "newValue": "企业专业版试用期剩余 %s 天，试用期结束后将默认恢复为企业版。"
     }
   ],
   "deleted": []
