@@ -5247,7 +5247,7 @@
   "task.detail.subtask.redo.tip": "Parent Task has been completed. You cannot redo a Subtask.",
   "task.detail.subtask.uncomplete.tip": "Please complete all Subtasks before completing this Task.",
   "task.detail.task.dependency.current.count": "%s dependent task(s)",
-  "task.detail.task.dependency.delete.dependency": "delete this dependency",
+  "task.detail.task.dependency.delete.dependency": "delete dependency",
   "task.detail.task.dependency.group.title.post": "Successor Task",
   "task.detail.task.dependency.group.title.pre": "Predecessor Task",
   "task.detail.task.dependency.kind.FF": "finish to finish",
