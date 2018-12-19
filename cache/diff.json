@@ -1,280 +1,107 @@
 {
   "added": [
     {
-      "key": "standard.link.title",
-      "value": "关联的%s"
+      "key": "task.detail.task.dependency.this.task",
+      "value": "当前任务"
     },
     {
-      "key": "search.input.app.name",
-      "value": "输入应用名称搜索"
+      "key": "powerups.upgrade.title",
+      "value": "部分应用的开关已迁移至「项目设置」"
     },
     {
-      "key": "project.settings.tasks.taskflow.title",
-      "value": "任务工作流设置"
+      "key": "powerups.upgrade.link",
+      "value": "前往查看"
     },
     {
-      "key": "project.settings.tasks.taskflow.description",
-      "value": "点此添加、编辑或删除本项目使用的任务工作流"
+      "key": "powerups.upgrade.description",
+      "value": "详细内容请查看文档"
     },
     {
-      "key": "project.settings.tasks.taskFieldConfig.title",
-      "value": "任务类型设置"
+      "key": "powerups.taskUniqueId.placeholder",
+      "value": "如 Design Team 可以设置为 DT"
     },
     {
-      "key": "project.settings.tasks.taskFieldConfig.description",
-      "value": "点此添加、编辑或删除本项目使用的任务类型"
+      "key": "dingtalk.transfer.title",
+      "value": "转移钉钉绑定关系"
     },
     {
-      "key": "project.settings.tasks.privilege.title",
-      "value": "任务权限设置"
+      "key": "dingtalk.transfer.tips3",
+      "value": "即将前往登录流程"
     },
     {
-      "key": "project.settings.tasks.privilege.description",
-      "value": "点此可以进行任务创建者、任务执行者的特殊权限设置"
+      "key": "dingtalk.transfer.tips2",
+      "value": "请注意，当前帐号下的项目及任务的执行/参与关系与聊天记录等信息不会被转移"
     },
     {
-      "key": "project.settings.tab.tasks",
-      "value": "任务设置"
+      "key": "dingtalk.transfer.tips1",
+      "value": "当前帐号的钉钉绑定关系及企业部门信息将转移至已有的 Teambition 账号"
     },
     {
-      "key": "project.settings.tab.posts",
-      "value": "分享设置"
+      "key": "dingtalk.transfer.notice",
+      "value": "已有 Teambition 帐号？"
     },
     {
-      "key": "project.settings.tab.events",
-      "value": "日程设置"
+      "key": "dingtalk.transfer.login",
+      "value": "去登录"
     },
     {
-      "key": "project.settings.events.zoom.title",
-      "value": "Zoom 视频会议"
+      "key": "dingtalk.bind.notice",
+      "value": "企业已绑定钉钉组织，个人账号如未绑定则存在被移除部门风险，"
     },
     {
-      "key": "project.settings.events.zoom.description",
-      "value": "开启后，将可以在每个日程上一键启动 Zoom 视频会议"
+      "key": "dingtalk.banner.to.bind",
+      "value": "前往绑定"
     },
     {
-      "key": "project.settings.events.eventFieldConfig.title",
-      "value": "日程类型设置"
-    },
-    {
-      "key": "project.settings.events.eventFieldConfig.description",
-      "value": "点此添加、编辑或删除本项目使用的日程类型"
-    },
-    {
-      "key": "no.description",
-      "value": "暂无描述"
-    },
-    {
-      "key": "no.application",
-      "value": "暂无应用"
-    },
-    {
-      "key": "link.yinxiang.title",
-      "value": "关联的印象笔记"
-    },
-    {
-      "key": "link.type.zhihu.question",
-      "value": "知乎问答"
-    },
-    {
-      "key": "link.type.zhihu.article",
-      "value": "知乎专栏"
-    },
-    {
-      "key": "link.type.wechat",
-      "value": "微信"
-    },
-    {
-      "key": "link.type.link",
-      "value": "网页"
-    },
-    {
-      "key": "link.github.pull.requests.title",
-      "value": "关联的 GitHub Pull Requests"
-    },
-    {
-      "key": "link.github.pull.issues.title",
-      "value": "关联的 GitHub Issues"
-    },
-    {
-      "key": "link.github.pull.commits.title",
-      "value": "关联的 GitHub Commits"
-    },
-    {
-      "key": "link.github.pull.branches.title",
-      "value": "关联的 GitHub Branches"
-    },
-    {
-      "key": "labs.scrum.panel.feature.down",
-      "value": "功能调整"
-    },
-    {
-      "key": "kanban.reject.update.status",
-      "value": "无法拖拽到该任务状态"
-    },
-    {
-      "key": "horizontal.group.menu.empty.tips",
-      "value": "无操作权限"
-    },
-    {
-      "key": "application.setting",
-      "value": "应用设置"
-    },
-    {
-      "key": "application.preview",
-      "value": "应用预览"
-    },
-    {
-      "key": "application.opened",
-      "value": "已开启的应用"
-    },
-    {
-      "key": "application.not.suit.project",
-      "value": "不适用当前类型的项目"
-    },
-    {
-      "key": "application.feature",
-      "value": "应用功能"
-    },
-    {
-      "key": "application.all",
-      "value": "全部应用"
-    },
-    {
-      "key": "activity.panel.menu.config.des",
-      "value": "添加更多应用"
+      "key": "dingtalk.banner.nomore.notice",
+      "value": "不再提醒"
     }
   ],
   "modified": [
     {
-      "key": "template.setting.nav.hint",
-      "oldValue": "拖动图标排序。你可以前往<a class='open-powerups'>模板菜单－应用与插件</a>打开或关闭应用。",
-      "newValue": "拖动图标排序。你可以前往 模板菜单－应用中心 打开或关闭应用。"
+      "key": "task.detail.task.dependency.kind.SS",
+      "oldValue": "开始到开始",
+      "newValue": "开始才开始"
     },
     {
-      "key": "task.dependency.create.input.placeholder",
-      "oldValue": "可输入任务名、任务 ID 或者任务 URL 添加任务",
-      "newValue": "可输入任务名、任务 ID 添加任务"
+      "key": "task.detail.task.dependency.kind.SF",
+      "oldValue": "开始到完成",
+      "newValue": "开始才完成"
     },
     {
-      "key": "tapestry.tips.ugrade.main",
-      "oldValue": "项目报表可以升级，迭代报告新增迭代 Burnup 图、任务状态停留时间分布图。",
-      "newValue": "项目报表可以升级，缺陷报告全面新增按迭代筛选查看功能，并新增缺陷按执行者/状态分布图。"
+      "key": "task.detail.task.dependency.kind.FS",
+      "oldValue": "完成到开始",
+      "newValue": "完成才开始"
     },
     {
-      "key": "subtask.belong.to",
-      "oldValue": "属于任务: %s",
-      "newValue": "属于任务：%s"
+      "key": "task.detail.task.dependency.kind.FF",
+      "oldValue": "完成到完成",
+      "newValue": "完成才完成"
     },
     {
-      "key": "project.tag.selector.content.placeholder",
-      "oldValue": "暂无项目分组",
-      "newValue": "暂无有权限使用的项目分组"
+      "key": "standard.link.default.consumer",
+      "oldValue": "标准关联",
+      "newValue": "关联的其他内容"
     },
     {
       "key": "project.settings.taskflow.popup.menu.title",
-      "oldValue": "工作流菜单",
-      "newValue": "列表菜单"
-    },
-    {
-      "key": "project.setting.nav.hint",
-      "oldValue": "拖动图标排序。你可以前往<a class='open-powerups'>项目菜单－应用与插件</a>打开或关闭应用。",
-      "newValue": "拖动图标排序。你可以前往 项目菜单－应用中心 打开或关闭应用。"
+      "oldValue": "列表菜单",
+      "newValue": "工作流菜单"
     },
     {
       "key": "project.creator.template.taskflow",
-      "oldValue": "任务流",
-      "newValue": "工作流"
+      "oldValue": "工作流",
+      "newValue": "任务流"
+    },
+    {
+      "key": "project.creator.template.applugins",
+      "oldValue": "应用与插件",
+      "newValue": "应用"
     },
     {
       "key": "project.creator.org.template.creator.description",
-      "oldValue": "企业共享项目模板",
-      "newValue": "使用勾选框表示任务完成情况，可自由拖拽看板中的任务"
-    },
-    {
-      "key": "powerups.app.confirm.close",
-      "oldValue": "确认需要关闭在<b>%s</b>里的应用<b>%s</b>吗？",
-      "newValue": "确认需要关闭在 %s 里的应用 %s 吗？"
-    },
-    {
-      "key": "link.zhihu.question.title",
-      "oldValue": "知乎问答",
-      "newValue": "关联的知乎问答"
-    },
-    {
-      "key": "link.zhihu.article.title",
-      "oldValue": "知乎专栏",
-      "newValue": "关联的知乎专栏"
-    },
-    {
-      "key": "link.wechat.title",
-      "oldValue": "微信",
-      "newValue": "关联的微信"
-    },
-    {
-      "key": "link.processon.title",
-      "oldValue": "ProcessOn",
-      "newValue": "关联的 ProcessOn"
-    },
-    {
-      "key": "link.link.title",
-      "oldValue": "网页",
-      "newValue": "关联的网页"
-    },
-    {
-      "key": "link.jinshuju.title",
-      "oldValue": "金数据",
-      "newValue": "关联的金数据"
-    },
-    {
-      "key": "link.github.title",
-      "oldValue": "Github",
-      "newValue": "关联的 Github"
-    },
-    {
-      "key": "link.git.integration.title",
-      "oldValue": "代码仓库",
-      "newValue": "关联的代码仓库"
-    },
-    {
-      "key": "link.evernote.title",
-      "oldValue": "Evernote",
-      "newValue": "关联的 Evernote"
-    },
-    {
-      "key": "link.create.placeholder",
-      "oldValue": "添加",
-      "newValue": "从资源添加"
-    },
-    {
-      "key": "link.create.input.placeholder",
-      "oldValue": "搜索内容进行关联",
-      "newValue": "搜索内容或贴入内容链接进行关联"
-    },
-    {
-      "key": "labs.test.offline.tips",
-      "oldValue": "该实验室功能将于 %s月%s日 停止提供",
-      "newValue": "该功能由于未通过可用性测试，将于 %s 关闭，你也可以提前点击右侧「关闭」按钮进行关闭。"
-    },
-    {
-      "key": "activity.timeline.reply.quickly.placeholder",
-      "oldValue": "@提及他人，按 Ctrl+Enter 快速发布",
-      "newValue": "@ 提及他人，按 Ctrl+Enter 快速发布"
-    },
-    {
-      "key": "activity.timeline.comment",
-      "oldValue": "@提及他人，按 Enter 快速发布",
-      "newValue": "@ 提及他人，按 Enter 快速发布"
-    },
-    {
-      "key": "activity.panel.menu.config",
-      "oldValue": "应用与插件",
-      "newValue": "应用中心"
-    },
-    {
-      "key": "plugin",
-      "oldValue": "应用与插件",
-      "newValue": "应用中心"
+      "oldValue": "使用勾选框表示任务完成情况，可自由拖拽看板中的任务",
+      "newValue": "企业共享项目模板"
     }
   ],
   "deleted": []
