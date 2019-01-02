@@ -1,8 +1,360 @@
 {
   "added": [
     {
+      "key": "usercase.set.priority.success",
+      "value": "修改用例等级成功"
+    },
+    {
+      "key": "testplan.tooltip.plan.testcase",
+      "value": "可以开启「测试用例」应用后，选择用例库中的用例进行使用，后续更新可以手动同步至用例库中"
+    },
+    {
+      "key": "testplan.testgroup.seletor.trigger.placeholder",
+      "value": "选择位置"
+    },
+    {
+      "key": "testplan.selector.title",
+      "value": "选择测试计划"
+    },
+    {
+      "key": "testplan.plan.link.help",
+      "value": "将用例分组与需求进行关联，方便查看和执行"
+    },
+    {
+      "key": "testplan.plan.link",
+      "value": "关联至需求"
+    },
+    {
+      "key": "testplan.placeholder.info",
+      "value": "通过测试计划执行阶段性测试工作"
+    },
+    {
+      "key": "testplan.link.commongroup.to.task",
+      "value": "将分组关联至需求"
+    },
+    {
+      "key": "testplan.guide.view.doc",
+      "value": "查看帮助文档"
+    },
+    {
+      "key": "testplan.guide.title",
+      "value": "打通「测试 - 研发」工作流程，让协作更高效"
+    },
+    {
+      "key": "testplan.guide.noti",
+      "value": "测试计划 V2.0.1 上线通知"
+    },
+    {
+      "key": "testplan.guide.description.4",
+      "value": "查看更多优化请"
+    },
+    {
+      "key": "testplan.guide.description.3",
+      "value": "用例详情页面变大优化，提供快速切换能力；"
+    },
+    {
+      "key": "testplan.guide.description.2",
+      "value": "测试计划内可以单独使用分组功能（可按需求重组）；"
+    },
+    {
+      "key": "testplan.guide.description.1",
+      "value": "优化需求与用例的关联，可关联用例分组；"
+    },
+    {
+      "key": "testplan.guide.confirm",
+      "value": "立即开始使用"
+    },
+    {
+      "key": "testplan.group.link.guide.title",
+      "value": "用例分组关联需求"
+    },
+    {
+      "key": "testplan.group.link.guide.description",
+      "value": "将用例分组与需求建立关联关系，在需求下可直接展示，方便不同角色的成员查看与需求对应的用例内容。"
+    },
+    {
+      "key": "testplan.group.link.guide.confirm",
+      "value": "我知道了"
+    },
+    {
+      "key": "testplan.group.doublecheck.option.move",
+      "value": "仅删除分组，用例移至未分组用例中"
+    },
+    {
+      "key": "testplan.group.doublecheck.option.delete",
+      "value": "删除分组，并将分组下的所有用例移动至回收站中"
+    },
+    {
+      "key": "testhub.group.doublecheck.option.move",
+      "value": "仅删除分组，用例移至未分组用例中"
+    },
+    {
+      "key": "testhub.group.doublecheck.option.delete",
+      "value": "将分组下的所有用例删除，不可恢复"
+    },
+    {
+      "key": "testgroup.selector.testplan.label",
+      "value": "测试计划"
+    },
+    {
+      "key": "testgroup.selector.project.label",
+      "value": "项目"
+    },
+    {
+      "key": "testgroup.creator.success.toast.message",
+      "value": "用例分组创建成功"
+    },
+    {
+      "key": "testgroup.creator.success.toast.description",
+      "value": "前往用例分组：<a href='%1' class='link-add-handler'>%2</a>"
+    },
+    {
+      "key": "testgroup.creator.model.description",
+      "value": "当前需求将与新建用例分组建立关联关系"
+    },
+    {
+      "key": "testgroup.creator.modal.title.no.testplan",
+      "value": "暂无测试计划"
+    },
+    {
+      "key": "testgroup.creator.modal.title",
+      "value": "创建用例分组"
+    },
+    {
+      "key": "testgroup.creator.modal.submit",
+      "value": "创建"
+    },
+    {
+      "key": "testgroup.creator.modal.dropdown.goto.testplan",
+      "value": "前往创建测试计划"
+    },
+    {
+      "key": "testgroup.creator.modal.dropdown.description",
+      "value": "当前项目中暂无可用测试计划，请前往创建测试计划。"
+    },
+    {
+      "key": "testcase.scenariofield.priority.unset",
+      "value": "无"
+    },
+    {
+      "key": "testcase.scenariofield.casetype.auto",
+      "value": "自动化测试"
+    },
+    {
+      "key": "testcase.edit.priority.success",
+      "value": "修改用例等级成功"
+    },
+    {
+      "key": "testcase.edit.priority",
+      "value": "修改用例等级"
+    },
+    {
+      "key": "testapp.table.filter.only.mine",
+      "value": "只看我的"
+    },
+    {
       "key": "task.detail.task.dependency.this.task",
       "value": "当前任务"
+    },
+    {
+      "key": "task.detail.action.list.testgroup.creator.help",
+      "value": "可创建与需求对应的用例分组，后续在测试计划中使用分组组织用例。"
+    },
+    {
+      "key": "task.detail.action.list.testgroup.creator.handler",
+      "value": "创建用例分组"
+    },
+    {
+      "key": "table.batch.edit.title",
+      "value": "%s%s"
+    },
+    {
+      "key": "table.batch.edit.task.executor",
+      "value": "执行者"
+    },
+    {
+      "key": "table.batch.edit.task.content",
+      "value": "任务标题"
+    },
+    {
+      "key": "table.batch.edit.success",
+      "value": "批量编辑 %s 条任务成功"
+    },
+    {
+      "key": "table.batch.edit.search.empty",
+      "value": "没有 <b>%s</b> 的搜索结果"
+    },
+    {
+      "key": "table.batch.edit.search",
+      "value": "搜索字段"
+    },
+    {
+      "key": "table.batch.edit.placeholder.progress",
+      "value": "填写进度"
+    },
+    {
+      "key": "table.batch.edit.placeholder",
+      "value": "请输入内容"
+    },
+    {
+      "key": "table.batch.edit.method.update",
+      "value": "替换"
+    },
+    {
+      "key": "table.batch.edit.method.edit.desc",
+      "value": "确定批量 %s 所选的 %s 条任务的 %s"
+    },
+    {
+      "key": "table.batch.edit.method.delete",
+      "value": "部分删除"
+    },
+    {
+      "key": "table.batch.edit.method.clear.desc",
+      "value": "确定清空所选任务中该字段的值，删除后如需恢复需重新设置。"
+    },
+    {
+      "key": "table.batch.edit.method.clear",
+      "value": "完全清空"
+    },
+    {
+      "key": "table.batch.edit.method.add",
+      "value": "新增"
+    },
+    {
+      "key": "table.batch.edit.forbidden",
+      "value": "所选任务无此字段编辑权限，请确认"
+    },
+    {
+      "key": "table.batch.edit.error.title",
+      "value": "批量操作成功，但部分任务未被编辑，因为没有对应操作权限或字段"
+    },
+    {
+      "key": "table.batch.edit.error.tip",
+      "value": "提示"
+    },
+    {
+      "key": "table.batch.edit.error.desc",
+      "value": "%s 条任务编辑成功，以下 %s 条任务未被编辑："
+    },
+    {
+      "key": "table.batch.edit",
+      "value": "批量编辑"
+    },
+    {
+      "key": "project.creator.taskflow.intro3",
+      "value": "工作流项目"
+    },
+    {
+      "key": "project.creator.taskflow.intro2",
+      "value": "前往帮助中心了解更多"
+    },
+    {
+      "key": "project.creator.taskflow.intro1",
+      "value": "为标准化事务，创建 "
+    },
+    {
+      "key": "project.cluster.unallocated",
+      "value": "待认领任务数"
+    },
+    {
+      "key": "project.cluster.taskCount",
+      "value": "任务数"
+    },
+    {
+      "key": "project.cluster.task.count",
+      "value": "项目任务总数："
+    },
+    {
+      "key": "project.cluster.status.placeholder",
+      "value": "暂无项目状态"
+    },
+    {
+      "key": "project.cluster.status",
+      "value": "状态"
+    },
+    {
+      "key": "project.cluster.owner",
+      "value": "拥有者"
+    },
+    {
+      "key": "project.cluster.overview.tips",
+      "value": "点击查看项目概览"
+    },
+    {
+      "key": "project.cluster.name",
+      "value": "项目名称"
+    },
+    {
+      "key": "project.cluster.mini.overview.update.status",
+      "value": "更新状态"
+    },
+    {
+      "key": "project.cluster.mini.overview.go.to.project",
+      "value": "前往项目"
+    },
+    {
+      "key": "project.cluster.guide.title",
+      "value": "项目表格视图"
+    },
+    {
+      "key": "project.cluster.guide.tips",
+      "value": "切换至项目表格视图，快速了解多项目的项目状态和进展情况。"
+    },
+    {
+      "key": "project.cluster.guide.apply",
+      "value": "立即体验"
+    },
+    {
+      "key": "project.cluster.durationDay",
+      "value": "项目持续时间"
+    },
+    {
+      "key": "project.cluster.duration",
+      "value": "%s天"
+    },
+    {
+      "key": "project.cluster.dueRate",
+      "value": "任务逾期率"
+    },
+    {
+      "key": "project.cluster.due.count",
+      "value": "逾期未完成的任务数："
+    },
+    {
+      "key": "project.cluster.doneRate",
+      "value": "任务完成率"
+    },
+    {
+      "key": "project.cluster.done.count",
+      "value": "已完成的任务数："
+    },
+    {
+      "key": "project.cluster.default",
+      "value": "默认"
+    },
+    {
+      "key": "project.cluster.add.customfield.tooltip",
+      "value": "新增字段将同步添加到本项目分组下，所有项目的「项目概览」中。"
+    },
+    {
+      "key": "project.cluster.add.customfield.success",
+      "value": "字段已成功添加到项目概览"
+    },
+    {
+      "key": "project.cluster.add.customfield.not.allow",
+      "value": "暂不支持文件和高级类型字段的展示"
+    },
+    {
+      "key": "project.cluster.add.customfield.limit",
+      "value": "表头最多可配置 %s 个字段"
+    },
+    {
+      "key": "project.cluster.add.customfield.how.to.add",
+      "value": "点击查看如何添加字段"
+    },
+    {
+      "key": "project.cluster.add.customfield.failure",
+      "value": "添加失败，请重试"
     },
     {
       "key": "powerups.upgrade.title",
@@ -19,6 +371,290 @@
     {
       "key": "powerups.taskUniqueId.placeholder",
       "value": "如 Design Team 可以设置为 DT"
+    },
+    {
+      "key": "portal.view.toggle",
+      "value": "视图切换"
+    },
+    {
+      "key": "portal.view.table",
+      "value": "表格视图"
+    },
+    {
+      "key": "pernsonal.workspace.transfer.hint",
+      "value": "个人项目正式升级为企业空间"
+    },
+    {
+      "key": "organization.trail.info.member.placeholder.tips",
+      "value": "准备邀请进产品一起协作的团队成员数"
+    },
+    {
+      "key": "organization.trail.info.member.count.0",
+      "value": "1 ~ 10人"
+    },
+    {
+      "key": "organization.payment.upgrade.btn.where",
+      "value": "当你需要时，可以在头像菜单中找到 「升级」入口"
+    },
+    {
+      "key": "organization.payment.pro.upgrade.success",
+      "value": "已升级到企业专业版, %s 秒后为您自动刷新"
+    },
+    {
+      "key": "organization.payment.pro.upgrade.fail",
+      "value": "升级企业专业版失败"
+    },
+    {
+      "key": "organization.payment.pro.title",
+      "value": "企业专业版功能"
+    },
+    {
+      "key": "organization.payment.pro.feature.8",
+      "value": "支持单点登录（AD，SAML）"
+    },
+    {
+      "key": "organization.payment.pro.feature.7",
+      "value": "企业应用开发平台"
+    },
+    {
+      "key": "organization.payment.pro.feature.6",
+      "value": "任务自定义视图"
+    },
+    {
+      "key": "organization.payment.pro.feature.5",
+      "value": "任务表格视图"
+    },
+    {
+      "key": "organization.payment.pro.feature.4",
+      "value": "自定义工作流"
+    },
+    {
+      "key": "organization.payment.pro.feature.3",
+      "value": "测试管理应用"
+    },
+    {
+      "key": "organization.payment.pro.feature.2",
+      "value": "敏捷研发专业模板"
+    },
+    {
+      "key": "organization.payment.pro.feature.1",
+      "value": "企业版所有功能"
+    },
+    {
+      "key": "organization.payment.privilege.expand",
+      "value": "企业特权"
+    },
+    {
+      "key": "organization.payment.privilege",
+      "value": "企业特权"
+    },
+    {
+      "key": "organization.payment.notify.title",
+      "value": "提议进行 Teambition 系统升级"
+    },
+    {
+      "key": "organization.payment.notify",
+      "value": "Hi，刚刚系统提示我联络一下你，因为你是我们团队 Teambition 的管理和采购负责人，\r\n之前我们团队 Teambition 用得不错，我们想要[升级到专业版|采购更多名额]，这样我们可以邀请更多同事，并把更多的工作放到 Teambition 上追踪，以便能够更有效地追踪和反馈进展，这样工作可以更加稳健高效。\r\nTeambition 各种版本和服务的介绍可以在这里看到\r\nhttps://www.teambition.com/pricing\r\n不知是否有方便操作一下？如果有需要，欢迎来找我了解细节。"
+    },
+    {
+      "key": "organization.payment.license.status",
+      "value": "名额使用情况"
+    },
+    {
+      "key": "organization.payment.license.request",
+      "value": "通知管理员增购名额"
+    },
+    {
+      "key": "organization.payment.license.max",
+      "value": "可用名额"
+    },
+    {
+      "key": "organization.payment.license.expiration",
+      "value": "名额有效期至 %s "
+    },
+    {
+      "key": "organization.payment.license.excess.content.buy",
+      "value": "当前企业使用名额数已满，您可以发起购买更多名额或停用不必要的账号，避免团队日常工作受到影响。"
+    },
+    {
+      "key": "organization.payment.license.excess.content",
+      "value": "当前企业使用名额数已满，您可以通知管理员处理，避免团队日常工作受到影响。"
+    },
+    {
+      "key": "organization.payment.license.excess",
+      "value": "企业已超额"
+    },
+    {
+      "key": "organization.payment.license.available",
+      "value": "剩余可激活成员名额"
+    },
+    {
+      "key": "organization.payment.license.add",
+      "value": "增购名额"
+    },
+    {
+      "key": "organization.payment.hide.upgrade",
+      "value": "导航栏内不再出现提示"
+    },
+    {
+      "key": "organization.payment.get.it",
+      "value": "我知道了"
+    },
+    {
+      "key": "organization.payment.feature.request",
+      "value": "申请开启"
+    },
+    {
+      "key": "organization.payment.feature.enable.now",
+      "value": "立即拥有"
+    },
+    {
+      "key": "organization.payment.feature.enable",
+      "value": "开启功能"
+    },
+    {
+      "key": "organization.payment.current.status",
+      "value": "当前企业付费状态"
+    },
+    {
+      "key": "organization.payment.cs.title",
+      "value": "专属客户成功经理"
+    },
+    {
+      "key": "organization.payment.cs.subtitle",
+      "value": "付费企业专属特权"
+    },
+    {
+      "key": "organization.payment.cs.feature.4",
+      "value": "200 人以上企业专业版客户配备专业敏捷研发培训"
+    },
+    {
+      "key": "organization.payment.cs.feature.3",
+      "value": "20 人以上企业配备专属客户成功顾问"
+    },
+    {
+      "key": "organization.payment.cs.feature.2",
+      "value": "企业一对一远程培训"
+    },
+    {
+      "key": "organization.payment.cs.feature.1",
+      "value": "7 * 12 中英文在线支持"
+    },
+    {
+      "key": "organization.payment.close.upgrade.btn",
+      "value": "关闭导航栏提示"
+    },
+    {
+      "key": "organization.payment.basic.title",
+      "value": "企业版功能"
+    },
+    {
+      "key": "organization.payment.basic.feature.9",
+      "value": "丰富的第三方应用"
+    },
+    {
+      "key": "organization.payment.basic.feature.8",
+      "value": "项目信息表"
+    },
+    {
+      "key": "organization.payment.basic.feature.7",
+      "value": "任务工时统计"
+    },
+    {
+      "key": "organization.payment.basic.feature.6",
+      "value": "自定义任务类型和字段"
+    },
+    {
+      "key": "organization.payment.basic.feature.5",
+      "value": "项目和成员甘特图"
+    },
+    {
+      "key": "organization.payment.basic.feature.4",
+      "value": "企业组织架构管理"
+    },
+    {
+      "key": "organization.payment.basic.feature.3",
+      "value": "强大并易于配置的权限管理"
+    },
+    {
+      "key": "organization.payment.basic.feature.2",
+      "value": "企业和项目统计报告"
+    },
+    {
+      "key": "organization.payment.basic.feature.1",
+      "value": "任务、日程、文件、分享、聊天"
+    },
+    {
+      "key": "org.not.found.reason",
+      "value": "该企业由于已被删除，或已将您移除等原因，已无法访问。"
+    },
+    {
+      "key": "org.not.found.join.guide",
+      "value": "请切换其他企业，联系该企业管理员邀请您，或直接创建企业来使用 Teambition"
+    },
+    {
+      "key": "org.not.found.hint",
+      "value": "无法进入该企业"
+    },
+    {
+      "key": "org.is.empty.join.guide",
+      "value": "请联系您企业的管理员邀请您加入，或直接新建企业来使用 Teambition"
+    },
+    {
+      "key": "org.is.empty.hint",
+      "value": "您目前不是任何一个企业的成员"
+    },
+    {
+      "key": "org.gantt.show.key.path",
+      "value": "显示关键路径"
+    },
+    {
+      "key": "org.gantt.panel.unarranged",
+      "value": "%s 个未安排任务"
+    },
+    {
+      "key": "org.gantt.overload.message",
+      "value": "为保证浏览体验，目前只载入了部分任务，请通过筛选功能或减少订阅者限制任务数量"
+    },
+    {
+      "key": "org.gantt.key.path.hint.project",
+      "value": "高亮显示每个项目内时间跨度最长的依赖路径"
+    },
+    {
+      "key": "org.gantt.key.path.hint.executor",
+      "value": "高亮显示全局范围内时间跨度最长的依赖路径"
+    },
+    {
+      "key": "org.gantt.key.path",
+      "value": "关键路径"
+    },
+    {
+      "key": "org.gantt.filter.panel.title",
+      "value": "泳道任务筛选"
+    },
+    {
+      "key": "object.picker.testgroup.creator",
+      "value": "创建用例分组"
+    },
+    {
+      "key": "object.detail.switcher.prev",
+      "value": "上一条"
+    },
+    {
+      "key": "object.detail.switcher.next",
+      "value": "下一条"
+    },
+    {
+      "key": "link.testplan.group.to.task.success.hint",
+      "value": "前往需求："
+    },
+    {
+      "key": "link.testplan.group.to.task.success",
+      "value": "成功关联分组至需求"
+    },
+    {
+      "key": "flowstatus.menu.testcase.footer",
+      "value": "自动切换到下一条"
     },
     {
       "key": "dingtalk.transfer.title",
@@ -55,9 +691,59 @@
     {
       "key": "dingtalk.banner.nomore.notice",
       "value": "不再提醒"
+    },
+    {
+      "key": "delete.organization",
+      "value": "删除企业"
+    },
+    {
+      "key": "customfield.add.limit",
+      "value": "最多可添加 %s 个字段"
+    },
+    {
+      "key": "custom.fields.recent.versions",
+      "value": "最近版本"
+    },
+    {
+      "key": "create.organization",
+      "value": "创建企业"
+    },
+    {
+      "key": "continue",
+      "value": "继续使用"
     }
   ],
   "modified": [
+    {
+      "key": "toast.testcase.move.success",
+      "oldValue": "成功变更执行用例",
+      "newValue": "成功移动执行用例："
+    },
+    {
+      "key": "testplan.testgroup.unplanned.name",
+      "oldValue": "未归入用例库的用例",
+      "newValue": "未分组的用例"
+    },
+    {
+      "key": "testcase.menu.move.title",
+      "oldValue": "变更到",
+      "newValue": "移动到"
+    },
+    {
+      "key": "testcase.menu.move.success",
+      "oldValue": "变更计划成功",
+      "newValue": "移动用例成功"
+    },
+    {
+      "key": "testcase.menu.move",
+      "oldValue": "变更计划",
+      "newValue": "移动用例"
+    },
+    {
+      "key": "testcase.menu.fork",
+      "oldValue": "复制执行用例",
+      "newValue": "复制用例"
+    },
     {
       "key": "task.detail.task.dependency.kind.SS",
       "oldValue": "开始到开始",
@@ -84,24 +770,154 @@
       "newValue": "关联的其他内容"
     },
     {
-      "key": "project.settings.taskflow.popup.menu.title",
-      "oldValue": "列表菜单",
-      "newValue": "工作流菜单"
+      "key": "project.setting.nav.hint",
+      "oldValue": "拖动图标排序。你可以前往 项目菜单－应用中心 打开或关闭应用。",
+      "newValue": "拖动图标排序。你可以前往「项目菜单－应用中心」打开或关闭应用。"
     },
     {
-      "key": "project.creator.template.taskflow",
-      "oldValue": "工作流",
-      "newValue": "任务流"
+      "key": "project.hierarchy.untagged.projects",
+      "oldValue": "未分组的项目",
+      "newValue": "未分组项目"
     },
     {
-      "key": "project.creator.template.applugins",
-      "oldValue": "应用与插件",
-      "newValue": "应用"
+      "key": "powerups.taskUniqueId.dialog.edit.desc",
+      "oldValue": "设置项目编号，编号将作为 ID 前缀，用以区别项目。支持字母，%s-%s位。",
+      "newValue": "设置项目编号，编号将作为 ID 前缀，用以区别项目。支持 %s-%s 位字母。"
     },
     {
-      "key": "project.creator.org.template.creator.description",
-      "oldValue": "使用勾选框表示任务完成情况，可自由拖拽看板中的任务",
-      "newValue": "企业共享项目模板"
+      "key": "powerups.app.confirm.close",
+      "oldValue": "确认需要关闭在 %s 里的应用 %s 吗？",
+      "newValue": "确认需要关闭在 %s 里的应用「%s」吗？"
+    },
+    {
+      "key": "organization.trail.start.title",
+      "oldValue": "创建您的企业",
+      "newValue": "输入团队或组织名称"
+    },
+    {
+      "key": "organization.trail.start.desc",
+      "oldValue": "输入企业名称，解锁企业独有功能",
+      "newValue": "10 人以下免费使用"
+    },
+    {
+      "key": "organization.trail.slogan",
+      "oldValue": "14 天免费试用",
+      "newValue": "10 人以下免费使用"
+    },
+    {
+      "key": "organization.trail.pro.desc.6",
+      "oldValue": "客户可以基于开发者中心的能力，定制化开发基于 Teambition 的应用",
+      "newValue": "企业应用开发平台"
+    },
+    {
+      "key": "organization.trail.pro.desc.5",
+      "oldValue": "企业应用开发平台",
+      "newValue": "智能看板"
+    },
+    {
+      "key": "organization.trail.pro.desc.4",
+      "oldValue": "企业目标管理应用",
+      "newValue": "任务表格视图"
+    },
+    {
+      "key": "organization.trail.pro.desc.3",
+      "oldValue": "支持单点登录（AD，SAML，OAuth）",
+      "newValue": "自定义工作流"
+    },
+    {
+      "key": "organization.trail.pro.desc.2",
+      "oldValue": "任务表格视图",
+      "newValue": "测试管理应用"
+    },
+    {
+      "key": "organization.trail.pro.desc",
+      "oldValue": "更完善的专业场景功能和企业级应用",
+      "newValue": "适用于专业研发管理、高级项目管理等"
+    },
+    {
+      "key": "organization.trail.normal.subtitle",
+      "oldValue": "数据驱动，更有意义的企业管理：",
+      "newValue": "易于上手而功能强大，高效管理任何项目："
+    },
+    {
+      "key": "organization.trail.normal.desc.9",
+      "oldValue": "项目信息表",
+      "newValue": "权限管理"
+    },
+    {
+      "key": "organization.trail.normal.desc.8",
+      "oldValue": "项目自动化规则",
+      "newValue": "企业统计报告"
+    },
+    {
+      "key": "organization.trail.normal.desc.7",
+      "oldValue": "任务ID",
+      "newValue": "企业组织架构"
+    },
+    {
+      "key": "organization.trail.normal.desc.6",
+      "oldValue": "任务工时统计",
+      "newValue": "第三方应用整合"
+    },
+    {
+      "key": "organization.trail.normal.desc.5",
+      "oldValue": "任务时间视图",
+      "newValue": "自定义任务类型和字段"
+    },
+    {
+      "key": "organization.trail.normal.desc.4",
+      "oldValue": "任务、日程支持自定义类型",
+      "newValue": "任务工时统计"
+    },
+    {
+      "key": "organization.trail.normal.desc.3",
+      "oldValue": "企业和项目统计报告",
+      "newValue": "项目概览"
+    },
+    {
+      "key": "organization.trail.normal.desc.2",
+      "oldValue": "企业组织架构管理",
+      "newValue": "甘特图"
+    },
+    {
+      "key": "organization.trail.normal.desc.1",
+      "oldValue": "强大并易于配置的权限管理",
+      "newValue": "任务、文件、日程、分享、聊天"
+    },
+    {
+      "key": "organization.trail.normal.desc",
+      "oldValue": "适用于 10 人以上的团队或企业",
+      "newValue": "适用于任何规模的团队或企业"
+    },
+    {
+      "key": "organization.trail.info.name.placeholder",
+      "oldValue": "企业名称",
+      "newValue": "团队或组织名称"
+    },
+    {
+      "key": "organization.trail.info.member.placeholder",
+      "oldValue": "企业规模",
+      "newValue": "使用规模"
+    },
+    {
+      "key": "organization.trail.info.member.count.2",
+      "oldValue": "30 ~ 100人",
+      "newValue": "50 ~ 100人"
+    },
+    {
+      "key": "organization.trail.info.member.count.1",
+      "oldValue": "1 ~ 30人",
+      "newValue": "10 ~ 50人"
+    },
+    {
+      "key": "organization.trail.contact.title",
+      "oldValue": "验证联系方式",
+      "newValue": "验证手机号"
+    },
+    {
+      "key": "organization.trail.contact.phone.manager.phone.placeholder",
+      "oldValue": "请输入电话号码",
+      "newValue": "手机号"
     }
   ],
   "deleted": []
