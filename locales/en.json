@@ -3619,6 +3619,7 @@
   "project.cluster.overview.tips": "Click to see Project Overview",
   "project.cluster.owner": "Owner",
   "project.cluster.status": "Status",
+  "project.cluster.status.guide": "Click to see Project Overview and update Project Status and Info",
   "project.cluster.status.placeholder": "No project status yet",
   "project.cluster.task.count": "Number of tasks:",
   "project.cluster.taskCount": "Number of tasks",

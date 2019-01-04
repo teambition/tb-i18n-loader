@@ -269,6 +269,10 @@
       "value": "暂无项目状态"
     },
     {
+      "key": "project.cluster.status.guide",
+      "value": "点击查看项目概览，快速更新项目状态和项目信息"
+    },
+    {
       "key": "project.cluster.status",
       "value": "状态"
     },
@@ -454,7 +458,7 @@
     },
     {
       "key": "organization.payment.notify",
-      "value": "Hi，刚刚系统提示我联络一下你，因为你是我们团队 Teambition 的管理和采购负责人，\r\n之前我们团队 Teambition 用得不错，我们想要[升级到专业版|采购更多名额]，这样我们可以邀请更多同事，并把更多的工作放到 Teambition 上追踪，以便能够更有效地追踪和反馈进展，这样工作可以更加稳健高效。\r\nTeambition 各种版本和服务的介绍可以在这里看到\r\nhttps://www.teambition.com/pricing\r\n不知是否有方便操作一下？如果有需要，欢迎来找我了解细节。"
+      "value": "Hi，刚刚系统提示我联络一下你，因为你是我们团队 Teambition 的管理和采购负责人，\r\n之前我们团队 Teambition 用得不错，我们想要增购一下，这样我们可以邀请更多同事，并把更多的工作放到 Teambition 上追踪，以便能够更有效地追踪和反馈进展，这样工作可以更加稳健高效。\r\nTeambition 各种版本和服务的介绍可以在这里看到\r\nhttps://www.teambition.com/pricing\r\n不知是否有方便操作一下？如果有需要，欢迎来找我了解细节。"
     },
     {
       "key": "organization.payment.license.status",
@@ -790,6 +794,11 @@
       "newValue": "确认需要关闭在 %s 里的应用「%s」吗？"
     },
     {
+      "key": "organization.trail.title.1",
+      "oldValue": "选择试用版本",
+      "newValue": "选择使用版本"
+    },
+    {
       "key": "organization.trail.start.title",
       "oldValue": "创建您的企业",
       "newValue": "输入团队或组织名称"
@@ -900,14 +909,9 @@
       "newValue": "使用规模"
     },
     {
-      "key": "organization.trail.info.member.count.2",
-      "oldValue": "30 ~ 100人",
-      "newValue": "50 ~ 100人"
-    },
-    {
       "key": "organization.trail.info.member.count.1",
       "oldValue": "1 ~ 30人",
-      "newValue": "10 ~ 50人"
+      "newValue": "10 ~ 30人"
     },
     {
       "key": "organization.trail.contact.title",

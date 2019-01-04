@@ -3619,6 +3619,7 @@
   "project.cluster.overview.tips": "點擊查看項目概覽",
   "project.cluster.owner": "擁有者",
   "project.cluster.status": "狀態",
+  "project.cluster.status.guide": "點擊查看項目概覽，快速更新項目狀態和項目信息",
   "project.cluster.status.placeholder": "暫無項目狀態",
   "project.cluster.task.count": "項目任務總數：",
   "project.cluster.taskCount": "任務數",
