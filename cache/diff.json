@@ -5,6 +5,30 @@
       "value": "修改用例等级成功"
     },
     {
+      "key": "usercase.set.exceeded.limit.fail",
+      "value": "单次批量操作不得超过500条"
+    },
+    {
+      "key": "toast.testcase.sync.from.testhub.success",
+      "value": "成功从用例库更新用例内容"
+    },
+    {
+      "key": "testplan.view.panel.quick.filter.user.message",
+      "value": "历史数据校准说明"
+    },
+    {
+      "key": "testplan.view.panel.quick.filter.user.description",
+      "value": "针对「历史已有数据」无法精准判断是否已同步、更新，请完成一次同步、更新后以确保数据准确。"
+    },
+    {
+      "key": "testplan.view.panel.quick.filter.guide.message",
+      "value": "真正发挥「用例库」沉淀价值"
+    },
+    {
+      "key": "testplan.view.panel.quick.filter.guide.description",
+      "value": "通过「快速筛选」可快速过滤并完成用例内容的同步、更新和保存操作。"
+    },
+    {
       "key": "testplan.tooltip.plan.testcase",
       "value": "可以开启「测试用例」应用后，选择用例库中的用例进行使用，后续更新可以手动同步至用例库中"
     },
@@ -17,6 +41,10 @@
       "value": "选择测试计划"
     },
     {
+      "key": "testplan.plan.toast.success",
+      "value": "成功规划 %s 条用例到计划中"
+    },
+    {
       "key": "testplan.plan.link.help",
       "value": "将用例分组与需求进行关联，方便查看和执行"
     },
@@ -27,6 +55,74 @@
     {
       "key": "testplan.placeholder.info",
       "value": "通过测试计划执行阶段性测试工作"
+    },
+    {
+      "key": "testplan.panel.view.sort.title",
+      "value": "排序"
+    },
+    {
+      "key": "testplan.panel.view.sort.priority.desc",
+      "value": "按用例等级最高"
+    },
+    {
+      "key": "testplan.panel.view.sort.priority.asc",
+      "value": "按用例等级最低"
+    },
+    {
+      "key": "testplan.panel.view.sort.default",
+      "value": "默认排序"
+    },
+    {
+      "key": "testplan.panel.view.sort.create.desc",
+      "value": "按创建时间最晚"
+    },
+    {
+      "key": "testplan.panel.view.sort.create.asc",
+      "value": "按创建时间最早"
+    },
+    {
+      "key": "testplan.panel.view.reset.filter",
+      "value": "清除筛选"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.tooltip.not.in.hub",
+      "value": "指「测试计划」中的用例内容尚未保存至「用例库」中"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.tooltip.newer.than.hub",
+      "value": "指「测试计划」中的用例内容有更新，尚未同步更新「用例库」中相关联的用例内容"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.tooltip.fall.behind.hub",
+      "value": "指「用例库」中的用例内容有更新，尚未更新「测试计划」中相关联的用例内容"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.title",
+      "value": "快速筛选"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.not.in.hub",
+      "value": "未保存至用例库"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.newer.than.hub",
+      "value": "未同步至用例库"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.fall.behind.hub",
+      "value": "未从用例库更新"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.count.placeholder",
+      "value": "共 %s 条"
+    },
+    {
+      "key": "testplan.panel.view.quick.filter.all",
+      "value": "所有内容"
+    },
+    {
+      "key": "testplan.panel.view.keyword.placeholder",
+      "value": "查找相关用例"
     },
     {
       "key": "testplan.link.commongroup.to.task",
@@ -101,6 +197,14 @@
       "value": "项目"
     },
     {
+      "key": "testgroup.remote.selector.placeholder",
+      "value": "搜索分组"
+    },
+    {
+      "key": "testgroup.menu.copy",
+      "value": "复制分组"
+    },
+    {
       "key": "testgroup.creator.success.toast.message",
       "value": "用例分组创建成功"
     },
@@ -133,12 +237,80 @@
       "value": "当前项目中暂无可用测试计划，请前往创建测试计划。"
     },
     {
+      "key": "testgroup.copy.success",
+      "value": "复制用例分组成功"
+    },
+    {
+      "key": "testgroup.copy.selector.desc",
+      "value": "将完整复制当前分组及下属的所有用例内容"
+    },
+    {
+      "key": "testgroup.copy.selector.confirm",
+      "value": "确定"
+    },
+    {
+      "key": "testgroup.copy.modal.title",
+      "value": "选择归入分组"
+    },
+    {
+      "key": "testgroup.copy.exceed.limit",
+      "value": "分组层级超过 9 级，请重新选择"
+    },
+    {
+      "key": "testcase.sync.to.testhub.success.partial",
+      "value": "已成功同步 %1 条用例，失败 %2 条用例，请确认"
+    },
+    {
+      "key": "testcase.sync.to.testhub.success",
+      "value": "成功同步 %s 条用例至用例库"
+    },
+    {
+      "key": "testcase.sync.from.testhub.success.partial",
+      "value": "已成功更新 %1 条用例，失败 %2 条用例，请确认"
+    },
+    {
+      "key": "testcase.sync.from.testhub.success",
+      "value": "成功从用例库更新 %s 条用例"
+    },
+    {
       "key": "testcase.scenariofield.priority.unset",
       "value": "无"
     },
     {
       "key": "testcase.scenariofield.casetype.auto",
       "value": "自动化测试"
+    },
+    {
+      "key": "testcase.save.to.testhub.success.partial",
+      "value": "已成功保存 %1 条用例，失败 %2 条用例，请确认"
+    },
+    {
+      "key": "testcase.plan.order.created.desc.trigger",
+      "value": "最晚"
+    },
+    {
+      "key": "testcase.plan.order.created.desc",
+      "value": "按创建时间最晚"
+    },
+    {
+      "key": "testcase.plan.order.created.asc.trigger",
+      "value": "最早"
+    },
+    {
+      "key": "testcase.plan.order.created.asc",
+      "value": "按创建时间最早"
+    },
+    {
+      "key": "testcase.menu.title.sync.from.testhub",
+      "value": "从用例库更新"
+    },
+    {
+      "key": "testcase.menu.sync.from.testhub.description",
+      "value": "确认将用例库中的最新内容同步至测试计划中吗？系统将会自动更新当前测试计划中的执行用例内容。"
+    },
+    {
+      "key": "testcase.menu.sync.from.testhub",
+      "value": "从用例库更新"
     },
     {
       "key": "testcase.edit.priority.success",
@@ -151,6 +323,10 @@
     {
       "key": "testapp.table.filter.only.mine",
       "value": "只看我的"
+    },
+    {
+      "key": "template.category.choose",
+      "value": "选择场景"
     },
     {
       "key": "task.detail.task.dependency.this.task",
@@ -201,6 +377,10 @@
       "value": "替换"
     },
     {
+      "key": "table.batch.edit.method.list",
+      "value": "选择编辑方式"
+    },
+    {
       "key": "table.batch.edit.method.edit.desc",
       "value": "确定批量 %s 所选的 %s 条任务的 %s"
     },
@@ -239,6 +419,74 @@
     {
       "key": "table.batch.edit",
       "value": "批量编辑"
+    },
+    {
+      "key": "searcher.filter.date.year",
+      "value": "按年"
+    },
+    {
+      "key": "searcher.filter.date.week",
+      "value": "按周"
+    },
+    {
+      "key": "searcher.filter.date.relative.yesterday",
+      "value": "昨天"
+    },
+    {
+      "key": "searcher.filter.date.relative.today",
+      "value": "今天"
+    },
+    {
+      "key": "searcher.filter.date.relative.thisyear",
+      "value": "今年"
+    },
+    {
+      "key": "searcher.filter.date.relative.thisweek",
+      "value": "本周"
+    },
+    {
+      "key": "searcher.filter.date.relative.thismonths",
+      "value": "本月"
+    },
+    {
+      "key": "searcher.filter.date.relative.pastweek",
+      "value": "上周"
+    },
+    {
+      "key": "searcher.filter.date.relative.pastmonths",
+      "value": "上月"
+    },
+    {
+      "key": "searcher.filter.date.relative.pastdays",
+      "value": "过去 %s 天"
+    },
+    {
+      "key": "searcher.filter.date.relative.lastyear",
+      "value": "去年"
+    },
+    {
+      "key": "searcher.filter.date.not.choice",
+      "value": "未填写"
+    },
+    {
+      "key": "searcher.filter.date.month",
+      "value": "按月"
+    },
+    {
+      "key": "searcher.filter.date.days",
+      "value": "按天"
+    },
+    {
+      "key": "project.tag.menu.title",
+      "value": "项目分组菜单"
+    },
+    {
+      "key": "project.hierarchy.history.forbidden.by.privacy.setting",
+      "value": "开启行为数据分享查看历史项目"
+    },
+    {
+      "key": "project.hierarchy.history.enable",
+      "value": "立即开启"
     },
     {
       "key": "project.creator.taskflow.intro3",
@@ -309,6 +557,22 @@
       "value": "立即体验"
     },
     {
+      "key": "project.cluster.export.results.limit",
+      "value": "推荐一次导出量控制在 %s 条以内"
+    },
+    {
+      "key": "project.cluster.export.exceed.limit",
+      "value": "导出失败，已达到项目导出上限 %s"
+    },
+    {
+      "key": "project.cluster.export.confirm",
+      "value": "确定要导出该分组表格视图下的所有数据吗？下载过程可能需要一些时间。"
+    },
+    {
+      "key": "project.cluster.export",
+      "value": "导出项目数据"
+    },
+    {
       "key": "project.cluster.durationDay",
       "value": "项目持续时间"
     },
@@ -359,6 +623,18 @@
     {
       "key": "project.cluster.add.customfield.failure",
       "value": "添加失败，请重试"
+    },
+    {
+      "key": "priority.multi.selector.trigger",
+      "value": "用例等级"
+    },
+    {
+      "key": "priority.multi.selector.submit",
+      "value": "确定"
+    },
+    {
+      "key": "priority.multi.selector.default",
+      "value": "空"
     },
     {
       "key": "powerups.upgrade.title",
@@ -589,6 +865,10 @@
       "value": "任务、日程、文件、分享、聊天"
     },
     {
+      "key": "organization.create.skip.comein",
+      "value": "直接进入"
+    },
+    {
       "key": "org.not.found.reason",
       "value": "该企业由于已被删除，或已将您移除等原因，已无法访问。"
     },
@@ -657,6 +937,18 @@
       "value": "成功关联分组至需求"
     },
     {
+      "key": "link.panel.customfield.field.belong.to.choices",
+      "value": "选项： %s"
+    },
+    {
+      "key": "link.panel.customfield.belonging.content",
+      "value": "共 %1 个（%2）"
+    },
+    {
+      "key": "helper.case.center",
+      "value": "案例中心"
+    },
+    {
       "key": "flowstatus.menu.testcase.footer",
       "value": "自动切换到下一条"
     },
@@ -701,6 +993,26 @@
       "value": "删除企业"
     },
     {
+      "key": "customfield.edit.field.protect.unfold",
+      "value": "展开其他 %s 个项目"
+    },
+    {
+      "key": "customfield.edit.field.protect.title",
+      "value": "警示"
+    },
+    {
+      "key": "customfield.edit.field.protect.hint",
+      "value": "该字段被以下 %s 个项目使用，若修改会同步修改其他项目中的数据。你可以继续修改或者创建新的字段。"
+    },
+    {
+      "key": "customfield.edit.field.protect.create",
+      "value": "创建新字段"
+    },
+    {
+      "key": "customfield.edit.field.protect.confirm",
+      "value": "确定编辑"
+    },
+    {
       "key": "customfield.add.limit",
       "value": "最多可添加 %s 个字段"
     },
@@ -709,8 +1021,68 @@
       "value": "最近版本"
     },
     {
+      "key": "custom.field.submit.edit.duplication.hint",
+      "value": "前往查看"
+    },
+    {
+      "key": "custom.field.submit.edit.duplication",
+      "value": "自定义字段重复"
+    },
+    {
       "key": "create.organization",
       "value": "创建企业"
+    },
+    {
+      "key": "brand.survey",
+      "value": "品牌调研"
+    },
+    {
+      "key": "agile.preview.version",
+      "value": "版本管理"
+    },
+    {
+      "key": "agile.preview.test",
+      "value": "测试管理"
+    },
+    {
+      "key": "agile.preview.sprints",
+      "value": "迭代规划"
+    },
+    {
+      "key": "agile.preview.requirements",
+      "value": "需求管理"
+    },
+    {
+      "key": "agile.preview.desc.version",
+      "value": "制定并维护产品发布计划"
+    },
+    {
+      "key": "agile.preview.desc.test",
+      "value": "帮助测试人员对测试过程进行管理和协同"
+    },
+    {
+      "key": "agile.preview.desc.sprints",
+      "value": "将需求、缺陷规划到迭代，确保快速交付"
+    },
+    {
+      "key": "agile.preview.desc.requirements",
+      "value": "对需求进行全生命周期的管理"
+    },
+    {
+      "key": "agile.preview.desc.bugs",
+      "value": "科学的进行缺陷管理，跟踪修复进度"
+    },
+    {
+      "key": "agile.preview.desc.analytics",
+      "value": "丰富且可视化的实时数据统计报表"
+    },
+    {
+      "key": "agile.preview.bugs",
+      "value": "缺陷跟踪"
+    },
+    {
+      "key": "agile.preview.analytics",
+      "value": "统计回顾"
     },
     {
       "key": "continue",
@@ -718,6 +1090,11 @@
     }
   ],
   "modified": [
+    {
+      "key": "toast.usercase.plan.success",
+      "oldValue": "成功规划用例至：",
+      "newValue": "成功规划 %s 条用例至："
+    },
     {
       "key": "toast.testcase.move.success",
       "oldValue": "成功变更执行用例",
@@ -727,6 +1104,11 @@
       "key": "testplan.testgroup.unplanned.name",
       "oldValue": "未归入用例库的用例",
       "newValue": "未分组的用例"
+    },
+    {
+      "key": "testcase.save.to.testhub.success",
+      "oldValue": "成功保存用例内容至用例库",
+      "newValue": "成功保存 %s 条用例至用例库"
     },
     {
       "key": "testcase.menu.move.title",
@@ -747,6 +1129,11 @@
       "key": "testcase.menu.fork",
       "oldValue": "复制执行用例",
       "newValue": "复制用例"
+    },
+    {
+      "key": "testcase.bulk.save",
+      "oldValue": "批量保存",
+      "newValue": "保存至用例库"
     },
     {
       "key": "task.detail.task.dependency.kind.SS",
@@ -782,6 +1169,11 @@
       "key": "project.hierarchy.untagged.projects",
       "oldValue": "未分组的项目",
       "newValue": "未分组项目"
+    },
+    {
+      "key": "project.creator.template.unique.id.prefix.title",
+      "oldValue": "项目编号（任务 ID 前缀）",
+      "newValue": "项目编号 (任务 ID 前缀，2-6 位字母)"
     },
     {
       "key": "powerups.taskUniqueId.dialog.edit.desc",
@@ -909,9 +1301,14 @@
       "newValue": "使用规模"
     },
     {
+      "key": "organization.trail.info.member.count.2",
+      "oldValue": "30 ~ 100人",
+      "newValue": "50 ~ 100人"
+    },
+    {
       "key": "organization.trail.info.member.count.1",
       "oldValue": "1 ~ 30人",
-      "newValue": "10 ~ 30人"
+      "newValue": "10 ~ 50人"
     },
     {
       "key": "organization.trail.contact.title",
@@ -922,6 +1319,31 @@
       "key": "organization.trail.contact.phone.manager.phone.placeholder",
       "oldValue": "请输入电话号码",
       "newValue": "手机号"
+    },
+    {
+      "key": "link.panel.customfield.field.applied.to.projects",
+      "oldValue": "应用项目: %s",
+      "newValue": "应用项目：%s"
+    },
+    {
+      "key": "custom.field.name.placeholder",
+      "oldValue": "输入名称，最多 20 字",
+      "newValue": "输入名称，最多 %s 字"
+    },
+    {
+      "key": "custom.field.description.placeholder",
+      "oldValue": "可选项，最多 20 字",
+      "newValue": "可选项，最多 %s 字"
+    },
+    {
+      "key": "custom.field.choice.placeholder",
+      "oldValue": "最多 20 字",
+      "newValue": "最多 %s 字"
+    },
+    {
+      "key": "custom.field.add.failed",
+      "oldValue": "添加自定义字段失败。",
+      "newValue": "创建失败"
     }
   ],
   "deleted": []
