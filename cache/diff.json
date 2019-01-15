@@ -9,6 +9,10 @@
       "value": "单次批量操作不得超过500条"
     },
     {
+      "key": "usercase.executor.title",
+      "value": "维护人"
+    },
+    {
       "key": "toast.testcase.sync.from.testhub.success",
       "value": "成功从用例库更新用例内容"
     },
@@ -818,7 +822,7 @@
     },
     {
       "key": "organization.payment.cs.feature.1",
-      "value": "7 * 12 中英文在线支持"
+      "value": "%s 中英文在线支持"
     },
     {
       "key": "organization.payment.close.upgrade.btn",
@@ -867,6 +871,10 @@
     {
       "key": "organization.create.skip.comein",
       "value": "直接进入"
+    },
+    {
+      "key": "organization.create.default.name",
+      "value": "%s的团队"
     },
     {
       "key": "org.not.found.reason",
@@ -1129,6 +1137,11 @@
       "key": "testcase.menu.fork",
       "oldValue": "复制执行用例",
       "newValue": "复制用例"
+    },
+    {
+      "key": "testcase.executor.title",
+      "oldValue": "维护人",
+      "newValue": "执行者"
     },
     {
       "key": "testcase.bulk.save",
