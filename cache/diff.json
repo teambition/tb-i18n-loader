@@ -665,6 +665,14 @@
       "value": "表格视图"
     },
     {
+      "key": "personal.settings.tab.personalization",
+      "value": "个性化"
+    },
+    {
+      "key": "personal.settings.markdown.tips",
+      "value": "开启后，在评论和聊天中可以使用 Markdown 进行输入"
+    },
+    {
       "key": "pernsonal.workspace.transfer.hint",
       "value": "个人项目正式升级为企业空间"
     },
