@@ -3162,7 +3162,7 @@
   "organizationReport.unassignedAssignmentsDialog.error": "Error",
   "organizationReport.weeklyCompleted": "Tasks completed this week",
   "payment.center": "Payment Center",
-  "pernsonal.workspace.transfer.hint": "Personal workspace is upgraded to organizational workspace",
+  "pernsonal.workspace.transfer.hint": "Can't find the projects? Don't worry, your data is not lost. We have officially upgraded everyone's Personal Project to Organizational Workspace. Click the avatar on top right corner to switch.",
   "personal.expiring.migrate": "Upgrade to Enterprise Edition",
   "personal.expiring.tip": "Your Teambition Pro will be expired in %s days . We will no longer provide this service. Thank you for your support and welcome to try our other products.",
   "personal.expiring.tip.long.time": "Teambition Pro will be retired soon, you can switch to the Enterprise edition with the same price.",

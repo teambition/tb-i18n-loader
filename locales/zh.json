@@ -3162,7 +3162,7 @@
   "organizationReport.unassignedAssignmentsDialog.error": "出错啦!",
   "organizationReport.weeklyCompleted": "本周已完成",
   "payment.center": "支付中心",
-  "pernsonal.workspace.transfer.hint": "个人项目正式升级为企业空间",
+  "pernsonal.workspace.transfer.hint": "有项目找不到了？ 放心，你的数据没丢，我们把所有人的个人项目正式升级为企业空间了，点击右上角头像可以切换",
   "personal.expiring.migrate": "转为企业版",
   "personal.expiring.tip": "个人专业版还剩 %s 天到期，Teambition 将不再提供个人专业版服务。",
   "personal.expiring.tip.long.time": "个人专业版将不再提供服务，现有的订阅用户可以免费转为企业版，并可以按照个人专业版的价格购买一定年限的企业版。",
