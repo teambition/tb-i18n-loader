@@ -85,6 +85,10 @@
       "value": "按创建时间最早"
     },
     {
+      "key": "testplan.panel.view.searchers.title",
+      "value": "筛选"
+    },
+    {
       "key": "testplan.panel.view.reset.filter",
       "value": "清除筛选"
     },
@@ -199,6 +203,10 @@
     {
       "key": "testgroup.selector.project.label",
       "value": "项目"
+    },
+    {
+      "key": "testgroup.selector.flowstatus.label",
+      "value": "状态"
     },
     {
       "key": "testgroup.remote.selector.placeholder",
@@ -425,6 +433,142 @@
       "value": "批量编辑"
     },
     {
+      "key": "share.via.wechat.description",
+      "value": "可查看和评论任务"
+    },
+    {
+      "key": "share.via.wechat",
+      "value": "通过微信共享"
+    },
+    {
+      "key": "share.type.work",
+      "value": "文件"
+    },
+    {
+      "key": "share.type.task",
+      "value": "任务"
+    },
+    {
+      "key": "share.type.post",
+      "value": "分享"
+    },
+    {
+      "key": "share.type.event",
+      "value": "日程"
+    },
+    {
+      "key": "share.status.stop.sharing",
+      "value": "停止共享"
+    },
+    {
+      "key": "share.link.wechat.hint",
+      "value": "请使用微信扫码"
+    },
+    {
+      "key": "share.link.wechat.description",
+      "value": "邀请成为项目成员。"
+    },
+    {
+      "key": "share.link.paste.success",
+      "value": "复制成功"
+    },
+    {
+      "key": "share.link.paste.fail",
+      "value": "复制失败，请重试"
+    },
+    {
+      "key": "share.link.open",
+      "value": "已开启"
+    },
+    {
+      "key": "share.link.copy.link.handler",
+      "value": "复制链接"
+    },
+    {
+      "key": "share.link.closed",
+      "value": "未开启"
+    },
+    {
+      "key": "settings.wechat.invite.title",
+      "value": "获取邀请链接"
+    },
+    {
+      "key": "searcher.testcase.priority",
+      "value": "用例等级"
+    },
+    {
+      "key": "searcher.testcase.flowstatus",
+      "value": "状态"
+    },
+    {
+      "key": "searcher.testcase.caseType",
+      "value": "用例类型"
+    },
+    {
+      "key": "searcher.options.testcase.priority.zero",
+      "value": "P0"
+    },
+    {
+      "key": "searcher.options.testcase.priority.two",
+      "value": "P2"
+    },
+    {
+      "key": "searcher.options.testcase.priority.three",
+      "value": "P3"
+    },
+    {
+      "key": "searcher.options.testcase.priority.one",
+      "value": "P1"
+    },
+    {
+      "key": "searcher.options.testcase.priority.none",
+      "value": "空"
+    },
+    {
+      "key": "searcher.options.testcase.priority.four",
+      "value": "P4"
+    },
+    {
+      "key": "searcher.options.testcase.priority.five",
+      "value": "P5"
+    },
+    {
+      "key": "searcher.options.task.caseType.security",
+      "value": "安全相关"
+    },
+    {
+      "key": "searcher.options.task.caseType.performance",
+      "value": "性能测试"
+    },
+    {
+      "key": "searcher.options.task.caseType.other",
+      "value": "其它"
+    },
+    {
+      "key": "searcher.options.task.caseType.none",
+      "value": "无"
+    },
+    {
+      "key": "searcher.options.task.caseType.function",
+      "value": "功能测试"
+    },
+    {
+      "key": "searcher.options.task.caseType.deployment",
+      "value": "安装部署"
+    },
+    {
+      "key": "searcher.options.task.caseType.config",
+      "value": "配置相关"
+    },
+    {
+      "key": "searcher.options.task.caseType.auto",
+      "value": "自动化测试"
+    },
+    {
+      "key": "searcher.options.task.caseType.api",
+      "value": "接口测试"
+    },
+    {
       "key": "searcher.filter.date.year",
       "value": "按年"
     },
@@ -481,8 +625,44 @@
       "value": "按天"
     },
     {
+      "key": "search.filter.searcher.filter.selector.testcase.priority.unset",
+      "value": "全部用例等级"
+    },
+    {
+      "key": "search.filter.searcher.filter.selector.flowstatus.unset",
+      "value": "全部状态"
+    },
+    {
+      "key": "search.filter.searcher.filter.selector.caseType.unset",
+      "value": "全部用例类型"
+    },
+    {
       "key": "project.tag.menu.title",
       "value": "项目分组菜单"
+    },
+    {
+      "key": "project.settings.testplan.flowstatus.entry.title",
+      "value": "测试计划工作流设置"
+    },
+    {
+      "key": "project.settings.testplan.flowstatus.entry.description",
+      "value": "点此编辑本项目使用的测试计划工作流。"
+    },
+    {
+      "key": "project.settings.testcaseFieldConfig.title",
+      "value": "测试工作流设置"
+    },
+    {
+      "key": "project.settings.tab.testplan",
+      "value": "测试计划设置"
+    },
+    {
+      "key": "project.panel.activity.project.share.task.on",
+      "value": "开启了任务共享"
+    },
+    {
+      "key": "project.panel.activity.project.share.task.off",
+      "value": "关闭了任务共享"
     },
     {
       "key": "project.hierarchy.history.forbidden.by.privacy.setting",
@@ -933,6 +1113,10 @@
       "value": "泳道任务筛选"
     },
     {
+      "key": "object.share.link.description",
+      "value": "任何人可访问该链接直接查阅%s，参与讨论。"
+    },
+    {
       "key": "object.picker.testgroup.creator",
       "value": "创建用例分组"
     },
@@ -959,6 +1143,18 @@
     {
       "key": "link.panel.customfield.belonging.content",
       "value": "共 %1 个（%2）"
+    },
+    {
+      "key": "invite.members.modal.invite.by.wechat",
+      "value": "通过微信邀请"
+    },
+    {
+      "key": "invite.from.link.description",
+      "value": "邀请成为项目成员"
+    },
+    {
+      "key": "invite.from.link",
+      "value": "获取邀请链接"
     },
     {
       "key": "helper.case.center",
@@ -1049,6 +1245,22 @@
       "value": "创建企业"
     },
     {
+      "key": "common.share.enable",
+      "value": "开启共享"
+    },
+    {
+      "key": "common.share.disable",
+      "value": "停止共享"
+    },
+    {
+      "key": "common.share.description.text.no.permission",
+      "value": "该%s暂未开启共享，请联系项目管理员。"
+    },
+    {
+      "key": "common.share.description.text",
+      "value": "共享开启后，访问链接可直接查阅%s，参与讨论。"
+    },
+    {
       "key": "brand.survey",
       "value": "品牌调研"
     },
@@ -1086,7 +1298,7 @@
     },
     {
       "key": "agile.preview.desc.bugs",
-      "value": "科学的进行缺陷管理，跟踪修复进度"
+      "value": "科学地进行缺陷管理，跟踪修复进度"
     },
     {
       "key": "agile.preview.desc.analytics",
@@ -1200,6 +1412,11 @@
       "key": "powerups.taskUniqueId.dialog.edit.desc",
       "oldValue": "设置项目编号，编号将作为 ID 前缀，用以区别项目。支持字母，%s-%s位。",
       "newValue": "设置项目编号，编号将作为 ID 前缀，用以区别项目。支持 %s-%s 位字母。"
+    },
+    {
+      "key": "powerups.startDate.short.des",
+      "oldValue": "为任务设置开始时间，更科学的规划工作。",
+      "newValue": "为任务设置开始时间，更科学地规划工作。"
     },
     {
       "key": "powerups.app.confirm.close",
