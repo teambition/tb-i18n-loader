@@ -353,6 +353,518 @@
       "value": "创建用例分组"
     },
     {
+      "key": "tapestry.picker.title.testplanisDoneRadio",
+      "value": "用例是否完成"
+    },
+    {
+      "key": "tapestry.picker.title.testplanisArchiveRadio",
+      "value": "是否是回收站中的用例"
+    },
+    {
+      "key": "tapestry.picker.title.testplanMixed",
+      "value": "用例范围"
+    },
+    {
+      "key": "tapestry.picker.title.testplan",
+      "value": "测试计划"
+    },
+    {
+      "key": "tapestry.picker.title.tasklist",
+      "value": "任务分组"
+    },
+    {
+      "key": "tapestry.picker.title.taskisDoneRadio",
+      "value": "任务是否完成"
+    },
+    {
+      "key": "tapestry.picker.title.taskisArchivedRadio",
+      "value": "是否是回收站中的任务"
+    },
+    {
+      "key": "tapestry.picker.title.taskflowstatus",
+      "value": "任务状态"
+    },
+    {
+      "key": "tapestry.picker.title.taskflow",
+      "value": "工作流"
+    },
+    {
+      "key": "tapestry.picker.title.subtaskRadio",
+      "value": "是否是子任务"
+    },
+    {
+      "key": "tapestry.picker.title.singleSprint",
+      "value": "迭代"
+    },
+    {
+      "key": "tapestry.picker.title.section",
+      "value": "汇总方式"
+    },
+    {
+      "key": "tapestry.picker.title.range",
+      "value": "时间范围"
+    },
+    {
+      "key": "tapestry.picker.title.multiSprint",
+      "value": "迭代"
+    },
+    {
+      "key": "tapestry.picker.title.mixed",
+      "value": "任务范围"
+    },
+    {
+      "key": "tapestry.picker.title.executor",
+      "value": "执行者"
+    },
+    {
+      "key": "tapestry.picker.title.dateSeries",
+      "value": "时间区间"
+    },
+    {
+      "key": "tapestry.picker.tagIds.selector.trigger.placeholder",
+      "value": "选择标签"
+    },
+    {
+      "key": "tapestry.picker.tagIds.selector.trigger.count.placeholder",
+      "value": "已选择 %s 项标签"
+    },
+    {
+      "key": "tapestry.picker.tagIds.empty",
+      "value": "暂无可选标签"
+    },
+    {
+      "key": "tapestry.picker.stageId.selector.trigger.placeholder",
+      "value": "选择任务列表"
+    },
+    {
+      "key": "tapestry.picker.stageId.selector.trigger.count.placeholder",
+      "value": "已选择 %s 项任务"
+    },
+    {
+      "key": "tapestry.picker.sprintId.selector.trigger.placeholder",
+      "value": "选择迭代"
+    },
+    {
+      "key": "tapestry.picker.sprintId.selector.trigger.count.placeholder",
+      "value": "已选择 %s 项迭代"
+    },
+    {
+      "key": "tapestry.picker.sprintId.empty",
+      "value": "暂无可选迭代"
+    },
+    {
+      "key": "tapestry.picker.single.proTemplateConfigType.empty",
+      "value": "所有任务类型"
+    },
+    {
+      "key": "tapestry.picker.multiCheckbox.tagIds.empty",
+      "value": "没有标签的任务"
+    },
+    {
+      "key": "tapestry.picker.multiCheckbox.sprintId.empty",
+      "value": "不在迭代中的内容"
+    },
+    {
+      "key": "tapestry.picker.demension.line",
+      "value": "分析维度（表格行）"
+    },
+    {
+      "key": "tapestry.picker.dataset.mixed.default",
+      "value": "数据设置"
+    },
+    {
+      "key": "tapestry.picker.custom.chart.pie",
+      "value": "环状图"
+    },
+    {
+      "key": "tapestry.picker.custom.chart.line",
+      "value": "折线图"
+    },
+    {
+      "key": "tapestry.picker.custom.chart.bar",
+      "value": "柱状图"
+    },
+    {
+      "key": "tapestry.picker.compare.demension",
+      "value": "对比维度（表格列）"
+    },
+    {
+      "key": "tapestry.chart.task.subtask.picker",
+      "value": "任务"
+    },
+    {
+      "key": "tapestry.chart.task.story.picker",
+      "value": "需求"
+    },
+    {
+      "key": "tapestry.chart.task.bug.picker",
+      "value": "缺陷"
+    },
+    {
+      "key": "tapestry.chart.size.small",
+      "value": "小尺寸"
+    },
+    {
+      "key": "tapestry.chart.size.big",
+      "value": "大尺寸"
+    },
+    {
+      "key": "tapestry.chart.save.success",
+      "value": "报表保存成功"
+    },
+    {
+      "key": "tapestry.chart.save.button",
+      "value": "保存报表"
+    },
+    {
+      "key": "tapestry.chart.save",
+      "value": "覆盖当前报表"
+    },
+    {
+      "key": "tapestry.chart.remove.title",
+      "value": "删除报表"
+    },
+    {
+      "key": "tapestry.chart.remove.content",
+      "value": "确认删除此报表?"
+    },
+    {
+      "key": "tapestry.chart.remove.confirm",
+      "value": "确认删除"
+    },
+    {
+      "key": "tapestry.chart.dimension",
+      "value": "维度"
+    },
+    {
+      "key": "tapestry.chart.delete.success",
+      "value": "报表删除成功"
+    },
+    {
+      "key": "tapestry.chart.delete.error",
+      "value": "删除报表失败"
+    },
+    {
+      "key": "tapestry.chart.data.export",
+      "value": "导出"
+    },
+    {
+      "key": "tapestry.chart.dashboard.title",
+      "value": "项目统计"
+    },
+    {
+      "key": "tapestry.chart.custom.dataset.empty.pre",
+      "value": "您可以通过"
+    },
+    {
+      "key": "tapestry.chart.custom.dataset.empty.after",
+      "value": "，添加默认筛选项来保存报表"
+    },
+    {
+      "key": "tapestry.chart.create.warning",
+      "value": "您要保存此报表「%s」吗？"
+    },
+    {
+      "key": "tapestry.chart.create.success",
+      "value": "报表创建成功"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.testplan.analytics",
+      "value": "测试用例"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.task.distributed",
+      "value": "任务分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.sprint.analytics",
+      "value": "迭代分析"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.progress",
+      "value": "项目进展"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.overview",
+      "value": "项目概览"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.excutor.progress",
+      "value": "按执行者查看任务进展"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.defect.analytics",
+      "value": "缺陷分析"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.custom",
+      "value": "自定义报表"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.worktime.task",
+      "value": "期间提交工时的任务"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.testcase.trend",
+      "value": "用例进展趋势图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.testcase.status.distribution",
+      "value": "用例状态分布图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.taskstatus.distribution.bugs",
+      "value": "缺陷按任务阶段分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.sprint.distribution.bugs",
+      "value": "缺陷按迭代分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.team.speed",
+      "value": "团队速度"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.sprint.taskflow",
+      "value": "任务状态按停留时间分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.sprint.burnup",
+      "value": "迭代 Burnup 图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.sprint.burndown",
+      "value": "迭代进展走势图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.sprint.analysis",
+      "value": "迭代分析"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.bugage.report",
+      "value": "缺陷年龄报告"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.bug.trend",
+      "value": "缺陷变化趋势"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.scrum.bug.accumulative.trend",
+      "value": "缺陷累计趋势"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.priority.distribution.tasks",
+      "value": "任务按优先级分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.priority.distribution.bugs",
+      "value": "缺陷按优先级分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.period.complete.tasks",
+      "value": "每日完成任务量"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.overview",
+      "value": "概览报表"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.group.done.tasks",
+      "value": "任务按任务分组完成分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.general.project.trend",
+      "value": "项目进展走势"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.general.project.burndown",
+      "value": "任务燃尽图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.executor.taskstatus.bugs",
+      "value": "缺陷按执行者状态分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.executor.tasks",
+      "value": "期间完成的任务"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.executor.due.tasks",
+      "value": "期间逾期的任务"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.executor.done.tasks",
+      "value": "期间截止任务分成员完成情况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.executor.distribution.tasks",
+      "value": "任务按执行者分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.executor.distribution.bugs",
+      "value": "缺陷按执行者分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.done.tasks",
+      "value": "期间截止任务完成情况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.custom",
+      "value": "自定义报表"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.creator.distribution.bugs",
+      "value": "缺陷按创建者分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.worktime.task",
+      "value": "查看项目成员提交工时情况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.testcase.trend",
+      "value": "了解用例每天执行情况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.testcase.status.distribution",
+      "value": "了解测试用例在不同状态下的分布情况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.taskstatus.distribution.bugs",
+      "value": "按任务状态缺陷总数分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.sprint.distribution.bugs",
+      "value": "按迭代查看缺陷总数分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.team.speed",
+      "value": "查看每个迭代完成story point和平均每个迭代的值的对比图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.sprint.taskflow",
+      "value": "查看某个工作流中任务状态停留时间的分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.sprint.burnup",
+      "value": "查看某个迭代每天完成任务数和实际完成的故事点，理想完成故事点和故事点总数"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.sprint.burndown",
+      "value": "查看每天完成任务数和剩余故事点和理想剩余故事点"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.sprint.analysis",
+      "value": "了解已结束迭代的需求、缺陷和任务的情况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.bugage.report",
+      "value": "查看缺陷修复时间分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.bug.trend",
+      "value": "查看每天新增缺陷趋势和修复缺陷趋势"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.scrum.bug.accumulative.trend",
+      "value": "查看每天缺陷总数和修复缺陷总数的趋势"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.priority.distribution.tasks",
+      "value": "按任务的优先级查看任务的分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.priority.distribution.bugs",
+      "value": "按优先级查看缺陷总数分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.period.complete.tasks",
+      "value": "查看每天标记完成任务数的数量"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.overview",
+      "value": "了解项目任务数据概况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.group.done.tasks",
+      "value": "按任务的优先级查看任务的分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.general.project.trend",
+      "value": "查看每天任务的总数和已完成的任务数"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.general.project.burndown",
+      "value": "燃尽图是在项目完成之前，对需要完成的工作的一种可视化表示。该图表是一个向下的曲线，随着剩余任务的完成，燃烧至尽。"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.executor.taskstatus.bugs",
+      "value": "按执行者查看他的任务状态分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.executor.tasks",
+      "value": "按执行者查看某个时间范围内任务完成情况"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.executor.due.tasks",
+      "value": "按执行者查看某段截止时间内逾期的任务"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.executor.done.tasks",
+      "value": "按执行者查看某段截止时间内任务状态分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.executor.distribution.tasks",
+      "value": "按执行者查看每个人的任务数分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.executor.distribution.bugs",
+      "value": "按执行者查看缺陷总数分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.done.tasks",
+      "value": "截止时间内有截止日期的任务完成情况分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.custom",
+      "value": "可创建自定义报表"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.creator.distribution.bugs",
+      "value": "按创建者查看缺陷总数分布"
+    },
+    {
+      "key": "tapestry.chart.create.error.title.edit",
+      "value": "请填写报表名称"
+    },
+    {
+      "key": "tapestry.chart.create.error.dimension",
+      "value": "请先选择数据设置中维度设置"
+    },
+    {
+      "key": "tapestry.chart.create.end.notice",
+      "value": "提示"
+    },
+    {
+      "key": "tapestry.chart.create.anchor",
+      "value": "新建报表"
+    },
+    {
+      "key": "tapestry.chart.create.add.dimension",
+      "value": "添加对比维度"
+    },
+    {
+      "key": "tapestry.chart.create",
+      "value": "创建为新报表"
+    },
+    {
+      "key": "tapestry.chart.content.explain",
+      "value": "如何读此报表"
+    },
+    {
+      "key": "tapestry.chart.cancel.button",
+      "value": "暂不保存"
+    },
+    {
       "key": "table.batch.edit.title",
       "value": "%s%s"
     },
@@ -1065,6 +1577,34 @@
       "value": "%s的团队"
     },
     {
+      "key": "org.special.role.search.hint.title",
+      "value": "未加入企业成员"
+    },
+    {
+      "key": "org.special.role.search.hint.invite.title",
+      "value": "邀请企业成员"
+    },
+    {
+      "key": "org.special.role.search.hint.invite.step.1",
+      "value": "2. 点击右上角的添加成员"
+    },
+    {
+      "key": "org.special.role.search.hint.invite.step.0",
+      "value": "1. 企业拥有者或管理员从对应企业 dock 栏打开“成员”应用，或者用桌面浏览器访问地址 %s"
+    },
+    {
+      "key": "org.special.role.search.hint.invite.method",
+      "value": "邀请方式"
+    },
+    {
+      "key": "org.special.role.search.hint.invite.guide",
+      "value": "查看详情"
+    },
+    {
+      "key": "org.special.role.search.hint.content",
+      "value": "企业内的搜索需要企业成员才可以使用，您当前没有被加入企业成员，请联系企业拥有者%s邀请您加入企业。"
+    },
+    {
       "key": "org.not.found.reason",
       "value": "该企业由于已被删除，或已将您移除等原因，已无法访问。"
     },
@@ -1389,6 +1929,21 @@
       "newValue": "完成才完成"
     },
     {
+      "key": "tapestry.picker.multi.taskflowstatusId.prompt",
+      "oldValue": "选择工作流状态",
+      "newValue": "选择任务状态"
+    },
+    {
+      "key": "tapestry.picker.multi.taskflowstatusId.empty",
+      "oldValue": "没有工作流状态",
+      "newValue": "没有任务状态"
+    },
+    {
+      "key": "tapestry.picker.multi.taskflowstatusId.all",
+      "oldValue": "所有工作流状态",
+      "newValue": "所有任务状态"
+    },
+    {
       "key": "standard.link.default.consumer",
       "oldValue": "标准关联",
       "newValue": "关联的其他内容"
@@ -1417,6 +1972,11 @@
       "key": "powerups.startDate.short.des",
       "oldValue": "为任务设置开始时间，更科学的规划工作。",
       "newValue": "为任务设置开始时间，更科学地规划工作。"
+    },
+    {
+      "key": "powerups.markdown.des",
+      "oldValue": "使用 Markdown 格式撰写的文本，可以使用简单的符号编辑文本样式。在发布评论及任务备注时，支持使用 Markdown 。",
+      "newValue": "使用 Markdown 格式撰写的文本，可以使用简单的符号编辑文本样式。在发布任务备注时，支持使用 Markdown 。"
     },
     {
       "key": "powerups.app.confirm.close",
@@ -1577,6 +2137,11 @@
       "key": "custom.field.choice.placeholder",
       "oldValue": "最多 20 字",
       "newValue": "最多 %s 字"
+    },
+    {
+      "key": "custom.field.advanced.hint.3",
+      "oldValue": "「文件」类型可上传或选择 Teambition 中的文件（即将支持）。",
+      "newValue": "「文档」类型依赖「所思」服务。"
     },
     {
       "key": "custom.field.add.failed",
