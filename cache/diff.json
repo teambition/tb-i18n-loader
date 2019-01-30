@@ -553,6 +553,10 @@
       "value": "项目统计"
     },
     {
+      "key": "tapestry.chart.cycle.time",
+      "value": "时间周期"
+    },
+    {
       "key": "tapestry.chart.custom.dataset.empty.pre",
       "value": "您可以通过"
     },
@@ -1137,6 +1141,10 @@
       "value": "按天"
     },
     {
+      "key": "search.filter.searcher.multi.selector.input.placeholder.default",
+      "value": "搜索"
+    },
+    {
       "key": "search.filter.searcher.filter.selector.testcase.priority.unset",
       "value": "全部用例等级"
     },
@@ -1147,6 +1155,14 @@
     {
       "key": "search.filter.searcher.filter.selector.caseType.unset",
       "value": "全部用例类型"
+    },
+    {
+      "key": "projects.transferIn.to.direct",
+      "value": "迁入到 %s"
+    },
+    {
+      "key": "project.transfer.no.orgs",
+      "value": "没有可迁移的企业"
     },
     {
       "key": "project.tag.menu.title",
@@ -1685,6 +1701,10 @@
       "value": "共 %1 个（%2）"
     },
     {
+      "key": "kanban.click.load.tasks",
+      "value": "点击加载更多任务"
+    },
+    {
       "key": "invite.members.modal.invite.by.wechat",
       "value": "通过微信邀请"
     },
@@ -1799,6 +1819,10 @@
     {
       "key": "common.share.description.text",
       "value": "共享开启后，访问链接可直接查阅%s，参与讨论。"
+    },
+    {
+      "key": "chose.organization",
+      "value": "选择企业："
     },
     {
       "key": "brand.survey",
@@ -1947,6 +1971,11 @@
       "key": "standard.link.default.consumer",
       "oldValue": "标准关联",
       "newValue": "关联的其他内容"
+    },
+    {
+      "key": "searcher.options.task.executorId.null",
+      "oldValue": "未指派",
+      "newValue": "待认领"
     },
     {
       "key": "project.setting.nav.hint",
