@@ -4776,7 +4776,7 @@
   "searcher.options.task.title": "Title",
   "searcher.options.testcase.priority.five": "P5",
   "searcher.options.testcase.priority.four": "P4",
-  "searcher.options.testcase.priority.none": "(None)",
+  "searcher.options.testcase.priority.none": "None",
   "searcher.options.testcase.priority.one": "P1",
   "searcher.options.testcase.priority.three": "P3",
   "searcher.options.testcase.priority.two": "P2",
