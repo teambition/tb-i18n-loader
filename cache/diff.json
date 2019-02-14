@@ -337,6 +337,10 @@
       "value": "只看我的"
     },
     {
+      "key": "template.creator.personal.template.retired",
+      "value": "个人空间已经下线，无法创建新的模板，请在企业模版中创建"
+    },
+    {
       "key": "template.category.choose",
       "value": "选择场景"
     },
@@ -1213,6 +1217,10 @@
       "value": "为标准化事务，创建 "
     },
     {
+      "key": "project.creator.personal.template.retired",
+      "value": "个人空间已经下线，无法创建新的模板，请在企业模版中创建"
+    },
+    {
       "key": "project.cluster.unallocated",
       "value": "待认领任务数"
     },
@@ -1765,6 +1773,38 @@
       "value": "删除企业"
     },
     {
+      "key": "customfield.lock.tooltip.hint.no.user",
+      "value": "该字段已锁定"
+    },
+    {
+      "key": "customfield.lock.tooltip.hint",
+      "value": "该字段被 %s 锁定"
+    },
+    {
+      "key": "customfield.lock.open.hint",
+      "value": "任何人都不能编辑"
+    },
+    {
+      "key": "customfield.lock.open",
+      "value": "已开启"
+    },
+    {
+      "key": "customfield.lock.edit.info",
+      "value": "该字段被 %s 锁定，暂时无法编辑。"
+    },
+    {
+      "key": "customfield.lock.close.hint",
+      "value": "字段可被编辑"
+    },
+    {
+      "key": "customfield.lock.close",
+      "value": "已关闭"
+    },
+    {
+      "key": "customfield.lock",
+      "value": "字段锁定"
+    },
+    {
       "key": "customfield.edit.field.protect.unfold",
       "value": "展开其他 %s 个项目"
     },
@@ -1823,6 +1863,34 @@
     {
       "key": "chose.organization",
       "value": "选择企业："
+    },
+    {
+      "key": "bug.group.edit.menu",
+      "value": "缺陷分类菜单"
+    },
+    {
+      "key": "bug.group.edit.error.duplicate.name",
+      "value": "同级分类不能重名"
+    },
+    {
+      "key": "bug.group.edit",
+      "value": "编辑缺陷分类"
+    },
+    {
+      "key": "bug.group.delete.hint",
+      "value": "删除后此分类和其子分类将一并删除，对应任务上的分类信息也会清除。"
+    },
+    {
+      "key": "bug.group.delete",
+      "value": "删除缺陷分类"
+    },
+    {
+      "key": "bug.group.create",
+      "value": "创建缺陷分类"
+    },
+    {
+      "key": "bug.group.all.categories",
+      "value": "所有缺陷"
     },
     {
       "key": "brand.survey",
