@@ -205,12 +205,28 @@
       "value": "项目"
     },
     {
+      "key": "testgroup.selector.modal.title",
+      "value": "选择测试计划"
+    },
+    {
       "key": "testgroup.selector.flowstatus.label",
       "value": "状态"
     },
     {
       "key": "testgroup.remote.selector.placeholder",
       "value": "搜索分组"
+    },
+    {
+      "key": "testgroup.move.success",
+      "value": "分组移动成功"
+    },
+    {
+      "key": "testgroup.move.selector.desc",
+      "value": "将完整移动当前分组及下属的所有用例内容"
+    },
+    {
+      "key": "testgroup.menu.move",
+      "value": "移动分组"
     },
     {
       "key": "testgroup.menu.copy",
@@ -953,6 +969,14 @@
       "value": "批量编辑"
     },
     {
+      "key": "story.group",
+      "value": "需求分类"
+    },
+    {
+      "key": "standard.link.thoughts",
+      "value": "关联的所思"
+    },
+    {
       "key": "share.via.wechat.description",
       "value": "可查看和评论任务"
     },
@@ -1129,8 +1153,20 @@
       "value": "过去 %s 天"
     },
     {
+      "key": "searcher.filter.date.relative.nextdays",
+      "value": "未来 %s 天"
+    },
+    {
+      "key": "searcher.filter.date.relative.neardays",
+      "value": "最近 %s 天"
+    },
+    {
       "key": "searcher.filter.date.relative.lastyear",
       "value": "去年"
+    },
+    {
+      "key": "searcher.filter.date.relative.beforetoday",
+      "value": "今天以前"
     },
     {
       "key": "searcher.filter.date.not.choice",
@@ -1195,6 +1231,18 @@
     {
       "key": "project.panel.activity.project.share.task.off",
       "value": "关闭了任务共享"
+    },
+    {
+      "key": "project.info.unlock.item",
+      "value": "点击解锁字段"
+    },
+    {
+      "key": "project.info.lock.item.disabled",
+      "value": "该字段由指定角色统一维护"
+    },
+    {
+      "key": "project.info.lock.item",
+      "value": "锁定后字段不可被操作"
     },
     {
       "key": "project.hierarchy.history.forbidden.by.privacy.setting",
@@ -1498,7 +1546,7 @@
     },
     {
       "key": "organization.payment.license.add",
-      "value": "增购名额"
+      "value": "购买名额"
     },
     {
       "key": "organization.payment.hide.upgrade",
@@ -1691,6 +1739,10 @@
     {
       "key": "object.detail.switcher.next",
       "value": "下一条"
+    },
+    {
+      "key": "link.type.thoughts",
+      "value": "所思"
     },
     {
       "key": "link.testplan.group.to.task.success.hint",
@@ -1893,6 +1945,10 @@
       "value": "所有缺陷"
     },
     {
+      "key": "bug.group",
+      "value": "缺陷分类"
+    },
+    {
       "key": "brand.survey",
       "value": "品牌调研"
     },
@@ -2046,6 +2102,11 @@
       "newValue": "待认领"
     },
     {
+      "key": "search.type.thoughts.folder",
+      "oldValue": "Thoughts 文件夹",
+      "newValue": "所思文件夹"
+    },
+    {
       "key": "project.setting.nav.hint",
       "oldValue": "拖动图标排序。你可以前往 项目菜单－应用中心 打开或关闭应用。",
       "newValue": "拖动图标排序。你可以前往「项目菜单－应用中心」打开或关闭应用。"
@@ -2059,6 +2120,11 @@
       "key": "project.creator.template.unique.id.prefix.title",
       "oldValue": "项目编号（任务 ID 前缀）",
       "newValue": "项目编号 (任务 ID 前缀，2-6 位字母)"
+    },
+    {
+      "key": "project.creator.template.applugins",
+      "oldValue": "应用与插件",
+      "newValue": "应用"
     },
     {
       "key": "powerups.taskUniqueId.dialog.edit.desc",
@@ -2214,6 +2280,11 @@
       "key": "organization.trail.contact.phone.manager.phone.placeholder",
       "oldValue": "请输入电话号码",
       "newValue": "手机号"
+    },
+    {
+      "key": "organization.pro.dueday.planTips",
+      "oldValue": "当前企业将在 %s 天后到期，到期后将无法访问。",
+      "newValue": "当前企业订阅将在 %s 天后到期。到期后将降级为10人免费版，长期成员超额企业将无法使用。"
     },
     {
       "key": "link.panel.customfield.field.applied.to.projects",
