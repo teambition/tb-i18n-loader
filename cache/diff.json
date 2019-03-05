@@ -150,7 +150,7 @@
     },
     {
       "key": "testplan.guide.description.4",
-      "value": "查看更多优化请"
+      "value": "更多优化请"
     },
     {
       "key": "testplan.guide.description.3",
@@ -435,6 +435,14 @@
     {
       "key": "tapestry.picker.title.executor",
       "value": "执行者"
+    },
+    {
+      "key": "tapestry.picker.title.dueDateRadio",
+      "value": "期间是否逾期"
+    },
+    {
+      "key": "tapestry.picker.title.datetime",
+      "value": "创建时间"
     },
     {
       "key": "tapestry.picker.title.dateSeries",
@@ -1197,6 +1205,10 @@
       "value": "全部用例类型"
     },
     {
+      "key": "release.drag.and.load.and.move.to.this.place",
+      "value": "松开进入此列并显示该列任务"
+    },
+    {
       "key": "projects.transferIn.to.direct",
       "value": "迁入到 %s"
     },
@@ -1419,6 +1431,14 @@
     {
       "key": "powerups.taskUniqueId.placeholder",
       "value": "如 Design Team 可以设置为 DT"
+    },
+    {
+      "key": "powerups.taskUniqueId.modal.title",
+      "value": "设置项目编号"
+    },
+    {
+      "key": "powerups.taskUniqueId.modal.content",
+      "value": "开启任务 ID 需要设置项目编号"
     },
     {
       "key": "portal.view.toggle",
