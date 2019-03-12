@@ -189,6 +189,14 @@
       "value": "删除分组，并将分组下的所有用例移动至回收站中"
     },
     {
+      "key": "testhub.testgroup.create.toast.success",
+      "value": "分组创建成功"
+    },
+    {
+      "key": "testhub.testgroup.create.toast.error",
+      "value": "分组创建失败"
+    },
+    {
       "key": "testhub.group.doublecheck.option.move",
       "value": "仅删除分组，用例移至未分组用例中"
     },
@@ -197,8 +205,16 @@
       "value": "将分组下的所有用例删除，不可恢复"
     },
     {
+      "key": "testgroups.selector.create.handler",
+      "value": "创建分组"
+    },
+    {
       "key": "testgroup.selector.testplan.label",
       "value": "测试计划"
+    },
+    {
+      "key": "testgroup.selector.testgroup.creator.title",
+      "value": "创建分组"
     },
     {
       "key": "testgroup.selector.project.label",
@@ -329,6 +345,10 @@
       "value": "按创建时间最早"
     },
     {
+      "key": "testcase.menu.title.testhub.testgroup.creator",
+      "value": "创建分组"
+    },
+    {
       "key": "testcase.menu.title.sync.from.testhub",
       "value": "从用例库更新"
     },
@@ -339,6 +359,14 @@
     {
       "key": "testcase.menu.sync.from.testhub",
       "value": "从用例库更新"
+    },
+    {
+      "key": "testcase.menu.save.to.testhub.hint",
+      "value": "系统将在用例库中生成一条新的基础用例"
+    },
+    {
+      "key": "testcase.menu.create",
+      "value": "创建"
     },
     {
       "key": "testcase.edit.priority.success",
@@ -438,7 +466,7 @@
     },
     {
       "key": "tapestry.picker.title.dueDateRadio",
-      "value": "期间是否逾期"
+      "value": "是否存在截止时间"
     },
     {
       "key": "tapestry.picker.title.datetime",
@@ -975,6 +1003,14 @@
     {
       "key": "table.batch.edit",
       "value": "批量编辑"
+    },
+    {
+      "key": "system.bar.back.old.version.tips",
+      "value": "研发域、代码域下缺少功能请返回至旧版使用"
+    },
+    {
+      "key": "system.bar.back.old.version",
+      "value": "回到旧版"
     },
     {
       "key": "story.group",
@@ -1761,6 +1797,30 @@
       "value": "下一条"
     },
     {
+      "key": "navigation.page.header.search",
+      "value": "高级搜索"
+    },
+    {
+      "key": "navigation.inbox",
+      "value": "通知"
+    },
+    {
+      "key": "navigation.helper",
+      "value": "帮助"
+    },
+    {
+      "key": "navigation.chat",
+      "value": "私信"
+    },
+    {
+      "key": "navigation.breadcrumbs.back.home",
+      "value": "回到首页"
+    },
+    {
+      "key": "list.view.belong.to.parent",
+      "value": "属于任务: %s"
+    },
+    {
       "key": "link.type.thoughts",
       "value": "所思"
     },
@@ -2042,6 +2102,11 @@
       "newValue": "未分组的用例"
     },
     {
+      "key": "testgroup.creator.title.error",
+      "oldValue": "请限制在 20 字以内",
+      "newValue": "请限制在 %s 字以内"
+    },
+    {
       "key": "testcase.save.to.testhub.success",
       "oldValue": "成功保存用例内容至用例库",
       "newValue": "成功保存 %s 条用例至用例库"
@@ -2145,6 +2210,16 @@
       "key": "project.creator.template.applugins",
       "oldValue": "应用与插件",
       "newValue": "应用"
+    },
+    {
+      "key": "project.creator.org.template.creator.taskflow.name",
+      "oldValue": "工作流项目",
+      "newValue": "工作流项目模板"
+    },
+    {
+      "key": "project.creator.org.template.creator.name",
+      "oldValue": "普通项目",
+      "newValue": "普通项目模板"
     },
     {
       "key": "powerups.taskUniqueId.dialog.edit.desc",
