@@ -4011,7 +4011,7 @@
   "project.overview.template.confirm": "OK",
   "project.overview.template.title": "%s Preview",
   "project.owner": "Set as Project Owner",
-  "project.owner.search": "Search Organization Member",
+  "project.owner.search": "Search Organization",
   "project.owner.select": "Select Project Owner",
   "project.panel.activity.project.add.team.and.members": "added Team and Members",
   "project.panel.activity.project.archive": "moved project to Recycle Bin",
