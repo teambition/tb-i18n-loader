@@ -389,6 +389,10 @@
       "value": "选择场景"
     },
     {
+      "key": "tasklist.search.empty",
+      "value": "暂无关键字 “%s” 的任务分组"
+    },
+    {
       "key": "task.detail.task.dependency.this.task",
       "value": "当前任务"
     },
@@ -1005,6 +1009,22 @@
       "value": "批量编辑"
     },
     {
+      "key": "system.bar.guide.new.navigation.title",
+      "value": "新功能上线"
+    },
+    {
+      "key": "system.bar.guide.new.navigation.link",
+      "value": "查看产品日志"
+    },
+    {
+      "key": "system.bar.guide.new.navigation.description",
+      "value": "更清晰、统一的结构，让你在 Teambition 中能自由穿梭，随时都可以轻松地返回首页，或是通过应用菜单切换到不同应用中。"
+    },
+    {
+      "key": "system.bar.guide.new.navigation",
+      "value": "全新顶部导航"
+    },
+    {
       "key": "system.bar.back.old.version.tips",
       "value": "研发域、代码域下缺少功能请返回至旧版使用"
     },
@@ -1081,6 +1101,10 @@
       "value": "获取邀请链接"
     },
     {
+      "key": "searcher.unit.remove.tips",
+      "value": "移除筛选条件"
+    },
+    {
       "key": "searcher.testcase.priority",
       "value": "用例等级"
     },
@@ -1091,6 +1115,30 @@
     {
       "key": "searcher.testcase.caseType",
       "value": "用例类型"
+    },
+    {
+      "key": "searcher.task.storygroupId",
+      "value": "需求分类"
+    },
+    {
+      "key": "searcher.task.sprint",
+      "value": "迭代"
+    },
+    {
+      "key": "searcher.task.exceedDueDate.true",
+      "value": "是"
+    },
+    {
+      "key": "searcher.task.exceedDueDate.false",
+      "value": "否"
+    },
+    {
+      "key": "searcher.task.exceedDueDate",
+      "value": "逾期任务"
+    },
+    {
+      "key": "searcher.task.buggroupId",
+      "value": "缺陷分类"
     },
     {
       "key": "searcher.options.testcase.priority.zero",
@@ -1119,6 +1167,30 @@
     {
       "key": "searcher.options.testcase.priority.five",
       "value": "P5"
+    },
+    {
+      "key": "searcher.options.task.tasklist",
+      "value": "任务分组"
+    },
+    {
+      "key": "searcher.options.task.taskflowstatus",
+      "value": "任务状态"
+    },
+    {
+      "key": "searcher.options.task.tagId.null",
+      "value": "无标签"
+    },
+    {
+      "key": "searcher.options.task.tag",
+      "value": "标签"
+    },
+    {
+      "key": "searcher.options.task.stage",
+      "value": "任务列表"
+    },
+    {
+      "key": "searcher.options.task.scenariofieldconfig",
+      "value": "任务类型"
     },
     {
       "key": "searcher.options.task.caseType.security",
@@ -1155,6 +1227,10 @@
     {
       "key": "searcher.options.task.caseType.api",
       "value": "接口测试"
+    },
+    {
+      "key": "searcher.group.category.customfield.project",
+      "value": "项目自定义字段"
     },
     {
       "key": "searcher.filter.date.year",
@@ -1233,6 +1309,26 @@
       "value": "全部用例等级"
     },
     {
+      "key": "search.filter.searcher.filter.selector.taskflowstatus.unset",
+      "value": "全部任务状态"
+    },
+    {
+      "key": "search.filter.searcher.filter.selector.tagId.unset",
+      "value": "全部标签"
+    },
+    {
+      "key": "search.filter.searcher.filter.selector.storygroup.unset",
+      "value": "全部需求分类"
+    },
+    {
+      "key": "search.filter.searcher.filter.selector.stage.unset",
+      "value": "全部任务列表"
+    },
+    {
+      "key": "search.filter.searcher.filter.selector.scenariofieldconfig.unset",
+      "value": "全部任务类型"
+    },
+    {
       "key": "search.filter.searcher.filter.selector.flowstatus.unset",
       "value": "全部状态"
     },
@@ -1241,8 +1337,56 @@
       "value": "全部用例类型"
     },
     {
+      "key": "search.filter.searcher.filter.selector.buggroup.unset",
+      "value": "全部缺陷分类"
+    },
+    {
+      "key": "scrum.panel.sort.title",
+      "value": "排序"
+    },
+    {
+      "key": "scrum.panel.filter.title",
+      "value": "筛选"
+    },
+    {
+      "key": "scrum.panel.filter.text.input.placeholder",
+      "value": "搜索项目内任务"
+    },
+    {
+      "key": "scrum.panel.create.custom.view.limited.tips",
+      "value": "视图数量已达上限，最多支持新建 %s 个自定义视图。"
+    },
+    {
+      "key": "scrum.panel.board.view.type.title",
+      "value": "展示方式"
+    },
+    {
       "key": "release.drag.and.load.and.move.to.this.place",
       "value": "松开进入此列并显示该列任务"
+    },
+    {
+      "key": "projecttag.visible.readonly.tooltip",
+      "value": "私有项目分组（仅项目分组成员可见），继承至上一级分组。"
+    },
+    {
+      "key": "projecttag.visible.members.subtitle",
+      "value": "企业内所有成员可见"
+    },
+    {
+      "key": "projecttag.visible.members",
+      "value": "企业项目分组"
+    },
+    {
+      "key": "projecttag.visible.involves.subtitle",
+      "value": "仅项目分组成员可见"
+    },
+    {
+      "key": "projecttag.visible.involves",
+      "value": "私有项目分组"
+    },
+    {
+      "key": "projecttag.visible",
+      "value": "分组公开性"
     },
     {
       "key": "projects.transferIn.to.direct",
@@ -1293,12 +1437,24 @@
       "value": "锁定后字段不可被操作"
     },
     {
+      "key": "project.hierarchy.not.visible",
+      "value": "暂无权限查看当前分组"
+    },
+    {
       "key": "project.hierarchy.history.forbidden.by.privacy.setting",
       "value": "开启行为数据分享查看历史项目"
     },
     {
       "key": "project.hierarchy.history.enable",
       "value": "立即开启"
+    },
+    {
+      "key": "project.hierarchy.edit.name",
+      "value": "分组名称"
+    },
+    {
+      "key": "project.hierarchy.contact.admin",
+      "value": "请联系分组管理员"
     },
     {
       "key": "project.creator.taskflow.intro3",
@@ -1797,6 +1953,14 @@
       "value": "下一条"
     },
     {
+      "key": "object.creator.plugins.more",
+      "value": "更多入口"
+    },
+    {
+      "key": "next.step",
+      "value": "下一步"
+    },
+    {
       "key": "navigation.page.header.search",
       "value": "高级搜索"
     },
@@ -1817,8 +1981,28 @@
       "value": "回到首页"
     },
     {
+      "key": "name.max.length.error",
+      "value": "名称最长 %s 个字符"
+    },
+    {
+      "key": "list.view.is.empty",
+      "value": "无任务"
+    },
+    {
       "key": "list.view.belong.to.parent",
       "value": "属于任务: %s"
+    },
+    {
+      "key": "list.view.amount.with.invisible.tasks",
+      "value": "共 %s 个任务，其中 %s 个任务被隐藏（仅参与者可见）"
+    },
+    {
+      "key": "list.view.amount",
+      "value": " 共 %s 个任务"
+    },
+    {
+      "key": "list.view",
+      "value": "列表视图"
     },
     {
       "key": "link.type.thoughts",
@@ -1861,8 +2045,56 @@
       "value": "案例中心"
     },
     {
+      "key": "guide.custom.view.popover.step.2.title",
+      "value": "保存视图"
+    },
+    {
+      "key": "guide.custom.view.popover.step.2.desc",
+      "value": "将设置好的视图保存于左侧面板进行无缝切换"
+    },
+    {
+      "key": "guide.custom.view.popover.step.1.title",
+      "value": "视图面板"
+    },
+    {
+      "key": "guide.custom.view.popover.step.1.desc",
+      "value": "在这里调整你想要的筛选条件和展示方式"
+    },
+    {
+      "key": "guide.custom.view.modal.title",
+      "value": "将你所需，存为视图"
+    },
+    {
+      "key": "guide.custom.view.modal.content",
+      "value": "全新视图功能上线，你可以在右侧筛选视图中，选择你想要的展示方式、排序方式及各种筛选条件，把它们保存为视图，在左侧进行无缝切换。"
+    },
+    {
+      "key": "guide.custom.view.modal.btn",
+      "value": "新建视图"
+    },
+    {
       "key": "flowstatus.menu.testcase.footer",
       "value": "自动切换到下一条"
+    },
+    {
+      "key": "filter.panel.footer.save.update",
+      "value": "覆盖当前视图"
+    },
+    {
+      "key": "filter.panel.footer.save.new",
+      "value": "另存为新视图"
+    },
+    {
+      "key": "filter.panel.footer.save.button",
+      "value": "保存视图"
+    },
+    {
+      "key": "filter.panel.footer.reset.handler",
+      "value": "恢复默认筛选"
+    },
+    {
+      "key": "expand.all",
+      "value": "展开全部"
     },
     {
       "key": "dingtalk.transfer.title",
@@ -1961,6 +2193,74 @@
       "value": "最多可添加 %s 个字段"
     },
     {
+      "key": "custom.views.title.hint",
+      "value": "可以将常用的筛选条件组合保存为视图，以便于快捷查看。"
+    },
+    {
+      "key": "custom.views.search.empty",
+      "value": "暂无关键字 “%s” 的视图名称"
+    },
+    {
+      "key": "custom.views.name.title",
+      "value": "视图名称"
+    },
+    {
+      "key": "custom.views.empty",
+      "value": "暂无视图"
+    },
+    {
+      "key": "custom.views.edit.filter",
+      "value": "编辑视图"
+    },
+    {
+      "key": "custom.views.edit",
+      "value": "重命名视图"
+    },
+    {
+      "key": "custom.views.delete.confirm",
+      "value": "确定删除视图「%s」？"
+    },
+    {
+      "key": "custom.views.delete",
+      "value": "删除视图"
+    },
+    {
+      "key": "custom.views.create.limit",
+      "value": "视图数量已达到最大上限"
+    },
+    {
+      "key": "custom.views.create.hint",
+      "value": "新建视图"
+    },
+    {
+      "key": "custom.views.create",
+      "value": "保存视图"
+    },
+    {
+      "key": "custom.views.all.tasks",
+      "value": "所有任务"
+    },
+    {
+      "key": "custom.views",
+      "value": "视图"
+    },
+    {
+      "key": "custom.view.save.success",
+      "value": "视图覆盖成功"
+    },
+    {
+      "key": "custom.view.save.confirm.title",
+      "value": "覆盖当前视图"
+    },
+    {
+      "key": "custom.view.save.confirm.content",
+      "value": "更改视图展现的内容，确定覆盖视图「%s」？"
+    },
+    {
+      "key": "custom.view.edit.name.input.please.enter",
+      "value": "请输入视图名称"
+    },
+    {
       "key": "custom.fields.recent.versions",
       "value": "最近版本"
     },
@@ -2033,6 +2333,78 @@
       "value": "品牌调研"
     },
     {
+      "key": "board.view.mode.list.stage.disabled.tips",
+      "value": "看板视图暂不支持选中多个任务分组展示"
+    },
+    {
+      "key": "aone.search.type.workitem",
+      "value": "研发工作项"
+    },
+    {
+      "key": "aone.search.type.testjob",
+      "value": "测试"
+    },
+    {
+      "key": "aone.search.type.testcase",
+      "value": "用例"
+    },
+    {
+      "key": "aone.search.type.sprint",
+      "value": "迭代"
+    },
+    {
+      "key": "aone.search.type.doc",
+      "value": "研发文档"
+    },
+    {
+      "key": "aone.search.type.cr",
+      "value": "变更"
+    },
+    {
+      "key": "aone.search.type.app",
+      "value": "应用"
+    },
+    {
+      "key": "aone.search.result.to.old.version",
+      "value": "前往旧版本进行细分筛选"
+    },
+    {
+      "key": "aone.search.result.item.testjob.app",
+      "value": "被测应用: %s"
+    },
+    {
+      "key": "aone.search.result.item.status",
+      "value": "状态: %s"
+    },
+    {
+      "key": "aone.search.result.item.project.name",
+      "value": "归属项目: %s"
+    },
+    {
+      "key": "aone.search.result.item.process.status",
+      "value": "最近运行状态: %s"
+    },
+    {
+      "key": "aone.search.result.item.priority",
+      "value": "优先级: P%s"
+    },
+    {
+      "key": "aone.search.result.item.branch",
+      "value": "分支: %s"
+    },
+    {
+      "key": "aone.search.guide.to.old.version",
+      "value": "前往老版本"
+    },
+    {
+      "key": "aone.search.guide.fast.search",
+      "value": "点击快速搜索对象:"
+    },
+    {
+      "key": "aone.search.guide.advanced",
+      "value": "仅搜索老版本 Aone 内容"
+    },
+    {
       "key": "agile.preview.version",
       "value": "版本管理"
     },
@@ -2079,6 +2451,18 @@
     {
       "key": "agile.preview.analytics",
       "value": "统计回顾"
+    },
+    {
+      "key": "activity.timeline.comment.enter",
+      "value": "按 Enter 快速发布"
+    },
+    {
+      "key": "activity.timeline.comment.ctrl.enter",
+      "value": "按 Ctrl+Enter 快速发布"
+    },
+    {
+      "key": "activity.timeline.comment.at.hint",
+      "value": "@ 提及他人，"
     },
     {
       "key": "continue",
@@ -2142,6 +2526,21 @@
       "newValue": "保存至用例库"
     },
     {
+      "key": "tasklist.creator.temp",
+      "oldValue": "模板",
+      "newValue": "从模板创建"
+    },
+    {
+      "key": "tasklist.creator.new",
+      "oldValue": "新建",
+      "newValue": "新建任务分组"
+    },
+    {
+      "key": "tasklist.bar.search.group",
+      "oldValue": "搜索分组",
+      "newValue": "搜索分组或视图"
+    },
+    {
       "key": "task.detail.task.dependency.kind.SS",
       "oldValue": "开始到开始",
       "newValue": "开始才开始"
@@ -2160,6 +2559,11 @@
       "key": "task.detail.task.dependency.kind.FF",
       "oldValue": "完成到完成",
       "newValue": "完成才完成"
+    },
+    {
+      "key": "task.dependency.create.input.placeholder",
+      "oldValue": "可输入任务名、任务 ID 添加任务",
+      "newValue": "可输入任务名、任务 ID 或任务 URL 添加任务"
     },
     {
       "key": "tapestry.picker.multi.taskflowstatusId.prompt",
@@ -2182,6 +2586,16 @@
       "newValue": "关联的其他内容"
     },
     {
+      "key": "searcher.options.task.isSubTask.true",
+      "oldValue": "是",
+      "newValue": "仅显示子任务"
+    },
+    {
+      "key": "searcher.options.task.isSubTask.false",
+      "oldValue": "否",
+      "newValue": "仅显示父任务"
+    },
+    {
       "key": "searcher.options.task.executorId.null",
       "oldValue": "未指派",
       "newValue": "待认领"
@@ -2200,6 +2614,11 @@
       "key": "project.hierarchy.untagged.projects",
       "oldValue": "未分组的项目",
       "newValue": "未分组项目"
+    },
+    {
+      "key": "project.hierarchy.edit.placeholder",
+      "oldValue": "分组名称",
+      "newValue": "输入分组名称"
     },
     {
       "key": "project.creator.template.unique.id.prefix.title",
