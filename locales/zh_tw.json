@@ -3742,6 +3742,7 @@
   "project.cluster.export": "匯出項目數據",
   "project.cluster.export.confirm": "確定要匯出該分組表格視圖下的所有數據嗎？下載過程可能需要一些時間。",
   "project.cluster.export.exceed.limit": "匯出失敗，已達到項目匯出上限%s",
+  "project.cluster.export.no.permission": "暫無匯出許可權",
   "project.cluster.export.results.limit": "推薦一次匯出量控制在%s條以內",
   "project.cluster.guide.apply": "立即體驗",
   "project.cluster.guide.tips": "切換至項目表格視圖，快速瞭解多項目的項目狀態和進展情况。",

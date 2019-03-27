@@ -3742,6 +3742,7 @@
   "project.cluster.export": "导出项目数据",
   "project.cluster.export.confirm": "确定要导出该分组表格视图下的所有数据吗？下载过程可能需要一些时间。",
   "project.cluster.export.exceed.limit": "导出失败，已达到项目导出上限 %s",
+  "project.cluster.export.no.permission": "暂无导出权限",
   "project.cluster.export.results.limit": "推荐一次导出量控制在 %s 条以内",
   "project.cluster.guide.apply": "立即体验",
   "project.cluster.guide.tips": "切换至项目表格视图，快速了解多项目的项目状态和进展情况。",
