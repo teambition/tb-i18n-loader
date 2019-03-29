@@ -1,8 +1,12 @@
 {
   "added": [
     {
-      "key": "project.cluster.export.no.permission",
-      "value": "暂无导出权限"
+      "key": "testplan.creator.name.exceed.length",
+      "value": "请限制在 20 字以内"
+    },
+    {
+      "key": "no.permission.to.member.profile",
+      "value": "无权限查看成员详情"
     }
   ],
   "modified": [],
