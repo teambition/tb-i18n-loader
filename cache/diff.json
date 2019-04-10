@@ -17,6 +17,10 @@
       "value": "敏捷开发项目暂不支持迁移"
     },
     {
+      "key": "project.overview.filter.member.count",
+      "value": "%s 个成员"
+    },
+    {
       "key": "project.creator.template.category.design",
       "value": "产品设计"
     },
@@ -129,10 +133,58 @@
       "value": "下一步"
     },
     {
+      "key": "account.verifier.ding.description",
+      "value": "为了满足相关合规需求，请绑定手机号或钉钉后再发起邀请。"
+    },
+    {
+      "key": "account.band.phone",
+      "value": "绑定手机"
+    },
+    {
+      "key": "account.band.ding",
+      "value": "绑定钉钉"
+    },
+    {
       "key": "revoke",
       "value": "撤销"
     }
   ],
-  "modified": [],
+  "modified": [
+    {
+      "key": "testgroup.creator.success.toast.description",
+      "oldValue": "前往用例分组：<a href='%1' class='link-add-handler'>%2</a>",
+      "newValue": "前往用例分组：<a>%s</a>"
+    },
+    {
+      "key": "star.project.action.success",
+      "oldValue": "星标成功，方便以后快速访问项目，可以<a class='show-bookmark-hint' data-gta='event' data-label='add-to-bookmark'>加入浏览器书签</a>",
+      "newValue": "星标成功，方便以后快速访问项目，可以<a>加入浏览器书签</a>"
+    },
+    {
+      "key": "project.join.tips",
+      "oldValue": "你不是该项目成员，特定操作可能受到限制。是否马上<a class='join-project-handler'>加入项目</a>？",
+      "newValue": "你不是该项目成员，特定操作可能受到限制。是否马上<a>加入项目</a>？"
+    },
+    {
+      "key": "portal.tag.member.permission.put",
+      "oldValue": "编辑该分组",
+      "newValue": "编辑该分组和子分组"
+    },
+    {
+      "key": "portal.project.star.success",
+      "oldValue": "星标成功，方便以后快速访问项目，可以<a class='show-bookmark-hint' data-gta='event' data-label='add-to-bookmark'>加入浏览器书签</a>",
+      "newValue": "星标成功，方便以后快速访问项目，可以<a>加入浏览器书签</a>"
+    },
+    {
+      "key": "member.handover.tasks.success.hint.nonMember",
+      "oldValue": "任务已移交给 %s, 同时添加 %s 为项目成员。<a href='%s' target='_blank'>查看项目</a>",
+      "newValue": "任务已移交给 %1, 同时添加 %1 为项目成员。<a>查看项目</a>"
+    },
+    {
+      "key": "member.handover.tasks.error.hint.exceed",
+      "oldValue": "当前项目成员数已达上限，%s 无法加入该项目认领任务。<a href='%s' target='_blank'>查看项目</a>",
+      "newValue": "当前项目成员数已达上限，%s 无法加入该项目认领任务。<a>查看项目</a>"
+    }
+  ],
   "deleted": []
 }
