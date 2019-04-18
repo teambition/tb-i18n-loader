@@ -1,189 +1,52 @@
 {
   "added": [
     {
-      "key": "table.task.parent",
-      "value": "所属父任务"
+      "key": "tapestry.chart.pie.proportion",
+      "value": "占比"
     },
     {
-      "key": "sending.inviting.email.to.join.success.desc",
-      "value": "不在企业内的项目成员，将作为外部成员加入企业，可在成员中管理"
+      "key": "search.resource.exceed.limit",
+      "value": "搜不到想要的内容，请试试在项目筛选器中缩小项目范围进行搜索"
     },
     {
-      "key": "sending.inviting.email.to.join.success",
-      "value": "邀请成功"
+      "key": "projecttag.ancestors.path.tip",
+      "value": "上级："
     },
     {
-      "key": "project.transfer.disabled.agile",
-      "value": "敏捷开发项目暂不支持迁移"
+      "key": "project.menu.copy.project.categories.selector.title",
+      "value": "项目分组（可多选）"
     },
     {
-      "key": "project.overview.filter.member.count",
-      "value": "%s 个成员"
+      "key": "organization.payment.license.member",
+      "value": "管理成员"
     },
     {
-      "key": "project.creator.template.category.design",
-      "value": "产品设计"
+      "key": "organization.payment.license.consult",
+      "value": "企业咨询"
     },
     {
-      "key": "project.cluster.creator",
-      "value": "创建者"
+      "key": "organization.outer.members.quota",
+      "value": "自 5 月 11 日起，外部成员将会占用企业名额，可能会影响到正常使用，你可以在系统提示下付费，或移除不再参与协作的成员"
     },
     {
-      "key": "project.cluster.created",
-      "value": "创建时间"
+      "key": "customfield.selection.search.hint",
+      "value": "搜索%s"
     },
     {
-      "key": "project.cluster.add.customfield.to.project",
-      "value": "添加到项目概览"
-    },
-    {
-      "key": "project.cluster.add.customfield.no.add.permission",
-      "value": "成为分组成员后即可添加表头字段"
-    },
-    {
-      "key": "project.cluster.add.customfield.confirm.title",
-      "value": "自定义表头菜单"
-    },
-    {
-      "key": "project.cluster.add.customfield.confirm.text",
-      "value": "确定添加该字段到项目概览吗？当前表格视图的所有项目均会生效。"
-    },
-    {
-      "key": "project.app.disabled.and.redirect",
-      "value": "应用已关闭，无法打开"
-    },
-    {
-      "key": "portal.tag.member.permission.move",
-      "value": "子分组层级调整"
-    },
-    {
-      "key": "portal.tag.member.permission.del",
-      "value": "删除子分组"
-    },
-    {
-      "key": "portal.tag.member.permission.create",
-      "value": "新建子分组"
-    },
-    {
-      "key": "organization.member.outer",
-      "value": "外部成员"
-    },
-    {
-      "key": "organization.member.exceed.upgrade",
-      "value": "升级"
-    },
-    {
-      "key": "organization.member.add.success.title",
-      "value": "成员添加成功"
-    },
-    {
-      "key": "organization.member.add.success.desc",
-      "value": "当前企业人数已超过可用名额，建议企业拥有和者管理员及时处理"
-    },
-    {
-      "key": "organization.member.add.outer",
-      "value": "添加外部成员至企业"
-    },
-    {
-      "key": "org.access.denied",
-      "value": "您当前为该企业的外部成员，部分访问可能会受限，如需退出，请点击头像进入<a>「账号设置」</a>"
-    },
-    {
-      "key": "member.menu.involvers.count",
-      "value": "%s 个参与者"
-    },
-    {
-      "key": "collection.visibility.editor.involver.count",
-      "value": "%s 个可见成员"
-    },
-    {
-      "key": "click.to.refresh",
-      "value": "点击刷新"
-    },
-    {
-      "key": "application.more",
-      "value": "更多应用"
-    },
-    {
-      "key": "app.appcenter.open",
-      "value": "前往应用中心"
-    },
-    {
-      "key": "aone.guide.step2.text",
-      "value": "代码域、交付域下各个服务全部聚合至应用菜单中，统一呈现，未来将提供更多的服务，满足不同使用场景。"
-    },
-    {
-      "key": "aone.guide.step2.header",
-      "value": "服务入口在这里"
-    },
-    {
-      "key": "aone.guide.step2.button",
-      "value": "我知道了"
-    },
-    {
-      "key": "aone.guide.step1.text",
-      "value": "作为个人工作信息的聚集地，我们对工作台交互进行了优化，无论你身处何处总能快速打开工作台，及时处理更新工作状态。"
-    },
-    {
-      "key": "aone.guide.step1.header",
-      "value": "工作台位置更新"
-    },
-    {
-      "key": "aone.guide.step1.button",
-      "value": "下一步"
-    },
-    {
-      "key": "account.verifier.ding.description",
-      "value": "为了满足相关合规需求，请绑定手机号或钉钉后再发起邀请。"
-    },
-    {
-      "key": "account.band.phone",
-      "value": "绑定手机"
-    },
-    {
-      "key": "account.band.ding",
-      "value": "绑定钉钉"
-    },
-    {
-      "key": "revoke",
-      "value": "撤销"
+      "key": "account.band.banner",
+      "value": "为了满足相关安全合规需求，请及时验证 <a class='phone-to-bind-link'>绑定手机</a> 或 <a class='ding-to-bind-link'>绑定钉钉</a>。"
     }
   ],
   "modified": [
     {
-      "key": "testgroup.creator.success.toast.description",
-      "oldValue": "前往用例分组：<a href='%1' class='link-add-handler'>%2</a>",
-      "newValue": "前往用例分组：<a>%s</a>"
+      "key": "project.settings.select.owner",
+      "oldValue": "请选择新的拥有者",
+      "newValue": "请选择新的企业"
     },
     {
-      "key": "star.project.action.success",
-      "oldValue": "星标成功，方便以后快速访问项目，可以<a class='show-bookmark-hint' data-gta='event' data-label='add-to-bookmark'>加入浏览器书签</a>",
-      "newValue": "星标成功，方便以后快速访问项目，可以<a>加入浏览器书签</a>"
-    },
-    {
-      "key": "project.join.tips",
-      "oldValue": "你不是该项目成员，特定操作可能受到限制。是否马上<a class='join-project-handler'>加入项目</a>？",
-      "newValue": "你不是该项目成员，特定操作可能受到限制。是否马上<a>加入项目</a>？"
-    },
-    {
-      "key": "portal.tag.member.permission.put",
-      "oldValue": "编辑该分组",
-      "newValue": "编辑该分组和子分组"
-    },
-    {
-      "key": "portal.project.star.success",
-      "oldValue": "星标成功，方便以后快速访问项目，可以<a class='show-bookmark-hint' data-gta='event' data-label='add-to-bookmark'>加入浏览器书签</a>",
-      "newValue": "星标成功，方便以后快速访问项目，可以<a>加入浏览器书签</a>"
-    },
-    {
-      "key": "member.handover.tasks.success.hint.nonMember",
-      "oldValue": "任务已移交给 %s, 同时添加 %s 为项目成员。<a href='%s' target='_blank'>查看项目</a>",
-      "newValue": "任务已移交给 %1, 同时添加 %1 为项目成员。<a>查看项目</a>"
-    },
-    {
-      "key": "member.handover.tasks.error.hint.exceed",
-      "oldValue": "当前项目成员数已达上限，%s 无法加入该项目认领任务。<a href='%s' target='_blank'>查看项目</a>",
-      "newValue": "当前项目成员数已达上限，%s 无法加入该项目认领任务。<a>查看项目</a>"
+      "key": "account.verifier.title",
+      "oldValue": "验证账号",
+      "newValue": "验证帐号"
     }
   ],
   "deleted": []
