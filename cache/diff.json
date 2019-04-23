@@ -1,53 +1,10 @@
 {
   "added": [
     {
-      "key": "tapestry.chart.pie.proportion",
-      "value": "占比"
-    },
-    {
-      "key": "search.resource.exceed.limit",
-      "value": "搜不到想要的内容，请试试在项目筛选器中缩小项目范围进行搜索"
-    },
-    {
-      "key": "projecttag.ancestors.path.tip",
-      "value": "上级："
-    },
-    {
-      "key": "project.menu.copy.project.categories.selector.title",
-      "value": "项目分组（可多选）"
-    },
-    {
-      "key": "organization.payment.license.member",
-      "value": "管理成员"
-    },
-    {
-      "key": "organization.payment.license.consult",
-      "value": "企业咨询"
-    },
-    {
-      "key": "organization.outer.members.quota",
-      "value": "自 5 月 11 日起，外部成员将会占用企业名额，可能会影响到正常使用，你可以在系统提示下付费，或移除不再参与协作的成员"
-    },
-    {
-      "key": "customfield.selection.search.hint",
-      "value": "搜索%s"
-    },
-    {
-      "key": "account.band.banner",
-      "value": "为了满足相关安全合规需求，请及时验证 <a class='phone-to-bind-link'>绑定手机</a> 或 <a class='ding-to-bind-link'>绑定钉钉</a>。"
+      "key": "tapestry.chart.dashboard.empty.placeholder",
+      "value": "暂无报表，请先添加报表"
     }
   ],
-  "modified": [
-    {
-      "key": "project.settings.select.owner",
-      "oldValue": "请选择新的拥有者",
-      "newValue": "请选择新的企业"
-    },
-    {
-      "key": "account.verifier.title",
-      "oldValue": "验证账号",
-      "newValue": "验证帐号"
-    }
-  ],
+  "modified": [],
   "deleted": []
 }

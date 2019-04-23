@@ -5549,6 +5549,7 @@
   "tapestry.chart.custom.dataset.empty.after": "，添加默認篩選項來保存報表",
   "tapestry.chart.custom.dataset.empty.pre": "您可以通過",
   "tapestry.chart.cycle.time": "時間週期",
+  "tapestry.chart.dashboard.empty.placeholder": "暫無報表，請先添加報表",
   "tapestry.chart.dashboard.title": "項目統計",
   "tapestry.chart.data.export": "匯出",
   "tapestry.chart.delete.error": "删除報表失敗",
