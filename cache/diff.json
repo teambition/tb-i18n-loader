@@ -1,10 +1,5 @@
 {
-  "added": [
-    {
-      "key": "tapestry.chart.dashboard.empty.placeholder",
-      "value": "暂无报表，请先添加报表"
-    }
-  ],
+  "added": [],
   "modified": [],
   "deleted": []
 }

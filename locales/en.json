@@ -2923,7 +2923,7 @@
   "organization.payment.license.excess.content.buy": "All licenses have been used in this organization, you can purchase more licenses or deactivate accounts.",
   "organization.payment.license.expiration": "These licenses are valid until %s ",
   "organization.payment.license.max": "Valid",
-  "organization.payment.license.member": "Manage Members",
+  "organization.payment.license.member": "Members",
   "organization.payment.license.request": "Notify Administrator to purchase additional licenses",
   "organization.payment.license.status": "License Use",
   "organization.payment.notify": "Hi!\n\nI was prompted to reach out to you about upgrading our Teambition plan because you're Owner of our organization.\n\nWe get a lot of value out of Teambition, and I know purchasing more licenses enable us to invite more team members and plan and manage our work more effectively.\n\nFor all info about Teambition versions, please check:\nhttps://www.teambition.com/pricing \n\nCan you upgrade our plan? Please feel free to contact me for any more questions.\n\nThanks!\n",
