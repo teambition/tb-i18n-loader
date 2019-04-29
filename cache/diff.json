@@ -1,5 +1,34 @@
 {
-  "added": [],
+  "added": [
+    {
+      "key": "project.settings.customFields.worktime.fill.permission",
+      "value": "计划工时填写权限"
+    },
+    {
+      "key": "project.cluster.subordinateProjecttags",
+      "value": "所属分组"
+    },
+    {
+      "key": "project.cluster.query.overflow.warning",
+      "value": "当前子分组项目数量已超过上限，建议通过具体项目分组查找项目"
+    },
+    {
+      "key": "portal.view.showChildren.sub",
+      "value": "子分组项目将不展示"
+    },
+    {
+      "key": "portal.view.showChildren",
+      "value": "仅展示当前分组项目"
+    },
+    {
+      "key": "portal.view.setting",
+      "value": "视图设置"
+    },
+    {
+      "key": "account.load.more",
+      "value": "了解更多"
+    }
+  ],
   "modified": [],
   "deleted": []
 }
