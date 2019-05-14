@@ -1,8 +1,40 @@
 {
   "added": [
     {
+      "key": "visible.mode.visibility",
+      "value": "公开模式"
+    },
+    {
+      "key": "visible.mode.invisibility",
+      "value": "隐私模式"
+    },
+    {
+      "key": "task.detail.status.done.mark",
+      "value": "完成任务"
+    },
+    {
+      "key": "tapestry.chart.total.empty.placeholder",
+      "value": "请前往任务应用查看所有任务详情"
+    },
+    {
+      "key": "tapestry.chart.overview.task.total",
+      "value": "任务总数"
+    },
+    {
+      "key": "required.field.empty.error",
+      "value": "必填项不能为空"
+    },
+    {
       "key": "project.settings.customFields.worktime.fill.permission",
       "value": "计划工时填写权限"
+    },
+    {
+      "key": "project.creator.personal.template.retired.title",
+      "value": "提示"
+    },
+    {
+      "key": "project.creator.personal.template.retired.content",
+      "value": "本功能已下线，新建模板请前往“企业模板”部分。如有历史数据，可在个人企业的“企业模板”部分查看。"
     },
     {
       "key": "project.cluster.subordinateProjecttags",
@@ -13,8 +45,12 @@
       "value": "当前子分组项目数量已超过上限，建议通过具体项目分组查找项目"
     },
     {
+      "key": "project.cluster.projecttags",
+      "value": "所属分组"
+    },
+    {
       "key": "portal.view.showChildren.sub",
-      "value": "子分组项目将不展示"
+      "value": "开启后子分组项目将不展示"
     },
     {
       "key": "portal.view.showChildren",
@@ -29,6 +65,17 @@
       "value": "了解更多"
     }
   ],
-  "modified": [],
+  "modified": [
+    {
+      "key": "account.verifier.ding.description",
+      "oldValue": "为了满足相关合规需求，请绑定手机号或钉钉后再发起邀请。",
+      "newValue": "为了满足合规需求，请绑定手机号或钉钉后再发起邀请。"
+    },
+    {
+      "key": "account.band.banner",
+      "oldValue": "为了满足相关安全合规需求，请及时验证 <a class='phone-to-bind-link'>绑定手机</a> 或 <a class='ding-to-bind-link'>绑定钉钉</a>。",
+      "newValue": "为了满足安全合规需求，请及时验证 <a class='phone-to-bind-link'>绑定手机</a> 或 <a class='ding-to-bind-link'>绑定钉钉</a>。"
+    }
+  ],
   "deleted": []
 }
