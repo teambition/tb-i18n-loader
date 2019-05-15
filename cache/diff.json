@@ -61,11 +61,20 @@
       "value": "视图设置"
     },
     {
+      "key": "enter.keywords.to.search.member.in.current.team",
+      "value": "在当前部门下搜索成员"
+    },
+    {
       "key": "account.load.more",
       "value": "了解更多"
     }
   ],
   "modified": [
+    {
+      "key": "enter.keywords.or.to.search.team.or.member",
+      "oldValue": "输入关键字查找部门或成员",
+      "newValue": "在当前部门下搜索成员"
+    },
     {
       "key": "account.verifier.ding.description",
       "oldValue": "为了满足相关合规需求，请绑定手机号或钉钉后再发起邀请。",
