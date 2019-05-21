@@ -21,6 +21,10 @@
       "value": "任务总数"
     },
     {
+      "key": "table.task.private.subtask.count",
+      "value": "有 %s 个隐私子任务"
+    },
+    {
       "key": "required.field.empty.error",
       "value": "必填项不能为空"
     },
@@ -61,15 +65,45 @@
       "value": "视图设置"
     },
     {
+      "key": "no.permission.to.organization.structure",
+      "value": "无权限访问「成员」应用"
+    },
+    {
+      "key": "enter.keywords.to.search.team.or.member",
+      "value": "输入关键字查询部门或成员"
+    },
+    {
       "key": "enter.keywords.to.search.member.in.current.team",
       "value": "在当前部门下搜索成员"
     },
     {
+      "key": "enter.keywords.to.search.in.current.team",
+      "value": "在当前部门下搜索"
+    },
+    {
       "key": "account.load.more",
       "value": "了解更多"
+    },
+    {
+      "key": "reload",
+      "value": "重新加载"
+    },
+    {
+      "key": "loading",
+      "value": "加载中"
     }
   ],
   "modified": [
+    {
+      "key": "organization.payment.license.excess.content.buy",
+      "oldValue": "当前企业使用名额数已满，您可以发起购买更多名额或停用不必要的账号，避免团队日常工作受到影响。",
+      "newValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，请及时购买更多名额或停用不必要的帐号。"
+    },
+    {
+      "key": "organization.payment.license.excess.content",
+      "oldValue": "当前企业使用名额数已满，您可以通知管理员处理，避免团队日常工作受到影响。",
+      "newValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，您可以通知管理员及时购买更多名额或停用不必要的帐号。"
+    },
     {
       "key": "enter.keywords.or.to.search.team.or.member",
       "oldValue": "输入关键字查找部门或成员",
