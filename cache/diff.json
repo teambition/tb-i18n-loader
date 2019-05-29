@@ -21,8 +21,16 @@
       "value": "任务总数"
     },
     {
+      "key": "table.task.taskstatus",
+      "value": "任务状态"
+    },
+    {
       "key": "table.task.private.subtask.count",
       "value": "有 %s 个隐私子任务"
+    },
+    {
+      "key": "table.batch.edit.status.error.title",
+      "value": "部分任务未被编辑，可能因为与目标任务类型不一致或有权限限制。"
     },
     {
       "key": "required.field.empty.error",
@@ -94,6 +102,16 @@
     }
   ],
   "modified": [
+    {
+      "key": "table.batch.edit.error.title",
+      "oldValue": "批量操作成功，但部分任务未被编辑，因为没有对应操作权限或字段",
+      "newValue": "部分任务未被编辑，可能因为没有对应的字段或操作权限。"
+    },
+    {
+      "key": "table.batch.edit.error.desc",
+      "oldValue": "%s 条任务编辑成功，以下 %s 条任务未被编辑：",
+      "newValue": "%s 条任务编辑成功，以下 %s 条任务未被编辑"
+    },
     {
       "key": "organization.payment.license.excess.content.buy",
       "oldValue": "当前企业使用名额数已满，您可以发起购买更多名额或停用不必要的账号，避免团队日常工作受到影响。",
