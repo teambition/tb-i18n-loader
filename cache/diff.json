@@ -37,8 +37,28 @@
       "value": "必填项不能为空"
     },
     {
+      "key": "project.settings.taskflow.switch.config.taskflow",
+      "value": "拖拽任务类型到此处或者<a>添加</a>任务类型以启用该工作流"
+    },
+    {
+      "key": "project.settings.taskflow.switch.config.scrum",
+      "value": "拖拽任务类型到此处以启用工作流"
+    },
+    {
+      "key": "project.settings.taskflow.switch.config.no.permission",
+      "value": "该工作流暂未启用"
+    },
+    {
       "key": "project.settings.customFields.worktime.fill.permission",
       "value": "计划工时填写权限"
+    },
+    {
+      "key": "project.selector.moving.tasklist.into.agile.project.disabled",
+      "value": "无法移动任务分组到敏捷项目"
+    },
+    {
+      "key": "project.selector.forking.tasklist.into.agile.project.disabled",
+      "value": "无法复制任务分组到敏捷项目"
     },
     {
       "key": "project.creator.personal.template.retired.title",
@@ -77,6 +97,10 @@
       "value": "无权限访问「成员」应用"
     },
     {
+      "key": "kanban.status.selector.footer.description",
+      "value": "仅展示筛选器中已筛选的任务类型"
+    },
+    {
       "key": "enter.keywords.to.search.team.or.member",
       "value": "输入关键字查询部门或成员"
     },
@@ -87,6 +111,10 @@
     {
       "key": "enter.keywords.to.search.in.current.team",
       "value": "在当前部门下搜索"
+    },
+    {
+      "key": "custom.field.submit.choices.duplication",
+      "value": "自定义字段选项重复"
     },
     {
       "key": "account.load.more",
@@ -113,6 +141,16 @@
       "newValue": "%s 条任务编辑成功，以下 %s 条任务未被编辑"
     },
     {
+      "key": "project.settings.taskflow.status.delete.tasks",
+      "oldValue": "请先清空此列表上的任务，然后再删除这个状态",
+      "newValue": "当前项目中有任务处于该状态，请先确保没有任务在该状态下后，再删除该状态"
+    },
+    {
+      "key": "powerups.tasklist.short.des",
+      "oldValue": "开启任务分组插件，对任务版进行分类管理。",
+      "newValue": "支持通过在项目内创建任务分组，对任务进行分类。"
+    },
+    {
       "key": "organization.payment.license.excess.content.buy",
       "oldValue": "当前企业使用名额数已满，您可以发起购买更多名额或停用不必要的账号，避免团队日常工作受到影响。",
       "newValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，请及时购买更多名额或停用不必要的帐号。"
@@ -130,12 +168,12 @@
     {
       "key": "account.verifier.ding.description",
       "oldValue": "为了满足相关合规需求，请绑定手机号或钉钉后再发起邀请。",
-      "newValue": "为了满足合规需求，请绑定手机号或钉钉后再发起邀请。"
+      "newValue": "为了满足相关合规需求，请绑定手机号后再发起邀请。"
     },
     {
       "key": "account.band.banner",
       "oldValue": "为了满足相关安全合规需求，请及时验证 <a class='phone-to-bind-link'>绑定手机</a> 或 <a class='ding-to-bind-link'>绑定钉钉</a>。",
-      "newValue": "为了满足安全合规需求，请及时验证 <a class='phone-to-bind-link'>绑定手机</a> 或 <a class='ding-to-bind-link'>绑定钉钉</a>。"
+      "newValue": "为了满足相关合规需求，请 <a class='phone-to-bind-link'>绑定手机</a>。"
     }
   ],
   "deleted": []
