@@ -13,12 +13,80 @@
       "value": "完成任务"
     },
     {
+      "key": "tapestry.picker.title.weekSeries",
+      "value": "时间区间"
+    },
+    {
+      "key": "tapestry.picker.title.datetimeRange",
+      "value": "时间范围"
+    },
+    {
+      "key": "tapestry.picker.single.taskType.empty",
+      "value": "未选择任务类型"
+    },
+    {
+      "key": "tapestry.picker.single.startOfTaskFlowId.empty",
+      "value": "暂无可选状态"
+    },
+    {
+      "key": "tapestry.picker.single.endOfTaskFlowId.empty",
+      "value": "暂无可选状态"
+    },
+    {
+      "key": "tapestry.picker.multi.weekSeries.all",
+      "value": "所有时间段"
+    },
+    {
+      "key": "tapestry.picker.multi.weekSeries.4wplus",
+      "value": ">4 周"
+    },
+    {
+      "key": "tapestry.picker.multi.weekSeries.2to4w",
+      "value": "2-4 周"
+    },
+    {
+      "key": "tapestry.picker.multi.weekSeries.1w",
+      "value": "1 周"
+    },
+    {
+      "key": "tapestry.picker.multi.weekSeries.1to2w",
+      "value": "1-2 周"
+    },
+    {
+      "key": "tapestry.picker.analysis.dimension.invalid",
+      "value": "字段已被移除，请重新选择"
+    },
+    {
+      "key": "tapestry.chart.type",
+      "value": "图表类型"
+    },
+    {
       "key": "tapestry.chart.total.empty.placeholder",
       "value": "请前往任务应用查看所有任务详情"
     },
     {
+      "key": "tapestry.chart.setting.delivery.cycle",
+      "value": "周期设置"
+    },
+    {
       "key": "tapestry.chart.overview.task.total",
       "value": "任务总数"
+    },
+    {
+      "key": "tapestry.chart.data.settings",
+      "value": "图表设置"
+    },
+    {
+      "key": "tapestry.chart.create.modal.tabs.analysis.effectiveness",
+      "value": "效能分析"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.delivery.cycle",
+      "value": "交付周期报表"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.delivery.cycle",
+      "value": "按周期查看交付效能"
     },
     {
       "key": "table.task.taskstatus",
@@ -93,12 +161,112 @@
       "value": "视图设置"
     },
     {
+      "key": "portal.tag.remove.team.remove.members",
+      "value": "移除部门"
+    },
+    {
+      "key": "portal.tag.remove.team.remain.members",
+      "value": "移除部门但保留部门成员"
+    },
+    {
+      "key": "portal.tag.remove.group.remove.members",
+      "value": "移除群组"
+    },
+    {
+      "key": "portal.tag.remove.group.remain.members",
+      "value": "移除群组但保留群组成员"
+    },
+    {
+      "key": "portal.tag.member.search.result.quick.add.desc",
+      "value": "部门成员须继承部门权限，且不可被单独移除。如需单独授权，请先"
+    },
+    {
+      "key": "portal.tag.member.search.result.quick.add",
+      "value": "单独添加为分组成员"
+    },
+    {
+      "key": "portal.tag.member.search.no.result",
+      "value": "暂无搜索结果"
+    },
+    {
+      "key": "portal.tag.member.search.from.team",
+      "value": "同步自部门"
+    },
+    {
+      "key": "portal.tag.member.search.from.inherit",
+      "value": "权限继承自父分组"
+    },
+    {
+      "key": "portal.tag.member.search.from.group",
+      "value": "同步自群组"
+    },
+    {
+      "key": "portal.tag.member.permission.role.owner.label",
+      "value": "项目拥有者"
+    },
+    {
+      "key": "portal.tag.member.permission.role.default.label",
+      "value": "项目默认角色"
+    },
+    {
+      "key": "portal.tag.member.permission.join.project.desc.2",
+      "value": "主动加入项目"
+    },
+    {
+      "key": "portal.tag.member.permission.join.project.desc.1",
+      "value": "作为"
+    },
+    {
+      "key": "portal.tag.member.permission.access.project.desc.2",
+      "value": "的操作权限"
+    },
+    {
+      "key": "portal.tag.member.permission.access.project.desc.1",
+      "value": "拥有项目内"
+    },
+    {
+      "key": "portal.tab.member.invite.title",
+      "value": "邀请项目分组成员"
+    },
+    {
+      "key": "portal.project.tag.member.search",
+      "value": "搜索分组成员"
+    },
+    {
+      "key": "portal.organization.team.members.tips",
+      "value": "部门成员须继承部门权限，且不可被单独移除。如需单独授权，请先单独添加为分组成员"
+    },
+    {
+      "key": "portal.organization.group.members.tips",
+      "value": "群组成员须继承部门权限，且不可被单独移除。如需单独授权，请先单独添加为分组成员"
+    },
+    {
+      "key": "portal.members.add.projecttag.member",
+      "value": "单独添加为项目分组成员"
+    },
+    {
+      "key": "portal.inherited.members.group",
+      "value": "继承自父分组的成员"
+    },
+    {
+      "key": "organization.create.get.customer.service",
+      "value": "我有企业采购需求，希望顾问主动联系"
+    },
+    {
       "key": "no.permission.to.organization.structure",
       "value": "无权限访问「成员」应用"
     },
     {
       "key": "kanban.status.selector.footer.description",
       "value": "仅展示筛选器中已筛选的任务类型"
+    },
+    {
+      "key": "invite.org.outer.member",
+      "value": "企业外成员"
+    },
+    {
+      "key": "invite.org.inner.member",
+      "value": "企业内成员"
     },
     {
       "key": "enter.keywords.to.search.team.or.member",
@@ -130,6 +298,11 @@
     }
   ],
   "modified": [
+    {
+      "key": "tapestry.chart.cycle.time",
+      "oldValue": "时间周期",
+      "newValue": "时间精度"
+    },
     {
       "key": "table.batch.edit.error.title",
       "oldValue": "批量操作成功，但部分任务未被编辑，因为没有对应操作权限或字段",
