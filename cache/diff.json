@@ -338,6 +338,16 @@
       "newValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，您可以通知管理员及时购买更多名额或停用不必要的帐号。"
     },
     {
+      "key": "organization.payment.license.consult",
+      "oldValue": "企业咨询",
+      "newValue": "购买咨询"
+    },
+    {
+      "key": "organization.payment.license.add",
+      "oldValue": "购买名额",
+      "newValue": "立即下单"
+    },
+    {
       "key": "enter.keywords.or.to.search.team.or.member",
       "oldValue": "输入关键字查找部门或成员",
       "newValue": "在当前部门下搜索成员"

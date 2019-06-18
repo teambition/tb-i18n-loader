@@ -5608,7 +5608,7 @@
   "tapestry.chart.dashboard.empty.placeholder": "No reports yet, please add reports first",
   "tapestry.chart.dashboard.title": "Project Statistics",
   "tapestry.chart.data.export": "Export",
-  "tapestry.chart.data.settings": "Chart Settings",
+  "tapestry.chart.data.settings": "Settings",
   "tapestry.chart.delete.error": "Failed to delete",
   "tapestry.chart.delete.success": "Successfully deleted",
   "tapestry.chart.dimension": "Time Period",
