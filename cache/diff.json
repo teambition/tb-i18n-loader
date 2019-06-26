@@ -410,7 +410,7 @@
     },
     {
       "key": "kanban.status.selector.footer.description",
-      "value": "仅展示筛选器中已筛选的任务类型"
+      "value": "仅显示当前视图下存在的任务类型"
     },
     {
       "key": "invite.org.outer.member",

@@ -1912,7 +1912,7 @@
   "kanban.placeholder.no.sprint.button": "前往需求",
   "kanban.placeholder.no.sprint.desc": "当前暂无迭代进行，前往需求中开始一个新的迭代",
   "kanban.reject.update.status": "无法拖拽到该任务状态",
-  "kanban.status.selector.footer.description": "仅展示筛选器中已筛选的任务类型",
+  "kanban.status.selector.footer.description": "仅显示当前视图下存在的任务类型",
   "kanban.task.no.bug.tasks": "本迭代中暂无缺陷",
   "kanban.task.no.story.tasks": "本迭代中暂无需求",
   "kanban.task.no.subtasks": "当前工作项暂无子任务",
