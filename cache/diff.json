@@ -9,6 +9,14 @@
       "value": "隐私模式"
     },
     {
+      "key": "tasklist.menu.no.permission",
+      "value": "暂无权限"
+    },
+    {
+      "key": "tasklist.bar.search.view",
+      "value": "搜索视图"
+    },
+    {
       "key": "task.detail.status.done.mark",
       "value": "完成任务"
     },
@@ -73,6 +81,10 @@
       "value": "任务总数"
     },
     {
+      "key": "tapestry.chart.modal.banner.text",
+      "value": "当前项目还未开启统计应用，开启后可查看更多报表数据"
+    },
+    {
       "key": "tapestry.chart.data.settings",
       "value": "图表设置"
     },
@@ -101,12 +113,72 @@
       "value": "部分任务未被编辑，可能因为与目标任务类型不一致或有权限限制。"
     },
     {
+      "key": "sprint.task.board.empty",
+      "value": "当前没有任何迭代内容"
+    },
+    {
+      "key": "sprint.task.board.create.task",
+      "value": "创建任务"
+    },
+    {
+      "key": "sprint.planning.title",
+      "value": "迭代规划"
+    },
+    {
+      "key": "sprint.planning.task.search.placeholder",
+      "value": "搜索任务名称或 ID"
+    },
+    {
+      "key": "sprint.planning.task.not.found",
+      "value": "暂无符合条件的任务"
+    },
+    {
+      "key": "sprint.planning.task.empty",
+      "value": "暂无可规划的任务"
+    },
+    {
+      "key": "sprint.planning.switcher.section.active",
+      "value": "已开始的迭代"
+    },
+    {
+      "key": "sprint.planning.move.tasks.warning.title",
+      "value": "修改任务迭代"
+    },
+    {
+      "key": "sprint.planning.move.tasks.warning.tip",
+      "value": "是否将选中的 %s 条任务规划到「%s」？"
+    },
+    {
+      "key": "sprint.planning.move.tasks.success",
+      "value": "修改成功"
+    },
+    {
+      "key": "sprint.planning.move.tasks.fail",
+      "value": "修改失败"
+    },
+    {
+      "key": "sprint.planning",
+      "value": "规划迭代"
+    },
+    {
       "key": "required.field.empty.error",
       "value": "必填项不能为空"
     },
     {
+      "key": "project.suspend.tips",
+      "value": "项目计划于 %s 结束。如项目已完成，你可以选择 <a class='link-suspend'>归档</a>；如需要延期，请 <a class='link-set-end-date'>调整项目结束时间</a>"
+    },
+    {
+      "key": "project.suspend.message.with.user",
+      "value": "%1于 %2 归档了该项目"
+    },
+    {
+      "key": "project.suspend.message",
+      "value": "该项目归档于 %s"
+    },
+    {
       "key": "project.settings.taskflow.switch.config.taskflow",
-      "value": "拖拽任务类型到此处或者<a>添加</a>任务类型以启用该工作流"
+      "value": "拖拽任务类型到此处或者<a> 添加 </a>任务类型以启用该工作流"
     },
     {
       "key": "project.settings.taskflow.switch.config.scrum",
@@ -129,6 +201,62 @@
       "value": "无法复制任务分组到敏捷项目"
     },
     {
+      "key": "project.overview.statistics.chart.undone",
+      "value": "未完成"
+    },
+    {
+      "key": "project.overview.statistics.chart.unassigned",
+      "value": "待认领"
+    },
+    {
+      "key": "project.overview.statistics.chart.overduedone",
+      "value": "逾期完成"
+    },
+    {
+      "key": "project.overview.statistics.chart.overdue",
+      "value": "已逾期"
+    },
+    {
+      "key": "project.overview.statistics.chart.duetoday",
+      "value": "今日到期"
+    },
+    {
+      "key": "project.overview.statistics.chart.done",
+      "value": "已完成"
+    },
+    {
+      "key": "project.overview.progress.statistics.sprint.selector.selected",
+      "value": "已选 %s 个迭代"
+    },
+    {
+      "key": "project.overview.progress.statistics.sprint.selector.label",
+      "value": "全部迭代"
+    },
+    {
+      "key": "project.overview.progress.sprint.selector.without.sprint",
+      "value": "不在迭代中的内容"
+    },
+    {
+      "key": "project.overview.progress.sprint.selector.no.sprint",
+      "value": "暂无可选迭代"
+    },
+    {
+      "key": "project.overview.progress.sprint.selector.all",
+      "value": "全选"
+    },
+    {
+      "key": "project.overview.progress.period.title",
+      "value": "项目周期"
+    },
+    {
+      "key": "project.overview.progress.info.hint",
+      "value": "%1于 %2 创建"
+    },
+    {
+      "key": "project.overview.progress.chart.title",
+      "value": "项目统计"
+    },
+    {
       "key": "project.creator.personal.template.retired.title",
       "value": "提示"
     },
@@ -137,8 +265,20 @@
       "value": "本功能已下线，新建模板请前往“企业模板”部分。如有历史数据，可在个人企业的“企业模板”部分查看。"
     },
     {
+      "key": "project.cluster.suspendedBy",
+      "value": "归档人"
+    },
+    {
+      "key": "project.cluster.suspendedAt",
+      "value": "归档时间"
+    },
+    {
       "key": "project.cluster.subordinateProjecttags",
       "value": "所属分组"
+    },
+    {
+      "key": "project.cluster.startDate",
+      "value": "项目开始时间"
     },
     {
       "key": "project.cluster.query.overflow.warning",
@@ -147,6 +287,18 @@
     {
       "key": "project.cluster.projecttags",
       "value": "所属分组"
+    },
+    {
+      "key": "project.cluster.endDate",
+      "value": "项目结束时间"
+    },
+    {
+      "key": "project.cluster.end.count",
+      "value": "逾期未完成的任务数："
+    },
+    {
+      "key": "project.cluster.dueDate",
+      "value": "项目结束时间"
     },
     {
       "key": "portal.view.showChildren.sub",
@@ -303,6 +455,11 @@
   ],
   "modified": [
     {
+      "key": "task.permissions.put.status",
+      "oldValue": "完成／重做任务",
+      "newValue": "修改任务状态"
+    },
+    {
       "key": "tapestry.chart.cycle.time",
       "oldValue": "时间周期",
       "newValue": "时间精度"
@@ -318,9 +475,49 @@
       "newValue": "%s 条任务编辑成功，以下 %s 条任务未被编辑"
     },
     {
+      "key": "sprint.unplanned",
+      "oldValue": "未规划的工作项",
+      "newValue": "未规划的任务"
+    },
+    {
+      "key": "sprint.placeholder.unplanned",
+      "oldValue": "开始创建新的工作项",
+      "newValue": "开始创建新的任务"
+    },
+    {
+      "key": "sprint.placeholder.sprint",
+      "oldValue": "将未规划的工作项添加到本迭代",
+      "newValue": "将未规划的任务添加到本迭代"
+    },
+    {
+      "key": "sprint.is.active",
+      "oldValue": "迭代中",
+      "newValue": "进行中"
+    },
+    {
+      "key": "sprint.completed.delete.to.confirm",
+      "oldValue": "当前迭代已完成，继续删除将会将会同时删除其中的工作项，删除后不可恢复。",
+      "newValue": "当前迭代已完成，继续删除将会将会同时删除其中的任务，删除后不可恢复。"
+    },
+    {
+      "key": "sprint.all",
+      "oldValue": "所有工作项",
+      "newValue": "所有任务"
+    },
+    {
+      "key": "project.settings.taskflow.switch.config.apply.to",
+      "oldValue": "应用于：",
+      "newValue": "应用于"
+    },
+    {
       "key": "project.settings.taskflow.status.delete.tasks",
       "oldValue": "请先清空此列表上的任务，然后再删除这个状态",
       "newValue": "当前项目中有任务处于该状态，请先确保没有任务在该状态下后，再删除该状态"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.start.hint",
+      "oldValue": "仅允许在该状态下新建任务",
+      "newValue": "该状态表示任务处于待处理中"
     },
     {
       "key": "powerups.tasklist.short.des",
