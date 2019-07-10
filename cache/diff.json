@@ -9,12 +9,20 @@
       "value": "隐私模式"
     },
     {
+      "key": "team.projects.header.content",
+      "value": "%s部门已加入以下项目。"
+    },
+    {
       "key": "tasklist.menu.no.permission",
       "value": "暂无权限"
     },
     {
       "key": "tasklist.bar.search.view",
       "value": "搜索视图"
+    },
+    {
+      "key": "tasklist.and.customview",
+      "value": "分组与视图"
     },
     {
       "key": "task.detail.status.done.mark",
@@ -101,12 +109,32 @@
       "value": "按周期查看交付效能"
     },
     {
+      "key": "table.view.title",
+      "value": "表格"
+    },
+    {
+      "key": "table.task.updated.at.date",
+      "value": "更新时间"
+    },
+    {
       "key": "table.task.taskstatus",
       "value": "任务状态"
     },
     {
       "key": "table.task.private.subtask.count",
       "value": "有 %s 个隐私子任务"
+    },
+    {
+      "key": "table.task.accomplished.at.date",
+      "value": "完成时间"
+    },
+    {
+      "key": "table.loadMore.total.private",
+      "value": "加载更多（剩余 %s 条任务。有 %s 个任务被隐藏（仅参与者可见））"
+    },
+    {
+      "key": "table.loadMore.total",
+      "value": "加载更多（剩余 %s 条任务）"
     },
     {
       "key": "table.batch.edit.status.error.title",
@@ -123,6 +151,10 @@
     {
       "key": "sprint.planning.title",
       "value": "迭代规划"
+    },
+    {
+      "key": "sprint.planning.taskattrs.filter.more",
+      "value": "更多筛选条件"
     },
     {
       "key": "sprint.planning.task.search.placeholder",
@@ -159,6 +191,66 @@
     {
       "key": "sprint.planning",
       "value": "规划迭代"
+    },
+    {
+      "key": "sprint.app.custom.views.migration.guide.title",
+      "value": "迭代下视图功能迁移说明"
+    },
+    {
+      "key": "sprint.app.custom.views.migration.guide.description",
+      "value": "为了让你更专注于在当前迭代下开展工作，现将迭代应用下自定义视图项迁移至任务应用下。"
+    },
+    {
+      "key": "sprint.app.custom.views.migration.guide.button",
+      "value": "前往「任务」查看"
+    },
+    {
+      "key": "section.name.story.default",
+      "value": "需求分类与视图"
+    },
+    {
+      "key": "section.name.bug.default",
+      "value": "缺陷分类与视图"
+    },
+    {
+      "key": "searcher.task.sprint.categories.others",
+      "value": "未完成的迭代"
+    },
+    {
+      "key": "searcher.task.sprint.categories.complete",
+      "value": "已完成的迭代"
+    },
+    {
+      "key": "search.filter.searcher.filter.selector.sprintId.unset",
+      "value": "全部迭代"
+    },
+    {
+      "key": "scrum.sort.updated.up",
+      "value": "按更新时间最早"
+    },
+    {
+      "key": "scrum.sort.updated.down",
+      "value": "按更新时间最晚"
+    },
+    {
+      "key": "scrum.sort.updated",
+      "value": "按更新时间"
+    },
+    {
+      "key": "scrum.sort.startdate.title",
+      "value": "按开始时间"
+    },
+    {
+      "key": "scrum.sort.priority.title",
+      "value": "按照优先级"
+    },
+    {
+      "key": "scrum.sort.duedate.title",
+      "value": "按截止时间"
+    },
+    {
+      "key": "scrum.sort.created.title",
+      "value": "按创建时间"
     },
     {
       "key": "required.field.empty.error",
@@ -257,12 +349,68 @@
       "value": "项目统计"
     },
     {
+      "key": "project.creator.template.choose.category",
+      "value": "选择分组"
+    },
+    {
+      "key": "project.creator.template.category.legal",
+      "value": "法务管理"
+    },
+    {
+      "key": "project.creator.template.category.finance",
+      "value": "金融投资"
+    },
+    {
+      "key": "project.creator.template.category.advertisement",
+      "value": "广告创意"
+    },
+    {
+      "key": "project.creator.taskflow.template",
+      "value": "工作流模板"
+    },
+    {
+      "key": "project.creator.simple.template",
+      "value": "普通模板"
+    },
+    {
       "key": "project.creator.personal.template.retired.title",
       "value": "提示"
     },
     {
       "key": "project.creator.personal.template.retired.content",
       "value": "本功能已下线，新建模板请前往“企业模板”部分。如有历史数据，可在个人企业的“企业模板”部分查看。"
+    },
+    {
+      "key": "project.creator.modal.search.result.placeholder.try",
+      "value": "尝试其他关键词或查看全部模板"
+    },
+    {
+      "key": "project.creator.modal.search.result.placeholder.tips",
+      "value": "未搜索到与“%s”相关的模板"
+    },
+    {
+      "key": "project.creator.modal.search.placeholder",
+      "value": "搜索项目模板"
+    },
+    {
+      "key": "project.creator.modal.create.taskflow.project",
+      "value": "新建工作流项目"
+    },
+    {
+      "key": "project.creator.modal.create.simple.project",
+      "value": "新建普通项目"
+    },
+    {
+      "key": "project.creator.modal.choose.template",
+      "value": "选择项目模板"
+    },
+    {
+      "key": "project.creator.modal.all.templates",
+      "value": "全部模板"
+    },
+    {
+      "key": "project.creator.create.template",
+      "value": "新建模板"
     },
     {
       "key": "project.cluster.suspendedBy",
@@ -401,12 +549,44 @@
       "value": "继承自父分组的成员"
     },
     {
+      "key": "personal.settings.notification.notifications.atme.desc",
+      "value": "评论中 @ 你的消息"
+    },
+    {
+      "key": "personal.settings.notification.notifications.atme.content",
+      "value": "@ 我的通知"
+    },
+    {
       "key": "organization.create.get.customer.service",
       "value": "我有企业采购需求，希望顾问主动联系"
     },
     {
+      "key": "onboarding.template.submit",
+      "value": "开始协作"
+    },
+    {
+      "key": "onboarding.template.selector.title",
+      "value": "已为你配置个性化的项目模板"
+    },
+    {
+      "key": "onboarding.template.selector.subtitle",
+      "value": "选择合适的模板，与你的团队一起开启协作吧"
+    },
+    {
+      "key": "onboarding.grid.selector.which.scene",
+      "value": "你希望在哪个场景下完成高效协作呢？"
+    },
+    {
+      "key": "onboarding.grid.selector.welcome",
+      "value": "欢迎使用 Teambition"
+    },
+    {
       "key": "no.permission.to.organization.structure",
       "value": "无权限访问「成员」应用"
+    },
+    {
+      "key": "list.view.title",
+      "value": "列表"
     },
     {
       "key": "kanban.status.selector.footer.description",
@@ -433,6 +613,10 @@
       "value": "在当前部门下搜索"
     },
     {
+      "key": "custom.view.edit.modal.save.hint",
+      "value": "将当前的展示方式、排序方式、筛选条件保存为视图。"
+    },
+    {
       "key": "custom.field.submit.choices.duplication",
       "value": "自定义字段选项重复"
     },
@@ -455,6 +639,11 @@
   ],
   "modified": [
     {
+      "key": "tasklist.bar.pin",
+      "oldValue": "固定任务分组栏",
+      "newValue": "固定为侧栏"
+    },
+    {
       "key": "task.permissions.put.status",
       "oldValue": "完成／重做任务",
       "newValue": "修改任务状态"
@@ -463,6 +652,11 @@
       "key": "tapestry.chart.cycle.time",
       "oldValue": "时间周期",
       "newValue": "时间精度"
+    },
+    {
+      "key": "table.view",
+      "oldValue": "表格视图",
+      "newValue": "表格"
     },
     {
       "key": "table.batch.edit.error.title",
@@ -505,6 +699,21 @@
       "newValue": "所有任务"
     },
     {
+      "key": "scrum.view.title",
+      "oldValue": "视图",
+      "newValue": "看板"
+    },
+    {
+      "key": "scrum.view",
+      "oldValue": "看板视图",
+      "newValue": "看板"
+    },
+    {
+      "key": "scrum.panel.taskflow",
+      "oldValue": "看板列字段",
+      "newValue": "看板列"
+    },
+    {
       "key": "project.settings.taskflow.switch.config.apply.to",
       "oldValue": "应用于：",
       "newValue": "应用于"
@@ -520,9 +729,39 @@
       "newValue": "该状态表示任务处于待处理中"
     },
     {
+      "key": "project.overview.info.create.from.templates",
+      "oldValue": "从项目模版中添加",
+      "newValue": "从项目模板中添加"
+    },
+    {
+      "key": "project.creator.template.category.manufacturing",
+      "oldValue": "制造业",
+      "newValue": "硬件制造"
+    },
+    {
+      "key": "project.creator.template.category.education",
+      "oldValue": "教育行业",
+      "newValue": "教育培训"
+    },
+    {
+      "key": "project.creator.template.category.blank",
+      "oldValue": "空白项目",
+      "newValue": "空白模板"
+    },
+    {
+      "key": "project.creator.template.category.arrangement",
+      "oldValue": "个人安排",
+      "newValue": "个人计划"
+    },
+    {
       "key": "powerups.tasklist.short.des",
       "oldValue": "开启任务分组插件，对任务版进行分类管理。",
       "newValue": "支持通过在项目内创建任务分组，对任务进行分类。"
+    },
+    {
+      "key": "organization.trail.start.title",
+      "oldValue": "输入团队或组织名称",
+      "newValue": "输入企业或组织名称"
     },
     {
       "key": "organization.payment.license.excess.content.buy",
@@ -545,9 +784,24 @@
       "newValue": "立即下单"
     },
     {
+      "key": "list.view",
+      "oldValue": "列表视图",
+      "newValue": "列表"
+    },
+    {
+      "key": "filter.panel.footer.reset.handler",
+      "oldValue": "恢复默认筛选",
+      "newValue": "重置"
+    },
+    {
       "key": "enter.keywords.or.to.search.team.or.member",
       "oldValue": "输入关键字查找部门或成员",
       "newValue": "在当前部门下搜索成员"
+    },
+    {
+      "key": "custom.view.edit.name.input.please.enter",
+      "oldValue": "请输入视图名称",
+      "newValue": "请输入视图名称 (最多 20 个字)"
     },
     {
       "key": "account.verifier.ding.description",
