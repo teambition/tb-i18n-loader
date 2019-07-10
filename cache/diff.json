@@ -654,11 +654,6 @@
       "newValue": "时间精度"
     },
     {
-      "key": "table.view",
-      "oldValue": "表格视图",
-      "newValue": "表格"
-    },
-    {
       "key": "table.batch.edit.error.title",
       "oldValue": "批量操作成功，但部分任务未被编辑，因为没有对应操作权限或字段",
       "newValue": "部分任务未被编辑，可能因为没有对应的字段或操作权限。"
@@ -701,11 +696,6 @@
     {
       "key": "scrum.view.title",
       "oldValue": "视图",
-      "newValue": "看板"
-    },
-    {
-      "key": "scrum.view",
-      "oldValue": "看板视图",
       "newValue": "看板"
     },
     {
@@ -764,6 +754,11 @@
       "newValue": "输入企业或组织名称"
     },
     {
+      "key": "organization.trail.info.member.placeholder",
+      "oldValue": "使用规模",
+      "newValue": "预计使用规模"
+    },
+    {
       "key": "organization.payment.license.excess.content.buy",
       "oldValue": "当前企业使用名额数已满，您可以发起购买更多名额或停用不必要的账号，避免团队日常工作受到影响。",
       "newValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，请及时购买更多名额或停用不必要的帐号。"
@@ -782,11 +777,6 @@
       "key": "organization.payment.license.add",
       "oldValue": "购买名额",
       "newValue": "立即下单"
-    },
-    {
-      "key": "list.view",
-      "oldValue": "列表视图",
-      "newValue": "列表"
     },
     {
       "key": "filter.panel.footer.reset.handler",
