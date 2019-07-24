@@ -1,20 +1,269 @@
 {
-  "added": [],
+  "added": [
+    {
+      "key": "xhr.error.405",
+      "value": "抱歉，你输入的内容包含不安全信息，无法提交"
+    },
+    {
+      "key": "sprint.tasks.default.completed.amount",
+      "value": "完成了 %s 个%s"
+    },
+    {
+      "key": "searcher.unit.remove.value.tips",
+      "value": "清除筛选"
+    },
+    {
+      "key": "search.filter.searcher.trigger.empty",
+      "value": "待选择"
+    },
+    {
+      "key": "scrum.panel.filter.text.input.clear",
+      "value": "清除关键字"
+    },
+    {
+      "key": "project.status.template.save.success",
+      "value": "保存成功"
+    },
+    {
+      "key": "project.status.template.risk.management.urgent",
+      "value": "进度失控"
+    },
+    {
+      "key": "project.status.template.risk.management.title",
+      "value": "项目风险管理"
+    },
+    {
+      "key": "project.status.template.risk.management.risky",
+      "value": "存在风险"
+    },
+    {
+      "key": "project.status.template.risk.management.normal",
+      "value": "进度正常"
+    },
+    {
+      "key": "project.status.template.risk.management.desc",
+      "value": "便于项目经理更好地管控项目的风险状态"
+    },
+    {
+      "key": "project.status.template.recommend",
+      "value": "官方推荐"
+    },
+    {
+      "key": "project.status.template.period.management.uninitialized",
+      "value": "未启动"
+    },
+    {
+      "key": "project.status.template.period.management.title",
+      "value": "项目周期管理"
+    },
+    {
+      "key": "project.status.template.period.management.planning",
+      "value": "规划中"
+    },
+    {
+      "key": "project.status.template.period.management.initiating",
+      "value": "启动中"
+    },
+    {
+      "key": "project.status.template.period.management.finished",
+      "value": "已完成"
+    },
+    {
+      "key": "project.status.template.period.management.executing",
+      "value": "执行中"
+    },
+    {
+      "key": "project.status.template.period.management.ending",
+      "value": "收尾中"
+    },
+    {
+      "key": "project.status.template.period.management.desc",
+      "value": "结合传统项目红绿灯和通用项目的各个阶段，更好地管理不同项目的健康状态"
+    },
+    {
+      "key": "project.settings.tab.project.overview",
+      "value": "项目状态设置"
+    },
+    {
+      "key": "project.settings.custom.project.status.select.template",
+      "value": "从项目模板重新选择"
+    },
+    {
+      "key": "project.settings.custom.project.status.remove.title",
+      "value": "删除状态"
+    },
+    {
+      "key": "project.settings.custom.project.status.remove.description",
+      "value": "确定删除当前状态吗？删除后之前已发布的状态不受影响。"
+    },
+    {
+      "key": "project.settings.custom.project.status.name.length.error",
+      "value": "项目状态名称不应超过15个字"
+    },
+    {
+      "key": "project.settings.custom.project.status.edit.title",
+      "value": "编辑项目状态"
+    },
+    {
+      "key": "project.settings.custom.project.status.add.placeholder",
+      "value": "状态名称"
+    },
+    {
+      "key": "project.settings.custom.project.status.add",
+      "value": "创建项目状态"
+    },
+    {
+      "key": "project.overview.status.selector.manage.status",
+      "value": "管理项目状态"
+    },
+    {
+      "key": "project.overview.status.reminder.update.success",
+      "value": "提醒规则更新成功"
+    },
+    {
+      "key": "project.overview.status.reminder.rule.empty",
+      "value": "请先设置提醒"
+    },
+    {
+      "key": "project.overview.status.remind.unset",
+      "value": "不提醒"
+    },
+    {
+      "key": "project.overview.status.remind.title",
+      "value": "项目状态更新提醒"
+    },
+    {
+      "key": "project.overview.status.remind.rule.label",
+      "value": "提醒规则"
+    },
+    {
+      "key": "project.overview.status.remind.rule.hint",
+      "value": "%1 %2 提醒更新"
+    },
+    {
+      "key": "project.overview.status.remind.members.label",
+      "value": "提醒对象"
+    },
+    {
+      "key": "project.overview.status.remind.frequency.wendsday",
+      "value": "每周三"
+    },
+    {
+      "key": "project.overview.status.remind.frequency.tuesday",
+      "value": "每周二"
+    },
+    {
+      "key": "project.overview.status.remind.frequency.thursday",
+      "value": "每周四"
+    },
+    {
+      "key": "project.overview.status.remind.frequency.sunday",
+      "value": "每周日"
+    },
+    {
+      "key": "project.overview.status.remind.frequency.saturday",
+      "value": "每周六"
+    },
+    {
+      "key": "project.overview.status.remind.frequency.monday",
+      "value": "每周一"
+    },
+    {
+      "key": "project.overview.status.remind.frequency.friday",
+      "value": "每周五"
+    },
+    {
+      "key": "project.overview.status.names.remove.success",
+      "value": "项目状态删除成功"
+    },
+    {
+      "key": "project.overview.status.names.edit.success",
+      "value": "项目状态编辑成功"
+    },
+    {
+      "key": "project.overview.status.names.add.success",
+      "value": "项目状态添加成功"
+    },
+    {
+      "key": "project.overview.status.add.from.template",
+      "value": "从模板中添加项目状态"
+    },
+    {
+      "key": "onboarding.view.org.invite.member.notice",
+      "value": "当前企业还剩 %s 个免费名额，邀请成员立即开始协作。"
+    },
+    {
+      "key": "onboarding.view.org.invite.member.go",
+      "value": "前往邀请"
+    },
+    {
+      "key": "indie.space.task",
+      "value": "未放入项目的任务"
+    },
+    {
+      "key": "indie.space.event",
+      "value": "未放入项目的日程"
+    },
+    {
+      "key": "event.detail.nav.stage.selector",
+      "value": "选择项目"
+    },
+    {
+      "key": "event.detail.free",
+      "value": "自由日程"
+    },
+    {
+      "key": "event.creator.modal.title",
+      "value": "创建日程"
+    },
+    {
+      "key": "event.creator.indie.event.success.hint",
+      "value": "未放入项目的日程可以在「我的」以及「搜索」中找到。"
+    },
+    {
+      "key": "calendar.panel.menu.task",
+      "value": "订阅我的任务到本地"
+    },
+    {
+      "key": "calendar.panel.menu.schedule",
+      "value": "订阅我的日程到本地"
+    }
+  ],
   "modified": [
     {
-      "key": "organization.trail.start.title",
-      "oldValue": "输入企业或组织名称",
-      "newValue": "输入团队或企业名称"
+      "key": "project.overview.status.info.placeholder",
+      "oldValue": "输入项目状态变更理由",
+      "newValue": "请输入项目状态变更理由，支持@项目成员"
     },
     {
-      "key": "onboarding.grid.selector.which.scene",
-      "oldValue": "你希望在哪个场景下完成高效协作呢？",
-      "newValue": "点击下列图标选择适合你的协作场景"
+      "key": "project.cluster.status.placeholder",
+      "oldValue": "暂无项目状态",
+      "newValue": "暂无状态"
     },
     {
-      "key": "activity.system.handlers.entergroup",
-      "oldValue": "前往群组：%s",
-      "newValue": "前往群组聊天：%s"
+      "key": "project.cluster.status",
+      "oldValue": "状态",
+      "newValue": "项目状态"
+    },
+    {
+      "key": "onboarding.view.org.invite.send.invitation",
+      "oldValue": "发送邀请并进入企业",
+      "newValue": "发送邀请"
+    },
+    {
+      "key": "onboarding.view.org.invite.member.into.org",
+      "oldValue": "邀请您的团队成员加入企业",
+      "newValue": "当前企业剩余 %s 个免费名额"
+    },
+    {
+      "key": "onboarding.view.org.invite.create.success",
+      "oldValue": "创建成功",
+      "newValue": "邀请团队成员一起协作"
+    },
+    {
+      "key": "kanban.status.selector.footer.description",
+      "oldValue": "仅显示当前视图下存在的任务类型",
+      "newValue": "相同工作流下的任务类型支持多选"
     }
   ],
   "deleted": []
