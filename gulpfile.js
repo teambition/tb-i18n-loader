@@ -33,6 +33,7 @@ var chsToChtOptions = {
 if (process.argv[2] && process.argv[2] === 'chs-to-cht') {
   chsToChtOptions.all = params.a || params.all
   chsToChtOptions.force = params.f || params.force
+  chsToChtOptions.queriesPerSecond = params.queriesPerSecond
 }
 
 if (params.y || params.exec) {
