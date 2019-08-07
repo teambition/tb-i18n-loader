@@ -5,7 +5,7 @@ var inquirer = require('inquirer')
 var gutil = require('gulp-util')
 var path = require('path')
 var fs = require('fs')
-var isEmpty = require('lodash').isEmpty
+var _ = require('lodash')
 var MD5 = require('./md5')
 var defaults = require('../locales/zh.json')
 var defaultsTW = require('../locales/zh_tw.json')
@@ -25,7 +25,7 @@ var TRANSLATE_MAP = {
   'zh_tw': 'cht'
 }
 
-function translate(contents, from, to, callback) {
+function translate(contents, from, to, callback, options) {
   var results = defaultsTW
   var optionsData = {
     from: from,
@@ -46,40 +46,60 @@ function translate(contents, from, to, callback) {
     return urllib.request(TRANSLATE_URL, { data: optionsData })
   }
 
-  var promiseList = []
-  keys.forEach((key) => {
-    if (key && data[key] === '') {
-      delete results[key]
-      data[key] = ''
-    } else {
-      promiseList.push(
-        requestTranslate(key, data[key])
-          .then((res) => {
-            var result = JSON.parse(res.data.toString())
-            if (result.trans_result && result.trans_result[0]) {
-              // 翻译成功加入列表
-              data[key] = result.trans_result[0].dst
-              results[key] = result.trans_result[0].dst
-            } else {
-              // 翻译不成功，将错误保存，置空当前字段，经过上面的逻辑重试这个字段
-              errorMessages.push({ key: key, result: result })
-              if (result.error_code === '52001' || result.error_code === '52002') {
-                return requestTranslate(key, data[key])
+  function processBatch(batch) {
+    var promiseList = []
+    batch.forEach((key) => {
+      if (key && data[key] === '') {
+        delete results[key]
+        data[key] = ''
+      } else {
+        promiseList.push(
+          requestTranslate(key, data[key])
+            .then((res) => {
+              var result = JSON.parse(res.data.toString())
+              if (result.trans_result && result.trans_result[0]) {
+                console.log('success')
+                // 翻译成功加入列表
+                data[key] = result.trans_result[0].dst
+                results[key] = result.trans_result[0].dst
               } else {
-                throw new PluginError(PLUGIN_NAME, result.toString())
+                // 翻译不成功，将错误保存，置空当前字段，经过上面的逻辑重试这个字段
+                errorMessages.push({ key: key, result: result })
+                if (result.error_code === '52001' || result.error_code === '52002') {
+                  return requestTranslate(key, data[key])
+                } else {
+                  throw new PluginError(PLUGIN_NAME, result.toString())
+                }
               }
-            }
-          })
-          .catch((err) => {
-            console.error(err)
-          })
-      )
-    }
-  })
+            })
+            .catch((err) => {
+              console.error(err)
+            })
+        )
+      }
+    })
+    return Promise.all(promiseList)
+  }
 
-  Promise.all(promiseList)
+  queriesPerSecond = options.queriesPerSecond || 5
+  batchSize = Math.ceil(queriesPerSecond)
+  var batches = _.chunk(keys, batchSize)
+  allBatchesComplete = batches.reduce((resolvedBatches, batch) => {
+    return resolvedBatches.then(() => {
+      var ms = 1000
+      if (queriesPerSecond < 1) {
+        ms = ms * 1 / queriesPerSecond
+      }
+      return Promise.all([
+        processBatch(batch),
+        new Promise((resolve) => setTimeout(resolve, ms))
+      ])
+    })
+  }, Promise.resolve())
+
+  allBatchesComplete
     .then(() => {
-      if (!isEmpty(errorMessages)) {
+      if (!_.isEmpty(errorMessages)) {
         gutil.log('---------------------------- ' + col.red('Errors During Translation Process') + ' ----------------------------')
         gutil.log(errorMessages)
       }
@@ -114,7 +134,7 @@ module.exports = function (options) {
 
     function printDiff() {
       gutil.log('---------------------------- ' + col.cyan('Diffs') + ' ----------------------------')
-      if (isEmpty(diff.added) && isEmpty(diff.modified) && isEmpty(diff.deleted)) {
+      if (_.isEmpty(diff.added) && _.isEmpty(diff.modified) && _.isEmpty(diff.deleted)) {
         gutil.log('None.')
       } else {
         diff.added.forEach((added) => {
@@ -136,6 +156,8 @@ module.exports = function (options) {
         newFile.contents = new Buffer(result)
         outputStream.push(newFile)
         return next()
+      }, {
+        queriesPerSecond: options.queriesPerSecond
       })
     }
 
