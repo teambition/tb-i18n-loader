@@ -23,12 +23,12 @@ function getLocales (language) {
 }
 
 exports.translateLocales = translateLocales
-function translateLocales (language, keys) {
+function translateLocales (language, description) {
   var originLocales = getLocales(language)
   var locales = {}
-  keys.forEach(function (key) {
-    locales[key] = originLocales[key] || ''
-  })
+  for (var key in description) {
+    locales[key] = originLocales[key] || description[key]
+  }
   return translate(language, locales)
 }
 

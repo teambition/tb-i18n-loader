@@ -19,7 +19,7 @@ module.exports = function (content) {
     if (lang === descriptionAs) {
       result = util.translate(lang, description)
     } else {
-      result = util.translateLocales(lang, Object.keys(description))
+      result = util.translateLocales(lang, description)
     }
     results.push(result)
   }
