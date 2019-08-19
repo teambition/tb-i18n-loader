@@ -89,6 +89,14 @@ export TRANSLATE_KEY='Baidu Translate Key'
 
 `$ gulp post-cht`
 
+### chs-to-cht 遇到 54003（请求过于频繁）报错时
+
+可以尝试 `--queriesPerSecond [qps]` 选项，如：
+
+`$ gulp chs-to-cht --queriesPerSecond 0.6`
+
+指定了我们以 0.6 qps 为请求频率使用百度翻译服务，即：约 1.7秒 发一个请求。关于百度服务的层级，相关信息见：（[链接1](http://api.fanyi.baidu.com/api/trans/product/prodinfo#0)，[链接2](https://fanyiapp.cdn.bcebos.com/api/doc/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E9%80%9A%E7%94%A8%E7%BF%BB%E8%AF%91API%E6%9C%8D%E5%8A%A1%E5%8D%87%E7%BA%A7%E8%AF%B4%E6%98%8E.pdf)）
+
 ## License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)
