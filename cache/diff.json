@@ -57,6 +57,18 @@
       "value": "属于：%s"
     },
     {
+      "key": "tapestry.picker.title.duedateRange",
+      "value": "截止时间"
+    },
+    {
+      "key": "tapestry.picker.title.createdRange",
+      "value": "创建时间"
+    },
+    {
+      "key": "tapestry.picker.title.accomplishedRange",
+      "value": "完成时间"
+    },
+    {
       "key": "scrum.panel.task.layer.option.only.top.level",
       "value": "仅父任务"
     },
@@ -121,6 +133,42 @@
       "value": "退出"
     },
     {
+      "key": "project.template.management.title",
+      "value": "企业模板管理"
+    },
+    {
+      "key": "project.template.management.result.empty.title",
+      "value": "没有符合筛选条件的项目模板"
+    },
+    {
+      "key": "project.template.management.result.empty.subTitle",
+      "value": "可尝试其他筛选条件"
+    },
+    {
+      "key": "project.template.management.filtered.template",
+      "value": "相关模板"
+    },
+    {
+      "key": "project.template.management.empty.title",
+      "value": "暂无项目模板"
+    },
+    {
+      "key": "project.template.management.empty.subTitle",
+      "value": "点击按钮新建模板"
+    },
+    {
+      "key": "project.template.management.back.all",
+      "value": "返回全部模板"
+    },
+    {
+      "key": "project.template.management.all.template",
+      "value": "全部模板"
+    },
+    {
+      "key": "project.template.management",
+      "value": "模板管理"
+    },
+    {
       "key": "project.template.leave.confirm.title",
       "value": "离开模板编辑？"
     },
@@ -137,6 +185,26 @@
       "value": "取消"
     },
     {
+      "key": "project.template.filter.visible.organization",
+      "value": "全企业可见"
+    },
+    {
+      "key": "project.template.filter.visible.involvers",
+      "value": "仅模板成员可见"
+    },
+    {
+      "key": "project.template.filter.visible",
+      "value": "公开性"
+    },
+    {
+      "key": "project.template.filter.search.template",
+      "value": "搜索模板"
+    },
+    {
+      "key": "project.template.filter.member",
+      "value": "模板成员"
+    },
+    {
       "key": "project.template.add.member",
       "value": "添加项目模版成员"
     },
@@ -147,6 +215,14 @@
     {
       "key": "project.creator.template.category.other",
       "value": "其他场景"
+    },
+    {
+      "key": "private.download.app.guide",
+      "value": "扫描二维码即可下载私有部署版 Teambition"
+    },
+    {
+      "key": "portal.tag.member.member.count.out.limit",
+      "value": "同步人数超出上限，无法完成全部同步"
     },
     {
       "key": "organization.payment.license.excess.manage.privilege.tips",
@@ -173,6 +249,42 @@
       "value": "描述：%s"
     },
     {
+      "key": "download.app",
+      "value": "下载App"
+    },
+    {
+      "key": "customfield.notify.modifier.info",
+      "value": "修改人：%1     修改时间：%2"
+    },
+    {
+      "key": "customfield.notify.content.diff.before",
+      "value": "更新前"
+    },
+    {
+      "key": "customfield.notify.content.diff.attr.name",
+      "value": "名称"
+    },
+    {
+      "key": "customfield.notify.content.diff.attr.choices",
+      "value": "选项"
+    },
+    {
+      "key": "customfield.notify.content.diff.after",
+      "value": "更新后"
+    },
+    {
+      "key": "customfield.notify.content.applied.to.task.scenario",
+      "value": "应用于任务类型："
+    },
+    {
+      "key": "customfield.notify.content.applied.to.project.overview",
+      "value": "应用于当前项目概览"
+    },
+    {
+      "key": "customfield.notify.content.applied.to.event.scenario",
+      "value": "应用于日程类型："
+    },
+    {
       "key": "customfield.item.modified.hint",
       "value": " 编辑于：%s"
     },
@@ -189,8 +301,56 @@
       "value": "同步修改所有引用该字段的场景"
     },
     {
+      "key": "customfield.changed.trigger",
+      "value": "查看详情"
+    },
+    {
+      "key": "customfield.changed.notify.modal.title",
+      "value": "字段待更新"
+    },
+    {
+      "key": "customfield.changed.notify.modal.header",
+      "value": "此项目中使用的字段已有新版本，请选择是否需要更新"
+    },
+    {
+      "key": "customfield.changed.notify.modal.handler.submit",
+      "value": "更新"
+    },
+    {
+      "key": "customfield.changed.notify.modal.handler.ignore",
+      "value": "忽略"
+    },
+    {
+      "key": "customfield.changed.notify.left",
+      "value": "还剩 %s 个未处理"
+    },
+    {
+      "key": "customfield.changed.notify",
+      "value": "项目字段有新版本待更新"
+    },
+    {
       "key": "custom.field.type.applied.projects",
       "value": "应用项目"
+    },
+    {
+      "key": "custom.field.notify.success.sync",
+      "value": "字段更新成功"
+    },
+    {
+      "key": "custom.field.notify.success.all.done",
+      "value": "已处理完全部字段更新"
+    },
+    {
+      "key": "custom.field.notify.error.sync",
+      "value": "字段更新失败"
+    },
+    {
+      "key": "custom.field.notify.all.done",
+      "value": "字段已被处理完毕"
+    },
+    {
+      "key": "custom.field.link.panel.recommend.recentUsedByMe",
+      "value": "我最近使用的字段"
     },
     {
       "key": "custom.field.link.panel.recommend.recentEditedInOrg",
@@ -228,9 +388,24 @@
       "newValue": "未命名项目模版"
     },
     {
+      "key": "organization.payment.license.excess.content.buy",
+      "oldValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，请及时购买更多名额或停用不必要的帐号。",
+      "newValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，请及时购买更多名额或停用不必要的帐号或管理企业成员邀请权限。"
+    },
+    {
+      "key": "organization.payment.license.excess.content",
+      "oldValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，您可以通知管理员及时购买更多名额或停用不必要的帐号。",
+      "newValue": "当前企业成员已超出购买人数，为了避免企业数据被锁定无法访问，请联系管理员购买更多名额或停止额外的成员邀请。"
+    },
+    {
       "key": "organization.memberadd.searchCantfind",
       "oldValue": "找不到“%s”，输入完整邮箱直接将其添加至企业",
       "newValue": "“%s”还未加入企业，输入完整邮箱直接添加"
+    },
+    {
+      "key": "organization.member.add.success.desc",
+      "oldValue": "当前企业人数已超过可用名额，建议企业拥有和者管理员及时处理",
+      "newValue": "当前企业人数已超过可用名额，为了避免企业数据被锁无法访问，建议企业拥有者和管理员及时处理"
     },
     {
       "key": "link.panel.customfield.field.belong.to.choices",
