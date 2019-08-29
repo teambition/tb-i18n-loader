@@ -1,6 +1,10 @@
 {
   "added": [
     {
+      "key": "user.lang.set.info.content",
+      "value": "更改界面语言将会刷新浏览器，是否继续？"
+    },
+    {
       "key": "template.permission.visible.organization",
       "value": "全企业可见"
     },
@@ -29,6 +33,14 @@
       "value": "模板权限设置"
     },
     {
+      "key": "template.creator.modal.title.edit",
+      "value": "编辑企业模板"
+    },
+    {
+      "key": "template.creator.modal.title.create",
+      "value": "创建企业模板"
+    },
+    {
       "key": "template.create.guide.title",
       "value": "创建企业模板"
     },
@@ -53,8 +65,20 @@
       "value": "包含项目内任务、分组、列表、文件等"
     },
     {
+      "key": "tasklist.dump.next",
+      "value": "下一步"
+    },
+    {
+      "key": "tasklist.dump.filter.hint",
+      "value": "自定义表头字段导出当前筛选条件下的任务"
+    },
+    {
       "key": "task.parent",
       "value": "属于：%s"
+    },
+    {
+      "key": "task.menu.convert.and.move.subtask",
+      "value": "移动并转化为独立任务"
     },
     {
       "key": "tapestry.picker.title.duedateRange",
@@ -67,6 +91,38 @@
     {
       "key": "tapestry.picker.title.accomplishedRange",
       "value": "完成时间"
+    },
+    {
+      "key": "subtask.move.and.convert",
+      "value": "移动并转化为独立任务"
+    },
+    {
+      "key": "subtask.menu.tranform.do.linked",
+      "value": "新任务接收父任务的更新提醒"
+    },
+    {
+      "key": "subtask.menu.tranform.do.link",
+      "value": "父任务接收新任务的更新提醒"
+    },
+    {
+      "key": "subtask.archive.handler",
+      "value": "移到回收站"
+    },
+    {
+      "key": "subtask.archive.confirm",
+      "value": "您确定要把该任务移到回收站吗？"
+    },
+    {
+      "key": "subtask.archive",
+      "value": "移到回收站"
+    },
+    {
+      "key": "stage.menu.export.tasks.title",
+      "value": "导出本列表所有任务"
+    },
+    {
+      "key": "selector.selected.count",
+      "value": "已选 %s 个对象"
     },
     {
       "key": "scrum.panel.task.layer.option.only.top.level",
@@ -83,6 +139,10 @@
     {
       "key": "scrum.panel.task.layer.caption",
       "value": "任务层级"
+    },
+    {
+      "key": "projecttag.import.projects.modal.title",
+      "value": "添加项目"
     },
     {
       "key": "project.template.member.remove.last.one",
@@ -209,6 +269,38 @@
       "value": "添加项目模版成员"
     },
     {
+      "key": "project.tag.import.project.search.not.found",
+      "value": "未搜索到项目"
+    },
+    {
+      "key": "project.tag.import.project.guide.title",
+      "value": "项目分组新增功能："
+    },
+    {
+      "key": "project.tag.import.project.guide.import",
+      "value": "添加已有项目"
+    },
+    {
+      "key": "project.tag.import.project.guide.create",
+      "value": "新建项目"
+    },
+    {
+      "key": "project.tag.empty.projects.import",
+      "value": "添加已有项目"
+    },
+    {
+      "key": "project.tag.empty.projects.hint",
+      "value": "你可以新建项目或将已有项目添加至项目组"
+    },
+    {
+      "key": "project.tag.empty.projects.create",
+      "value": "新建项目"
+    },
+    {
+      "key": "project.tag.empty.projects",
+      "value": "当前项目分组内暂无项目"
+    },
+    {
       "key": "project.overview",
       "value": "项目概览"
     },
@@ -217,12 +309,36 @@
       "value": "其他场景"
     },
     {
+      "key": "project.add.member.no.permission.hint",
+      "value": "请联系企业拥有者和管理员邀请，或授予你邀请成员加入项目的权限"
+    },
+    {
+      "key": "project.add.member.no.permission",
+      "value": "暂无权限"
+    },
+    {
       "key": "private.download.app.guide",
       "value": "扫描二维码即可下载私有部署版 Teambition"
     },
     {
+      "key": "powerups.app.upgrade",
+      "value": "升级至专业版使用"
+    },
+    {
       "key": "portal.tag.member.member.count.out.limit",
       "value": "同步人数超出上限，无法完成全部同步"
+    },
+    {
+      "key": "portal.tab.member.invite.guide.title",
+      "value": "项目分组使用指南"
+    },
+    {
+      "key": "portal.tab.member.invite.guide.doc",
+      "value": "前往查看"
+    },
+    {
+      "key": "portal.import.projects",
+      "value": "添加已有项目"
     },
     {
       "key": "organization.payment.license.excess.manage.privilege.tips",
@@ -231,6 +347,10 @@
     {
       "key": "organization.payment.license.excess.manage.privilege",
       "value": "管理成员邀请权限"
+    },
+    {
+      "key": "onboarding.scene.guide",
+      "value": "点击选择场景"
     },
     {
       "key": "message.system.activity.projecttemplate.invite.member",
@@ -249,8 +369,64 @@
       "value": "描述：%s"
     },
     {
+      "key": "kanban.head.status.menu.export.tasks.title",
+      "value": "导出本状态所有任务"
+    },
+    {
       "key": "download.app",
       "value": "下载App"
+    },
+    {
+      "key": "default.priviledge.provider.trigger",
+      "value": "领取你的权益"
+    },
+    {
+      "key": "default.priviledge.provider.quit.without.priviledge",
+      "value": "放弃权益，不再提醒"
+    },
+    {
+      "key": "default.priviledge.provider.priviledge.training",
+      "value": "完善的企业内训资料包，内部推广快速提效"
+    },
+    {
+      "key": "default.priviledge.provider.priviledge.title",
+      "value": "名额权益包含："
+    },
+    {
+      "key": "default.priviledge.provider.priviledge.scenario",
+      "value": "8 大通用场景用法礼包，进阶项目管理大师"
+    },
+    {
+      "key": "default.priviledge.provider.priviledge.resolution",
+      "value": "9 大行业场景解决方案，阿里巴巴多年经验敏捷教练、解决方案架构师和 Teambition 资深客户成功经理干货教学"
+    },
+    {
+      "key": "default.priviledge.provider.priviledge.guide",
+      "value": "系统的用法教学和项目搭建方法论，轻松成为项目规划高手"
+    },
+    {
+      "key": "default.priviledge.provider.go.to.qrcode",
+      "value": "即刻扫码入班"
+    },
+    {
+      "key": "default.priviledge.provider.description.intro",
+      "value": "%s<br><br>你好！<br><br>为帮助你更好地掌握产品用法，一份专属的<b>「产品权益礼包」</b>已为你备好，现在领取，你将收获企业管理员尊享的 VIP 小班名额，与其他管理员共同学习。"
+    },
+    {
+      "key": "default.priviledge.provider.back.to.description",
+      "value": "权益详情"
+    },
+    {
+      "key": "default.privildge.provider.quit",
+      "value": "不再提醒"
+    },
+    {
+      "key": "default.privildge.provider.qrcode.wechat",
+      "value": "微信班"
+    },
+    {
+      "key": "default.privildge.provider.qrcode.dingtalk",
+      "value": "钉钉班"
     },
     {
       "key": "customfield.notify.modifier.info",
@@ -379,6 +555,10 @@
     {
       "key": "activity.system.handlers.projecttemplate.edit",
       "value": "前往项目模板：%s"
+    },
+    {
+      "key": "info",
+      "value": "提示"
     }
   ],
   "modified": [
@@ -386,6 +566,16 @@
       "key": "template.default.new.name",
       "oldValue": "新建项目模板",
       "newValue": "未命名项目模版"
+    },
+    {
+      "key": "project.overview.status.reminder.rule.empty",
+      "oldValue": "请先设置提醒",
+      "newValue": "点击设置状态更新提醒"
+    },
+    {
+      "key": "portal.create.project",
+      "oldValue": "创建新项目",
+      "newValue": "新建项目"
     },
     {
       "key": "organization.payment.license.excess.content.buy",
@@ -421,6 +611,11 @@
       "key": "customfield.edit.field.protect.hint",
       "oldValue": "该字段被以下 %s 个项目使用，若修改会同步修改其他项目中的数据。你可以继续修改或者创建新的字段。",
       "newValue": "该字段同时被 %s 个场景使用，你可以选择以下操作"
+    },
+    {
+      "key": "continue",
+      "oldValue": "继续使用",
+      "newValue": "继续"
     }
   ],
   "deleted": []
