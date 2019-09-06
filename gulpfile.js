@@ -40,6 +40,10 @@ if (params.y || params.exec) {
   chsToChtOptions.exec = true
 }
 
+if (params.queriesPerSecond) {
+  chsToChtOptions.queriesPerSecond = params.queriesPerSecond
+}
+
 var localesDir = path.join(__dirname, 'locales')
 var getLocalesJson = function(file) {
   file = file || 'zh.json'
