@@ -1,53 +1,24 @@
 {
   "added": [
     {
-      "key": "task.menu.open.config.panel",
-      "value": "任务类型字段配置"
+      "key": "help.teams",
+      "value": "团队协作焕新"
     },
     {
-      "key": "subscriber.member.recommend",
-      "value": "推荐"
-    },
-    {
-      "key": "event.menu.open.config.panel",
-      "value": "日程类型字段配置"
+      "key": "help.enterprises",
+      "value": "企业数字化管理"
     }
   ],
   "modified": [
     {
-      "key": "tasklist.dump.excel",
-      "oldValue": "导出项目中所有任务",
-      "newValue": "导出项目内所有任务（包含任务所有字段）"
+      "key": "sprint.delete.tasks.left",
+      "oldValue": "当前迭代有 %s 个任务，继续删除将: ",
+      "newValue": "当前迭代有 %s 个任务，继续删除将把它们全部移动至未规划的任务中"
     },
     {
-      "key": "tasklist.dump.custom.hint",
-      "oldValue": "自定义列后导出项目内所有任务（CSV）",
-      "newValue": "自定义表头字段导出所有任务"
-    },
-    {
-      "key": "project.hierarchy.create.tag.success",
-      "oldValue": "新建成功",
-      "newValue": "项目分组创建成功"
-    },
-    {
-      "key": "project.copy.taskflow.disabled.tips",
-      "oldValue": "（工作流项目不支持跨企业复制）",
-      "newValue": "（工作流项目暂不支持跨企业复制）"
-    },
-    {
-      "key": "onboarding.view.org.invite.member.notice",
-      "oldValue": "当前企业还剩 %s 个免费名额，邀请成员立即开始协作。",
-      "newValue": "10 人以下团队免费使用，邀请成员立即开始协作。"
-    },
-    {
-      "key": "onboarding.view.org.invite.member.into.org",
-      "oldValue": "当前企业剩余 %s 个免费名额",
-      "newValue": "10 人以下团队免费使用"
-    },
-    {
-      "key": "default.privildge.provider.qrcode.wechat",
-      "oldValue": "微信班",
-      "newValue": "微信扫码"
+      "key": "project.settings.transfer.roles.change",
+      "oldValue": "项目归属权将移交给 %s，本项目若含有任务类型、自定义字段、企业标签等企业专属数据，它们会被删除，且此过程是不可逆的。目标位置未购买的企业付费功能和未安装的企业应用将无法使用。请确定是否移交？",
+      "newValue": "项目归属权将移交给 %s，请确保在目标企业在中以下权限「迁入项目」「新增/管理自定义字段」「新增/管理任务类型」。目标位置未购买的企业付费功能和未安装的企业应用将无法使用。请确定是否移交？"
     }
   ],
   "deleted": []
