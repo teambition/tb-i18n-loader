@@ -1,15 +1,198 @@
 {
   "added": [
     {
+      "key": "testcase.import.upload.file",
+      "value": "上传文件"
+    },
+    {
+      "key": "testcase.import.tables.title",
+      "value": "表格文件"
+    },
+    {
+      "key": "testcase.import.tables.error.table.row",
+      "value": "行号"
+    },
+    {
+      "key": "testcase.import.tables.error.table.reason",
+      "value": "错误原因"
+    },
+    {
+      "key": "testcase.import.tables.error.table.content",
+      "value": "单元格内容"
+    },
+    {
+      "key": "testcase.import.tables.error.table.celName",
+      "value": "列标题"
+    },
+    {
+      "key": "testcase.import.reupload",
+      "value": "重新上传"
+    },
+    {
+      "key": "testcase.import.parsed.error.tip",
+      "value": "文件处理失败，请确认文件是否符合上传要求并重新上传文件"
+    },
+    {
+      "key": "testcase.import.mindmap.title",
+      "value": "思维导图"
+    },
+    {
+      "key": "testcase.import.mindmap.requirements",
+      "value": "支持文件类型：.xmind；一次至多导入 500 条用例"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.tooltip4",
+      "value": "如需为用例节点添加用例等级及用例类型信息，参照「tc-p3-功能测试：用例标题」格式输入即可"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.tooltip3",
+      "value": "用例节点的子节点前添加关键词「pc:」或「pc：」标记，则该节点会被识别为前置条件"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.tooltip2",
+      "value": "测试用例后添加的子节点为默认步骤节点，步骤的子节点默认作为预期结果"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.tooltip1",
+      "value": "在节点内容前添加「tc:」或「tc：」标记，则该节点会被识别为测试用例"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.testcase3",
+      "value": "tc-p2-功能测试: 测试用例3"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.testcase2",
+      "value": "tc-p1: 测试用例2"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.testcase1",
+      "value": "tc: 测试用例1"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.sub.root",
+      "value": "根结点信息不导入系统"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.sub.limit",
+      "value": "最多支持 8 级分组"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.sub.add",
+      "value": "可以添加用例等级、类型、前置条件、步骤结果等信息"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.step2",
+      "value": "步骤2"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.step1",
+      "value": "步骤1"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.root",
+      "value": "测试用例 Xmind 导入示例"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.result2",
+      "value": "预期结果2"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.result1",
+      "value": "预期结果1"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.precondition",
+      "value": "pc: 前置条件"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.group8",
+      "value": "分组 8"
+    },
+    {
+      "key": "testcase.import.mindmap.guide.group1",
+      "value": "分组 1"
+    },
+    {
+      "key": "testcase.import.mindmap.error.title",
+      "value": "文件上传成功，共识别到 %s 条用例，发现以下 %s 个问题"
+    },
+    {
+      "key": "testcase.import.mindmap.error.table.error",
+      "value": "发现问题"
+    },
+    {
+      "key": "testcase.import.mindmap.error.table.content",
+      "value": "节点内容"
+    },
+    {
+      "key": "testcase.import.mindmap.error.table.auto",
+      "value": "自动处理"
+    },
+    {
+      "key": "testcase.import.mindmap.error.subtitle",
+      "value": "你可以选择手动处理后重新上传，或点击「立即导入」由系统自动处理"
+    },
+    {
+      "key": "testcase.import.instructions",
+      "value": "导入说明"
+    },
+    {
+      "key": "testcase.import.file.status.success",
+      "value": "解析成功"
+    },
+    {
+      "key": "testcase.import.file.status.processing",
+      "value": "正在处理"
+    },
+    {
+      "key": "testcase.import.file.status.error",
+      "value": "解析失败"
+    },
+    {
+      "key": "testcase.import.confirm",
+      "value": "立即导入"
+    },
+    {
+      "key": "sprint.reopen.desc",
+      "value": "您可以再次操作迭代中任务, 但可能导致迭代的统计数据和图表不准确"
+    },
+    {
+      "key": "sprint.reopen",
+      "value": "重新打开"
+    },
+    {
+      "key": "post.menu.shimo.edit.error",
+      "value": "无法编辑石墨文档"
+    },
+    {
       "key": "help.teams",
       "value": "团队协作焕新"
     },
     {
       "key": "help.enterprises",
       "value": "企业数字化管理"
+    },
+    {
+      "key": "attend.teambition.day",
+      "value": "参加用户大会"
     }
   ],
   "modified": [
+    {
+      "key": "unarchive.denied.sprint.completed",
+      "oldValue": "该任务所属的迭代已经被完成，不能被恢复",
+      "newValue": "任务所属迭代已完成，重新打开迭代才能恢复"
+    },
+    {
+      "key": "unarchive.denied",
+      "oldValue": "不能恢复",
+      "newValue": "提示"
+    },
+    {
+      "key": "sprint.list.is.completed.no.alter",
+      "oldValue": "该迭代已完成，不能更改",
+      "newValue": "任务所属迭代已完成，重新打开迭代才能修改"
+    },
     {
       "key": "sprint.delete.tasks.left",
       "oldValue": "当前迭代有 %s 个任务，继续删除将: ",
