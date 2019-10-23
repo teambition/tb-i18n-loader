@@ -153,6 +153,38 @@
       "value": "立即导入"
     },
     {
+      "key": "task.meeting.dropdown.item.join.by.id",
+      "value": "ID 加入"
+    },
+    {
+      "key": "task.meeting.dropdown.item.create.and.join",
+      "value": "立即发起"
+    },
+    {
+      "key": "task.meeting.dropdown.item.appoint.event",
+      "value": "预约"
+    },
+    {
+      "key": "table.edit.select.unset",
+      "value": "待选择"
+    },
+    {
+      "key": "table.edit.forbidden",
+      "value": "暂无编辑权限"
+    },
+    {
+      "key": "table.edit.executor.unset",
+      "value": "待认领"
+    },
+    {
+      "key": "table.edit.date.unset",
+      "value": "待设置"
+    },
+    {
+      "key": "story.group.search",
+      "value": "输入需求分类名称"
+    },
+    {
       "key": "sprint.reopen.desc",
       "value": "您可以再次操作迭代中任务, 但可能导致迭代的统计数据和图表不准确"
     },
@@ -161,8 +193,136 @@
       "value": "重新打开"
     },
     {
+      "key": "project.tasklist.modal.shareList.title",
+      "value": "任务列表"
+    },
+    {
+      "key": "project.tasklist.modal.dailyReport.desc",
+      "value": "共有 %s 条，其中 %s 条已被更改"
+    },
+    {
+      "key": "project.settings.events.zoom.title.tooltip",
+      "value": "需要开启网络代理使用"
+    },
+    {
       "key": "post.menu.shimo.edit.error",
       "value": "无法编辑石墨文档"
+    },
+    {
+      "key": "personal.settings.display.taskMode.fullscreen.text",
+      "value": "全屏"
+    },
+    {
+      "key": "object.meeting.status",
+      "value": "进行中，当前 %s 人已进入"
+    },
+    {
+      "key": "object.meeting.invite.success",
+      "value": "视频讨论邀请发送成功"
+    },
+    {
+      "key": "object.meeting.create.from",
+      "value": "视频讨论：%s"
+    },
+    {
+      "key": "object.meeting",
+      "value": "视频讨论"
+    },
+    {
+      "key": "navigation.meeting",
+      "value": "视频讨论"
+    },
+    {
+      "key": "member.menu.project.sync.members.handler",
+      "value": "或尝试刷新名单"
+    },
+    {
+      "key": "member.menu.project.sync.members",
+      "value": "项目成员同步中，请稍后重试"
+    },
+    {
+      "key": "meeting.join.modal.title",
+      "value": "视频讨论"
+    },
+    {
+      "key": "meeting.join.content.separator.create.new",
+      "value": "发起视频讨论"
+    },
+    {
+      "key": "meeting.description.title",
+      "value": "全新视频讨论功能"
+    },
+    {
+      "key": "meeting.description.log",
+      "value": "查看产品日志"
+    },
+    {
+      "key": "meeting.description.content",
+      "value": "你可以直接创建或预约一个视频讨论，并邀请你的团队加入其中，你也可以随时基于任务、日程发起一次视频讨论，随时沟通无障碍。"
+    },
+    {
+      "key": "meeting.creator.join.submit",
+      "value": "加入"
+    },
+    {
+      "key": "meeting.creator.join.placeholder",
+      "value": "请输入视频讨论 ID"
+    },
+    {
+      "key": "meeting.creator.join.mic.setting",
+      "value": "默认静音"
+    },
+    {
+      "key": "meeting.creator.join.code.error",
+      "value": "视频讨论 ID 无效，请重新输入"
+    },
+    {
+      "key": "meeting.creator.join.camera.setting",
+      "value": "默认关闭摄像头"
+    },
+    {
+      "key": "meeting.creator.create.submit",
+      "value": "发起"
+    },
+    {
+      "key": "meeting.creator.create.placeholder",
+      "value": "视频讨论主题"
+    },
+    {
+      "key": "meeting.creator.create.now",
+      "value": "立即发起"
+    },
+    {
+      "key": "meeting.creator.create.default.value",
+      "value": "%s发起的视频讨论"
+    },
+    {
+      "key": "meeting.creator.appoint",
+      "value": "预约"
+    },
+    {
+      "key": "meeting.creater.form.not.found.in.organization",
+      "value": "没有匹配的成员"
+    },
+    {
+      "key": "meeting.creater.form.involver.title",
+      "value": "参与者"
+    },
+    {
+      "key": "meeting.create.modal.title",
+      "value": "发起视频讨论"
+    },
+    {
+      "key": "meeting.checkbox.label",
+      "value": "开启视频讨论"
+    },
+    {
+      "key": "join.now",
+      "value": "立即加入"
+    },
+    {
+      "key": "invite.now",
+      "value": "邀请"
     },
     {
       "key": "help.teams",
@@ -171,6 +331,42 @@
     {
       "key": "help.enterprises",
       "value": "企业数字化管理"
+    },
+    {
+      "key": "feature.launch",
+      "value": "新功能上线"
+    },
+    {
+      "key": "event.object.meeting.dropdown.item.join",
+      "value": "加入当前讨论"
+    },
+    {
+      "key": "event.object.meeting.dropdown.item.create.and.join",
+      "value": "开启并立即加入"
+    },
+    {
+      "key": "event.object.meeting.dropdown.item.create",
+      "value": "开启"
+    },
+    {
+      "key": "event.detail.zoom.button.tooltip",
+      "value": "进入 Zoom 视频会议（请先开启网络代理）"
+    },
+    {
+      "key": "event.detail.zoom.button",
+      "value": "Zoom"
+    },
+    {
+      "key": "custom.field.link.panel.recommend.projectTag",
+      "value": "当前分组内项目引用的项目信息字段"
+    },
+    {
+      "key": "commongroup.node.count.tooltip",
+      "value": "未完成 %s，总计 %s"
+    },
+    {
+      "key": "bug.group.search",
+      "value": "输入缺陷分类名称"
     },
     {
       "key": "attend.teambition.day",
@@ -189,6 +385,21 @@
       "newValue": "提示"
     },
     {
+      "key": "testplan.creator.name.exceed.length",
+      "oldValue": "请限制在 20 字以内",
+      "newValue": "请限制在 %s 字以内"
+    },
+    {
+      "key": "tapestry.picker.title.taskisArchivedRadio",
+      "oldValue": "是否是回收站中的任务",
+      "newValue": "是否包括回收站中的任务"
+    },
+    {
+      "key": "tapestry.picker.title.subtaskRadio",
+      "oldValue": "是否是子任务",
+      "newValue": "是否包括子任务"
+    },
+    {
       "key": "sprint.list.is.completed.no.alter",
       "oldValue": "该迭代已完成，不能更改",
       "newValue": "任务所属迭代已完成，重新打开迭代才能修改"
@@ -202,6 +413,16 @@
       "key": "project.settings.transfer.roles.change",
       "oldValue": "项目归属权将移交给 %s，本项目若含有任务类型、自定义字段、企业标签等企业专属数据，它们会被删除，且此过程是不可逆的。目标位置未购买的企业付费功能和未安装的企业应用将无法使用。请确定是否移交？",
       "newValue": "项目归属权将移交给 %s，请确保在目标企业在中以下权限「迁入项目」「新增/管理自定义字段」「新增/管理任务类型」。目标位置未购买的企业付费功能和未安装的企业应用将无法使用。请确定是否移交？"
+    },
+    {
+      "key": "personal.settings.display.taskMode.title",
+      "oldValue": "任务详情打开方式",
+      "newValue": "详情打开方式"
+    },
+    {
+      "key": "event.detail.zoom.tips",
+      "oldValue": "进入 Zoom 视频会议",
+      "newValue": "进入 Zoom 视频会议（请先开启网络代理）"
     }
   ],
   "deleted": []
