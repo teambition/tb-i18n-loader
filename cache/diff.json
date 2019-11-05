@@ -1,6 +1,18 @@
 {
   "added": [
     {
+      "key": "visible.mode.invisibility.status",
+      "value": "隐私"
+    },
+    {
+      "key": "testcase.tagIds",
+      "value": "标签"
+    },
+    {
+      "key": "testcase.scenariofield.tag",
+      "value": "标签"
+    },
+    {
       "key": "testcase.import.upload.file",
       "value": "上传文件"
     },
@@ -181,6 +193,10 @@
       "value": "待设置"
     },
     {
+      "key": "subtask.creator.back.parent.task",
+      "value": "返回上级"
+    },
+    {
       "key": "story.group.search",
       "value": "输入需求分类名称"
     },
@@ -193,6 +209,26 @@
       "value": "重新打开"
     },
     {
+      "key": "searcher.testcase.tag.option.null",
+      "value": "无标签"
+    },
+    {
+      "key": "searcher.testcase.tag",
+      "value": "标签"
+    },
+    {
+      "key": "search.filter.searcher.multi.selector.input.placeholder.cascading",
+      "value": "搜索选项，默认仅展示一级"
+    },
+    {
+      "key": "scrum.panel.table.see.through.subtasks.label.story",
+      "value": "仅展示需求"
+    },
+    {
+      "key": "scrum.panel.table.see.through.subtasks.label.bug",
+      "value": "仅展示缺陷"
+    },
+    {
       "key": "project.tasklist.modal.shareList.title",
       "value": "任务列表"
     },
@@ -203,6 +239,50 @@
     {
       "key": "project.settings.events.zoom.title.tooltip",
       "value": "需要开启网络代理使用"
+    },
+    {
+      "key": "project.panel.activity.project.update.announcement",
+      "value": "修改了项目公告"
+    },
+    {
+      "key": "project.announcement.update.success",
+      "value": "更新成功"
+    },
+    {
+      "key": "project.announcement.update.fail.desc",
+      "value": "最多输入 1500 个字符"
+    },
+    {
+      "key": "project.announcement.update.fail",
+      "value": "更新失败"
+    },
+    {
+      "key": "project.announcement.tip",
+      "value": "适用于发布项目章程、使用引导等信息"
+    },
+    {
+      "key": "project.announcement.markdown.tip",
+      "value": "支持使用 Markdown 格式撰写"
+    },
+    {
+      "key": "project.announcement.label.hint",
+      "value": "点击这里再次打开公告"
+    },
+    {
+      "key": "project.announcement.empty",
+      "value": "暂无公告"
+    },
+    {
+      "key": "project.announcement.edit.placeholder",
+      "value": "请输入项目公告信息。项目成员首次进入项目后将会优先展示。"
+    },
+    {
+      "key": "project.announcement.edit",
+      "value": "编辑公告"
+    },
+    {
+      "key": "project.announcement",
+      "value": "项目公告"
     },
     {
       "key": "post.menu.shimo.edit.error",
@@ -317,6 +397,10 @@
       "value": "开启视频讨论"
     },
     {
+      "key": "link.panel.customfield.field.cascading.choices",
+      "value": "一级选项：%s"
+    },
+    {
       "key": "join.now",
       "value": "立即加入"
     },
@@ -335,6 +419,34 @@
     {
       "key": "feature.launch",
       "value": "新功能上线"
+    },
+    {
+      "key": "event.reminder.setting",
+      "value": "提醒"
+    },
+    {
+      "key": "event.reminder.allday.9am.previous",
+      "value": "提前一天 9:00"
+    },
+    {
+      "key": "event.reminder.allday.9am",
+      "value": "当天 9:00"
+    },
+    {
+      "key": "event.reminder.allday.8am.previous",
+      "value": "提前一天 8:00"
+    },
+    {
+      "key": "event.reminder.allday.8am",
+      "value": "当天 8:00"
+    },
+    {
+      "key": "event.reminder.allday.6pm.previous",
+      "value": "提前一天 18:00"
+    },
+    {
+      "key": "event.reminder.allday.5pm.previous",
+      "value": "提前一天 17:00"
     },
     {
       "key": "event.object.meeting.dropdown.item.join",
@@ -357,12 +469,108 @@
       "value": "Zoom"
     },
     {
+      "key": "customfield.selection.search.cascading.hint",
+      "value": "搜索选项，可用 “/” 符号隔开，如“上海市/浦东新区”"
+    },
+    {
+      "key": "customfield.selection.cascading.must.select.leaf",
+      "value": "必须选择到最后一级选项"
+    },
+    {
+      "key": "custom.views.project.visibility.tooltip",
+      "value": "项目成员均可见，由%s创建"
+    },
+    {
+      "key": "custom.views.project.visibility",
+      "value": "公共"
+    },
+    {
+      "key": "custom.views.edit.project.visible.view",
+      "value": "重命名公共视图"
+    },
+    {
+      "key": "custom.views.delete.project.visible.view",
+      "value": "删除公共视图"
+    },
+    {
+      "key": "custom.views.delete.confirm.project.visible.view",
+      "value": "删除后所有项目成员均不能查看，是否确定删除"
+    },
+    {
+      "key": "custom.view.visibility.title",
+      "value": "视图可见范围"
+    },
+    {
+      "key": "custom.view.visibility.select.option.user",
+      "value": "私有（仅自己可见）"
+    },
+    {
+      "key": "custom.view.visibility.select.option.project",
+      "value": "公共（项目成员均可见）"
+    },
+    {
+      "key": "custom.view.visibility.select.option.personal",
+      "value": "私有（仅自己可见）"
+    },
+    {
+      "key": "custom.view.save.confirm.override",
+      "value": "覆盖"
+    },
+    {
+      "key": "custom.view.project.visible.save.confirm.title",
+      "value": "覆盖公共视图"
+    },
+    {
+      "key": "custom.view.project.visible.save.confirm.content",
+      "value": "覆盖后对所有项目成员均生效，是否确定覆盖？"
+    },
+    {
+      "key": "custom.fields.data.type.cascading",
+      "value": "层级选择"
+    },
+    {
       "key": "custom.field.link.panel.recommend.projectTag",
       "value": "当前分组内项目引用的项目信息字段"
     },
     {
+      "key": "custom.field.cascading.open.editor",
+      "value": "打开编辑器"
+    },
+    {
+      "key": "custom.field.cascading.choices",
+      "value": "层级选项"
+    },
+    {
+      "key": "custom.field.cascading.choice",
+      "value": "一级选项"
+    },
+    {
       "key": "commongroup.node.count.tooltip",
       "value": "未完成 %s，总计 %s"
+    },
+    {
+      "key": "cascading.selector.to.select",
+      "value": "请选择"
+    },
+    {
+      "key": "cascading.selector.search.empty",
+      "value": "暂无内容"
+    },
+    {
+      "key": "cascading.selector.choice.none",
+      "value": "不选择"
+    },
+    {
+      "key": "calendar.subscriber.subscribed",
+      "value": "已订阅"
+    },
+    {
+      "key": "calendar.subscriber.subscribe",
+      "value": "订阅"
+    },
+    {
+      "key": "calendar.subscriber.quicksearch.not.found",
+      "value": "想要查找订阅跨企业日历？点击下方「订阅日历」"
     },
     {
       "key": "bug.group.search",
@@ -390,14 +598,14 @@
       "newValue": "请限制在 %s 字以内"
     },
     {
-      "key": "tapestry.picker.title.taskisArchivedRadio",
-      "oldValue": "是否是回收站中的任务",
-      "newValue": "是否包括回收站中的任务"
+      "key": "task.detail.nav.stage.selector",
+      "oldValue": "选择项目",
+      "newValue": "添加至项目"
     },
     {
-      "key": "tapestry.picker.title.subtaskRadio",
-      "oldValue": "是否是子任务",
-      "newValue": "是否包括子任务"
+      "key": "task.detail.free",
+      "oldValue": "自由任务",
+      "newValue": "任务"
     },
     {
       "key": "sprint.list.is.completed.no.alter",
@@ -408,6 +616,11 @@
       "key": "sprint.delete.tasks.left",
       "oldValue": "当前迭代有 %s 个任务，继续删除将: ",
       "newValue": "当前迭代有 %s 个任务，继续删除将把它们全部移动至未规划的任务中"
+    },
+    {
+      "key": "remind.close",
+      "oldValue": "关闭提醒",
+      "newValue": "不提醒"
     },
     {
       "key": "project.settings.transfer.roles.change",
@@ -423,6 +636,46 @@
       "key": "event.detail.zoom.tips",
       "oldValue": "进入 Zoom 视频会议",
       "newValue": "进入 Zoom 视频会议（请先开启网络代理）"
+    },
+    {
+      "key": "calendar.subscriber.title",
+      "oldValue": "添加关注",
+      "newValue": "订阅日历"
+    },
+    {
+      "key": "calendar.subscriber.null.placeholder.team",
+      "oldValue": "暂时没有能关注的推荐",
+      "newValue": "暂时没有能订阅的推荐"
+    },
+    {
+      "key": "calendar.subscriber.null.placeholder.recommend",
+      "oldValue": "暂时没有能关注的项目",
+      "newValue": "暂时没有能订阅的项目"
+    },
+    {
+      "key": "calendar.subscriber.null.placeholder.project",
+      "oldValue": "暂时没有能关注的项目",
+      "newValue": "暂时没有能订阅的项目"
+    },
+    {
+      "key": "calendar.subscriber.null.placeholder.member",
+      "oldValue": "暂时没有能关注的成员",
+      "newValue": "暂时没有能订阅的成员"
+    },
+    {
+      "key": "calendar.subscriber.is.empty",
+      "oldValue": "点击下方「添加关注」<br />添加你所关心的成员或项目",
+      "newValue": "点击下方「订阅日历」<br />添加你所关心的成员、部门或项目"
+    },
+    {
+      "key": "calendar.search.subscriber",
+      "oldValue": "搜索",
+      "newValue": "搜索成员、部门、项目"
+    },
+    {
+      "key": "calendar.add.subscriber",
+      "oldValue": "添加关注",
+      "newValue": "订阅日历"
     }
   ],
   "deleted": []
