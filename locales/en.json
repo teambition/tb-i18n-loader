@@ -3940,7 +3940,7 @@
   "project.announcement.edit.placeholder": "Please enter project announcement information. Project members will be given priority to display after entering the project for the first time.",
   "project.announcement.empty": "No project announcement  yet",
   "project.announcement.label.hint": "Click here to open the announcement again.",
-  "project.announcement.markdown.tip": " Enable it to use Markdown",
+  "project.announcement.markdown.tip": "Markdown Enabled",
   "project.announcement.tip": "Applicable to the release of project charter, use guidance and other information",
   "project.announcement.update.fail": "Failed to update",
   "project.announcement.update.fail.desc": "Max 1500 characters",
