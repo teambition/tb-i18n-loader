@@ -1,6 +1,6 @@
 {
   "name": "tb-i18n-loader",
-  "version": "10.26.2",
+  "version": "10.27.0",
   "description": "Webpack loader for teambition i18n",
   "main": "index.js",
   "scripts": {
