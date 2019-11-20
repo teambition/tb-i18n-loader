@@ -5,12 +5,20 @@
       "value": "隐私"
     },
     {
+      "key": "testplan.export.testcases",
+      "value": "批量导出"
+    },
+    {
       "key": "testcase.tagIds",
       "value": "标签"
     },
     {
       "key": "testcase.scenariofield.tag",
       "value": "标签"
+    },
+    {
+      "key": "testcase.plan.modal.usercase.section.select.all",
+      "value": "全选"
     },
     {
       "key": "testcase.import.upload.file",
@@ -165,6 +173,30 @@
       "value": "立即导入"
     },
     {
+      "key": "testcase.export.type.group",
+      "value": "导出当前用例分组下的所有用例"
+    },
+    {
+      "key": "testcase.export.type.all",
+      "value": "导出当前测试计划中的所有用例"
+    },
+    {
+      "key": "testcase.export.title",
+      "value": "用例导出"
+    },
+    {
+      "key": "testcase.export.exporting",
+      "value": "正在导出..."
+    },
+    {
+      "key": "testcase.export.csvHint",
+      "value": "导出文件为 .csv 格式；当导出用例超过 5000 条时, 无法确保导出用例顺序变动；最多支持导出 10000 条用例"
+    },
+    {
+      "key": "testcase.export.confirm",
+      "value": "确定导出"
+    },
+    {
       "key": "task.meeting.dropdown.item.join.by.id",
       "value": "ID 加入"
     },
@@ -175,6 +207,42 @@
     {
       "key": "task.meeting.dropdown.item.appoint.event",
       "value": "预约"
+    },
+    {
+      "key": "tapestry.picker.title.taskflows",
+      "value": "工作流"
+    },
+    {
+      "key": "tapestry.picker.multi.taskflowId.all",
+      "value": "全部工作流"
+    },
+    {
+      "key": "tapestry.chart.tooltip.view.more.task",
+      "value": "点击查看更多任务"
+    },
+    {
+      "key": "tapestry.chart.leadtime.average",
+      "value": "平均 Leadtime"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.requirements.control",
+      "value": "需求控制图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.title.requirements.accumulation.flow",
+      "value": "需求累计流图"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.requirements.control",
+      "value": "查看需求交付周期分布"
+    },
+    {
+      "key": "tapestry.chart.create.modal.card.desc.requirements.accumulation.flow",
+      "value": "查看需求流动效率"
+    },
+    {
+      "key": "tapestry.chart.bubble.control.line",
+      "value": "控制线"
     },
     {
       "key": "table.edit.select.unset",
@@ -195,6 +263,10 @@
     {
       "key": "subtask.creator.back.parent.task",
       "value": "返回上级"
+    },
+    {
+      "key": "subscriber.team.recommend",
+      "value": "我隶属的部门"
     },
     {
       "key": "story.group.search",
@@ -243,6 +315,14 @@
     {
       "key": "project.panel.activity.project.update.announcement",
       "value": "修改了项目公告"
+    },
+    {
+      "key": "project.creator.install.title",
+      "value": "安装应用"
+    },
+    {
+      "key": "project.card.is.taskflow.label",
+      "value": "工作流"
     },
     {
       "key": "project.announcement.update.success",
@@ -319,6 +399,26 @@
     {
       "key": "member.menu.project.sync.members",
       "value": "项目成员同步中，请稍后重试"
+    },
+    {
+      "key": "member.inherit.from.task",
+      "value": "是否继承任务「%s」的所有参与者"
+    },
+    {
+      "key": "member.inherit.from.event",
+      "value": "是否继承日程「%s」的所有参与者"
+    },
+    {
+      "key": "member.check.file.visible.task",
+      "value": "当前任务为隐私任务，是否将文件设为隐私并同步任务参与者？"
+    },
+    {
+      "key": "member.check.file.visible.post",
+      "value": "当前分享为隐私分享，是否将文件设为隐私并同步分享参与者？"
+    },
+    {
+      "key": "member.check.file.visible.event",
+      "value": "当前日程为隐私日程，是否将文件设为隐私并同步日程参与者？"
     },
     {
       "key": "meeting.join.modal.title",
@@ -409,12 +509,64 @@
       "value": "邀请"
     },
     {
+      "key": "install.application.description",
+      "value": "因此使用时需要预先安装以下应用："
+    },
+    {
       "key": "help.teams",
       "value": "团队协作焕新"
     },
     {
       "key": "help.enterprises",
       "value": "企业数字化管理"
+    },
+    {
+      "key": "field.preset.modal.submit",
+      "value": "确定"
+    },
+    {
+      "key": "field.preset.modal.shelf.preview",
+      "value": "预览区"
+    },
+    {
+      "key": "field.preset.modal.shelf.editor",
+      "value": "编辑区"
+    },
+    {
+      "key": "field.preset.modal.preview.placeholder.placeholder",
+      "value": "提示文案预览区域"
+    },
+    {
+      "key": "field.preset.modal.preview.default.placeholder",
+      "value": "默认值预览区域"
+    },
+    {
+      "key": "field.preset.modal.placeholder.title",
+      "value": "字段提示文案"
+    },
+    {
+      "key": "field.preset.modal.footer.hint.only.placeholder",
+      "value": "提示文案仅在本项目生效"
+    },
+    {
+      "key": "field.preset.modal.footer.hint",
+      "value": "字段默认值和提示文案仅在本项目生效"
+    },
+    {
+      "key": "field.preset.modal.editor.placeholder",
+      "value": "可选填，最多 %s 字"
+    },
+    {
+      "key": "field.preset.modal.default.title",
+      "value": "字段默认值"
+    },
+    {
+      "key": "field.preset.modal.choice.select.trigger.text",
+      "value": "待添加"
+    },
+    {
+      "key": "field.preset.modal.cancel",
+      "value": "取消"
     },
     {
       "key": "feature.launch",
@@ -469,12 +621,84 @@
       "value": "Zoom"
     },
     {
+      "key": "devops.preview.version",
+      "value": "版本管理"
+    },
+    {
+      "key": "devops.preview.test",
+      "value": "测试管理"
+    },
+    {
+      "key": "devops.preview.sprints",
+      "value": "迭代规划"
+    },
+    {
+      "key": "devops.preview.requirements",
+      "value": "需求管理"
+    },
+    {
+      "key": "devops.preview.develop",
+      "value": "编码开发"
+    },
+    {
+      "key": "devops.preview.desc.version",
+      "value": "制定并维护产品发布计划"
+    },
+    {
+      "key": "devops.preview.desc.test",
+      "value": "帮助测试人员对测试过程进行管理和协同"
+    },
+    {
+      "key": "devops.preview.desc.sprints",
+      "value": "将需求、缺陷规划到迭代，确保快速交付"
+    },
+    {
+      "key": "devops.preview.desc.requirements",
+      "value": "对需求进行全生命周期的管理"
+    },
+    {
+      "key": "devops.preview.desc.develop",
+      "value": "记录变更过程, 双向变更追溯"
+    },
+    {
+      "key": "devops.preview.desc.ci",
+      "value": "自动化构建、集成、验证, 持续反馈, 确保业务质量"
+    },
+    {
+      "key": "devops.preview.desc.cd",
+      "value": "灰度发布、分批发布的策略, 最大限度的避免了不稳定发布对用户的影响, 保证业务交付的稳定"
+    },
+    {
+      "key": "devops.preview.desc.analytics",
+      "value": "丰富且可视化的实时数据统计报表"
+    },
+    {
+      "key": "devops.preview.ci",
+      "value": "构建验证"
+    },
+    {
+      "key": "devops.preview.cd",
+      "value": "部署发布"
+    },
+    {
+      "key": "devops.preview.analytics",
+      "value": "统计回顾"
+    },
+    {
       "key": "customfield.selection.search.cascading.hint",
       "value": "搜索选项，可用 “/” 符号隔开，如“上海市/浦东新区”"
     },
     {
       "key": "customfield.selection.cascading.must.select.leaf",
       "value": "必须选择到最后一级选项"
+    },
+    {
+      "key": "customfield.edit.preset.only.placeholder",
+      "value": "配置提示文案"
+    },
+    {
+      "key": "customfield.edit.preset.and.placeholder",
+      "value": "配置默认值和提示文案"
     },
     {
       "key": "custom.views.project.visibility.tooltip",
@@ -570,7 +794,11 @@
     },
     {
       "key": "calendar.subscriber.quicksearch.not.found",
-      "value": "想要查找订阅跨企业日历？点击下方「订阅日历」"
+      "value": "想要查找订阅跨企业日历？点击"
+    },
+    {
+      "key": "calendar.subscriber.me.title",
+      "value": "我的日历"
     },
     {
       "key": "bug.group.search",
@@ -579,6 +807,14 @@
     {
       "key": "attend.teambition.day",
       "value": "参加用户大会"
+    },
+    {
+      "key": "application.button.installed",
+      "value": "已安装"
+    },
+    {
+      "key": "application.button.install",
+      "value": "前往安装"
     }
   ],
   "modified": [
@@ -638,6 +874,11 @@
       "newValue": "进入 Zoom 视频会议（请先开启网络代理）"
     },
     {
+      "key": "customfield.selection.search.hint",
+      "oldValue": "搜索%s",
+      "newValue": "搜索 %s"
+    },
+    {
       "key": "calendar.subscriber.title",
       "oldValue": "添加关注",
       "newValue": "订阅日历"
@@ -665,7 +906,7 @@
     {
       "key": "calendar.subscriber.is.empty",
       "oldValue": "点击下方「添加关注」<br />添加你所关心的成员或项目",
-      "newValue": "点击下方「订阅日历」<br />添加你所关心的成员、部门或项目"
+      "newValue": "点击订阅你所关心的成员、部门或项目"
     },
     {
       "key": "calendar.search.subscriber",
