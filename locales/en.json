@@ -1598,7 +1598,7 @@
   "feature.launch": "NEWS",
   "field.preset.modal.cancel": "Cancel",
   "field.preset.modal.choice.select.trigger.text": "Add",
-  "field.preset.modal.default.title": "Hints",
+  "field.preset.modal.default.title": "Defaults",
   "field.preset.modal.editor.placeholder": "Optional, up to %s characters",
   "field.preset.modal.footer.hint": "Hints and Default Value is valid only in current project",
   "field.preset.modal.footer.hint.only.placeholder": "Hints is valid only in current project",
