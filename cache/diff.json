@@ -197,6 +197,10 @@
       "value": "确定导出"
     },
     {
+      "key": "task.menu.print",
+      "value": "打印任务"
+    },
+    {
       "key": "task.meeting.dropdown.item.join.by.id",
       "value": "ID 加入"
     },
@@ -363,6 +367,10 @@
     {
       "key": "project.announcement",
       "value": "项目公告"
+    },
+    {
+      "key": "print.task.detail.qrcode.hint",
+      "value": "扫描二维码，查看任务详情"
     },
     {
       "key": "post.menu.shimo.edit.error",
