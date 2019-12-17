@@ -5,6 +5,10 @@
       "value": "隐私"
     },
     {
+      "key": "update.task.taskflow.success",
+      "value": "任务状态切换成功"
+    },
+    {
       "key": "testplan.export.testcases",
       "value": "批量导出"
     },
@@ -197,6 +201,150 @@
       "value": "确定导出"
     },
     {
+      "key": "taskflow.rule.requirement.permission.select.search",
+      "value": "搜索项目成员"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.select.role.task",
+      "value": "任务角色"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.select.role.project",
+      "value": "项目角色"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.select.role.executor",
+      "value": "任务执行者"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.select.role.creator",
+      "value": "任务创建者"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.select.recommend",
+      "value": "推荐项目成员"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.inherit",
+      "value": "继承项目中的权限"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.desc",
+      "value": "以下成员可将任务状态变更到 「%s」"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.custom",
+      "value": "指定特定成员"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission.addmember",
+      "value": "添加成员"
+    },
+    {
+      "key": "taskflow.rule.requirement.permission",
+      "value": "执行操作权限"
+    },
+    {
+      "key": "taskflow.rule.requirement.field.desc",
+      "value": "当任务状态变更到「%s」必须填写以下字段；不添加则不受限制"
+    },
+    {
+      "key": "taskflow.rule.requirement.field.addfield",
+      "value": "添加必填字段"
+    },
+    {
+      "key": "taskflow.rule.requirement.field",
+      "value": "必填字段"
+    },
+    {
+      "key": "taskflow.rule.requirement",
+      "value": "执行条件"
+    },
+    {
+      "key": "taskflow.rule.header.flowto",
+      "value": "流转到"
+    },
+    {
+      "key": "taskflow.rule.header.allstatus",
+      "value": "所有状态"
+    },
+    {
+      "key": "taskflow.rule.followaction.timepicker.relative.placeholder",
+      "value": "输入天数"
+    },
+    {
+      "key": "taskflow.rule.followaction.timepicker.relative",
+      "value": "流转发生后"
+    },
+    {
+      "key": "taskflow.rule.followaction.timepicker.absolute.placeholder",
+      "value": "请选择日期"
+    },
+    {
+      "key": "taskflow.rule.followaction.timepicker.absolute",
+      "value": "自定义时间"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.value.placeholder",
+      "value": "请选择"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.value.custom",
+      "value": "自定义值"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.value.clear",
+      "value": "清空"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.update.as",
+      "value": "为"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.update",
+      "value": "更新"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.set",
+      "value": "设置为"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.search",
+      "value": "搜索字段名称"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.let",
+      "value": "将字段"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.clear",
+      "value": "清空"
+    },
+    {
+      "key": "taskflow.rule.followaction.field.choose",
+      "value": "选择字段"
+    },
+    {
+      "key": "taskflow.rule.followaction.editaction",
+      "value": "编辑操作"
+    },
+    {
+      "key": "taskflow.rule.followaction.desc",
+      "value": "变更到「%s」后自动执行以下动作"
+    },
+    {
+      "key": "taskflow.rule.followaction.addaction",
+      "value": "添加操作"
+    },
+    {
+      "key": "taskflow.rule.followaction",
+      "value": "后续动作"
+    },
+    {
+      "key": "taskflow.rule.config.title",
+      "value": "配置条件和后续动作"
+    },
+    {
       "key": "task.menu.print",
       "value": "打印任务"
     },
@@ -211,6 +359,10 @@
     {
       "key": "task.meeting.dropdown.item.appoint.event",
       "value": "预约"
+    },
+    {
+      "key": "tas.function.time.relative",
+      "value": "流转发生后 %s 天"
     },
     {
       "key": "tapestry.picker.title.taskflows",
@@ -305,6 +457,30 @@
       "value": "仅展示缺陷"
     },
     {
+      "key": "required.fields.refill.modal.title",
+      "value": "缺失必填字段"
+    },
+    {
+      "key": "required.fields.refill.modal.notice",
+      "value": "当任务从其他状态变更为「%s」时, 以下必填字段不可为空。若无填写权限, 请联系项目管理员处理"
+    },
+    {
+      "key": "required.field.refill.modal.submit",
+      "value": "提交"
+    },
+    {
+      "key": "required.field.refill.modal.cancel",
+      "value": "取消"
+    },
+    {
+      "key": "required.field.is.deleted.tooltip",
+      "value": "当前字段因被删除或调整, 已失效"
+    },
+    {
+      "key": "required.field.is.deleted",
+      "value": "已失效"
+    },
+    {
       "key": "project.tasklist.modal.shareList.title",
       "value": "任务列表"
     },
@@ -313,12 +489,32 @@
       "value": "共有 %s 条，其中 %s 条已被更改"
     },
     {
+      "key": "project.settings.taskflow.config.configed",
+      "value": "已配置"
+    },
+    {
+      "key": "project.settings.taskflow.config.add.status.rules",
+      "value": "配置条件和后置动作"
+    },
+    {
       "key": "project.settings.events.zoom.title.tooltip",
       "value": "需要开启网络代理使用"
     },
     {
       "key": "project.panel.activity.project.update.announcement",
       "value": "修改了项目公告"
+    },
+    {
+      "key": "project.fields.select.submit",
+      "value": "确定"
+    },
+    {
+      "key": "project.fields.select.empty.placeholder",
+      "value": "无可添加字段"
+    },
+    {
+      "key": "project.fields.search",
+      "value": " 搜索字段名称"
     },
     {
       "key": "project.creator.install.title",
@@ -369,6 +565,10 @@
       "value": "项目公告"
     },
     {
+      "key": "priority.low",
+      "value": "较低"
+    },
+    {
       "key": "print.task.detail.qrcode.hint",
       "value": "扫描二维码，查看任务详情"
     },
@@ -407,6 +607,10 @@
     {
       "key": "member.menu.project.sync.members",
       "value": "项目成员同步中，请稍后重试"
+    },
+    {
+      "key": "member.involve.names.count",
+      "value": "参与者名字 · %s"
     },
     {
       "key": "member.inherit.from.task",
