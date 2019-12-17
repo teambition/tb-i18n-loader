@@ -5541,7 +5541,7 @@
   "sprint.can.not.start.no.tasks": "當前迭代沒有需求，請加入需求後再開始迭代",
   "sprint.check.all.done": "查看已迭代完成的迭代",
   "sprint.choice.null": "未選定",
-  "sprint.completed.delete.to.confirm": "當前迭代已完成，繼續删除將會將會同時删除其中的任務，删除後不可恢復。",
+  "sprint.completed.delete.to.confirm": "當前迭代已完成，繼續删除將會同時删除其中所有類型的任務，删除後不可恢復。",
   "sprint.completed.statistical.report": "查看統計報告",
   "sprint.completed.tasks": "已迭代完成的工作項",
   "sprint.create": "創建迭代",

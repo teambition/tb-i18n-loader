@@ -862,6 +862,11 @@
       "newValue": "当前迭代有 %s 个任务，继续删除将把它们全部移动至未规划的任务中"
     },
     {
+      "key": "sprint.completed.delete.to.confirm",
+      "oldValue": "当前迭代已完成，继续删除将会将会同时删除其中的任务，删除后不可恢复。",
+      "newValue": "当前迭代已完成，继续删除将会同时删除其中所有类型的任务，删除后不可恢复。"
+    },
+    {
       "key": "remind.close",
       "oldValue": "关闭提醒",
       "newValue": "不提醒"
