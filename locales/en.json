@@ -4830,7 +4830,7 @@
   "project.settings.taskflow.config.add.status.hint": "The new status will be added as the final one",
   "project.settings.taskflow.config.add.status.hint.behind": "The new status will be added after this",
   "project.settings.taskflow.config.add.status.placeholder": "name",
-  "project.settings.taskflow.config.add.status.rules": "Configuration conditions and post actions",
+  "project.settings.taskflow.config.add.status.rules": "Configure rules",
   "project.settings.taskflow.config.configed": "Configured",
   "project.settings.taskflow.config.delete.status": "Delete status",
   "project.settings.taskflow.config.edit.status.name": "Edit name",
