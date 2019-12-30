@@ -201,6 +201,10 @@
       "value": "确定导出"
     },
     {
+      "key": "testcase.autolink",
+      "value": "测试用例提交缺陷反关联需求"
+    },
+    {
       "key": "taskflow.rule.requirement.permission.select.search",
       "value": "搜索项目成员"
     },
@@ -285,6 +289,18 @@
       "value": "自定义时间"
     },
     {
+      "key": "taskflow.rule.followaction.picker.user",
+      "value": "指定成员"
+    },
+    {
+      "key": "taskflow.rule.followaction.picker.field",
+      "value": "动态获取"
+    },
+    {
+      "key": "taskflow.rule.followaction.memberpicker.search",
+      "value": "搜索项目成员"
+    },
+    {
       "key": "taskflow.rule.followaction.field.value.placeholder",
       "value": "请选择"
     },
@@ -345,6 +361,22 @@
       "value": "配置条件和后续动作"
     },
     {
+      "key": "task.updated.relative.kind.within.7.days",
+      "value": "七天内"
+    },
+    {
+      "key": "task.updated.relative.kind.within.15.days",
+      "value": "十五天内"
+    },
+    {
+      "key": "task.updated.relative.kind.today",
+      "value": "今天"
+    },
+    {
+      "key": "task.updated.relative.kind.earlier",
+      "value": "更远"
+    },
+    {
       "key": "task.menu.print",
       "value": "打印任务"
     },
@@ -361,24 +393,152 @@
       "value": "预约"
     },
     {
+      "key": "task.filter.by.doneness.undone",
+      "value": "未完成"
+    },
+    {
+      "key": "task.filter.by.doneness.done",
+      "value": "已完成"
+    },
+    {
+      "key": "task.filter.by.doneness.all",
+      "value": "所有任务"
+    },
+    {
+      "key": "task.dueDate.relative.kind.overdue",
+      "value": "已逾期"
+    },
+    {
+      "key": "task.dueDate.relative.kind.due.today",
+      "value": "今天"
+    },
+    {
+      "key": "task.dueDate.relative.kind.due.later.or.indefinitely",
+      "value": "以后或未安排"
+    },
+    {
+      "key": "task.dueDate.relative.kind.due.in.7.days",
+      "value": "七天内"
+    },
+    {
+      "key": "task.detail.action.list.assign.project.title",
+      "value": "请选择交付团队"
+    },
+    {
+      "key": "task.detail.action.list.assign.project",
+      "value": "指派到团队"
+    },
+    {
+      "key": "task.dependency.lag.time.title.tooltip.lead",
+      "value": "滞后 %s 天"
+    },
+    {
+      "key": "task.dependency.lag.time.title.tooltip.lag",
+      "value": "提前 %s 天"
+    },
+    {
       "key": "tas.function.time.relative",
       "value": "流转发生后 %s 天"
+    },
+    {
+      "key": "tas.function.relativeTime",
+      "value": "流转发生后 %s 天"
+    },
+    {
+      "key": "tas.function.pickTaskFieldValue",
+      "value": "%s"
+    },
+    {
+      "key": "tapestry.prevent.permission.project.view",
+      "value": "暂时无法查看该报表，请加入以下项目后再查看："
     },
     {
       "key": "tapestry.picker.title.taskflows",
       "value": "工作流"
     },
     {
+      "key": "tapestry.picker.title.crossExecutor",
+      "value": "执行者"
+    },
+    {
       "key": "tapestry.picker.multi.taskflowId.all",
       "value": "全部工作流"
+    },
+    {
+      "key": "tapestry.member.menu.involvers.count",
+      "value": "%s 个分享者"
+    },
+    {
+      "key": "tapestry.involve.members.empty.placeholder",
+      "value": "暂无分享者"
     },
     {
       "key": "tapestry.chart.tooltip.view.more.task",
       "value": "点击查看更多任务"
     },
     {
+      "key": "tapestry.chart.shared.me",
+      "value": "分享给我的"
+    },
+    {
+      "key": "tapestry.chart.projects.min.limited",
+      "value": "项目数不可为 0 项"
+    },
+    {
+      "key": "tapestry.chart.projects.max.limited",
+      "value": "项目数不可超过 20 项"
+    },
+    {
+      "key": "tapestry.chart.my.created",
+      "value": "我创建的"
+    },
+    {
+      "key": "tapestry.chart.menu.title",
+      "value": "报表菜单"
+    },
+    {
       "key": "tapestry.chart.leadtime.average",
       "value": "平均 Leadtime"
+    },
+    {
+      "key": "tapestry.chart.edit.title",
+      "value": "编辑报表"
+    },
+    {
+      "key": "tapestry.chart.dock.link.go",
+      "value": "前往「跨项目统计」"
+    },
+    {
+      "key": "tapestry.chart.dock.link.description",
+      "value": "「跨项目统计」功能已上线，支持添加多个项目来生成统计图表"
+    },
+    {
+      "key": "tapestry.chart.dashboard.list.empty.placeholder",
+      "value": "暂无报表"
+    },
+    {
+      "key": "tapestry.chart.cross.name.placeholder",
+      "value": "请输入名称"
+    },
+    {
+      "key": "tapestry.chart.cross.empty",
+      "value": "暂无报表"
+    },
+    {
+      "key": "tapestry.chart.cross.description.placeholder",
+      "value": "描述内容写在这里"
+    },
+    {
+      "key": "tapestry.chart.cross.create.placeholder",
+      "value": "新建报表以进行跨项目统计"
+    },
+    {
+      "key": "tapestry.chart.cross.brief.placeholder",
+      "value": "请输入名称"
+    },
+    {
+      "key": "tapestry.chart.cross.brief",
+      "value": "简介"
     },
     {
       "key": "tapestry.chart.create.modal.card.title.requirements.control",
@@ -386,7 +546,7 @@
     },
     {
       "key": "tapestry.chart.create.modal.card.title.requirements.accumulation.flow",
-      "value": "需求累计流图"
+      "value": "需求累积流图"
     },
     {
       "key": "tapestry.chart.create.modal.card.desc.requirements.control",
@@ -395,6 +555,10 @@
     {
       "key": "tapestry.chart.create.modal.card.desc.requirements.accumulation.flow",
       "value": "查看需求流动效率"
+    },
+    {
+      "key": "tapestry.chart.create.exists.edit",
+      "value": "当前编辑报表为该报表！"
     },
     {
       "key": "tapestry.chart.bubble.control.line",
@@ -429,6 +593,58 @@
       "value": "输入需求分类名称"
     },
     {
+      "key": "story.assignment.top.level.disable.hint",
+      "value": "暂时不能指派顶级需求。若要指派，请创建子需求并指派"
+    },
+    {
+      "key": "story.assignment.hint.lost.info.body.text",
+      "value": "指派需求「%1」时无法携带以下数据，请确认是否继续指派？"
+    },
+    {
+      "key": "story.assignment.hint.lost.info",
+      "value": "需求的标题、截止日期、优先级、备注、执行者、参与者、子任务等基础信息会同步到 旧 Aone。\r\n\r\n其他字段、关联、动态等数据都不会同步到 Aone 中。"
+    },
+    {
+      "key": "story.assignment.hint.list.3",
+      "value": "新需求将被关联在原先父任务上"
+    },
+    {
+      "key": "story.assignment.hint.list.2",
+      "value": "在当前项目，该需求将被移入回收站"
+    },
+    {
+      "key": "story.assignment.hint.list.1",
+      "value": "当前需求将被复制到旧 Aone 项目，过程中会丢失<u>部分信息</u>"
+    },
+    {
+      "key": "story.assignment.hint.body.text",
+      "value": "您正在指派需求到旧 Aone 项目，点击「了解并继续」将会发生以下事情："
+    },
+    {
+      "key": "story.assignment.cancel",
+      "value": "取消指派"
+    },
+    {
+      "key": "story.assignment.aone.acknowledged",
+      "value": "了解并继续"
+    },
+    {
+      "key": "story.assign.success",
+      "value": "指派成功"
+    },
+    {
+      "key": "story.assign.project.no.team.tip",
+      "value": "为了指派需求到团队\r\n请先创建交付团队"
+    },
+    {
+      "key": "story.assign.project.info",
+      "value": "负责人 %1"
+    },
+    {
+      "key": "story.assign.cannot.get.info",
+      "value": "无法获取团队项目或负责人，暂时不能指派需求到该团队"
+    },
+    {
       "key": "sprint.reopen.desc",
       "value": "您可以再次操作迭代中任务, 但可能导致迭代的统计数据和图表不准确"
     },
@@ -445,8 +661,40 @@
       "value": "标签"
     },
     {
+      "key": "searcher.options.task.priority.low",
+      "value": "较低"
+    },
+    {
+      "key": "search.result",
+      "value": "搜索结果"
+    },
+    {
+      "key": "search.nav.header.name",
+      "value": "全局搜索"
+    },
+    {
+      "key": "search.nav.header.home",
+      "value": "首页"
+    },
+    {
       "key": "search.filter.searcher.multi.selector.input.placeholder.cascading",
       "value": "搜索选项，默认仅展示一级"
+    },
+    {
+      "key": "scrum.sort.updated.down.light",
+      "value": "按最近更新"
+    },
+    {
+      "key": "scrum.sort.priority.light",
+      "value": "按最高优先级"
+    },
+    {
+      "key": "scrum.sort.duedate.light",
+      "value": "按最近截止"
+    },
+    {
+      "key": "scrum.sort.created.down.light",
+      "value": "按最近创建"
     },
     {
       "key": "scrum.panel.table.see.through.subtasks.label.story",
@@ -481,12 +729,24 @@
       "value": "已失效"
     },
     {
+      "key": "recent.projects",
+      "value": "最近浏览空间"
+    },
+    {
       "key": "project.tasklist.modal.shareList.title",
       "value": "任务列表"
     },
     {
       "key": "project.tasklist.modal.dailyReport.desc",
       "value": "共有 %s 条，其中 %s 条已被更改"
+    },
+    {
+      "key": "project.switcher.placeholder.no.recent",
+      "value": "暂无最近访问空间"
+    },
+    {
+      "key": "project.switcher.placeholder.no.project",
+      "value": "抱歉，没有找到该项目"
     },
     {
       "key": "project.settings.taskflow.config.configed",
@@ -497,12 +757,164 @@
       "value": "配置条件和后置动作"
     },
     {
+      "key": "project.settings.tab.story",
+      "value": "需求设置"
+    },
+    {
+      "key": "project.settings.story.assign.title",
+      "value": "需求指派"
+    },
+    {
+      "key": "project.settings.story.assign.team.remove.title",
+      "value": "删除交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.team.remove.hint",
+      "value": "删除后您将无法继续指派需求给该团队，历史指派不受影响"
+    },
+    {
+      "key": "project.settings.story.assign.team.project.tb",
+      "value": "TB 项目"
+    },
+    {
+      "key": "project.settings.story.assign.team.project.no.right",
+      "value": "您不是该项目的管理员，不能指派需求到该项目"
+    },
+    {
+      "key": "project.settings.story.assign.team.project.aone",
+      "value": "Aone 项目"
+    },
+    {
+      "key": "project.settings.story.assign.team.project",
+      "value": "项目"
+    },
+    {
+      "key": "project.settings.story.assign.team.owner.hint",
+      "value": "当指派的需求没有执行者时，则自动设置团队负责人为需求执行者"
+    },
+    {
+      "key": "project.settings.story.assign.team.owner",
+      "value": "负责人"
+    },
+    {
+      "key": "project.settings.story.assign.team.name.hint",
+      "value": "输入团队名称"
+    },
+    {
+      "key": "project.settings.story.assign.team.name",
+      "value": "名称"
+    },
+    {
+      "key": "project.settings.story.assign.team.edit.title",
+      "value": "编辑交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.project.title",
+      "value": "选择项目"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.project.hint",
+      "value": "指派时需求将会移动到这个项目"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.name.invalid",
+      "value": "该名称已被用，请尝试其他名称"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.executor.title",
+      "value": "选择负责人"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.executor.hint",
+      "value": "当指派的需求没有执行者时，则自动设置团队负责人为需求执行者"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.executor.disabled.no.project",
+      "value": "请先选择项目"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.executor.disabled.no.perm",
+      "value": "您没有「%s」的权限，因此无法修改其负责人"
+    },
+    {
+      "key": "project.settings.story.assign.team.add.dp.title",
+      "value": "创建交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.team.add",
+      "value": "创建交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.team",
+      "value": "交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.setting",
+      "value": "创建或管理交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.project.null",
+      "value": "无法获取项目"
+    },
+    {
+      "key": "project.settings.story.assign.on.desc",
+      "value": "关闭后，您将看不到「指派」按钮，也无法继续指派需求到交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.off.desc",
+      "value": "开启后，您将可以指派需求给交付团队"
+    },
+    {
+      "key": "project.settings.story.assign.executor.null",
+      "value": "无法获取负责人"
+    },
+    {
       "key": "project.settings.events.zoom.title.tooltip",
       "value": "需要开启网络代理使用"
     },
     {
+      "key": "project.setting.testplan.autolink.title",
+      "value": "测试用例提交缺陷反关联需求"
+    },
+    {
+      "key": "project.setting.testplan.autolink.description",
+      "value": "开启后，通过执行用例提交关联的缺陷，同时被其或所属测试分组关联的最新需求所关联。"
+    },
+    {
       "key": "project.panel.activity.project.update.announcement",
       "value": "修改了项目公告"
+    },
+    {
+      "key": "project.nav.header.home",
+      "value": "首页"
+    },
+    {
+      "key": "project.nav.footer.enter.ding.group",
+      "value": "入群讨论"
+    },
+    {
+      "key": "project.light.filter.text.input.placeholder",
+      "value": "搜索任务"
+    },
+    {
+      "key": "project.light.creator.name.placeholder",
+      "value": "请输入项目名称（选填）"
+    },
+    {
+      "key": "project.light.creator.model.next",
+      "value": "下一步"
+    },
+    {
+      "key": "project.light.creator.modal.title",
+      "value": "开始协作"
+    },
+    {
+      "key": "project.light.creator.modal.submit",
+      "value": "开始协作"
+    },
+    {
+      "key": "project.light.creator.default.name",
+      "value": "%s 创建的协作空间"
     },
     {
       "key": "project.fields.select.submit",
@@ -521,8 +933,64 @@
       "value": "安装应用"
     },
     {
+      "key": "project.create.bound.to.an.existing.dingtalkgroup.not.available",
+      "value": "暂无未关联过项目的群可选择"
+    },
+    {
+      "key": "project.create.bound.to.an.existing.dingtalkgroup.loading",
+      "value": "正在查询..."
+    },
+    {
+      "key": "project.create.bound.to.an.existing.dingtalkgroup.add",
+      "value": "添加群"
+    },
+    {
+      "key": "project.create.bound.to.an.existing.dingtalkgroup",
+      "value": "关联已有群"
+    },
+    {
+      "key": "project.create.bound.to.a.new.dingtalkgroup",
+      "value": "新建一个群，群名称默认和空间名称相同"
+    },
+    {
+      "key": "project.create.bound.to.a.dingtalkgroup.desc",
+      "value": "关联一个群，群成员自动加入项目，可以从群里便捷地管理任务"
+    },
+    {
       "key": "project.card.is.taskflow.label",
       "value": "工作流"
+    },
+    {
+      "key": "project.axis.selector.pane.updated",
+      "value": "按更新时间"
+    },
+    {
+      "key": "project.axis.selector.pane.taskflow.status",
+      "value": "按任务状态"
+    },
+    {
+      "key": "project.axis.selector.pane.task.stage.light",
+      "value": "自定义"
+    },
+    {
+      "key": "project.axis.selector.pane.task.stage",
+      "value": "按任务列表"
+    },
+    {
+      "key": "project.axis.selector.pane.scenarios",
+      "value": "按任务类型"
+    },
+    {
+      "key": "project.axis.selector.pane.priority",
+      "value": "按优先级"
+    },
+    {
+      "key": "project.axis.selector.pane.executor",
+      "value": "按执行者"
+    },
+    {
+      "key": "project.axis.selector.pane.dueDate",
+      "value": "按截止时间"
     },
     {
       "key": "project.announcement.update.success",
@@ -577,8 +1045,204 @@
       "value": "无法编辑石墨文档"
     },
     {
+      "key": "portal.task.parent",
+      "value": "父任务：%s"
+    },
+    {
+      "key": "portal.task.assign",
+      "value": "给他指派任务"
+    },
+    {
+      "key": "portal.placeholder.no.starred.space",
+      "value": "暂无星标项目"
+    },
+    {
+      "key": "portal.placeholder.no.search.result",
+      "value": "暂无任务"
+    },
+    {
+      "key": "portal.placeholder.no.recent.task",
+      "value": "暂无最近访问的任务"
+    },
+    {
+      "key": "portal.placeholder.handler.create.task",
+      "value": "新建任务"
+    },
+    {
+      "key": "portal.home.viewed.at",
+      "value": "%s 查看过"
+    },
+    {
+      "key": "portal.home.recently.viewed",
+      "value": "最近浏览"
+    },
+    {
+      "key": "portal.home.recently.only.viewed",
+      "value": "最近浏览的任务"
+    },
+    {
+      "key": "portal.home.recently.only.due",
+      "value": "近期截止的任务"
+    },
+    {
+      "key": "portal.home.recently.due",
+      "value": "近期截止"
+    },
+    {
+      "key": "portal.home.quick.creator.hide",
+      "value": "不再显示"
+    },
+    {
+      "key": "portal.home.quick.creator.header",
+      "value": "欢迎使用 Teambition，请选择你的场景"
+    },
+    {
+      "key": "portal.home.quick.creator.create.task.detail",
+      "value": "录入一个任务，设置截止时间，将自己的任务管理起来"
+    },
+    {
+      "key": "portal.home.quick.creator.create.task",
+      "value": "新建任务"
+    },
+    {
+      "key": "portal.home.quick.creator.create.space.detail",
+      "value": "选择与你合作的同伴，一起管理任务，同步任务进展"
+    },
+    {
+      "key": "portal.home.quick.creator.create.space",
+      "value": "开始协作"
+    },
+    {
+      "key": "portal.home.quick.creator.create.project.detail",
+      "value": "通过丰富的行业模板，快速搭建出适合你的项目管理方案"
+    },
+    {
+      "key": "portal.home.quick.creator.create.project",
+      "value": "新建项目"
+    },
+    {
+      "key": "portal.home.mytasks.status",
+      "value": "任务状态"
+    },
+    {
+      "key": "portal.home.mytasks.sort.updated",
+      "value": "按最近更新"
+    },
+    {
+      "key": "portal.home.mytasks.sort.title",
+      "value": "排序"
+    },
+    {
+      "key": "portal.home.mytasks.sort.priority",
+      "value": "按最高优先级"
+    },
+    {
+      "key": "portal.home.mytasks.sort.duedate",
+      "value": "按最近截止"
+    },
+    {
+      "key": "portal.home.mytasks.sort.created",
+      "value": "按最近创建"
+    },
+    {
+      "key": "portal.home.mytasks.add.submit",
+      "value": "完成"
+    },
+    {
+      "key": "portal.home.mytasks.add.quick.expand.more",
+      "value": "展开更多"
+    },
+    {
+      "key": "portal.home.mytasks.add.placeholder.enter",
+      "value": "添加任务，回车快速创建"
+    },
+    {
+      "key": "portal.home.mytasks.add.placeholder",
+      "value": "添加任务"
+    },
+    {
+      "key": "portal.home.history.loadmore",
+      "value": "加载更多"
+    },
+    {
+      "key": "portal.home.history.fold",
+      "value": "收起"
+    },
+    {
+      "key": "portal.guide.my.execute",
+      "value": "我执行的任务可以在「我执行的」中查找和管理，一目了然。"
+    },
+    {
+      "key": "portal.guide.create.projects",
+      "value": "通过「新建」按钮，快速新建任务、新建项目，以及更多内容。"
+    },
+    {
+      "key": "portal.guide.all.projects",
+      "value": "全部项目、我参与的等项目筛选的入口移到这里了。"
+    },
+    {
+      "key": "portal.fixed.tabs.member.subscribed",
+      "value": "成员"
+    },
+    {
+      "key": "portal.fixed.tabs.member.search.is.empty",
+      "value": "暂无成员"
+    },
+    {
+      "key": "portal.fixed.tabs.member.recommend.is.empty",
+      "value": "暂无推荐"
+    },
+    {
+      "key": "portal.fixed.tabs.member.is.subscribed",
+      "value": "已订阅"
+    },
+    {
+      "key": "portal.fixed.tabs.member.is.subscribe",
+      "value": "订阅"
+    },
+    {
+      "key": "portal.fixed.tabs.member.add.subscribe",
+      "value": "新增关注"
+    },
+    {
+      "key": "portal.fixed.tabs.member.add",
+      "value": "邀请企业成员"
+    },
+    {
+      "key": "portal.fixed.tabs.home",
+      "value": "首页"
+    },
+    {
+      "key": "portal.fixed.tabs.followed",
+      "value": "我参与的"
+    },
+    {
+      "key": "portal.fixed.tabs.executed",
+      "value": "我执行的"
+    },
+    {
+      "key": "portal.fixed.tabs.created",
+      "value": "我创建的"
+    },
+    {
+      "key": "portal.dingtalk.create.new",
+      "value": "新建"
+    },
+    {
       "key": "personal.settings.display.taskMode.fullscreen.text",
       "value": "全屏"
+    },
+    {
+      "key": "organization.subscribed.members.unsubscribe",
+      "value": "取消关注"
+    },
+    {
+      "key": "organization.member.subscribe.search.placeholder",
+      "value": "搜索成员"
+    },
+    {
+      "key": "operation.is.submitted",
+      "value": "操作已提交"
     },
     {
       "key": "object.meeting.status",
@@ -597,8 +1261,20 @@
       "value": "视频讨论"
     },
     {
+      "key": "no.longer.prompt",
+      "value": "不再提示"
+    },
+    {
+      "key": "navigation.project.light",
+      "value": "开始协作"
+    },
+    {
       "key": "navigation.meeting",
       "value": "视频讨论"
+    },
+    {
+      "key": "navigation.create.project",
+      "value": "项目"
     },
     {
       "key": "member.menu.project.sync.members.handler",
@@ -713,6 +1389,38 @@
       "value": "一级选项：%s"
     },
     {
+      "key": "link.aone.work.item.title",
+      "value": "关联的 Aone 工作项"
+    },
+    {
+      "key": "lag.time.type.lead",
+      "value": "提前"
+    },
+    {
+      "key": "lag.time.type.lag",
+      "value": "滞后"
+    },
+    {
+      "key": "lag.time.title",
+      "value": "设置任务提前/滞后时间"
+    },
+    {
+      "key": "lag.time.suffix.for.start",
+      "value": "天开始"
+    },
+    {
+      "key": "lag.time.suffix.for.finish",
+      "value": "天结束"
+    },
+    {
+      "key": "lag.time.submit",
+      "value": "确定"
+    },
+    {
+      "key": "lag.time.post.task.label",
+      "value": "后置任务："
+    },
+    {
       "key": "join.now",
       "value": "立即加入"
     },
@@ -731,6 +1439,186 @@
     {
       "key": "help.enterprises",
       "value": "企业数字化管理"
+    },
+    {
+      "key": "gantt.timeAxis.scale.year",
+      "value": "年"
+    },
+    {
+      "key": "gantt.timeAxis.scale.week",
+      "value": "周"
+    },
+    {
+      "key": "gantt.timeAxis.scale.quarter",
+      "value": "季"
+    },
+    {
+      "key": "gantt.timeAxis.scale.month",
+      "value": "月"
+    },
+    {
+      "key": "gantt.timeAxis.scale.label",
+      "value": "%s视图"
+    },
+    {
+      "key": "gantt.timeAxis.scale.day",
+      "value": "日"
+    },
+    {
+      "key": "gantt.timeAxis.scale.auto",
+      "value": "自适应"
+    },
+    {
+      "key": "gantt.timeAxis.minor.week",
+      "value": "w[周]"
+    },
+    {
+      "key": "gantt.timeAxis.minor.quarter",
+      "value": "[第] Q [季]"
+    },
+    {
+      "key": "gantt.timeAxis.minor.month",
+      "value": "M月"
+    },
+    {
+      "key": "gantt.timeAxis.minor.day",
+      "value": "D"
+    },
+    {
+      "key": "gantt.timeAxis.major.year",
+      "value": "YYYY[年]"
+    },
+    {
+      "key": "gantt.timeAxis.major.month",
+      "value": "YYYY[年] MM"
+    },
+    {
+      "key": "gantt.task.dependency.delete.title",
+      "value": "解除依赖关系"
+    },
+    {
+      "key": "gantt.task.dependency.delete.description",
+      "value": "您确定要解除依赖关系吗？此操作不可恢复。"
+    },
+    {
+      "key": "gantt.task.dependency.delete.confirm",
+      "value": "确认"
+    },
+    {
+      "key": "gantt.task.dependency.delete",
+      "value": "删除依赖"
+    },
+    {
+      "key": "gantt.task.dependency.date.setting",
+      "value": "计划时间"
+    },
+    {
+      "key": "gantt.app.outline.task.transform.forbidden",
+      "value": "没有权限将子任务转为顶级任务"
+    },
+    {
+      "key": "gantt.app.outline.task.startDate",
+      "value": "开始时间"
+    },
+    {
+      "key": "gantt.app.outline.task.select.type.desc.2",
+      "value": "调整类型后，相应显示字段会进行调整，同时需要选择目标类型工作流中的状态。"
+    },
+    {
+      "key": "gantt.app.outline.task.select.type.desc.1",
+      "value": "调整类型后，相应显示字段也会进行调整"
+    },
+    {
+      "key": "gantt.app.outline.task.select.type",
+      "value": "切换任务类型"
+    },
+    {
+      "key": "gantt.app.outline.task.open.detail",
+      "value": "进入任务详情"
+    },
+    {
+      "key": "gantt.app.outline.task.move.forbidden",
+      "value": "没有权限移动任务"
+    },
+    {
+      "key": "gantt.app.outline.task.menu",
+      "value": "任务菜单"
+    },
+    {
+      "key": "gantt.app.outline.task.executor",
+      "value": "执行者"
+    },
+    {
+      "key": "gantt.app.outline.task.edit.forbidden",
+      "value": "没有权限修改任务"
+    },
+    {
+      "key": "gantt.app.outline.task.dueDate",
+      "value": "截止时间"
+    },
+    {
+      "key": "gantt.app.outline.task.date.unset",
+      "value": "待设置"
+    },
+    {
+      "key": "gantt.app.outline.task.convert.to.subtask",
+      "value": "向右缩进一级"
+    },
+    {
+      "key": "gantt.app.outline.task.convert.to.parent",
+      "value": "向左提升一级"
+    },
+    {
+      "key": "gantt.app.outline.task.content.private",
+      "value": "该任务仅参与者可见"
+    },
+    {
+      "key": "gantt.app.outline.task.content",
+      "value": "任务标题"
+    },
+    {
+      "key": "gantt.app.outline.task.archive.this",
+      "value": "您确定要把该任务移到回收站吗？"
+    },
+    {
+      "key": "gantt.app.outline.task.archive.label",
+      "value": "你确定要把 %s 个任务移到回收站吗？"
+    },
+    {
+      "key": "gantt.app.outline.task.archive.forbidden",
+      "value": "没有权限移至回收站"
+    },
+    {
+      "key": "gantt.app.outline.task.archive",
+      "value": "移到回收站"
+    },
+    {
+      "key": "gantt.app.outline.task.add.new.task",
+      "value": "插入新任务"
+    },
+    {
+      "key": "gantt.app.outline.task.add.new.subtask",
+      "value": "插入子任务"
+    },
+    {
+      "key": "gantt.app.outline.placeholder.task.title",
+      "value": "暂无任务"
+    },
+    {
+      "key": "gantt.app.outline.placeholder.task.des",
+      "value": "点击按钮开始创建任务"
+    },
+    {
+      "key": "gantt.app.outline.placeholder.task.create",
+      "value": "立即创建"
+    },
+    {
+      "key": "gantt.app.outline.add.task.content",
+      "value": "输入任务标题"
+    },
+    {
+      "key": "gantt.app.outline.add.task",
+      "value": "添加新任务"
     },
     {
       "key": "field.preset.modal.submit",
@@ -897,6 +1785,18 @@
       "value": "统计回顾"
     },
     {
+      "key": "dependency.remove.dropdown.title",
+      "value": "解除依赖关系"
+    },
+    {
+      "key": "dependency.remove.dropdown.submit",
+      "value": "确定"
+    },
+    {
+      "key": "dependency.remove.dropdown.message",
+      "value": "您确定要解除依赖关系吗？此操作不可恢复。"
+    },
+    {
       "key": "customfield.selection.search.cascading.hint",
       "value": "搜索选项，可用 “/” 符号隔开，如“上海市/浦东新区”"
     },
@@ -985,6 +1885,38 @@
       "value": "未完成 %s，总计 %s"
     },
     {
+      "key": "collaboration.title",
+      "value": "全新 Teambition"
+    },
+    {
+      "key": "collaboration.grid.i.get",
+      "value": "我知道了"
+    },
+    {
+      "key": "collaboration.grid.3.title",
+      "value": "全新成员协作"
+    },
+    {
+      "key": "collaboration.grid.3.content",
+      "value": "关注与你协作的同事们，更方便的了解彼此的工作，跟进成员的任务。"
+    },
+    {
+      "key": "collaboration.grid.2.title",
+      "value": "全新任务管理"
+    },
+    {
+      "key": "collaboration.grid.2.content",
+      "value": "从一个简单的任务开始，记录自己的工作，或给他人指派任务。无需切换繁多的项目，全新个人视角的任务列表，轻松上手，实现跨多个企业的快速协作。"
+    },
+    {
+      "key": "collaboration.grid.1.title",
+      "value": "全新首页"
+    },
+    {
+      "key": "collaboration.grid.1.content",
+      "value": "聚焦近期截止的任务，查看最近浏览的任务，进入最关注的项目，全新的首页，更快捷的定位你最关心的工作。"
+    },
+    {
       "key": "cascading.selector.to.select",
       "value": "请选择"
     },
@@ -1027,9 +1959,26 @@
     {
       "key": "application.button.install",
       "value": "前往安装"
+    },
+    {
+      "key": "aone.issue.Task",
+      "value": "任务"
+    },
+    {
+      "key": "aone.issue.Req",
+      "value": "需求"
+    },
+    {
+      "key": "aone.issue.Bug",
+      "value": "缺陷"
     }
   ],
   "modified": [
+    {
+      "key": "uploader.no.target",
+      "oldValue": "当前工作空间下无可用项目",
+      "newValue": "当前工作项目下无可用项目"
+    },
     {
       "key": "unarchive.denied.sprint.completed",
       "oldValue": "该任务所属的迭代已经被完成，不能被恢复",
@@ -1046,6 +1995,26 @@
       "newValue": "请限制在 %s 字以内"
     },
     {
+      "key": "tasklist.dump.filter.hint",
+      "oldValue": "自定义表头字段导出当前筛选条件下的任务",
+      "newValue": "自定义表头字段导出当前筛选条件下的任务（csv）"
+    },
+    {
+      "key": "tasklist.dump.export.error.overload",
+      "oldValue": "当前项目中任务数过多，建议通过 csv 方式导出",
+      "newValue": "当前导出任务数超出上限，建议筛选数据后通过 csv 格式导出"
+    },
+    {
+      "key": "tasklist.dump.excel",
+      "oldValue": "导出项目内所有任务（包含任务所有字段）",
+      "newValue": "导出项目内所有任务（包含任务所有字段 Excel）"
+    },
+    {
+      "key": "tasklist.dump.custom.hint",
+      "oldValue": "自定义表头字段导出所有任务",
+      "newValue": "自定义表头字段导出项目任务（csv）"
+    },
+    {
       "key": "task.detail.nav.stage.selector",
       "oldValue": "选择项目",
       "newValue": "添加至项目"
@@ -1054,6 +2023,16 @@
       "key": "task.detail.free",
       "oldValue": "自由任务",
       "newValue": "任务"
+    },
+    {
+      "key": "table.batch.edit.status.error.title",
+      "oldValue": "部分任务未被编辑，可能因为与目标任务类型不一致或有权限限制。",
+      "newValue": "部分任务未被编辑，可能因为以下原因：必填字段缺失/权限限制/与目标任务类型不一致。"
+    },
+    {
+      "key": "table.batch.edit.error.title",
+      "oldValue": "部分任务未被编辑，可能因为没有对应的字段或操作权限。",
+      "newValue": "部分任务未被编辑，可能因为与目标任务类型不一致或有权限限制。"
     },
     {
       "key": "sprint.list.is.completed.no.alter",
@@ -1071,6 +2050,11 @@
       "newValue": "当前迭代已完成，继续删除将会同时删除其中所有类型的任务，删除后不可恢复。"
     },
     {
+      "key": "scrum.sort.custom",
+      "oldValue": "项目自定义排序",
+      "newValue": "手动拖拽排序"
+    },
+    {
       "key": "remind.close",
       "oldValue": "关闭提醒",
       "newValue": "不提醒"
@@ -1084,6 +2068,16 @@
       "key": "personal.settings.display.taskMode.title",
       "oldValue": "任务详情打开方式",
       "newValue": "详情打开方式"
+    },
+    {
+      "key": "pernsonal.workspace.transfer.hint",
+      "oldValue": "有项目找不到了？ 放心，你的数据没丢，我们把所有人的个人项目正式升级为企业空间了，点击右上角头像可以切换",
+      "newValue": "有项目找不到了？ 放心，你的数据没丢，我们把所有人的个人项目正式升级为企业项目了，点击右上角头像可以切换"
+    },
+    {
+      "key": "kanban.head.status.menu.transform.title",
+      "oldValue": "设置流转规则",
+      "newValue": "配置工作流规则"
     },
     {
       "key": "event.detail.zoom.tips",
@@ -1134,6 +2128,11 @@
       "key": "calendar.add.subscriber",
       "oldValue": "添加关注",
       "newValue": "订阅日历"
+    },
+    {
+      "key": "dueDate",
+      "oldValue": "结束时间",
+      "newValue": "截止时间"
     }
   ],
   "deleted": []
