@@ -9,6 +9,10 @@
       "value": "任务状态切换成功"
     },
     {
+      "key": "toast.testplan.submit.issue.and.link.success",
+      "value": "缺陷创建成功，并被需求关联"
+    },
+    {
       "key": "testplan.export.testcases",
       "value": "批量导出"
     },
@@ -393,6 +397,14 @@
       "value": "预约"
     },
     {
+      "key": "task.item.edit.startDate",
+      "value": "修改开始时间"
+    },
+    {
+      "key": "task.item.edit.dueDate",
+      "value": "修改截止时间"
+    },
+    {
       "key": "task.filter.by.doneness.undone",
       "value": "未完成"
     },
@@ -558,7 +570,7 @@
     },
     {
       "key": "tapestry.chart.create.exists.edit",
-      "value": "当前编辑报表为该报表！"
+      "value": "正在编辑当前报表"
     },
     {
       "key": "tapestry.chart.bubble.control.line",
@@ -878,7 +890,7 @@
     },
     {
       "key": "project.setting.testplan.autolink.description",
-      "value": "开启后，通过执行用例提交关联的缺陷，同时被其或所属测试分组关联的最新需求所关联。"
+      "value": "开启后，通过执行用例提交关联的缺陷，同时被其或所属测试分组关联的本项目最新需求所关联。"
     },
     {
       "key": "project.panel.activity.project.update.announcement",
@@ -1145,12 +1157,24 @@
       "value": "按最近创建"
     },
     {
+      "key": "portal.home.mytasks.member.assign",
+      "value": "给 %s 指派任务"
+    },
+    {
+      "key": "portal.home.mytasks.create",
+      "value": "新建"
+    },
+    {
       "key": "portal.home.mytasks.add.submit",
       "value": "完成"
     },
     {
       "key": "portal.home.mytasks.add.quick.expand.more",
       "value": "展开更多"
+    },
+    {
+      "key": "portal.home.mytasks.add.quick.duedate",
+      "value": "设置截止时间"
     },
     {
       "key": "portal.home.mytasks.add.placeholder.enter",
@@ -1194,15 +1218,15 @@
     },
     {
       "key": "portal.fixed.tabs.member.is.subscribed",
-      "value": "已订阅"
+      "value": "已添加"
     },
     {
       "key": "portal.fixed.tabs.member.is.subscribe",
-      "value": "订阅"
+      "value": "添加"
     },
     {
       "key": "portal.fixed.tabs.member.add.subscribe",
-      "value": "新增关注"
+      "value": "添加关注"
     },
     {
       "key": "portal.fixed.tabs.member.add",
@@ -1419,6 +1443,14 @@
     {
       "key": "lag.time.post.task.label",
       "value": "后置任务："
+    },
+    {
+      "key": "labs.name.cross.org.portal",
+      "value": "首页展示跨企业的项目"
+    },
+    {
+      "key": "labs.description.cross.org.portal",
+      "value": "开启后，首页的星标项目、星标项目分组支持展示跨企业数据。"
     },
     {
       "key": "join.now",
@@ -1975,11 +2007,6 @@
   ],
   "modified": [
     {
-      "key": "uploader.no.target",
-      "oldValue": "当前工作空间下无可用项目",
-      "newValue": "当前工作项目下无可用项目"
-    },
-    {
       "key": "unarchive.denied.sprint.completed",
       "oldValue": "该任务所属的迭代已经被完成，不能被恢复",
       "newValue": "任务所属迭代已完成，重新打开迭代才能恢复"
@@ -2050,11 +2077,6 @@
       "newValue": "当前迭代已完成，继续删除将会同时删除其中所有类型的任务，删除后不可恢复。"
     },
     {
-      "key": "scrum.sort.custom",
-      "oldValue": "项目自定义排序",
-      "newValue": "手动拖拽排序"
-    },
-    {
       "key": "remind.close",
       "oldValue": "关闭提醒",
       "newValue": "不提醒"
@@ -2068,11 +2090,6 @@
       "key": "personal.settings.display.taskMode.title",
       "oldValue": "任务详情打开方式",
       "newValue": "详情打开方式"
-    },
-    {
-      "key": "pernsonal.workspace.transfer.hint",
-      "oldValue": "有项目找不到了？ 放心，你的数据没丢，我们把所有人的个人项目正式升级为企业空间了，点击右上角头像可以切换",
-      "newValue": "有项目找不到了？ 放心，你的数据没丢，我们把所有人的个人项目正式升级为企业项目了，点击右上角头像可以切换"
     },
     {
       "key": "kanban.head.status.menu.transform.title",
