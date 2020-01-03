@@ -110,7 +110,7 @@ archy@^1.0.0:
 
 argparse@^1.0.7:
   version "1.0.10"
-  resolved "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
   integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
   dependencies:
     sprintf-js "~1.0.2"
@@ -899,7 +899,7 @@ esprima@3.x.x, esprima@^3.1.3:
 
 esprima@^4.0.0:
   version "4.0.1"
-  resolved "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
 esrecurse@^4.1.0:
@@ -1884,9 +1884,9 @@ jade@0.26.3:
     mkdirp "0.3.0"
 
 js-yaml@^3.5.1:
-  version "3.12.0"
-  resolved "https://registry.npmjs.org/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
-  integrity sha512-PIt2cnwmPfL4hKNwqeiuz4bKfnzHTBv6HyVgjahA6mPLwPDzjDWrplJBMjHUFxku/N3FlmrbyPclad+I+4mJ3A==
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -2338,7 +2338,7 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-natives@1.1.6, natives@^1.1.6:
+natives@1.1.6, natives@^1.1.0:
   version "1.1.6"
   resolved "https://registry.npmjs.org/natives/-/natives-1.1.6.tgz#a603b4a498ab77173612b9ea1acdec4d980f00bb"
   integrity sha512-6+TDFewD4yxY14ptjKaS63GVdtKiES1pTPyxn9Jb0rBqPMZ7VcCiooEhPNsr+mqHtMGxa/5c/HhcC4uPEUw/nA==
@@ -2446,7 +2446,7 @@ onesky-utils@0.0.3:
 
 onetime@^1.0.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
+  resolved "https://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
   integrity sha1-ofeDj4MUxRbwXs78vEzP4EtO14k=
 
 onetime@^2.0.0:
@@ -2964,7 +2964,7 @@ shelljs@^0.8.2:
 
 should-equal@0.8.0:
   version "0.8.0"
-  resolved "http://registry.npmjs.org/should-equal/-/should-equal-0.8.0.tgz#a3f05732ff45bac1b7ba412f8408856819641299"
+  resolved "https://registry.npmjs.org/should-equal/-/should-equal-0.8.0.tgz#a3f05732ff45bac1b7ba412f8408856819641299"
   integrity sha1-o/BXMv9FusG3ukEvhAiFaBlkEpk=
   dependencies:
     should-type "0.2.0"
@@ -3096,7 +3096,7 @@ split-string@^3.0.1, split-string@^3.0.2:
 
 sprintf-js@~1.0.2:
   version "1.0.3"
-  resolved "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
+  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
 sshpk@^1.7.0:
@@ -3305,7 +3305,7 @@ thunkify@^2.1.2:
 
 thunks@^4.9.0:
   version "4.9.2"
-  resolved "http://r.cnpmjs.org/thunks/download/thunks-4.9.2.tgz#aac2d353812512160a4611e3008d7a96e3756f8e"
+  resolved "https://r.cnpmjs.org/thunks/download/thunks-4.9.2.tgz#aac2d353812512160a4611e3008d7a96e3756f8e"
   integrity sha1-qsLTU4ElEhYKRhHjAI16luN1b44=
 
 tildify@^1.0.0:
