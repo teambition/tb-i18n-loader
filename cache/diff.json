@@ -742,7 +742,7 @@
     },
     {
       "key": "recent.projects",
-      "value": "最近浏览空间"
+      "value": "最近浏览项目"
     },
     {
       "key": "project.tasklist.modal.shareList.title",
@@ -754,7 +754,7 @@
     },
     {
       "key": "project.switcher.placeholder.no.recent",
-      "value": "暂无最近访问空间"
+      "value": "暂无最近访问项目"
     },
     {
       "key": "project.switcher.placeholder.no.project",
@@ -1913,6 +1913,14 @@
       "value": "一级选项"
     },
     {
+      "key": "corporation.sync.failed",
+      "value": "成员同步失败"
+    },
+    {
+      "key": "corp.members",
+      "value": "集团成员"
+    },
+    {
       "key": "commongroup.node.count.tooltip",
       "value": "未完成 %s，总计 %s"
     },
@@ -2007,6 +2015,11 @@
   ],
   "modified": [
     {
+      "key": "uploader.no.target",
+      "oldValue": "当前工作空间下无可用项目",
+      "newValue": "当前工作项目下无可用项目"
+    },
+    {
       "key": "unarchive.denied.sprint.completed",
       "oldValue": "该任务所属的迭代已经被完成，不能被恢复",
       "newValue": "任务所属迭代已完成，重新打开迭代才能恢复"
@@ -2077,6 +2090,11 @@
       "newValue": "当前迭代已完成，继续删除将会同时删除其中所有类型的任务，删除后不可恢复。"
     },
     {
+      "key": "scrum.sort.custom",
+      "oldValue": "项目自定义排序",
+      "newValue": "手动拖拽排序"
+    },
+    {
       "key": "remind.close",
       "oldValue": "关闭提醒",
       "newValue": "不提醒"
@@ -2090,6 +2108,11 @@
       "key": "personal.settings.display.taskMode.title",
       "oldValue": "任务详情打开方式",
       "newValue": "详情打开方式"
+    },
+    {
+      "key": "pernsonal.workspace.transfer.hint",
+      "oldValue": "有项目找不到了？ 放心，你的数据没丢，我们把所有人的个人项目正式升级为企业空间了，点击右上角头像可以切换",
+      "newValue": "有项目找不到了？ 放心，你的数据没丢，我们把所有人的个人项目正式升级为企业项目了，点击右上角头像可以切换"
     },
     {
       "key": "kanban.head.status.menu.transform.title",
