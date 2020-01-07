@@ -1681,7 +1681,7 @@
   "gantt.task.dependency.delete.description": "您确定要解除依赖关系吗？此操作不可恢复。",
   "gantt.task.dependency.delete.title": "解除依赖关系",
   "gantt.task.invisible": "该任务仅参与者可见",
-  "gantt.timeAxis.major.month": "YYYY[年] MM",
+  "gantt.timeAxis.major.month": "YYYY[年] MM[月]",
   "gantt.timeAxis.major.year": "YYYY[年]",
   "gantt.timeAxis.minor.day": "D",
   "gantt.timeAxis.minor.month": "M月",
