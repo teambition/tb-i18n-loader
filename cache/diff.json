@@ -397,6 +397,10 @@
       "value": "预约"
     },
     {
+      "key": "task.item.setting.dueDate",
+      "value": "设置截止时间"
+    },
+    {
       "key": "task.item.edit.startDate",
       "value": "修改开始时间"
     },
@@ -433,6 +437,18 @@
       "value": "七天内"
     },
     {
+      "key": "task.detail.no.permission.title",
+      "value": "暂无查看权限"
+    },
+    {
+      "key": "task.detail.no.permission.desc",
+      "value": "请联系相关成员获取权限"
+    },
+    {
+      "key": "task.detail.action.list.enter.project",
+      "value": "进入项目"
+    },
+    {
       "key": "task.detail.action.list.assign.project.title",
       "value": "请选择交付团队"
     },
@@ -447,6 +463,22 @@
     {
       "key": "task.dependency.lag.time.title.tooltip.lag",
       "value": "提前 %s 天"
+    },
+    {
+      "key": "task.creator.send.to.group.tips",
+      "value": "不勾选仅通知任务参与者"
+    },
+    {
+      "key": "task.creator.send.to.group",
+      "value": "通知群聊所有人"
+    },
+    {
+      "key": "task.creator.org.selector.placeholder",
+      "value": "请选择企业"
+    },
+    {
+      "key": "task.creator.org.selector.indie",
+      "value": "不放入企业"
     },
     {
       "key": "tas.function.time.relative",
@@ -913,6 +945,10 @@
       "value": "请输入项目名称（选填）"
     },
     {
+      "key": "project.light.creator.multi.name",
+      "value": "%s 等的项目"
+    },
+    {
       "key": "project.light.creator.model.next",
       "value": "下一步"
     },
@@ -926,7 +962,7 @@
     },
     {
       "key": "project.light.creator.default.name",
-      "value": "%s 创建的协作空间"
+      "value": "%s 的项目"
     },
     {
       "key": "project.fields.select.submit",
@@ -967,6 +1003,10 @@
     {
       "key": "project.create.bound.to.a.dingtalkgroup.desc",
       "value": "关联一个群，群成员自动加入项目，可以从群里便捷地管理任务"
+    },
+    {
+      "key": "project.create.bind.ding.group.list.desc.people.count",
+      "value": "%s 人"
     },
     {
       "key": "project.card.is.taskflow.label",
@@ -1413,6 +1453,10 @@
       "value": "一级选项：%s"
     },
     {
+      "key": "link.create.input.placeholder.exclude.url.parsing",
+      "value": "搜索内容进行关联"
+    },
+    {
       "key": "link.aone.work.item.title",
       "value": "关联的 Aone 工作项"
     },
@@ -1522,7 +1566,7 @@
     },
     {
       "key": "gantt.timeAxis.major.month",
-      "value": "YYYY[年] MM"
+      "value": "YYYY[年] MM[月]"
     },
     {
       "key": "gantt.task.dependency.delete.title",
@@ -1751,6 +1795,54 @@
     {
       "key": "event.detail.zoom.button",
       "value": "Zoom"
+    },
+    {
+      "key": "dingtalk.work",
+      "value": "附件"
+    },
+    {
+      "key": "dingtalk.task",
+      "value": "钉钉任务"
+    },
+    {
+      "key": "dingtalk.file.upload.unknown.fail",
+      "value": "未知错误"
+    },
+    {
+      "key": "dingtalk.file.upload.success",
+      "value": "上传附件成功"
+    },
+    {
+      "key": "dingtalk.file.upload.from.local",
+      "value": "直接上传"
+    },
+    {
+      "key": "dingtalk.file.upload.from.dingbox",
+      "value": "选择钉盘文件"
+    },
+    {
+      "key": "dingtalk.file.upload.fail",
+      "value": "上传附件失败"
+    },
+    {
+      "key": "dingtalk.file.get.failed",
+      "value": "获取文件失败"
+    },
+    {
+      "key": "dingtalk.file.delete.success",
+      "value": "删除附件成功"
+    },
+    {
+      "key": "dingtalk.file.delete.fail",
+      "value": "删除附件失败"
+    },
+    {
+      "key": "dingtalk.error.not.supported.env",
+      "value": "当前版本不支持群任务，为了保障体验建议你升级至最新版。"
+    },
+    {
+      "key": "dingtalk.activity.attachment.unsupport",
+      "value": "请登录 Teambition 官网查看此附件"
     },
     {
       "key": "devops.preview.version",
@@ -2063,6 +2155,11 @@
       "key": "task.detail.free",
       "oldValue": "自由任务",
       "newValue": "任务"
+    },
+    {
+      "key": "task.creator.content",
+      "oldValue": "任务标题",
+      "newValue": "输入标题以新建任务"
     },
     {
       "key": "table.batch.edit.status.error.title",
