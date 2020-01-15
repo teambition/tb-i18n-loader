@@ -385,6 +385,14 @@
       "value": "打印任务"
     },
     {
+      "key": "task.menu.milestone.convert.to.task",
+      "value": "里程碑转化为任务"
+    },
+    {
+      "key": "task.menu.convert.to.milestone",
+      "value": "转化为里程碑"
+    },
+    {
       "key": "task.meeting.dropdown.item.join.by.id",
       "value": "ID 加入"
     },
@@ -437,6 +445,10 @@
       "value": "七天内"
     },
     {
+      "key": "task.detail.project",
+      "value": "项目"
+    },
+    {
       "key": "task.detail.no.permission.title",
       "value": "暂无查看权限"
     },
@@ -445,8 +457,28 @@
       "value": "请联系相关成员获取权限"
     },
     {
+      "key": "task.detail.action.list.revoke.assign.title",
+      "value": "撤销指派"
+    },
+    {
+      "key": "task.detail.action.list.reassign.title",
+      "value": "重新指派"
+    },
+    {
       "key": "task.detail.action.list.enter.project",
       "value": "进入项目"
+    },
+    {
+      "key": "task.detail.action.list.assigned.title",
+      "value": "操作"
+    },
+    {
+      "key": "task.detail.action.list.assigned.project",
+      "value": "变更指派"
+    },
+    {
+      "key": "task.detail.action.list.assign.title",
+      "value": "请选择交付团队"
     },
     {
       "key": "task.detail.action.list.assign.project.title",
@@ -609,6 +641,18 @@
       "value": "控制线"
     },
     {
+      "key": "table.task.tasklist",
+      "value": "分组"
+    },
+    {
+      "key": "table.task.project",
+      "value": "项目"
+    },
+    {
+      "key": "table.select.entity.in.other.project.tip",
+      "value": "暂时无法对其他项目下的任务进行批量操作"
+    },
+    {
       "key": "table.edit.select.unset",
       "value": "待选择"
     },
@@ -625,6 +669,50 @@
       "value": "待设置"
     },
     {
+      "key": "table.batch.assign.menu.title",
+      "value": "请选择交付团队"
+    },
+    {
+      "key": "table.batch.assign.disable.tip",
+      "value": "指派规则：\r\n1. 无法指派顶级需求\r\n2. 无法指派「需求」以外的任务类型"
+    },
+    {
+      "key": "table.batch.assign",
+      "value": "指派到团队"
+    },
+    {
+      "key": "subtask.revoke.assign.confirm",
+      "value": "撤销后该需求将返回到父任务所在项目「%1」中。\r\n\r\n确定要撤销指派吗？"
+    },
+    {
+      "key": "subtask.menu.revoke.assign.title",
+      "value": "撤销指派"
+    },
+    {
+      "key": "subtask.menu.reassign.title",
+      "value": "重新指派"
+    },
+    {
+      "key": "subtask.menu.reassign",
+      "value": "重新指派"
+    },
+    {
+      "key": "subtask.menu.edit.content.disabled",
+      "value": "没有权限编辑该任务"
+    },
+    {
+      "key": "subtask.menu.cancel.assign",
+      "value": "撤销指派"
+    },
+    {
+      "key": "subtask.menu.assign.title",
+      "value": "指派到团队"
+    },
+    {
+      "key": "subtask.menu.assign",
+      "value": "指派到团队"
+    },
+    {
       "key": "subtask.creator.back.parent.task",
       "value": "返回上级"
     },
@@ -633,8 +721,24 @@
       "value": "我隶属的部门"
     },
     {
+      "key": "story.unassign.success",
+      "value": "撤销指派成功"
+    },
+    {
+      "key": "story.unassign.failed",
+      "value": "撤销指派失败"
+    },
+    {
       "key": "story.group.search",
       "value": "输入需求分类名称"
+    },
+    {
+      "key": "story.bulk.assign.success",
+      "value": "批量指派成功"
+    },
+    {
+      "key": "story.bulk.assign.failure",
+      "value": "批量指派失败"
     },
     {
       "key": "story.assignment.top.level.disable.hint",
@@ -662,15 +766,27 @@
     },
     {
       "key": "story.assignment.hint.body.text",
-      "value": "您正在指派需求到旧 Aone 项目，点击「了解并继续」将会发生以下事情："
+      "value": "您正在指派需求到旧版 Aone 项目。当前需求会被移动到指定项目，过程中可能丢失部分信息。"
+    },
+    {
+      "key": "story.assignment.done.disable.hint",
+      "value": "该需求已经完成，无法指派到团队"
     },
     {
       "key": "story.assignment.cancel",
       "value": "取消指派"
     },
     {
+      "key": "story.assignment.aone.hint.detail.info",
+      "value": "<a>点击此处</a>了解功能详情"
+    },
+    {
       "key": "story.assignment.aone.acknowledged",
       "value": "了解并继续"
+    },
+    {
+      "key": "story.assign.success.description",
+      "value": "需求已迁移到 %1 的项目中"
     },
     {
       "key": "story.assign.success",
@@ -747,6 +863,14 @@
     {
       "key": "scrum.panel.table.see.through.subtasks.label.bug",
       "value": "仅展示缺陷"
+    },
+    {
+      "key": "revoke.success",
+      "value": "撤销成功"
+    },
+    {
+      "key": "revoke.failed",
+      "value": "撤销失败"
     },
     {
       "key": "required.fields.refill.modal.title",
@@ -929,6 +1053,38 @@
       "value": "修改了项目公告"
     },
     {
+      "key": "project.overview.milestone.title",
+      "value": "里程碑"
+    },
+    {
+      "key": "project.overview.milestone.start",
+      "value": "开始"
+    },
+    {
+      "key": "project.overview.milestone.pro.placeholder",
+      "value": "用里程碑定义关键节点"
+    },
+    {
+      "key": "project.overview.milestone.pro.create",
+      "value": "添加里程碑"
+    },
+    {
+      "key": "project.overview.milestone.placeholder",
+      "value": "使用里程碑功能，更好的管理项目的各个节点"
+    },
+    {
+      "key": "project.overview.milestone.nodate",
+      "value": "未排期"
+    },
+    {
+      "key": "project.overview.milestone.maxim.info",
+      "value": "已达到里程碑数量上线，不可再添加"
+    },
+    {
+      "key": "project.overview.milestone.create",
+      "value": "升级使用"
+    },
+    {
       "key": "project.nav.header.home",
       "value": "首页"
     },
@@ -962,7 +1118,7 @@
     },
     {
       "key": "project.light.creator.default.name",
-      "value": "%s 的项目"
+      "value": "%s 创建的协作空间"
     },
     {
       "key": "project.fields.select.submit",
@@ -1091,6 +1247,18 @@
     {
       "key": "print.task.detail.qrcode.hint",
       "value": "扫描二维码，查看任务详情"
+    },
+    {
+      "key": "powerups.milestone.upgrade.button",
+      "value": "升级使用"
+    },
+    {
+      "key": "powerups.milestone.short.des",
+      "value": "支持在项目中创建里程碑，更好地管理项目的各个关键节点"
+    },
+    {
+      "key": "powerups.milestone",
+      "value": "项目里程碑"
     },
     {
       "key": "post.menu.shimo.edit.error",
@@ -1517,6 +1685,10 @@
       "value": "企业数字化管理"
     },
     {
+      "key": "go.to.project",
+      "value": "前往项目"
+    },
+    {
       "key": "gantt.timeAxis.scale.year",
       "value": "年"
     },
@@ -1587,6 +1759,14 @@
     {
       "key": "gantt.task.dependency.date.setting",
       "value": "计划时间"
+    },
+    {
+      "key": "gantt.app.task.scheduling.des",
+      "value": "开启后，具有依赖关系的任务将自动对齐"
+    },
+    {
+      "key": "gantt.app.task.scheduling",
+      "value": "自动编排"
     },
     {
       "key": "gantt.app.outline.task.transform.forbidden",
@@ -1695,6 +1875,10 @@
     {
       "key": "gantt.app.outline.add.task",
       "value": "添加新任务"
+    },
+    {
+      "key": "gantt.app.outline.add.milestone",
+      "value": "添加里程碑"
     },
     {
       "key": "field.preset.modal.submit",
@@ -2103,6 +2287,10 @@
     {
       "key": "aone.issue.Bug",
       "value": "缺陷"
+    },
+    {
+      "key": "agile.milestone",
+      "value": "里程碑"
     }
   ],
   "modified": [
@@ -2157,11 +2345,6 @@
       "newValue": "任务"
     },
     {
-      "key": "task.creator.content",
-      "oldValue": "任务标题",
-      "newValue": "输入标题以新建任务"
-    },
-    {
       "key": "table.batch.edit.status.error.title",
       "oldValue": "部分任务未被编辑，可能因为与目标任务类型不一致或有权限限制。",
       "newValue": "部分任务未被编辑，可能因为以下原因：必填字段缺失/权限限制/与目标任务类型不一致。"
@@ -2200,6 +2383,16 @@
       "key": "project.settings.transfer.roles.change",
       "oldValue": "项目归属权将移交给 %s，本项目若含有任务类型、自定义字段、企业标签等企业专属数据，它们会被删除，且此过程是不可逆的。目标位置未购买的企业付费功能和未安装的企业应用将无法使用。请确定是否移交？",
       "newValue": "项目归属权将移交给 %s，请确保在目标企业在中以下权限「迁入项目」「新增/管理自定义字段」「新增/管理任务类型」。目标位置未购买的企业付费功能和未安装的企业应用将无法使用。请确定是否移交？"
+    },
+    {
+      "key": "project.settings.taskflow.status.checkbox.change.warning.to.end",
+      "oldValue": "变更为结束状态，将会使该状态中所有任务被自动完成。",
+      "newValue": "变更为结束状态，将会使该状态中所有任务及其子任务被自动完成。"
+    },
+    {
+      "key": "powerups.startDate.confirm.close",
+      "oldValue": "确认需要关闭在<b>%s</b>里的应用<b>%s</b>吗？关闭后，会影响任务在时间视图中的显示。",
+      "newValue": "确认需要关闭在「%s」里的应用:「%s」吗？关闭后，会影响任务在时间视图中的显示。"
     },
     {
       "key": "personal.settings.display.taskMode.title",
