@@ -1133,8 +1133,16 @@
       "value": " 搜索字段名称"
     },
     {
+      "key": "project.creator.scrum.overview.title",
+      "value": "敏捷开发流程"
+    },
+    {
       "key": "project.creator.install.title",
       "value": "安装应用"
+    },
+    {
+      "key": "project.creator.devops.overview.title",
+      "value": "DevOps 研发交付流程"
     },
     {
       "key": "project.create.bound.to.an.existing.dingtalkgroup.not.available",
