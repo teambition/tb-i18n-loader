@@ -417,6 +417,10 @@
       "value": "修改截止时间"
     },
     {
+      "key": "task.isnt.visible.placeholder",
+      "value": "有 %s 项暂无权限查看"
+    },
+    {
       "key": "task.filter.by.doneness.undone",
       "value": "未完成"
     },
@@ -445,6 +449,10 @@
       "value": "七天内"
     },
     {
+      "key": "task.detail.server.error.title",
+      "value": "系统异常"
+    },
+    {
       "key": "task.detail.project",
       "value": "项目"
     },
@@ -455,6 +463,14 @@
     {
       "key": "task.detail.no.permission.desc",
       "value": "请联系相关成员获取权限"
+    },
+    {
+      "key": "task.detail.no.exist.title",
+      "value": "数据不存在"
+    },
+    {
+      "key": "task.detail.approve.pending.tip",
+      "value": "审批进行中, 暂时无法操作任务"
     },
     {
       "key": "task.detail.action.list.revoke.assign.title",
@@ -713,6 +729,10 @@
       "value": "指派到团队"
     },
     {
+      "key": "subtask.dropdown.content.title",
+      "value": "子任务"
+    },
+    {
       "key": "subtask.creator.back.parent.task",
       "value": "返回上级"
     },
@@ -805,12 +825,92 @@
       "value": "无法获取团队项目或负责人，暂时不能指派需求到该团队"
     },
     {
+      "key": "sprint.to.detail",
+      "value": "迭代详情"
+    },
+    {
+      "key": "sprint.status.to.start",
+      "value": "待开始"
+    },
+    {
+      "key": "sprint.status.restart",
+      "value": "重开"
+    },
+    {
+      "key": "sprint.status.future",
+      "value": "待启动"
+    },
+    {
+      "key": "sprint.status.complete",
+      "value": "已完成"
+    },
+    {
+      "key": "sprint.status.active",
+      "value": "进行中"
+    },
+    {
       "key": "sprint.reopen.desc",
       "value": "您可以再次操作迭代中任务, 但可能导致迭代的统计数据和图表不准确"
     },
     {
       "key": "sprint.reopen",
       "value": "重新打开"
+    },
+    {
+      "key": "sprint.null.placeholder",
+      "value": "无迭代内容"
+    },
+    {
+      "key": "sprint.flowstatus",
+      "value": "状态"
+    },
+    {
+      "key": "sprint.detail.exector.placeholder",
+      "value": "设置负责人"
+    },
+    {
+      "key": "sprint.detail.exector",
+      "value": "负责人"
+    },
+    {
+      "key": "sprint.detail.description.placeholder",
+      "value": "待填写"
+    },
+    {
+      "key": "sprint.detail.description",
+      "value": "描述"
+    },
+    {
+      "key": "sprint.detail.date.start.null.disabled",
+      "value": "开始时间"
+    },
+    {
+      "key": "sprint.detail.date.start.null",
+      "value": "设置开始时间"
+    },
+    {
+      "key": "sprint.detail.date.end.null.disabled",
+      "value": "结束时间"
+    },
+    {
+      "key": "sprint.detail.date.end.null",
+      "value": "设置结束时间"
+    },
+    {
+      "key": "sprint.detail.date",
+      "value": "时间"
+    },
+    {
+      "key": "sprint.detail.cycle.tips",
+      "value": "选这个可以自由设置结束时间"
+    },
+    {
+      "key": "sprint.description",
+      "value": "描述"
+    },
+    {
+      "key": "selector.involver.entry.subtaskExecutors",
+      "value": "子任务执行者"
     },
     {
       "key": "searcher.testcase.tag.option.null",
@@ -929,6 +1029,10 @@
       "value": "需求设置"
     },
     {
+      "key": "project.settings.tab.approval",
+      "value": "审批设置"
+    },
+    {
       "key": "project.settings.story.assign.title",
       "value": "需求指派"
     },
@@ -946,7 +1050,7 @@
     },
     {
       "key": "project.settings.story.assign.team.project.no.right",
-      "value": "您不是该项目的管理员，不能指派需求到该项目"
+      "value": "您不是该项目的成员，不能指派需求到该项目"
     },
     {
       "key": "project.settings.story.assign.team.project.aone",
@@ -1041,6 +1145,54 @@
       "value": "需要开启网络代理使用"
     },
     {
+      "key": "project.settings.approval.tip.title",
+      "value": "任务类型与审批流配对关系一旦配置成功"
+    },
+    {
+      "key": "project.settings.approval.tip.content.3",
+      "value": "审批未通过, 任务状态自动回到上一步, 并允许重新发起审批"
+    },
+    {
+      "key": "project.settings.approval.tip.content.2",
+      "value": "审批通过, 任务将自动完成"
+    },
+    {
+      "key": "project.settings.approval.tip.content.1",
+      "value": "该任务类型下的任务在完成之前, 将会自动发起对应审批"
+    },
+    {
+      "key": "project.settings.approval.rule.invalid",
+      "value": "该审批流已失效"
+    },
+    {
+      "key": "project.settings.approval.noneed",
+      "value": "无需审批"
+    },
+    {
+      "key": "project.settings.approval.bind.scenariofieldconfig",
+      "value": "任务类型"
+    },
+    {
+      "key": "project.settings.approval.bind.process",
+      "value": "审批流"
+    },
+    {
+      "key": "project.settings.approval.app.from",
+      "value": "来自"
+    },
+    {
+      "key": "project.settings.application.rename.over.length.hint",
+      "value": "不允许超过%s个字符"
+    },
+    {
+      "key": "project.settings.application.rename.duplicated",
+      "value": "该名称已被占用"
+    },
+    {
+      "key": "project.settings.app.rename",
+      "value": "重命名"
+    },
+    {
       "key": "project.setting.testplan.autolink.title",
       "value": "测试用例提交缺陷反关联需求"
     },
@@ -1118,7 +1270,7 @@
     },
     {
       "key": "project.light.creator.default.name",
-      "value": "%s 创建的协作空间"
+      "value": "%s 的项目"
     },
     {
       "key": "project.fields.select.submit",
@@ -1469,6 +1621,10 @@
       "value": "新建"
     },
     {
+      "key": "please.pick.project.to.upload",
+      "value": "请选择一个项目"
+    },
+    {
       "key": "personal.settings.display.taskMode.fullscreen.text",
       "value": "全屏"
     },
@@ -1503,6 +1659,10 @@
     {
       "key": "no.longer.prompt",
       "value": "不再提示"
+    },
+    {
+      "key": "network.disconnected",
+      "value": "网络已断开，请"
     },
     {
       "key": "navigation.project.light",
@@ -1625,6 +1785,10 @@
       "value": "开启视频讨论"
     },
     {
+      "key": "link.relative.title.label",
+      "value": "%s截止"
+    },
+    {
       "key": "link.panel.customfield.field.cascading.choices",
       "value": "一级选项：%s"
     },
@@ -1683,6 +1847,94 @@
     {
       "key": "install.application.description",
       "value": "因此使用时需要预先安装以下应用："
+    },
+    {
+      "key": "import.tasks.third.step",
+      "value": "导入完成"
+    },
+    {
+      "key": "import.tasks.second.step",
+      "value": "上传文件"
+    },
+    {
+      "key": "import.tasks.project.view",
+      "value": "立即查看"
+    },
+    {
+      "key": "import.tasks.project.upload.rule.version",
+      "value": "（Microsoft Project 2003-2013）"
+    },
+    {
+      "key": "import.tasks.project.upload.rule.format",
+      "value": "* 支持 .mpx .mpp 格式"
+    },
+    {
+      "key": "import.tasks.project.third.step",
+      "value": "导入完成"
+    },
+    {
+      "key": "import.tasks.project.teambition.member",
+      "value": "Teambition 项目成员"
+    },
+    {
+      "key": "import.tasks.project.task.type.title",
+      "value": "Teambition 任务类型"
+    },
+    {
+      "key": "import.tasks.project.success.label",
+      "value": "本次共成功导入 %s 条 %s"
+    },
+    {
+      "key": "import.tasks.project.second.step",
+      "value": "信息映射"
+    },
+    {
+      "key": "import.tasks.project.project.member",
+      "value": "Project 成员"
+    },
+    {
+      "key": "import.tasks.project.prev",
+      "value": "上一步"
+    },
+    {
+      "key": "import.tasks.project.next",
+      "value": "下一步"
+    },
+    {
+      "key": "import.tasks.project.member.map.title",
+      "value": "成员与 Teambition 映射关系"
+    },
+    {
+      "key": "import.tasks.project.import.done",
+      "value": "导入完成"
+    },
+    {
+      "key": "import.tasks.project.first.step",
+      "value": "上传文件"
+    },
+    {
+      "key": "import.tasks.project.file.status.parsing.tips",
+      "value": "请稍候..."
+    },
+    {
+      "key": "import.tasks.project.file.status.parsing",
+      "value": "正在解析文件"
+    },
+    {
+      "key": "import.tasks.project.done",
+      "value": "完成"
+    },
+    {
+      "key": "import.tasks.first.step",
+      "value": "选择类型"
+    },
+    {
+      "key": "import.project.tasks.modal.title",
+      "value": "从 MS Project 导入任务"
+    },
+    {
+      "key": "import.excel.tasks.modal.title",
+      "value": "从 Excel 导入任务"
     },
     {
       "key": "help.teams",
@@ -1771,6 +2023,34 @@
     {
       "key": "gantt.task.dependency.date.setting",
       "value": "计划时间"
+    },
+    {
+      "key": "gantt.criticalPath.tip",
+      "value": "显示关键路径以查看那些任务对完成日期影响最大"
+    },
+    {
+      "key": "gantt.criticalPath.name",
+      "value": "关键路径"
+    },
+    {
+      "key": "gantt.criticalPath.description.title",
+      "value": "关键路径说明"
+    },
+    {
+      "key": "gantt.criticalPath.description.p2",
+      "value": "开启关键路径后，在甘特图的时间轴部分上，属于关键路径的所有任务都变为红色，不在关键路径上的任务仍保持其原来颜色。"
+    },
+    {
+      "key": "gantt.criticalPath.description.p1",
+      "value": "关键路径是项目中最长的带有依赖关系的一系列任务，这些任务可以通过移动其中任何一个来影响项目的结束日期。如果关键路径上的任务被延迟，则可能造成整个项目的延期。"
+    },
+    {
+      "key": "gantt.criticalPath.description.more",
+      "value": "查看详细功能介绍"
+    },
+    {
+      "key": "gantt.criticalPath.description.h1",
+      "value": "什么是关键路径"
     },
     {
       "key": "gantt.app.task.scheduling.des",
@@ -1997,6 +2277,10 @@
       "value": "附件"
     },
     {
+      "key": "dingtalk.task.upgrade.client.notice",
+      "value": "请升级到最新版本查看完整功能"
+    },
+    {
       "key": "dingtalk.task",
       "value": "钉钉任务"
     },
@@ -2035,6 +2319,10 @@
     {
       "key": "dingtalk.error.not.supported.env",
       "value": "当前版本不支持群任务，为了保障体验建议你升级至最新版。"
+    },
+    {
+      "key": "dingtalk.activity.content.unsupport",
+      "value": "请登录 Teambition 官网查看此内容"
     },
     {
       "key": "dingtalk.activity.attachment.unsupport",
@@ -2201,6 +2489,10 @@
       "value": "一级选项"
     },
     {
+      "key": "current.workspace",
+      "value": "当前空间"
+    },
+    {
       "key": "corporation.sync.failed",
       "value": "成员同步失败"
     },
@@ -2257,6 +2549,14 @@
       "value": "不选择"
     },
     {
+      "key": "card.subtask.tooltips",
+      "value": "查看子任务"
+    },
+    {
+      "key": "card.object.links.tooltips",
+      "value": "查看关联内容"
+    },
+    {
       "key": "calendar.subscriber.subscribed",
       "value": "已订阅"
     },
@@ -2281,12 +2581,124 @@
       "value": "参加用户大会"
     },
     {
+      "key": "associated.aone.work.item",
+      "value": "关联 Aone 工作项"
+    },
+    {
+      "key": "associated.aone.item.search.placeholder",
+      "value": "按标题、URL 搜索"
+    },
+    {
+      "key": "associated.aone.item.project.filter.title",
+      "value": "不限项目"
+    },
+    {
+      "key": "associated.aone.item.more.filter",
+      "value": "更多筛选"
+    },
+    {
+      "key": "associated.aone.item.executor.filter.title",
+      "value": "不限执行者"
+    },
+    {
+      "key": "approval.status.rejected",
+      "value": "审批被拒绝"
+    },
+    {
+      "key": "approval.status.pending",
+      "value": "审批进行中"
+    },
+    {
+      "key": "approval.status.approved",
+      "value": "审批已通过"
+    },
+    {
+      "key": "approval.dialog.title",
+      "value": "发起审批"
+    },
+    {
+      "key": "approval.dialog.start.ok",
+      "value": "确认并开始审批"
+    },
+    {
+      "key": "approval.dialog.start.content.for.task",
+      "value": "当前任务在完成前进行审批, 审批通过后任务则自动完成；审批驳回后可重新提交审批，确定继续执行当前操作？"
+    },
+    {
+      "key": "approval.dialog.confirm.ok",
+      "value": "已提交"
+    },
+    {
+      "key": "approval.dialog.confirm.content",
+      "value": "审批是否已顺利提交？"
+    },
+    {
+      "key": "approval.dialog.confirm.cancel",
+      "value": "操作失败"
+    },
+    {
+      "key": "approval.detail.updated",
+      "value": "最后更新时间"
+    },
+    {
+      "key": "approval.detail.link",
+      "value": "查看详情"
+    },
+    {
+      "key": "approval.detail.creator",
+      "value": "发起人"
+    },
+    {
+      "key": "approval.detail.created",
+      "value": "开始时间"
+    },
+    {
+      "key": "approval.detail.approvalFlowName",
+      "value": "审批流名称"
+    },
+    {
       "key": "application.button.installed",
       "value": "已安装"
     },
     {
       "key": "application.button.install",
       "value": "前往安装"
+    },
+    {
+      "key": "aone.workitem.types",
+      "value": "任务类型"
+    },
+    {
+      "key": "aone.workitem.type.task",
+      "value": "任务"
+    },
+    {
+      "key": "aone.workitem.type.req",
+      "value": "需求"
+    },
+    {
+      "key": "aone.workitem.type.bug",
+      "value": "缺陷"
+    },
+    {
+      "key": "aone.workitem.priority.urgent",
+      "value": "紧急"
+    },
+    {
+      "key": "aone.workitem.priority.none",
+      "value": "低"
+    },
+    {
+      "key": "aone.workitem.priority.low",
+      "value": "中"
+    },
+    {
+      "key": "aone.workitem.priority.high",
+      "value": "高"
+    },
+    {
+      "key": "aone.search.type.aoneworkitem",
+      "value": "Aone 研发工作项"
     },
     {
       "key": "aone.issue.Task",
@@ -2303,6 +2715,26 @@
     {
       "key": "agile.milestone",
       "value": "里程碑"
+    },
+    {
+      "key": "activity.panel.import.project.tasks",
+      "value": "从 Project 中导入"
+    },
+    {
+      "key": "activity.panel.import.excel.tasks",
+      "value": "从 Excel 中导入"
+    },
+    {
+      "key": "parenthesesRight",
+      "value": "）"
+    },
+    {
+      "key": "parenthesesLeft",
+      "value": "（"
+    },
+    {
+      "key": "choose",
+      "value": "请选择"
     }
   ],
   "modified": [
@@ -2325,6 +2757,16 @@
       "key": "testplan.creator.name.exceed.length",
       "oldValue": "请限制在 20 字以内",
       "newValue": "请限制在 %s 字以内"
+    },
+    {
+      "key": "testcase.import.steps.subtitle.downloadTemplate",
+      "oldValue": "请先下载「%s_%s_导入模板」并按照模板填写后再上传。",
+      "newValue": "可以下载「%s_%s_导入模板」并按照模板填写后再上传。"
+    },
+    {
+      "key": "template.setting.nav.hint",
+      "oldValue": "拖动图标排序。你可以前往 模板菜单－应用中心 打开或关闭应用。",
+      "newValue": "拖拽可排序，点击名称可重命名"
     },
     {
       "key": "tasklist.dump.filter.hint",
@@ -2355,6 +2797,11 @@
       "key": "task.detail.free",
       "oldValue": "自由任务",
       "newValue": "任务"
+    },
+    {
+      "key": "task.creator.content",
+      "oldValue": "任务标题",
+      "newValue": "输入标题以新建任务"
     },
     {
       "key": "table.batch.edit.status.error.title",
@@ -2402,6 +2849,16 @@
       "newValue": "变更为结束状态，将会使该状态中所有任务及其子任务被自动完成。"
     },
     {
+      "key": "project.settings.label.sort",
+      "oldValue": "应用排序",
+      "newValue": "项目导航"
+    },
+    {
+      "key": "project.setting.nav.hint",
+      "oldValue": "拖动图标排序。你可以前往「项目菜单－应用中心」打开或关闭应用。",
+      "newValue": "拖拽可排序，点击名称可重命名"
+    },
+    {
       "key": "powerups.startDate.confirm.close",
       "oldValue": "确认需要关闭在<b>%s</b>里的应用<b>%s</b>吗？关闭后，会影响任务在时间视图中的显示。",
       "newValue": "确认需要关闭在「%s」里的应用:「%s」吗？关闭后，会影响任务在时间视图中的显示。"
@@ -2420,6 +2877,36 @@
       "key": "kanban.head.status.menu.transform.title",
       "oldValue": "设置流转规则",
       "newValue": "配置工作流规则"
+    },
+    {
+      "key": "import.tasks.steps.select.task.type",
+      "oldValue": "选择要导入的任务类型",
+      "newValue": "导入后任务对应 Teambition 任务类型"
+    },
+    {
+      "key": "import.tasks.steps.import.task.file",
+      "oldValue": "导入任务文件",
+      "newValue": "1. 直接上传"
+    },
+    {
+      "key": "import.tasks.steps.download.template",
+      "oldValue": "下载对应任务类型的模板",
+      "newValue": "2. 下载模板并填写后上传"
+    },
+    {
+      "key": "import.tasks.file.requirements.fileType",
+      "oldValue": "支持文件类型：xls，xlsx，csv",
+      "newValue": "- 支持文件类型：xls，xlsx，csv"
+    },
+    {
+      "key": "import.tasks.file.requirements.fieldRule",
+      "oldValue": "任务字段不符合规则，整条任务不予以导入",
+      "newValue": "每个任务至多支持 %s 个自定义字段（不符合规则整条任务不予以导入）"
+    },
+    {
+      "key": "import.tasks.file.requirements.basicField",
+      "oldValue": "支持所有基础字段的导入",
+      "newValue": "- 支持所有基础字段的导入"
     },
     {
       "key": "event.detail.zoom.tips",
