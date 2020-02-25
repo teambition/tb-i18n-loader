@@ -1462,6 +1462,7 @@
   "dingtalk.file.upload.from.local": "直接上傳",
   "dingtalk.file.upload.success": "上傳附件成功",
   "dingtalk.file.upload.unknown.fail": "未知錯誤",
+  "dingtalk.full.function.tip": "請前往釘釘待辦體驗完整功能",
   "dingtalk.task": "釘釘任務",
   "dingtalk.task.upgrade.client.notice": "請升級到最新版本查看完整功能",
   "dingtalk.transfer.login": "去登入",

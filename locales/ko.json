@@ -1462,6 +1462,7 @@
   "dingtalk.file.upload.from.local": "直接上传",
   "dingtalk.file.upload.success": "上传附件成功",
   "dingtalk.file.upload.unknown.fail": "未知错误",
+  "dingtalk.full.function.tip": "请前往钉钉待办体验完整功能",
   "dingtalk.task": "钉钉任务",
   "dingtalk.task.upgrade.client.notice": "请升级到最新版本查看完整功能",
   "dingtalk.transfer.login": "去登录",

@@ -1462,6 +1462,7 @@
   "dingtalk.file.upload.from.local": "Upload",
   "dingtalk.file.upload.success": "Upload attachment successfully",
   "dingtalk.file.upload.unknown.fail": "unknown error",
+  "dingtalk.full.function.tip": "Please go to DingTalk to experience the full function",
   "dingtalk.task": "DingTalk Task",
   "dingtalk.task.upgrade.client.notice": "Please upgrade to the latest version for further use",
   "dingtalk.transfer.login": "Sign in",

@@ -2285,6 +2285,10 @@
       "value": "钉钉任务"
     },
     {
+      "key": "dingtalk.full.function.tip",
+      "value": "请前往钉钉待办体验完整功能"
+    },
+    {
       "key": "dingtalk.file.upload.unknown.fail",
       "value": "未知错误"
     },
