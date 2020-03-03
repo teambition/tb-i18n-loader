@@ -861,8 +861,16 @@
       "value": "无迭代内容"
     },
     {
+      "key": "sprint.name.placeholder",
+      "value": "待填写"
+    },
+    {
       "key": "sprint.flowstatus",
       "value": "状态"
+    },
+    {
+      "key": "sprint.duedate.tooltip",
+      "value": "由开始时间和周期得出"
     },
     {
       "key": "sprint.detail.exector.placeholder",
@@ -1285,6 +1293,10 @@
       "value": " 搜索字段名称"
     },
     {
+      "key": "project.custom.app",
+      "value": "自定义应用"
+    },
+    {
       "key": "project.creator.scrum.overview.title",
       "value": "敏捷开发流程"
     },
@@ -1409,6 +1421,10 @@
       "value": "扫描二维码，查看任务详情"
     },
     {
+      "key": "powerups.search.store.hint",
+      "value": "找不到？去应用商店看看"
+    },
+    {
       "key": "powerups.milestone.upgrade.button",
       "value": "升级使用"
     },
@@ -1419,6 +1435,18 @@
     {
       "key": "powerups.milestone",
       "value": "项目里程碑"
+    },
+    {
+      "key": "powerups.app.edit",
+      "value": "编辑应用"
+    },
+    {
+      "key": "powerups.app.del.custom.app.desc",
+      "value": "确定要删除应用「%s」吗？"
+    },
+    {
+      "key": "powerup.search.title",
+      "value": "搜索结果"
     },
     {
       "key": "post.menu.shimo.edit.error",
@@ -1953,6 +1981,10 @@
       "value": "前往项目"
     },
     {
+      "key": "go.to.custom.app.task",
+      "value": "前往应用"
+    },
+    {
       "key": "gantt.timeAxis.scale.year",
       "value": "年"
     },
@@ -1979,6 +2011,14 @@
     {
       "key": "gantt.timeAxis.scale.auto",
       "value": "自适应"
+    },
+    {
+      "key": "gantt.timeAxis.minor.year.h2",
+      "value": "下半年"
+    },
+    {
+      "key": "gantt.timeAxis.minor.year.h1",
+      "value": "上半年"
     },
     {
       "key": "gantt.timeAxis.minor.week",
@@ -2023,6 +2063,30 @@
     {
       "key": "gantt.task.dependency.date.setting",
       "value": "计划时间"
+    },
+    {
+      "key": "gantt.majorFilter.separator.minor",
+      "value": " · "
+    },
+    {
+      "key": "gantt.majorFilter.separator.major",
+      "value": ": "
+    },
+    {
+      "key": "gantt.majorFilter.footer",
+      "value": "任务分组或迭代下支持多选"
+    },
+    {
+      "key": "gantt.majorFilter.all.tasklists",
+      "value": "所有分组"
+    },
+    {
+      "key": "gantt.majorFilter.all.sprints",
+      "value": "所有迭代"
+    },
+    {
+      "key": "gantt.majorFilter.all",
+      "value": "所有任务"
     },
     {
       "key": "gantt.criticalPath.tip",
@@ -2147,6 +2211,14 @@
     {
       "key": "gantt.app.outline.task.add.new.subtask",
       "value": "插入子任务"
+    },
+    {
+      "key": "gantt.app.outline.row.index.switch.tooltip",
+      "value": "显示编号后可支持在大纲视图设置任务之间的依赖关系"
+    },
+    {
+      "key": "gantt.app.outline.row.index.switch.label",
+      "value": "大纲显示任务编号"
     },
     {
       "key": "gantt.app.outline.placeholder.task.title",
@@ -2409,6 +2481,10 @@
       "value": "您确定要解除依赖关系吗？此操作不可恢复。"
     },
     {
+      "key": "default.reservation.provider.trigger",
+      "value": "预约演示"
+    },
+    {
       "key": "customfield.selection.search.cascading.hint",
       "value": "搜索选项，可用 “/” 符号隔开，如“上海市/浦东新区”"
     },
@@ -2473,6 +2549,10 @@
       "value": "覆盖后对所有项目成员均生效，是否确定覆盖？"
     },
     {
+      "key": "custom.task.app.default.smartgroup.all",
+      "value": "所有%s"
+    },
+    {
       "key": "custom.fields.data.type.cascading",
       "value": "层级选择"
     },
@@ -2493,8 +2573,80 @@
       "value": "一级选项"
     },
     {
+      "key": "custom.app.task.related.name",
+      "value": "任务管理"
+    },
+    {
+      "key": "custom.app.task.related.feat.0.desc",
+      "value": "在应用中创建、查看和管理指定类型的任务："
+    },
+    {
+      "key": "custom.app.task.related.edit",
+      "value": "由 %2 最后编辑于 %1"
+    },
+    {
+      "key": "custom.app.task.related.create",
+      "value": "由 %2 创建于 %1"
+    },
+    {
+      "key": "custom.app.task.from.name.label",
+      "value": "应用名称"
+    },
+    {
+      "key": "custom.app.task.from.desc.label",
+      "value": "应用描述"
+    },
+    {
+      "key": "custom.app.task.form.name.placeholder",
+      "value": "最多10个字符"
+    },
+    {
+      "key": "custom.app.task.form.file.limit",
+      "value": "超过%s个字符限制"
+    },
+    {
+      "key": "custom.app.task.form.edit.title",
+      "value": "编辑「%s」"
+    },
+    {
+      "key": "custom.app.task.form.edit.success",
+      "value": "编辑自定义应用成功"
+    },
+    {
+      "key": "custom.app.task.form.edit.error",
+      "value": "编辑自定义应用失败"
+    },
+    {
+      "key": "custom.app.task.form.desc.placeholder",
+      "value": "最多99个字符，选填"
+    },
+    {
+      "key": "custom.app.task.form.create.title",
+      "value": "创建自定义应用"
+    },
+    {
+      "key": "custom.app.task.form.create.success",
+      "value": "成功创建应用：%s"
+    },
+    {
+      "key": "custom.app.task.form.create.error",
+      "value": "创建应用失败"
+    },
+    {
+      "key": "custom.app.task.form.banner.content",
+      "value": "在自定义应用中，可以创建、查看和管理指定类型的任务"
+    },
+    {
+      "key": "custom.app.no.description",
+      "value": "暂无应用描述"
+    },
+    {
       "key": "current.workspace",
       "value": "当前空间"
+    },
+    {
+      "key": "create.custom.app",
+      "value": "创建自定义应用"
     },
     {
       "key": "corporation.sync.failed",
@@ -2659,6 +2811,14 @@
     {
       "key": "approval.detail.approvalFlowName",
       "value": "审批流名称"
+    },
+    {
+      "key": "application.from.project.custom.app.des",
+      "value": "可管理指定类型的任务"
+    },
+    {
+      "key": "application.from.app.store",
+      "value": "来自应用商店"
     },
     {
       "key": "application.button.installed",
