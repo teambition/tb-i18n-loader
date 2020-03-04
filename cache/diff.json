@@ -529,6 +529,14 @@
       "value": "不放入企业"
     },
     {
+      "key": "task.creator.modal.title.with.scenario",
+      "value": "创建%s"
+    },
+    {
+      "key": "task.creator.content.placeholder",
+      "value": "输入标题以新建%s"
+    },
+    {
       "key": "tas.function.time.relative",
       "value": "流转发生后 %s 天"
     },
@@ -735,6 +743,10 @@
     {
       "key": "subtask.creator.back.parent.task",
       "value": "返回上级"
+    },
+    {
+      "key": "subtask.card.create.input.placeholder.with.scenario",
+      "value": "输入%s内容..."
     },
     {
       "key": "subscriber.team.recommend",
@@ -1965,6 +1977,10 @@
       "value": "从 Excel 导入任务"
     },
     {
+      "key": "helper.menu.academy",
+      "value": "Teambition 学院"
+    },
+    {
       "key": "help.teams",
       "value": "团队协作焕新"
     },
@@ -2090,7 +2106,7 @@
     },
     {
       "key": "gantt.criticalPath.tip",
-      "value": "显示关键路径以查看那些任务对完成日期影响最大"
+      "value": "显示关键路径以查看哪些任务对完成日期影响最大"
     },
     {
       "key": "gantt.criticalPath.name",
@@ -2573,6 +2589,14 @@
       "value": "一级选项"
     },
     {
+      "key": "custom.app.task.view.board.empty.title",
+      "value": "无法展示多个分组的任务列表"
+    },
+    {
+      "key": "custom.app.task.view.board.empty.desc",
+      "value": "请先在筛选中选择分组"
+    },
+    {
       "key": "custom.app.task.related.name",
       "value": "任务管理"
     },
@@ -2611,6 +2635,10 @@
     {
       "key": "custom.app.task.form.edit.success",
       "value": "编辑自定义应用成功"
+    },
+    {
+      "key": "custom.app.task.form.edit.scenario.disabled",
+      "value": "暂不支持编辑任务类型"
     },
     {
       "key": "custom.app.task.form.edit.error",
@@ -2978,6 +3006,26 @@
       "newValue": "部分任务未被编辑，可能因为与目标任务类型不一致或有权限限制。"
     },
     {
+      "key": "sprint.placeholder.startDate.required",
+      "oldValue": "选择开始时间（必填）",
+      "newValue": "设置开始时间（必填）"
+    },
+    {
+      "key": "sprint.placeholder.startDate.optional",
+      "oldValue": "选择开始时间（选填）",
+      "newValue": "设置开始时间（选填）"
+    },
+    {
+      "key": "sprint.placeholder.select.cycles.required",
+      "oldValue": "选择周期（必填）",
+      "newValue": "设置周期（必填）"
+    },
+    {
+      "key": "sprint.placeholder.select.cycles.optional",
+      "oldValue": "选择周期（选填）",
+      "newValue": "设置周期（选填）"
+    },
+    {
       "key": "sprint.list.is.completed.no.alter",
       "oldValue": "该迭代已完成，不能更改",
       "newValue": "任务所属迭代已完成，重新打开迭代才能修改"
@@ -3121,6 +3169,31 @@
       "key": "calendar.add.subscriber",
       "oldValue": "添加关注",
       "newValue": "订阅日历"
+    },
+    {
+      "key": "application.opened",
+      "oldValue": "已开启的应用",
+      "newValue": "已开启"
+    },
+    {
+      "key": "application.all",
+      "oldValue": "全部应用",
+      "newValue": "全部"
+    },
+    {
+      "key": "app.appcenter.open",
+      "oldValue": "前往应用中心",
+      "newValue": "开启更多应用"
+    },
+    {
+      "key": "activity.panel.menu.config",
+      "oldValue": "应用中心",
+      "newValue": "项目应用"
+    },
+    {
+      "key": "plugin",
+      "oldValue": "应用中心",
+      "newValue": "项目应用"
     },
     {
       "key": "dueDate",
