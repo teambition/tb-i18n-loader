@@ -6725,7 +6725,7 @@
   "task.detail.linked.length": "%s linked item(s)",
   "task.detail.nav.stage.selector": "Add To Project",
   "task.detail.no.executor": "Not Assigned",
-  "task.detail.no.exist.title": "Invalid data",
+  "task.detail.no.exist.title": "Invalid task",
   "task.detail.no.permission.desc": "Please contact the relevant members for permission",
   "task.detail.no.permission.title": "No permission",
   "task.detail.priority": "Priority",

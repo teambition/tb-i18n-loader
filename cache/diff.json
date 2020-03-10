@@ -466,7 +466,7 @@
     },
     {
       "key": "task.detail.no.exist.title",
-      "value": "数据不存在"
+      "value": "任务不存在"
     },
     {
       "key": "task.detail.approve.pending.tip",

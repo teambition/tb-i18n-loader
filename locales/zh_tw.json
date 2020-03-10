@@ -6725,7 +6725,7 @@
   "task.detail.linked.length": "該任務被關聯 %s 次",
   "task.detail.nav.stage.selector": "添加至項目",
   "task.detail.no.executor": "待認領",
-  "task.detail.no.exist.title": "數據不存在",
+  "task.detail.no.exist.title": "任務不存在",
   "task.detail.no.permission.desc": "請聯系相關成員獲取許可權",
   "task.detail.no.permission.title": "暫無查看許可權",
   "task.detail.priority": "優先級",

@@ -6725,7 +6725,7 @@
   "task.detail.linked.length": "该任务被关联 %s 次",
   "task.detail.nav.stage.selector": "添加至项目",
   "task.detail.no.executor": "집해자 없음",
-  "task.detail.no.exist.title": "数据不存在",
+  "task.detail.no.exist.title": "任务不存在",
   "task.detail.no.permission.desc": "请联系相关成员获取权限",
   "task.detail.no.permission.title": "暂无查看权限",
   "task.detail.priority": "우선급",
