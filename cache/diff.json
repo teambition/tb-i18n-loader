@@ -930,7 +930,7 @@
     },
     {
       "key": "selector.involver.entry.subtaskExecutors",
-      "value": "子任务执行者"
+      "value": "子任务参与者"
     },
     {
       "key": "searcher.testcase.tag.option.null",
@@ -1027,6 +1027,10 @@
     {
       "key": "project.tasklist.modal.dailyReport.desc",
       "value": "共有 %s 条，其中 %s 条已被更改"
+    },
+    {
+      "key": "project.tag.guide.privacy.perm",
+      "value": "现在，项目分组成员可以被设置成「部分可见」权限。设置后该成员将无法查看该分组下自己未参与的私有项目。"
     },
     {
       "key": "project.switcher.placeholder.no.recent",
@@ -1473,6 +1477,18 @@
       "value": "给他指派任务"
     },
     {
+      "key": "portal.tag.member.permission.get.allProjects",
+      "value": "含该成员未参与的私有项目"
+    },
+    {
+      "key": "portal.tag.member.partialVisible.tips",
+      "value": "该成员仅可查看该分组下自己参与的私有项目以及所有公开项目。"
+    },
+    {
+      "key": "portal.tag.member.partialVisible",
+      "value": "部分可见"
+    },
+    {
       "key": "portal.placeholder.no.starred.space",
       "value": "暂无星标项目"
     },
@@ -1679,6 +1695,14 @@
     {
       "key": "operation.is.submitted",
       "value": "操作已提交"
+    },
+    {
+      "key": "onboarding.view.academy.invite.title",
+      "value": "🎉 Teambition 学院上线啦，从入门到进阶，从电商教育到研发运营，各个场景最佳实践在这里都可以找到。"
+    },
+    {
+      "key": "onboarding.view.academy.invite.go",
+      "value": "立即查看"
     },
     {
       "key": "object.meeting.status",
@@ -2137,6 +2161,98 @@
       "value": "什么是关键路径"
     },
     {
+      "key": "gantt.baselinelist.create",
+      "value": "创建基线"
+    },
+    {
+      "key": "gantt.baselineModal.input.name",
+      "value": "基线名称"
+    },
+    {
+      "key": "gantt.baselineModal.edit.toast",
+      "value": "基线修改成功"
+    },
+    {
+      "key": "gantt.baselineModal.edit.title",
+      "value": "编辑基线"
+    },
+    {
+      "key": "gantt.baselineModal.edit.button",
+      "value": "确认"
+    },
+    {
+      "key": "gantt.baselineModal.create.toast",
+      "value": "基线创建成功"
+    },
+    {
+      "key": "gantt.baselineModal.create.title",
+      "value": "创建基线"
+    },
+    {
+      "key": "gantt.baselineModal.create.button",
+      "value": "创建"
+    },
+    {
+      "key": "gantt.baselineItem.popupMenu.setting",
+      "value": "基线设置"
+    },
+    {
+      "key": "gantt.baselineItem.popupMenu.new",
+      "value": "在新窗口打开"
+    },
+    {
+      "key": "gantt.baselineItem.popupMenu.edit",
+      "value": "编辑"
+    },
+    {
+      "key": "gantt.baselineItem.popupMenu.delete.confirm",
+      "value": "你确定要删除基线 %s 吗？此操作不可恢复"
+    },
+    {
+      "key": "gantt.baselineItem.popupMenu.delete.button",
+      "value": "删除"
+    },
+    {
+      "key": "gantt.baselineItem.popupMenu.delete",
+      "value": "删除基线"
+    },
+    {
+      "key": "gantt.baselineItem.popupMenu.copy",
+      "value": "复制链接"
+    },
+    {
+      "key": "gantt.baselineItem.delete",
+      "value": "基线删除成功"
+    },
+    {
+      "key": "gantt.baselineItem.created",
+      "value": "创建于 %s"
+    },
+    {
+      "key": "gantt.baselineFilter.trigger",
+      "value": "基线对照"
+    },
+    {
+      "key": "gantt.baselineFilter.placeholder.create",
+      "value": "立即创建"
+    },
+    {
+      "key": "gantt.baselineFilter.placeholder",
+      "value": "当前未创建基线"
+    },
+    {
+      "key": "gantt.baselineFilter.notice",
+      "value": "基线是当前甘特图的快照，当甘特图发生变化时，可以通过加载基线来进行对比"
+    },
+    {
+      "key": "gantt.baseline.exit",
+      "value": "退出"
+    },
+    {
+      "key": "gantt.baseline.current",
+      "value": "已加载：%s"
+    },
+    {
       "key": "gantt.app.task.scheduling.des",
       "value": "开启后，具有依赖关系的任务将自动对齐"
     },
@@ -2175,6 +2291,10 @@
     {
       "key": "gantt.app.outline.task.menu",
       "value": "任务菜单"
+    },
+    {
+      "key": "gantt.app.outline.task.leadDependency",
+      "value": "前置依赖"
     },
     {
       "key": "gantt.app.outline.task.executor",
@@ -2251,6 +2371,14 @@
     {
       "key": "gantt.app.outline.placeholder.task.create",
       "value": "立即创建"
+    },
+    {
+      "key": "gantt.app.outline.placeholder.leadDependency.label",
+      "value": "待填写"
+    },
+    {
+      "key": "gantt.app.outline.placeholder.leadDependency.input",
+      "value": "输入任务编号"
     },
     {
       "key": "gantt.app.outline.add.task.content",
@@ -3082,6 +3210,11 @@
       "key": "powerups.startDate.confirm.close",
       "oldValue": "确认需要关闭在<b>%s</b>里的应用<b>%s</b>吗？关闭后，会影响任务在时间视图中的显示。",
       "newValue": "确认需要关闭在「%s」里的应用:「%s」吗？关闭后，会影响任务在时间视图中的显示。"
+    },
+    {
+      "key": "portal.tag.member.visible.tips",
+      "oldValue": "该对象可直接查看该分组下的所有项目，但不可操作",
+      "newValue": "该成员可查看该分组下的所有私有项目和公开项目。"
     },
     {
       "key": "personal.settings.display.taskMode.title",
