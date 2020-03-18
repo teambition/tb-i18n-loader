@@ -1977,6 +1977,10 @@
       "value": "从 Excel 导入任务"
     },
     {
+      "key": "ignore.and.add",
+      "value": "忽略并添加"
+    },
+    {
       "key": "helper.menu.academy",
       "value": "Teambition 学院"
     },
@@ -2923,6 +2927,10 @@
     {
       "key": "parenthesesLeft",
       "value": "（"
+    },
+    {
+      "key": "notice",
+      "value": "提醒"
     },
     {
       "key": "choose",
