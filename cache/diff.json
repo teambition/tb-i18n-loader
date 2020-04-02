@@ -5,6 +5,10 @@
       "value": "项目自定义角色"
     },
     {
+      "key": "tapestry.picker.title.multiScenariofieldConfig",
+      "value": "任务类型"
+    },
+    {
       "key": "tapestry.dingtalk.picker.range.unit.range",
       "value": "时间范围"
     },
@@ -203,6 +207,22 @@
     {
       "key": "gantt.guide.button.upgrade",
       "value": "升级使用"
+    },
+    {
+      "key": "gantt.app.task.scheduling.title",
+      "value": "开启自动编排"
+    },
+    {
+      "key": "gantt.app.task.scheduling.new",
+      "value": "暂不编辑历史数据"
+    },
+    {
+      "key": "gantt.app.task.scheduling.content",
+      "value": "是否要对历史数据进行自动编排？此操作不可恢复"
+    },
+    {
+      "key": "gantt.app.task.scheduling.all",
+      "value": "全部自动编排"
     },
     {
       "key": "activity.panel.menu.help",
