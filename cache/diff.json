@@ -175,19 +175,39 @@
   ],
   "modified": [
     {
-      "key": "scrum.panel.table.see.through.subtasks.label.story",
-      "oldValue": "仅展示需求",
-      "newValue": "仅查看需求"
+      "key": "project.settings.memberIdentity.help",
+      "oldValue": "项目角色仅在本项目内生效，用于项目成员的职能身份管理场景，且不跟权限挂钩。原项目角色升级为「项目权限组」。",
+      "newValue": "项目角色仅在本项目内生效，用于管理项目成员的职能身份的场景。如需配置项目权限，请前往企业管理后台。"
     },
     {
-      "key": "scrum.panel.table.see.through.subtasks.label.bug",
-      "oldValue": "仅展示缺陷",
-      "newValue": "仅查看缺陷"
+      "key": "project.settings.memberIdentity.create",
+      "oldValue": "创建自定义角色",
+      "newValue": "创建项目角色"
     },
     {
-      "key": "activity.panel.menu.presentation.mode",
-      "oldValue": "任务演示模式",
-      "newValue": "演示模式"
+      "key": "project.settings.member.menu.tab.role",
+      "oldValue": "权限组",
+      "newValue": "项目权限"
+    },
+    {
+      "key": "project.settings.member.menu.tab.identity",
+      "oldValue": "自定义角色",
+      "newValue": "项目角色"
+    },
+    {
+      "key": "project.settings.member.menu.noIdentity",
+      "oldValue": "暂无自定义角色",
+      "newValue": "暂无项目角色，<a>前往添加</a>"
+    },
+    {
+      "key": "project.settings.member.menu.configRole",
+      "oldValue": "管理项目权限组",
+      "newValue": "管理项目权限"
+    },
+    {
+      "key": "project.settings.member.menu",
+      "oldValue": "成员菜单",
+      "newValue": "成员设置"
     }
   ],
   "deleted": []
