@@ -1,5 +1,194 @@
 {
-  "added": [],
-  "modified": [],
+  "added": [
+    {
+      "key": "testhub.app.sfceditor",
+      "value": "测试用例字段配置"
+    },
+    {
+      "key": "testcase.fields.config.task.sample.title",
+      "value": "用例标题"
+    },
+    {
+      "key": "testcase.fields.config.custom.field.edit",
+      "value": "编辑字段"
+    },
+    {
+      "key": "testcase.fields.config.custom.field.delete.content",
+      "value": "字段「%s」会从测试用例字段配置中被移除，且不可恢复，确认删除吗？"
+    },
+    {
+      "key": "testcase.fields.config.custom.field.delete.confirm",
+      "value": "确定删除"
+    },
+    {
+      "key": "testcase.fields.config.custom.field.delete",
+      "value": "删除字段"
+    },
+    {
+      "key": "testcase.fields.config.config.panel.title",
+      "value": "测试用例字段配置"
+    },
+    {
+      "key": "testcase.fields.config.config.panel.subtitle",
+      "value": "字段的配置适用于企业中所有的基础用例和执行用例"
+    },
+    {
+      "key": "testcase.detail.status.undone",
+      "value": "待评审"
+    },
+    {
+      "key": "task.system.field.kanban.display.updated.name",
+      "value": "更新时间"
+    },
+    {
+      "key": "task.system.field.kanban.display.creator.name",
+      "value": "创建者"
+    },
+    {
+      "key": "task.system.field.kanban.display.created.name",
+      "value": "创建时间"
+    },
+    {
+      "key": "task.system.field.kanban.display.accomplished.name",
+      "value": "完成时间"
+    },
+    {
+      "key": "task.menu.move.project",
+      "value": "变更项目"
+    },
+    {
+      "key": "task.detail.task.effort.value",
+      "value": "投入 %s"
+    },
+    {
+      "key": "task.detail.task.effort.title",
+      "value": "投入时间"
+    },
+    {
+      "key": "table.task.effort",
+      "value": "投入时间"
+    },
+    {
+      "key": "subtask.menu.move.tips",
+      "value": "变更项目时，父子任务关系不变，但不保留部分参与者信息"
+    },
+    {
+      "key": "scenariofield.display.config.migration.hint",
+      "value": "功能迁移提醒：配置字段是否显示在看板卡片上，入口已迁移至「任务列表/看板视图」。"
+    },
+    {
+      "key": "project.settings.task.effort.change.effort",
+      "value": "当工作日历变化时，自动调整任务投入时间"
+    },
+    {
+      "key": "project.settings.task.effort.change.deadline",
+      "value": "当工作日历变化时，自动调整任务截止时间"
+    },
+    {
+      "key": "powerups.effort.description",
+      "value": "为任务设置投入时间，投入时间基于工作日历计算得出"
+    },
+    {
+      "key": "powerups.effort",
+      "value": "任务投入时间"
+    },
+    {
+      "key": "organization.payment.license.manage",
+      "value": "名额配置"
+    },
+    {
+      "key": "move.to.project",
+      "value": "变更项目"
+    },
+    {
+      "key": "kanban.card.fields.display.setting",
+      "value": "看板卡片字段显示配置"
+    },
+    {
+      "key": "kanban.card.fields.display.content.fake",
+      "value": "这是一个任务"
+    },
+    {
+      "key": "kanban.card.fields.display.config.scenario.config",
+      "value": "任务类型配置"
+    },
+    {
+      "key": "kanban.card.fields.display.config.hint",
+      "value": "可配置字段由系统默认字段及对应任务类型字段组成。"
+    },
+    {
+      "key": "kanban.card.fields.display.avaliable.fields",
+      "value": "可配置字段"
+    },
+    {
+      "key": "gantt.view.mode.select",
+      "value": "选择视图"
+    },
+    {
+      "key": "gantt.view.mode.loose",
+      "value": "宽松布局"
+    },
+    {
+      "key": "gantt.view.mode.display.des",
+      "value": "一屏大约显示 %s 个任务"
+    },
+    {
+      "key": "gantt.view.mode.compact",
+      "value": "紧凑布局"
+    },
+    {
+      "key": "gantt.app.outline.task.effort.unset",
+      "value": "待设置"
+    },
+    {
+      "key": "gantt.app.outline.task.effort.placeholder",
+      "value": "输入投入时间"
+    },
+    {
+      "key": "gantt.app.outline.task.effort.confirm",
+      "value": "确认"
+    },
+    {
+      "key": "gantt.app.outline.task.effort",
+      "value": "投入时间"
+    },
+    {
+      "key": "gantt.app.effort.format.hour",
+      "value": "%s 小时"
+    },
+    {
+      "key": "gantt.app.effort.format.day",
+      "value": "%s 天"
+    },
+    {
+      "key": "analytics.robot.guide.view.doc",
+      "value": "查看帮助文档"
+    },
+    {
+      "key": "analytics.robot.guide.end",
+      "value": "谢谢，再见"
+    },
+    {
+      "key": "activity.panel.menu.view.density",
+      "value": "视图密度"
+    }
+  ],
+  "modified": [
+    {
+      "key": "scrum.panel.table.see.through.subtasks.label.story",
+      "oldValue": "仅展示需求",
+      "newValue": "仅查看需求"
+    },
+    {
+      "key": "scrum.panel.table.see.through.subtasks.label.bug",
+      "oldValue": "仅展示缺陷",
+      "newValue": "仅查看缺陷"
+    },
+    {
+      "key": "activity.panel.menu.presentation.mode",
+      "oldValue": "任务演示模式",
+      "newValue": "演示模式"
+    }
+  ],
   "deleted": []
 }
