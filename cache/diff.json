@@ -73,6 +73,10 @@
       "value": "变更项目时，父子任务关系不变，但不保留部分参与者信息"
     },
     {
+      "key": "selected.member.number.tips",
+      "value": "已选 %s 项"
+    },
+    {
       "key": "scenariofield.display.config.migration.hint",
       "value": "功能迁移提醒：配置字段是否显示在看板卡片上，入口已迁移至「任务列表/看板视图」。"
     },
@@ -95,6 +99,10 @@
     {
       "key": "powerups.effort",
       "value": "任务投入时间"
+    },
+    {
+      "key": "other.project.title",
+      "value": "其他项目"
     },
     {
       "key": "organization.payment.license.manage",
@@ -125,6 +133,14 @@
       "value": "可配置字段"
     },
     {
+      "key": "invite.member.from.project",
+      "value": "从项目邀请成员"
+    },
+    {
+      "key": "has.none.projects",
+      "value": "没有项目"
+    },
+    {
       "key": "gantt.view.mode.select",
       "value": "选择视图"
     },
@@ -135,6 +151,10 @@
     {
       "key": "gantt.view.mode.display.des",
       "value": "一屏大约显示 %s 个任务"
+    },
+    {
+      "key": "gantt.view.mode.confirm",
+      "value": "确认"
     },
     {
       "key": "gantt.view.mode.compact",
@@ -177,6 +197,14 @@
       "value": "Zoom 即将下线"
     },
     {
+      "key": "enter.keywords.to.search.project.member",
+      "value": "查找成员"
+    },
+    {
+      "key": "enter.keywords.to.search.project",
+      "value": "查找项目"
+    },
+    {
       "key": "analytics.robot.guide.view.doc",
       "value": "查看帮助文档"
     },
@@ -190,6 +218,16 @@
     }
   ],
   "modified": [
+    {
+      "key": "scrum.panel.table.see.through.subtasks.label.story",
+      "oldValue": "仅展示需求",
+      "newValue": "仅查看需求"
+    },
+    {
+      "key": "scrum.panel.table.see.through.subtasks.label.bug",
+      "oldValue": "仅展示缺陷",
+      "newValue": "仅查看缺陷"
+    },
     {
       "key": "project.settings.memberIdentity.help",
       "oldValue": "项目角色仅在本项目内生效，用于项目成员的职能身份管理场景，且不跟权限挂钩。原项目角色升级为「项目权限组」。",
@@ -229,6 +267,11 @@
       "key": "project.settings.events.zoom.description",
       "oldValue": "开启后，将可以在每个日程上一键启动 Zoom 视频会议",
       "newValue": "注意：Zoom 即将下线，远程会议请使用「视频讨论」功能"
+    },
+    {
+      "key": "activity.panel.menu.presentation.mode",
+      "oldValue": "任务演示模式",
+      "newValue": "演示模式"
     }
   ],
   "deleted": []
