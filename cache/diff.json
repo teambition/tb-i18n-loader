@@ -53,8 +53,76 @@
       "value": "完成时间"
     },
     {
+      "key": "task.menu.share",
+      "value": "共享"
+    },
+    {
       "key": "task.menu.move.project",
       "value": "变更项目"
+    },
+    {
+      "key": "task.menu.convert.tips.explain",
+      "value": "1. 任务类型、状态可能会被初始化\n2. 参与者信息可能部分丢失\n3. 迭代、需求类型等信息将会被置空"
+    },
+    {
+      "key": "task.menu.convert.and.move",
+      "value": "同时移动到父任务所在项目"
+    },
+    {
+      "key": "task.menu.add.dependency.task",
+      "value": "添加依赖任务"
+    },
+    {
+      "key": "task.detail.urge.with.custom.message.placeholder.2",
+      "value": "输入自定义内容，最多支持 %s 个字符…"
+    },
+    {
+      "key": "task.detail.urge.with.custom.message.placeholder",
+      "value": "输入自定义内容…"
+    },
+    {
+      "key": "task.detail.urge.with.custom.message",
+      "value": "输入自定义内容"
+    },
+    {
+      "key": "task.detail.urge.send.success",
+      "value": "发送成功"
+    },
+    {
+      "key": "task.detail.urge.send",
+      "value": "立即发送"
+    },
+    {
+      "key": "task.detail.urge.preset.message.3",
+      "value": "这个任务进度怎么样了？"
+    },
+    {
+      "key": "task.detail.urge.preset.message.2",
+      "value": "有进展记得及时更新"
+    },
+    {
+      "key": "task.detail.urge.preset.message.1",
+      "value": "尽快处理一下这个任务"
+    },
+    {
+      "key": "task.detail.urge.hint",
+      "value": "将向任务执行者发送弹窗提醒"
+    },
+    {
+      "key": "task.detail.urge.disabled",
+      "value": "为了避免提醒过于频繁，每次提醒间隔 %s 分钟"
+    },
+    {
+      "key": "task.detail.urge.channel.sms",
+      "value": "短信提醒"
+    },
+    {
+      "key": "task.detail.urge.channel.email",
+      "value": "邮件提醒"
+    },
+    {
+      "key": "task.detail.urge",
+      "value": "催一下"
     },
     {
       "key": "task.detail.task.effort.value",
@@ -117,6 +185,18 @@
       "value": "同时从所有参与的任务中移出"
     },
     {
+      "key": "project.creator.template.category.common",
+      "value": "常用推荐"
+    },
+    {
+      "key": "powerups.task.urge.short.des",
+      "value": "可以发送应用内强提醒给任务执行者，提醒执行者及时完成任务"
+    },
+    {
+      "key": "powerups.task.urge",
+      "value": "任务催办"
+    },
+    {
       "key": "powerups.effort.description",
       "value": "为任务设置投入时间，投入时间基于工作日历计算得出"
     },
@@ -126,7 +206,7 @@
     },
     {
       "key": "other.project.title",
-      "value": "其他项目"
+      "value": "所有项目"
     },
     {
       "key": "organization.payment.license.manage",
@@ -147,6 +227,10 @@
     {
       "key": "move.to.project",
       "value": "变更项目"
+    },
+    {
+      "key": "link.project.title",
+      "value": "关联的项目"
     },
     {
       "key": "kanban.card.fields.display.setting",
@@ -177,6 +261,26 @@
       "value": "没有项目"
     },
     {
+      "key": "go.to.appstore",
+      "value": "前往应用商店"
+    },
+    {
+      "key": "gantt.view.trial.upgrade.description",
+      "value": "升级为企业专业版以永久使用甘特图功能"
+    },
+    {
+      "key": "gantt.view.trial.upgrade",
+      "value": "立即升级"
+    },
+    {
+      "key": "gantt.view.trial.remain",
+      "value": "试用还剩 %s 天"
+    },
+    {
+      "key": "gantt.view.trial.end",
+      "value": "甘特图试用期已结束"
+    },
+    {
       "key": "gantt.view.mode.select",
       "value": "选择视图"
     },
@@ -195,6 +299,10 @@
     {
       "key": "gantt.view.mode.compact",
       "value": "紧凑布局"
+    },
+    {
+      "key": "gantt.criticalPath.description.jump",
+      "value": "跳转到关键路径"
     },
     {
       "key": "gantt.app.outline.task.effort.unset",
@@ -241,12 +349,20 @@
       "value": "查找项目"
     },
     {
+      "key": "create.new.project.success",
+      "value": "创建项目成功"
+    },
+    {
       "key": "analytics.robot.guide.view.doc",
       "value": "查看帮助文档"
     },
     {
       "key": "analytics.robot.guide.end",
       "value": "谢谢，再见"
+    },
+    {
+      "key": "add.members.success",
+      "value": "添加成员成功"
     },
     {
       "key": "activity.panel.menu.view.density",
@@ -263,6 +379,10 @@
     {
       "key": "activity.involvers.not.member.tip1",
       "value": "你添加的 %1 尚未加入项目，你可以将他们 <a class='add-member-involve'>添加为项目成员</a>。"
+    },
+    {
+      "key": "unplanned",
+      "value": "未规划"
     }
   ],
   "modified": [
@@ -480,6 +600,11 @@
       "key": "org.old.upgrade.pro.tip.title",
       "oldValue": "升级到企业专业版",
       "newValue": "升级到旗舰版"
+    },
+    {
+      "key": "joined.projects",
+      "oldValue": "参与的项目",
+      "newValue": "我参与的项目"
     },
     {
       "key": "guide.horizontal.groups.toggler.pro.tips",
