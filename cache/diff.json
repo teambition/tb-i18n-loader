@@ -161,6 +161,10 @@
       "value": "当工作日历变化时，自动调整任务截止时间"
     },
     {
+      "key": "project.settings.tab.story.assignment",
+      "value": "需求指派设置"
+    },
+    {
       "key": "project.settings.events.zoom.description.us",
       "value": "注意：Zoom 即将下线，请前往 Zoom 官网或下载 Zoom 客户端使用"
     },
@@ -203,6 +207,18 @@
     {
       "key": "powerups.effort",
       "value": "任务投入时间"
+    },
+    {
+      "key": "powerups.app.open.btn",
+      "value": "确认开启"
+    },
+    {
+      "key": "powerups.app.open",
+      "value": "开启应用"
+    },
+    {
+      "key": "powerups.app.confirm.open",
+      "value": "开启当前应用需要同时开启「%1」应用。是否同时开启「%1」应用？"
     },
     {
       "key": "other.project.title",
@@ -387,6 +403,41 @@
   ],
   "modified": [
     {
+      "key": "task.menu.print",
+      "oldValue": "打印任务",
+      "newValue": "打印"
+    },
+    {
+      "key": "task.menu.open.config.panel",
+      "oldValue": "任务类型字段配置",
+      "newValue": "配置字段"
+    },
+    {
+      "key": "task.menu.move",
+      "oldValue": "移动任务",
+      "newValue": "移动"
+    },
+    {
+      "key": "task.menu.convert.tips",
+      "oldValue": "跨项目操作时部分自定义字段和参与者会丢失",
+      "newValue": "跨项目移动时 <a>部分信息</a> 将会丢失"
+    },
+    {
+      "key": "task.menu.change.belong",
+      "oldValue": "变更所属任务",
+      "newValue": "变更父任务"
+    },
+    {
+      "key": "task.menu.add.pre.dependency.task",
+      "oldValue": "添加前置任务",
+      "newValue": "前置依赖"
+    },
+    {
+      "key": "task.menu.add.post.dependency.task",
+      "oldValue": "添加后置任务",
+      "newValue": "后置依赖"
+    },
+    {
       "key": "search.export.pro.tips",
       "oldValue": "本功能未来将仅限企业专业版用户使用。",
       "newValue": "本功能未来将仅限旗舰版用户使用。"
@@ -470,6 +521,11 @@
       "key": "powerups.app.upgrade",
       "oldValue": "升级至专业版使用",
       "newValue": "升级至旗舰版使用"
+    },
+    {
+      "key": "personal.settings.display.taskMode.title",
+      "oldValue": "详情打开方式",
+      "newValue": "切换打开方式"
     },
     {
       "key": "organization.trail.pro.title",
@@ -607,6 +663,11 @@
       "newValue": "我参与的项目"
     },
     {
+      "key": "invite.from.link.description",
+      "oldValue": "邀请成为项目成员",
+      "newValue": "邀请成员到项目"
+    },
+    {
       "key": "guide.horizontal.groups.toggler.pro.tips",
       "oldValue": "可以将看板上的列按照: 类型、优先级等不同字段进行分类显示，属于企业专业版功能。",
       "newValue": "可以将看板上的列按照：类型、优先级等不同字段进行分类显示，属于旗舰版功能。"
@@ -620,6 +681,11 @@
       "key": "activity.panel.menu.presentation.mode",
       "oldValue": "任务演示模式",
       "newValue": "演示模式"
+    },
+    {
+      "key": "moveTo",
+      "oldValue": "移动到",
+      "newValue": "移动到..."
     }
   ],
   "deleted": []
