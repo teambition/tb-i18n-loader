@@ -282,7 +282,7 @@
     },
     {
       "key": "gantt.view.trial.upgrade.description",
-      "value": "升级为企业专业版以永久使用甘特图功能"
+      "value": "升级为旗舰版以永久使用甘特图功能"
     },
     {
       "key": "gantt.view.trial.upgrade",
@@ -315,6 +315,10 @@
     {
       "key": "gantt.view.mode.compact",
       "value": "紧凑布局"
+    },
+    {
+      "key": "gantt.groupBy.label",
+      "value": "按%s查看"
     },
     {
       "key": "gantt.criticalPath.description.jump",
@@ -385,6 +389,10 @@
       "value": "视图密度"
     },
     {
+      "key": "activity.panel.menu.copyLink",
+      "value": "复制项目链接"
+    },
+    {
       "key": "activity.outerinvolver.addmember.success",
       "value": "已经将成员加入项目"
     },
@@ -403,39 +411,9 @@
   ],
   "modified": [
     {
-      "key": "task.menu.print",
-      "oldValue": "打印任务",
-      "newValue": "打印"
-    },
-    {
-      "key": "task.menu.open.config.panel",
-      "oldValue": "任务类型字段配置",
-      "newValue": "配置字段"
-    },
-    {
-      "key": "task.menu.move",
-      "oldValue": "移动任务",
-      "newValue": "移动"
-    },
-    {
       "key": "task.menu.convert.tips",
       "oldValue": "跨项目操作时部分自定义字段和参与者会丢失",
       "newValue": "跨项目移动时 <a>部分信息</a> 将会丢失"
-    },
-    {
-      "key": "task.menu.change.belong",
-      "oldValue": "变更所属任务",
-      "newValue": "变更父任务"
-    },
-    {
-      "key": "task.menu.add.pre.dependency.task",
-      "oldValue": "添加前置任务",
-      "newValue": "前置依赖"
-    },
-    {
-      "key": "task.menu.add.post.dependency.task",
-      "oldValue": "添加后置任务",
-      "newValue": "后置依赖"
     },
     {
       "key": "search.export.pro.tips",
@@ -521,11 +499,6 @@
       "key": "powerups.app.upgrade",
       "oldValue": "升级至专业版使用",
       "newValue": "升级至旗舰版使用"
-    },
-    {
-      "key": "personal.settings.display.taskMode.title",
-      "oldValue": "详情打开方式",
-      "newValue": "切换打开方式"
     },
     {
       "key": "organization.trail.pro.title",
@@ -663,11 +636,6 @@
       "newValue": "我参与的项目"
     },
     {
-      "key": "invite.from.link.description",
-      "oldValue": "邀请成为项目成员",
-      "newValue": "邀请成员到项目"
-    },
-    {
       "key": "guide.horizontal.groups.toggler.pro.tips",
       "oldValue": "可以将看板上的列按照: 类型、优先级等不同字段进行分类显示，属于企业专业版功能。",
       "newValue": "可以将看板上的列按照：类型、优先级等不同字段进行分类显示，属于旗舰版功能。"
@@ -681,11 +649,6 @@
       "key": "activity.panel.menu.presentation.mode",
       "oldValue": "任务演示模式",
       "newValue": "演示模式"
-    },
-    {
-      "key": "moveTo",
-      "oldValue": "移动到",
-      "newValue": "移动到..."
     }
   ],
   "deleted": []
