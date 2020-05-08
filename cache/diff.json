@@ -189,6 +189,54 @@
       "value": "同时从所有参与的任务中移出"
     },
     {
+      "key": "project.creator.template.category.new.student",
+      "value": "学生"
+    },
+    {
+      "key": "project.creator.template.category.new.sales",
+      "value": "销售"
+    },
+    {
+      "key": "project.creator.template.category.new.rd",
+      "value": "研发"
+    },
+    {
+      "key": "project.creator.template.category.new.product",
+      "value": "产品"
+    },
+    {
+      "key": "project.creator.template.category.new.pm",
+      "value": "项目经理"
+    },
+    {
+      "key": "project.creator.template.category.new.other",
+      "value": "其他"
+    },
+    {
+      "key": "project.creator.template.category.new.operation",
+      "value": "运营"
+    },
+    {
+      "key": "project.creator.template.category.new.marketing",
+      "value": "市场"
+    },
+    {
+      "key": "project.creator.template.category.new.hr",
+      "value": "人事行政"
+    },
+    {
+      "key": "project.creator.template.category.new.general",
+      "value": "通用"
+    },
+    {
+      "key": "project.creator.template.category.new.education",
+      "value": "教师"
+    },
+    {
+      "key": "project.creator.template.category.new.design",
+      "value": "设计"
+    },
+    {
       "key": "project.creator.template.category.common",
       "value": "常用推荐"
     },
@@ -664,6 +712,11 @@
       "key": "org.old.upgrade.pro.tip.title",
       "oldValue": "升级到企业专业版",
       "newValue": "升级到旗舰版"
+    },
+    {
+      "key": "onboarding.grid.selector.which.scene",
+      "oldValue": "点击下列图标选择适合你的协作场景",
+      "newValue": "你希望在哪个场景下完成高效协作"
     },
     {
       "key": "joined.projects",
