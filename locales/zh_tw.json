@@ -6618,6 +6618,7 @@
   "tapestry.chart.leadtime.average": "平均Leadtime",
   "tapestry.chart.load.more": "更多",
   "tapestry.chart.loading.more": "加載中",
+  "tapestry.chart.members.max.limited": "分享成員不可超過20人",
   "tapestry.chart.menu.title": "報表選單",
   "tapestry.chart.modal.banner.text": "當前項目還未開啟統計應用，開啟後可查看更多報表數據",
   "tapestry.chart.my.created": "我創建的",

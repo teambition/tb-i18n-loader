@@ -133,6 +133,10 @@
       "value": "投入时间"
     },
     {
+      "key": "tapestry.chart.members.max.limited",
+      "value": "分享成员不可超过 20 人"
+    },
+    {
       "key": "table.task.effort",
       "value": "投入时间"
     },
