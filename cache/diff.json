@@ -293,6 +293,30 @@
       "value": "自定义工作流"
     },
     {
+      "key": "onboarding.view.free.pitch.title.forAliyun",
+      "value": "如何用好 Teambition ？加入售前咨询直播群，产品顾问教你快速上手（钉钉群号：31549433）"
+    },
+    {
+      "key": "onboarding.view.free.pitch.title",
+      "value": "恭喜你，获得价值 1000 元的「专属顾问服务卡」"
+    },
+    {
+      "key": "onboarding.view.free.pitch.go",
+      "value": "立即使用"
+    },
+    {
+      "key": "onboarding.view.aliyun.campaign.title",
+      "value": "如何用好 Teambition？加入售前咨询直播群，产品顾问教你快速上手（钉钉群号：31549433）"
+    },
+    {
+      "key": "onboarding.view.aliyun.campaign.modal.title",
+      "value": "Teambition 售前咨询直播群"
+    },
+    {
+      "key": "onboarding.view.aliyun.campaign.go",
+      "value": "立即入群"
+    },
+    {
       "key": "move.to.project",
       "value": "变更项目"
     },
