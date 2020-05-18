@@ -37,8 +37,16 @@
       "value": "待评审"
     },
     {
+      "key": "task.trace",
+      "value": "任务进展"
+    },
+    {
       "key": "task.system.field.kanban.display.updated.name",
       "value": "更新时间"
+    },
+    {
+      "key": "task.system.field.kanban.display.effort.name",
+      "value": "投入时间"
     },
     {
       "key": "task.system.field.kanban.display.creator.name",
@@ -67,6 +75,14 @@
     {
       "key": "task.menu.convert.and.move",
       "value": "同时移动到父任务所在项目"
+    },
+    {
+      "key": "task.menu.batch.dispatch.tasks.tooltip",
+      "value": "可快速生成多个相同任务，分配给不同执行者，并监督任务进程"
+    },
+    {
+      "key": "task.menu.batch.dispatch.tasks",
+      "value": "派发任务"
     },
     {
       "key": "task.menu.add.dependency.task",
@@ -145,6 +161,10 @@
       "value": "变更项目时，父子任务关系不变，但不保留部分参与者信息"
     },
     {
+      "key": "selector.involver.entry.allAncestorInvolvers",
+      "value": "当前任务参与者"
+    },
+    {
       "key": "selected.member.number.tips",
       "value": "已选 %s 项"
     },
@@ -157,12 +177,32 @@
       "value": "功能迁移提醒：配置字段是否显示在看板卡片上，入口已迁移至「任务列表/看板视图」。"
     },
     {
+      "key": "reminder.dispatch.disabled",
+      "value": "请先选择被派发成员"
+    },
+    {
+      "key": "project.settings.trace.title",
+      "value": "开启后, 该任务类型可填写填写任务进展"
+    },
+    {
+      "key": "project.settings.trace.subtitle",
+      "value": "选择需要开启「任务进展」的任务类型"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.header",
+      "value": "配置项"
+    },
+    {
       "key": "project.settings.task.effort.change.effort",
       "value": "当工作日历变化时，自动调整任务投入时间"
     },
     {
       "key": "project.settings.task.effort.change.deadline",
       "value": "当工作日历变化时，自动调整任务截止时间"
+    },
+    {
+      "key": "project.settings.tab.trace",
+      "value": "任务进展"
     },
     {
       "key": "project.settings.tab.story.assignment",
@@ -191,6 +231,10 @@
     {
       "key": "project.member.remove.keep.fake.role.member",
       "value": "同时从所有参与的任务中移出"
+    },
+    {
+      "key": "project.hierarchy.all.organization.projects",
+      "value": "企业全部"
     },
     {
       "key": "project.creator.template.category.new.student",
@@ -253,6 +297,14 @@
       "value": "任务催办"
     },
     {
+      "key": "powerups.task.batch.short.des",
+      "value": "可快速生成多个相同任务，分配给不同执行者，并监督任务进程"
+    },
+    {
+      "key": "powerups.task.batch",
+      "value": "任务派发"
+    },
+    {
       "key": "powerups.effort.description",
       "value": "为任务设置投入时间，投入时间基于工作日历计算得出"
     },
@@ -271,6 +323,50 @@
     {
       "key": "powerups.app.confirm.open",
       "value": "开启当前应用需要同时开启「%1」应用。是否同时开启「%1」应用？"
+    },
+    {
+      "key": "portal.recent.projects.empty.tips",
+      "value": "使用项目，围绕主题展开任务管理，追踪项目进度。"
+    },
+    {
+      "key": "portal.recent.projects",
+      "value": "近期项目"
+    },
+    {
+      "key": "portal.placeholder.no.starred.tag.space",
+      "value": "暂无星标项目分组"
+    },
+    {
+      "key": "portal.placeholder.no.due.task",
+      "value": "暂无最近截止的任务"
+    },
+    {
+      "key": "portal.home.starred.tag",
+      "value": "星标项目分组"
+    },
+    {
+      "key": "portal.home.recently.view",
+      "value": "近期浏览的任务"
+    },
+    {
+      "key": "portal.fixed.tabs.my.tasks",
+      "value": "我的任务"
+    },
+    {
+      "key": "portal.fixed.tabs.my.projects",
+      "value": "我的项目"
+    },
+    {
+      "key": "portal.fixed.tabs.member.empty.tips",
+      "value": "你的企业暂无其他成员，邀请你的团队一起协作吧。"
+    },
+    {
+      "key": "portal.fixed.tabs.member.empty.add",
+      "value": "立即邀请"
+    },
+    {
+      "key": "portal.fixed.tabs.member.add.tips",
+      "value": "关注与你协作的人，更方便地跟进他的任务。"
     },
     {
       "key": "other.project.title",
@@ -317,8 +413,20 @@
       "value": "立即入群"
     },
     {
+      "key": "onboarding.template.selector.omit",
+      "value": "暂不需要项目"
+    },
+    {
+      "key": "object.link.copy.handler.trace",
+      "value": "复制任务进展链接"
+    },
+    {
       "key": "move.to.project",
       "value": "变更项目"
+    },
+    {
+      "key": "member.menu.all.dispatch",
+      "value": "所有被派发成员"
     },
     {
       "key": "link.project.title",
@@ -347,6 +455,10 @@
     {
       "key": "invite.member.from.project",
       "value": "从项目邀请成员"
+    },
+    {
+      "key": "inbox.go.to.task.detail",
+      "value": "前往任务：%s"
     },
     {
       "key": "has.none.projects",
@@ -445,8 +557,180 @@
       "value": "查找项目"
     },
     {
+      "key": "effort.format.hour",
+      "value": "%s 小时"
+    },
+    {
+      "key": "dispatch.task.success",
+      "value": "派发成功"
+    },
+    {
+      "key": "dispatch.task.modal.title",
+      "value": "派发任务"
+    },
+    {
+      "key": "dispatch.task.modal.placeholder",
+      "value": "输入标题以派发任务"
+    },
+    {
+      "key": "detail.trace.using.html.editor",
+      "value": "图文编辑"
+    },
+    {
+      "key": "detail.trace.updated.by",
+      "value": "%s 更新于 %s"
+    },
+    {
+      "key": "detail.trace.title",
+      "value": "任务进展"
+    },
+    {
+      "key": "detail.trace.see.more",
+      "value": "查看历史状态"
+    },
+    {
+      "key": "detail.trace.not.found",
+      "value": "该任务进展已被删除"
+    },
+    {
+      "key": "detail.trace.menu.delete.confirm.title",
+      "value": "删除任务进展"
+    },
+    {
+      "key": "detail.trace.menu.delete.confirm.desc",
+      "value": "确认删除当前任务进展吗？删除后不可恢复。"
+    },
+    {
+      "key": "detail.trace.menu.delete",
+      "value": "删除"
+    },
+    {
+      "key": "detail.trace.editor.title.placeholder",
+      "value": "进展概述"
+    },
+    {
+      "key": "detail.trace.editor.submit.now",
+      "value": "立即发布"
+    },
+    {
+      "key": "detail.trace.editor.submit",
+      "value": "发布"
+    },
+    {
+      "key": "detail.trace.editor.placeholder.2",
+      "value": "请输入详细的进展描述"
+    },
+    {
+      "key": "detail.trace.editor.placeholder",
+      "value": "请输入详细的进展描述"
+    },
+    {
+      "key": "detail.trace.editor.fullscreen.mode.enabled",
+      "value": "操作成功，下次添加进展时，将默认进入全屏编辑模式。"
+    },
+    {
+      "key": "detail.trace.editor.fullscreen.mode.disabled",
+      "value": "操作成功，下次添加进展时，将默认在任务详情页直接编辑。"
+    },
+    {
+      "key": "detail.trace.editor.fullscreen.mode",
+      "value": "默认使用「图文编辑」模式"
+    },
+    {
+      "key": "detail.trace.editor.default.value.title.placeholder.2",
+      "value": "输入标题文档"
+    },
+    {
+      "key": "detail.trace.editor.default.value.title.3",
+      "value": "进展逾期"
+    },
+    {
+      "key": "detail.trace.editor.default.value.title.2",
+      "value": "存在风险"
+    },
+    {
+      "key": "detail.trace.editor.default.value.title.1",
+      "value": "状态正常"
+    },
+    {
+      "key": "detail.trace.editor.cancel",
+      "value": "取消"
+    },
+    {
+      "key": "detail.trace.editor.before.close",
+      "value": "确认退出编辑器吗？退出后内容将直接清除。"
+    },
+    {
+      "key": "detail.trace.add",
+      "value": "填写进展"
+    },
+    {
+      "key": "detail.division.trace",
+      "value": "进展"
+    },
+    {
+      "key": "custom.portal.modal.secondary.header",
+      "value": "请开启你需要的模块"
+    },
+    {
+      "key": "custom.portal.modal.header",
+      "value": "首页模块自定义"
+    },
+    {
+      "key": "custom.portal.menu.hide",
+      "value": "隐藏当前模块"
+    },
+    {
+      "key": "custom.portal.menu.config",
+      "value": "模块自定义配置"
+    },
+    {
+      "key": "custom.portal.card.guide.desc",
+      "value": "你可以在「更多」中再次进行模块的自定义配置。"
+    },
+    {
       "key": "create.new.project.success",
       "value": "创建项目成功"
+    },
+    {
+      "key": "card.trace.tooltips",
+      "value": "查看任务进展详情"
+    },
+    {
+      "key": "batch.task.type.title",
+      "value": "派发为"
+    },
+    {
+      "key": "batch.task.type.subtask",
+      "value": "子任务"
+    },
+    {
+      "key": "batch.task.type.link",
+      "value": "关联任务"
+    },
+    {
+      "key": "batch.dispatch.members.title",
+      "value": "%s 个被派发成员"
+    },
+    {
+      "key": "batch.dispatch.members.not.found.in.organization",
+      "value": "没有匹配的成员"
+    },
+    {
+      "key": "batch.assign.tasks.title",
+      "value": "派发给"
+    },
+    {
+      "key": "batch.assign.tasks.placeholder",
+      "value": "选择被派发成员"
+    },
+    {
+      "key": "analytics.robot.input.placeholder",
+      "value": "输入指令或关键词"
+    },
+    {
+      "key": "analytics.robot.icon.placeholder",
+      "value": "智能助理"
     },
     {
       "key": "analytics.robot.guide.view.doc",
@@ -483,6 +767,18 @@
     {
       "key": "unplanned",
       "value": "未规划"
+    },
+    {
+      "key": "project/use-workspace:projects",
+      "value": "协作空间"
+    },
+    {
+      "key": "project/use-workspace:project",
+      "value": "协作空间"
+    },
+    {
+      "key": "project/use-workspace:plugin",
+      "value": "协作空间应用"
     }
   ],
   "modified": [
@@ -535,6 +831,36 @@
       "key": "scrum.panel.table.see.through.subtasks.label.bug",
       "oldValue": "仅展示缺陷",
       "newValue": "仅查看缺陷"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.transform.title",
+      "oldValue": "流转设置",
+      "newValue": "可流转到"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.unset.hint",
+      "oldValue": "该状态表示任务正在执行",
+      "newValue": "该状态下不可新建任务, 不可完成任务"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.title",
+      "oldValue": "设置状态",
+      "newValue": "设置状态为"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.start.hint",
+      "oldValue": "该状态表示任务处于待处理中",
+      "newValue": "该状态下可新建任务"
+    },
+    {
+      "key": "project.settings.taskflow.config.table.status.end.hint",
+      "oldValue": "自动标记该状态下任务为已完成",
+      "newValue": "该状态下任务自动标记完成"
+    },
+    {
+      "key": "project.settings.taskflow.config.add.status.placeholder",
+      "oldValue": "状态名称",
+      "newValue": "输入状态名称"
     },
     {
       "key": "project.settings.memberIdentity.help",
@@ -605,6 +931,16 @@
       "key": "powerups.app.upgrade",
       "oldValue": "升级至专业版使用",
       "newValue": "升级至旗舰版使用"
+    },
+    {
+      "key": "portal.home.recently.due",
+      "oldValue": "近期截止",
+      "newValue": "近期截止的任务"
+    },
+    {
+      "key": "portal.fixed.tabs.member.subscribed",
+      "oldValue": "成员",
+      "newValue": "团队任务"
     },
     {
       "key": "personal.settings.display.taskMode.title",
