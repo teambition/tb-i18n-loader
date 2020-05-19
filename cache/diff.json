@@ -82,7 +82,104 @@
     },
     {
       "key": "task.menu.batch.dispatch.tasks",
-      "value": "派发任务"
+      "value": "任务派发"
+    },
+    {
+      "key": "task.menu.add.dependency.task",
+      "value": "添加依赖任务"
+    },
+    {
+      "key": "task.detail.urge.with.custom.message.placeholder.2",
+      "value": "输入自定义内容，最多支持 %s 个字符…"
+    },
+    {
+      "key": "task.detail.urge.with.custom.message.placeholder",
+      "value": "输入自定义内容…"
+    },
+    {
+      "key": "task.detail.urge.with.custom.message",
+      "value": "输入自定义内容"
+    },
+    {
+      "key": "task.detail.urge.send.success",
+      "value": "发送成功"
+    },
+    {
+      "key": "task.detail.urge.send",
+      "value": "立即发送"
+    },
+    {
+      "key": "task.detail.urge.preset.message.3",
+      "value": "这个任务进度怎么样了？"
+    },
+    {
+      "key": "task.detail.urge.preset.message.2",
+      "value": "有进展记得及时更新"
+    },
+    {
+      "key": "task.detail.urge.preset.message.1",
+      "value": "尽快处理一下这个任务"
+    },
+    {
+      "key": "task.detail.urge.hint",
+      "value": "将向任务执行者发送弹窗提醒"
+    },
+    {
+      "key": "task.detail.urge.disabled",
+      "value": "为了避免提醒过于频繁，每次提醒间隔 %s 分钟"
+    },
+    {
+      "key": "task.detail.urge.channel.sms",
+      "value": "短信提醒"
+    },
+    {
+      "key": "task.detail.urge.channel.email",
+      "value": "邮件提醒"
+    },
+    {
+      "key": "task.detail.urge",
+      "value": "催一下"
+    },
+    {
+      "key": "task.detail.task.effort.value",
+      "value": "投入 %s"
+    },
+    {
+      "key": "task.detail.task.effort.title",
+      "value": "投入时间"
+    },
+    {
+      "key": "tapestry.chart.members.max.limited",
+      "value": "分享成员不可超过 20 人"
+    },
+    {
+      "key": "table.task.effort",
+      "value": "投入时间"
+    },
+    {
+      "key": "subtask.menu.move.tips",
+      "value": "变更项目时，父子任务关系不变，但不保留部分参与者信息"
+    },
+    {
+      "key": "selector.involver.entry.allAncestorInvolvers",
+      "value": "当前任务参与者"
+    },
+    {
+      "key": "selected.member.number.tips",
+      "value": "已选 %s 项"
+    },
+    {
+      "key": "search.results.outer.member",
+      "value": "非项目成员"
+    },
+    {
+      "key": "scenariofield.display.config.migration.hint",
+      "value": "功能迁移提醒：配置字段是否显示在看板卡片上，入口已迁移至「任务列表/看板视图」。"
+    },
+    {
+      "key": "reminder.dispatch.disabled",
+      "value": "请先选择被派发成员"
+    },
     },
     {
       "key": "task.menu.add.dependency.task",
@@ -182,7 +279,7 @@
     },
     {
       "key": "project.settings.trace.title",
-      "value": "开启后, 该任务类型可填写填写任务进展"
+      "value": "开启后，该任务类型可填写任务进展"
     },
     {
       "key": "project.settings.trace.subtitle",
@@ -566,7 +663,7 @@
     },
     {
       "key": "dispatch.task.modal.title",
-      "value": "派发任务"
+      "value": "任务派发"
     },
     {
       "key": "dispatch.task.modal.placeholder",
@@ -661,6 +758,10 @@
       "value": "确认退出编辑器吗？退出后内容将直接清除。"
     },
     {
+      "key": "detail.trace.content.placeholder",
+      "value": "未填写进展描述"
+    },
+    {
       "key": "detail.trace.add",
       "value": "填写进展"
     },
@@ -745,6 +846,10 @@
       "value": "添加成员成功"
     },
     {
+      "key": "activtiy.timeline.empty.placeholder.any",
+      "value": "暂无动态"
+    },
+    {
       "key": "activity.panel.menu.view.density",
       "value": "视图密度"
     },
@@ -767,6 +872,10 @@
     {
       "key": "unplanned",
       "value": "未规划"
+    },
+    {
+      "key": "trace",
+      "value": "任务进展"
     },
     {
       "key": "project/use-workspace:projects",
