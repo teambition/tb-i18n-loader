@@ -82,7 +82,7 @@
     },
     {
       "key": "task.menu.batch.dispatch.tasks",
-      "value": "任务派发"
+      "value": "派发任务"
     },
     {
       "key": "task.menu.add.dependency.task",
@@ -558,6 +558,10 @@
       "value": "前往任务：%s"
     },
     {
+      "key": "helper.menu.feedback",
+      "value": "提交反馈"
+    },
+    {
       "key": "has.none.projects",
       "value": "没有项目"
     },
@@ -663,7 +667,7 @@
     },
     {
       "key": "dispatch.task.modal.title",
-      "value": "任务派发"
+      "value": "派发任务"
     },
     {
       "key": "dispatch.task.modal.placeholder",
@@ -764,6 +768,10 @@
     {
       "key": "detail.trace.add",
       "value": "填写进展"
+    },
+    {
+      "key": "detail.not.found",
+      "value": "该%s已被删除"
     },
     {
       "key": "detail.division.trace",
@@ -868,6 +876,10 @@
     {
       "key": "activity.involvers.not.member.tip1",
       "value": "你添加的 %1 尚未加入项目，你可以将他 <a class='add-member-involve'>添加为项目成员</a>。"
+    },
+    {
+      "key": "work",
+      "value": "文件"
     },
     {
       "key": "unplanned",
