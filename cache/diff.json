@@ -1,6 +1,18 @@
 {
   "added": [
     {
+      "key": "worktimes.experience.guide.title",
+      "value": "体验全新工时应用"
+    },
+    {
+      "key": "worktimes.experience.guide.button",
+      "value": "立即体验"
+    },
+    {
+      "key": "view.all",
+      "value": "查看全部"
+    },
+    {
       "key": "testhub.app.sfceditor",
       "value": "测试用例字段配置"
     },
@@ -59,6 +71,30 @@
     {
       "key": "task.system.field.kanban.display.accomplished.name",
       "value": "完成时间"
+    },
+    {
+      "key": "task.reminder.rule",
+      "value": "提醒规则"
+    },
+    {
+      "key": "task.reminder.object.involver",
+      "value": "所有参与者"
+    },
+    {
+      "key": "task.reminder.object.executor",
+      "value": "执行者"
+    },
+    {
+      "key": "task.reminder.object.creator",
+      "value": "创建者"
+    },
+    {
+      "key": "task.reminder.object",
+      "value": "提醒对象"
+    },
+    {
+      "key": "task.reminder.digest",
+      "value": "%s 等 %s 个提醒"
     },
     {
       "key": "task.menu.share",
@@ -157,6 +193,14 @@
       "value": "分享成员不可超过 20 人"
     },
     {
+      "key": "tapestry.chart.cross.banner.button",
+      "value": "马上试一试"
+    },
+    {
+      "key": "tapestry.chart.cross.banner",
+      "value": "我们已为「%s」项目分组自动生成了报表。报表不够用？你可以根据实际需要，重新选择更多报表类型。 "
+    },
+    {
       "key": "table.task.effort",
       "value": "投入时间"
     },
@@ -183,7 +227,6 @@
     {
       "key": "reminder.dispatch.disabled",
       "value": "请先选择被派发成员"
-    },
     },
     {
       "key": "task.menu.add.dependency.task",
@@ -283,11 +326,19 @@
     },
     {
       "key": "project.settings.trace.title",
-      "value": "开启后，该任务类型可填写任务进展"
+      "value": "选择需要开启「任务进展」的任务类型"
     },
     {
       "key": "project.settings.trace.subtitle",
-      "value": "选择需要开启「任务进展」的任务类型"
+      "value": "开启后，任务详情页将增加「任务进展」模块。"
+    },
+    {
+      "key": "project.settings.tasks.reminder.title",
+      "value": "新任务默认开启提醒"
+    },
+    {
+      "key": "project.settings.tasks.reminder.description",
+      "value": "本项目内的所有新建的任务将开启默认提醒，你可以在此自定义设置提醒的时间和对象"
     },
     {
       "key": "project.settings.taskflow.config.table.status.header",
@@ -312,6 +363,46 @@
     {
       "key": "project.settings.events.zoom.description.us",
       "value": "注意：Zoom 即将下线，请前往 Zoom 官网或下载 Zoom 客户端使用"
+    },
+    {
+      "key": "project.setting.task.reminder.empty",
+      "value": "暂无默认提醒"
+    },
+    {
+      "key": "project.setting.task.reminder.create",
+      "value": "创建新提醒"
+    },
+    {
+      "key": "project.overview.risk.totalCount",
+      "value": "总数"
+    },
+    {
+      "key": "project.overview.risk.title.tooltip.empty",
+      "value": "未填写"
+    },
+    {
+      "key": "project.overview.risk.title.tooltip",
+      "value": "%s风险"
+    },
+    {
+      "key": "project.overview.risk.title",
+      "value": "待处理风险"
+    },
+    {
+      "key": "project.overview.risk.seeMore",
+      "value": "请前往「风险」应用查看更多风险"
+    },
+    {
+      "key": "project.overview.risk.placeholder.title",
+      "value": "无任何待处理风险"
+    },
+    {
+      "key": "project.overview.risk.placeholder.description",
+      "value": "请前往「风险」应用查看全部风险"
+    },
+    {
+      "key": "project.overview.risk.graph.level",
+      "value": "按风险等级分布"
     },
     {
       "key": "project.member.remove.team.title",
@@ -404,6 +495,14 @@
     {
       "key": "powerups.task.batch",
       "value": "任务派发"
+    },
+    {
+      "key": "powerups.fakeRole.description",
+      "value": "支持在任务上添加项目外的企业成员作为任务的执行者或者参与者"
+    },
+    {
+      "key": "powerups.fakeRole",
+      "value": "任务指派项目外成员"
     },
     {
       "key": "powerups.effort.description",
@@ -558,6 +657,14 @@
       "value": "从项目邀请成员"
     },
     {
+      "key": "inbox.title.trace.timeline",
+      "value": "查看全部进展"
+    },
+    {
+      "key": "inbox.title.trace.bound.to.object",
+      "value": "前往%s详情页"
+    },
+    {
       "key": "inbox.go.to.task.detail",
       "value": "前往任务：%s"
     },
@@ -608,6 +715,10 @@
     {
       "key": "gantt.view.mode.compact",
       "value": "紧凑布局"
+    },
+    {
+      "key": "gantt.legend.baseline",
+      "value": "基线比对"
     },
     {
       "key": "gantt.groupBy.label",
@@ -688,6 +799,18 @@
     {
       "key": "detail.trace.title",
       "value": "任务进展"
+    },
+    {
+      "key": "detail.trace.subscriber.invitation.count",
+      "value": "%s 人被提醒"
+    },
+    {
+      "key": "detail.trace.subscriber.invitation.button.title",
+      "value": "添加提醒者"
+    },
+    {
+      "key": "detail.trace.subscriber.count",
+      "value": "提醒谁查看 · %s"
     },
     {
       "key": "detail.trace.see.more",
@@ -772,6 +895,10 @@
     {
       "key": "detail.trace.add",
       "value": "填写进展"
+    },
+    {
+      "key": "detail.trace.activity.panel.title",
+      "value": "评论"
     },
     {
       "key": "detail.not.found",
@@ -908,6 +1035,11 @@
   ],
   "modified": [
     {
+      "key": "task.reminder.modal.add.members.tips",
+      "oldValue": "请先添加需要提醒的成员",
+      "newValue": "请添加提醒对象"
+    },
+    {
       "key": "task.menu.print",
       "oldValue": "打印任务",
       "newValue": "打印"
@@ -988,6 +1120,11 @@
       "newValue": "输入状态名称"
     },
     {
+      "key": "project.settings.suspend.success.inorganizaiton",
+      "oldValue": "已成功将项目移至归档，你可以在“全部项目”页面内的“归档项目”分类下找到所有被归档的项目",
+      "newValue": "已成功将项目移至归档，你可以在“我的项目”页面内的“归档项目”分类下找到所有被归档的项目"
+    },
+    {
       "key": "project.settings.memberIdentity.help",
       "oldValue": "项目角色仅在本项目内生效，用于项目成员的职能身份管理场景，且不跟权限挂钩。原项目角色升级为「项目权限组」。",
       "newValue": "项目角色仅在本项目内生效，用于管理项目成员的职能身份的场景。如需配置项目权限，请前往企业管理后台。"
@@ -1026,6 +1163,11 @@
       "key": "project.settings.events.zoom.description",
       "oldValue": "开启后，将可以在每个日程上一键启动 Zoom 视频会议",
       "newValue": "注意：Zoom 即将下线，远程会议请使用「视频讨论」功能"
+    },
+    {
+      "key": "project.settings.archive.success.inorganizaiton",
+      "oldValue": "已成功将项目移至回收站，你可以在“全部项目”页面内的“回收站”分类下找到所有被移入回收站的项目",
+      "newValue": "已成功将项目移至回收站，你可以在“我的项目”页面内的“回收站”分类下找到所有被移入回收站的项目"
     },
     {
       "key": "project.creator.upgrade.organization.pro",
