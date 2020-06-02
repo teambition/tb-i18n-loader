@@ -149,6 +149,10 @@
       "value": "投入时间"
     },
     {
+      "key": "task.creator.nlp.editor.remove.link",
+      "value": "消除文本解析"
+    },
+    {
       "key": "tapestry.chart.members.max.limited",
       "value": "分享成员不可超过 20 人"
     },

@@ -6930,6 +6930,7 @@
   "task.creator.multiple.too.many": "Too many lines",
   "task.creator.multiple.too.many.confirm": "Got it",
   "task.creator.multiple.too.many.desc": "Limited number of content up to %s lines, you have entered a total of %s lines.",
+  "task.creator.nlp.editor.remove.link": "Convert to text",
   "task.creator.org.selector.indie": "Not set",
   "task.creator.org.selector.placeholder": "Organization",
   "task.creator.send.to.group": "Notify everyone in the group chat",

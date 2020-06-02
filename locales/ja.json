@@ -6930,6 +6930,7 @@
   "task.creator.multiple.too.many": "入力した内容の行数が多すぎます",
   "task.creator.multiple.too.many.confirm": "確認しました",
   "task.creator.multiple.too.many.desc": "最大入力可能行数は %s 行。今入力した行数は %s 行。",
+  "task.creator.nlp.editor.remove.link": "消除文本解析",
   "task.creator.org.selector.indie": "不放入企业",
   "task.creator.org.selector.placeholder": "请选择企业",
   "task.creator.send.to.group": "通知群聊所有人",
