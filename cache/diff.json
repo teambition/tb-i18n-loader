@@ -2861,6 +2861,10 @@
       "value": "空白协作空间"
     },
     {
+      "key": "powerups.tasktable",
+      "value": "列表"
+    },
+    {
       "key": "powerups.task.urge.short.des",
       "value": "可以发送应用内强提醒给任务执行者，提醒执行者及时完成任务"
     },
@@ -2875,6 +2879,14 @@
     {
       "key": "powerups.task.batch",
       "value": "任务派发"
+    },
+    {
+      "key": "powerups.space.thoughts",
+      "value": "文档"
+    },
+    {
+      "key": "powerups.kanban",
+      "value": "看板"
     },
     {
       "key": "powerups.fakeRole.description",
@@ -3031,6 +3043,14 @@
     {
       "key": "object.link.copy.handler.trace",
       "value": "复制任务进展链接"
+    },
+    {
+      "key": "navigation.thoughts",
+      "value": "文档"
+    },
+    {
+      "key": "navigation.create.project.workspace",
+      "value": "协作空间"
     },
     {
       "key": "move.to.project",
@@ -3459,6 +3479,11 @@
   ],
   "modified": [
     {
+      "key": "template.create.guide.taskflow.sub.title",
+      "oldValue": "从空白工作流项目开始创建模板",
+      "newValue": "从任务工作流开始创建模板"
+    },
+    {
       "key": "task.reminder.modal.add.members.tips",
       "oldValue": "请先添加需要提醒的成员",
       "newValue": "请添加提醒对象"
@@ -3602,6 +3627,11 @@
       "key": "project.creator.template.upgrade.pro",
       "oldValue": "%s<br /> 企业专业版的专属模板",
       "newValue": "%s<br />旗舰版的专属模板"
+    },
+    {
+      "key": "project.creator.template.create",
+      "oldValue": "完成创建",
+      "newValue": "完成新建"
     },
     {
       "key": "project.create.taskflow.upgrade.tips",
@@ -3769,6 +3799,11 @@
       "newValue": "升级到旗舰版"
     },
     {
+      "key": "onboarding.template.submit",
+      "oldValue": "开始协作",
+      "newValue": "从这些模板快速开始"
+    },
+    {
       "key": "onboarding.grid.selector.which.scene",
       "oldValue": "点击下列图标选择适合你的协作场景",
       "newValue": "你希望在哪个场景下完成高效协作"
@@ -3827,6 +3862,11 @@
       "key": "collaboration.grid.1.content",
       "oldValue": "聚焦近期截止的任务，查看最近浏览的任务，进入最关注的项目，全新的首页，更快捷的定位你最关心的工作。",
       "newValue": "快速拉人，组成协作空间，这里有你需要的一切协作方式。"
+    },
+    {
+      "key": "blank.project.taskflow.name",
+      "oldValue": "工作流项目",
+      "newValue": "新建工作流项目"
     },
     {
       "key": "activity.panel.menu.presentation.mode",
