@@ -105,6 +105,22 @@
       "value": "%s 等 %s 个提醒"
     },
     {
+      "key": "task.relation.project.placeholder",
+      "value": "搜索项目"
+    },
+    {
+      "key": "task.relation.disable.moving.project",
+      "value": "任务已添加到多个项目，移动任务请前往右上角任务菜单中操作。"
+    },
+    {
+      "key": "task.relation.delete.title",
+      "value": "从此项目中移除"
+    },
+    {
+      "key": "task.relation.creator.taskflow.project.not.be.allowed",
+      "value": "不支持添加到工作流项目"
+    },
+    {
       "key": "task.menu.share",
       "value": "共享"
     },
@@ -127,6 +143,10 @@
     {
       "key": "task.menu.batch.dispatch.tasks",
       "value": "派发任务"
+    },
+    {
+      "key": "task.menu.add.relation",
+      "value": "添加到其他项目"
     },
     {
       "key": "task.menu.add.dependency.task",
@@ -231,6 +251,14 @@
     {
       "key": "scenariofield.display.config.migration.hint",
       "value": "功能迁移提醒：配置字段是否显示在看板卡片上，入口已迁移至「任务列表/看板视图」。"
+    },
+    {
+      "key": "scenario.field.config.setting.sub.field.tips",
+      "value": "设置「%s」创建子任务时，可以使用的类型。"
+    },
+    {
+      "key": "scenario.field.config.setting.sub.field",
+      "value": "管理「%s」的子任务类型"
     },
     {
       "key": "reminder.dispatch.disabled",
@@ -2737,6 +2765,10 @@
       "value": "需求指派设置"
     },
     {
+      "key": "project.settings.scenarioFieldConfig.popup.subtask.configs",
+      "value": "管理子任务类型"
+    },
+    {
       "key": "project.settings.events.zoom.description.us",
       "value": "注意：Zoom 即将下线，请前往 Zoom 官网或下载 Zoom 客户端使用"
     },
@@ -2747,6 +2779,14 @@
     {
       "key": "project.setting.task.reminder.create",
       "value": "创建新提醒"
+    },
+    {
+      "key": "project.overview.upgrade",
+      "value": "升级使用"
+    },
+    {
+      "key": "project.overview.risk.upgrade.title",
+      "value": "风险"
     },
     {
       "key": "project.overview.risk.totalCount",
@@ -2779,6 +2819,38 @@
     {
       "key": "project.overview.risk.graph.level",
       "value": "按风险等级分布"
+    },
+    {
+      "key": "project.overview.risk.description",
+      "value": "使用风险应用，快速识别、分析和解决风险"
+    },
+    {
+      "key": "project.nav.app.sort",
+      "value": "排序"
+    },
+    {
+      "key": "project.nav.app.setting",
+      "value": "设置"
+    },
+    {
+      "key": "project.nav.app.rename",
+      "value": "重命名"
+    },
+    {
+      "key": "project.nav.app.openInfo",
+      "value": "关于%1"
+    },
+    {
+      "key": "project.nav.app.no.permission",
+      "value": "暂无权限操作"
+    },
+    {
+      "key": "project.nav.app.close.content",
+      "value": "确认要关闭应用 %1 吗？"
+    },
+    {
+      "key": "project.nav.app.close",
+      "value": "关闭应用"
     },
     {
       "key": "project.member.remove.team.title",
@@ -2859,6 +2931,14 @@
     {
       "key": "project.creator.from.blank.workspace.title",
       "value": "空白协作空间"
+    },
+    {
+      "key": "project.app.nav.sort.title",
+      "value": "导航项排序"
+    },
+    {
+      "key": "project.and.relations",
+      "value": "%s 等 %s 个项目"
     },
     {
       "key": "powerups.tasktable",
@@ -3129,6 +3209,26 @@
       "value": "甘特图试用期已结束"
     },
     {
+      "key": "gantt.view.popupMenu.setting",
+      "value": "视图设置"
+    },
+    {
+      "key": "gantt.view.popupMenu.delete.confirm",
+      "value": "你确定要删除视图 %s 吗？此操作不可恢复"
+    },
+    {
+      "key": "gantt.view.popupMenu.delete",
+      "value": "删除视图"
+    },
+    {
+      "key": "gantt.view.placeholder",
+      "value": "当前未创建视图"
+    },
+    {
+      "key": "gantt.view.notice",
+      "value": "可以将常用的筛选条件组合保存为视图，以便于快捷查看"
+    },
+    {
       "key": "gantt.view.mode.select",
       "value": "选择视图"
     },
@@ -3149,6 +3249,14 @@
       "value": "紧凑布局"
     },
     {
+      "key": "gantt.view.delete",
+      "value": "视图删除成功"
+    },
+    {
+      "key": "gantt.view.create",
+      "value": "创建自定义视图"
+    },
+    {
       "key": "gantt.legend.baseline",
       "value": "基线比对"
     },
@@ -3159,6 +3267,18 @@
     {
       "key": "gantt.criticalPath.description.jump",
       "value": "跳转到关键路径"
+    },
+    {
+      "key": "gantt.app.outline.task.workTime.usedTime",
+      "value": "实际工时"
+    },
+    {
+      "key": "gantt.app.outline.task.workTime.totalTime",
+      "value": "计划工时"
+    },
+    {
+      "key": "gantt.app.outline.task.open.detail.admin",
+      "value": "点击进入任务详情，按住拖拽任务进行排序"
     },
     {
       "key": "gantt.app.outline.task.effort.unset",
