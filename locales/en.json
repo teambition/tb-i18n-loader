@@ -1826,6 +1826,7 @@
   "gantt.app.outline.task.menu": "Task Menu",
   "gantt.app.outline.task.move.forbidden": "You have no permission to move this Task",
   "gantt.app.outline.task.open.detail": "Enter Task Detail",
+  "gantt.app.outline.task.open.detail.admin": "Click to enter task detail page,  drag tasks in the right order",
   "gantt.app.outline.task.select.type": "Switch Task Type",
   "gantt.app.outline.task.select.type.desc.1": "After adjusting the type, corresponding display fields will be adjusted as well.",
   "gantt.app.outline.task.select.type.desc.2": "After adjusting the type, the corresponding fields will also be adjusted. You must also select the status in the target workflow.",

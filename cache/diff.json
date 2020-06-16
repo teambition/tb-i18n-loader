@@ -3161,6 +3161,10 @@
       "value": "跳转到关键路径"
     },
     {
+      "key": "gantt.app.outline.task.open.detail.admin",
+      "value": "点击进入任务详情，按住拖拽任务进行排序"
+    },
+    {
       "key": "gantt.app.outline.task.effort.unset",
       "value": "待设置"
     },
