@@ -241,6 +241,10 @@
       "value": "变更项目时，父子任务关系不变，但不保留部分参与者信息"
     },
     {
+      "key": "space.capitalize",
+      "value": "空间"
+    },
+    {
       "key": "selector.involver.entry.allAncestorInvolvers",
       "value": "当前任务参与者"
     },
@@ -3599,6 +3603,10 @@
     {
       "key": "trace",
       "value": "任务进展"
+    },
+    {
+      "key": "space",
+      "value": "空间"
     },
     {
       "key": "project/use-workspace:projects",
