@@ -22,12 +22,14 @@ describe('test tb-i18n-loader', function () {
       "key1": "key1"
     }
     `
+    const parsedDesciption = JSON.parse(desciption)
+
     var expects = [
       'var i18n = require(\'tb-i18n\');',
       'i18n.setLocales(\'en\', {',
-      `  "FRI": "${localesEN['FRI'] || ''}",`,
-      `  "MON": "${localesEN['MON'] || ''}",`,
-      `  "key1": "${localesEN['key1'] || ''}"`,
+      `  "FRI": "${localesEN['FRI'] || parsedDesciption['FRI']}",`,
+      `  "MON": "${localesEN['MON'] || parsedDesciption['MON']}",`,
+      `  "key1": "${localesEN['key1'] || parsedDesciption['key1']}"`,
       '});',
       'module.exports = i18n;'
     ]
@@ -45,32 +47,34 @@ describe('test tb-i18n-loader', function () {
       "key1": "key1"
     }
     `
+    const parsedDesciption = JSON.parse(desciption)
+
     var expects = [
       'var i18n = require(\'tb-i18n\');',
       'i18n.setLocales(\'zh\', {',
-      `  "FRI": "${localesZH['FRI'] || ''}",`,
-      `  "MON": "${localesZH['MON'] || ''}",`,
-      `  "key1": "${localesZH['key1'] || ''}"`,
+      `  "FRI": "${localesZH['FRI'] || parsedDesciption['FRI']}",`,
+      `  "MON": "${localesZH['MON'] || parsedDesciption['MON']}",`,
+      `  "key1": "${localesZH['key1'] || parsedDesciption['key1']}"`,
       '});',
       'i18n.setLocales(\'zh_tw\', {',
-      `  "FRI": "${localesZH_TW['FRI'] || ''}",`,
-      `  "MON": "${localesZH_TW['MON'] || ''}",`,
-      `  "key1": "${localesZH_TW['key1'] || ''}"`,
+      `  "FRI": "${localesZH_TW['FRI'] || parsedDesciption['FRI']}",`,
+      `  "MON": "${localesZH_TW['MON'] || parsedDesciption['MON']}",`,
+      `  "key1": "${localesZH_TW['key1'] || parsedDesciption['key1']}"`,
       '});',
       'i18n.setLocales(\'en\', {',
-      `  "FRI": "${localesEN['FRI'] || ''}",`,
-      `  "MON": "${localesEN['MON'] || ''}",`,
-      `  "key1": "${localesEN['key1'] || ''}"`,
+      `  "FRI": "${localesEN['FRI'] || parsedDesciption['FRI']}",`,
+      `  "MON": "${localesEN['MON'] || parsedDesciption['MON']}",`,
+      `  "key1": "${localesEN['key1'] || parsedDesciption['key1']}"`,
       '});',
       'i18n.setLocales(\'ja\', {',
-      `  "FRI": "${localesJA['FRI'] || ''}",`,
-      `  "MON": "${localesJA['MON'] || ''}",`,
-      `  "key1": "${localesJA['key1'] || ''}"`,
+      `  "FRI": "${localesJA['FRI'] || parsedDesciption['FRI']}",`,
+      `  "MON": "${localesJA['MON'] || parsedDesciption['MON']}",`,
+      `  "key1": "${localesJA['key1'] || parsedDesciption['key1']}"`,
       '});',
       'i18n.setLocales(\'ko\', {',
-      `  "FRI": "${localesKO['FRI'] || ''}",`,
-      `  "MON": "${localesKO['MON'] || ''}",`,
-      `  "key1": "${localesKO['key1'] || ''}"`,
+      `  "FRI": "${localesKO['FRI'] || parsedDesciption['FRI']}",`,
+      `  "MON": "${localesKO['MON'] || parsedDesciption['MON']}",`,
+      `  "key1": "${localesKO['key1'] || parsedDesciption['key1']}"`,
       '});',
       'module.exports = i18n;'
     ]
@@ -81,20 +85,23 @@ describe('test tb-i18n-loader', function () {
     var query = '?languages[]=en'
     var contextTranslate = translate.bind({query: query})
 
+    const namespace = '@namespace: all.'
     var desciption = `
-    @namespace: all.
+    ${namespace}
     {
       "member": "member",
       "project": "project",
       "key1": "key1"
     }
     `
+    const parsedDesciption = JSON.parse(desciption.replace(namespace, ''))
+
     var expects = [
       'var i18n = require(\'tb-i18n\');',
       'i18n.setLocales(\'en\', {',
-      `  "all.member": "${localesEN['all.member'] || ''}",`,
-      `  "all.project": "${localesEN['all.project'] || ''}",`,
-      `  "all.key1": "${localesEN['all.key1'] || ''}"`,
+      `  "all.member": "${localesEN['all.member'] || parsedDesciption['member']}",`,
+      `  "all.project": "${localesEN['all.project'] || parsedDesciption['project']}",`,
+      `  "all.key1": "${localesEN['all.key1'] || parsedDesciption['key1']}"`,
       '});',
       'module.exports = i18n;'
     ]
