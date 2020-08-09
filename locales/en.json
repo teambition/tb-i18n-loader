@@ -6599,6 +6599,7 @@
   "tapestry.picker.title.duedateRange": "Due Time",
   "tapestry.picker.title.executor": "Executor",
   "tapestry.picker.title.mixed": "Task Range",
+  "tapestry.picker.title.multiScenariofieldConfig": "Task Type",
   "tapestry.picker.title.multiSprint": "Sprint",
   "tapestry.picker.title.range": "Time Period",
   "tapestry.picker.title.section": "Sum by",

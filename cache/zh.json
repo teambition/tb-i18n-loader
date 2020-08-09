@@ -6006,6 +6006,7 @@
   "tapestry.picker.title.duedateRange": "截止时间",
   "tapestry.picker.title.executor": "执行者",
   "tapestry.picker.title.mixed": "任务范围",
+  "tapestry.picker.title.multiScenariofieldConfig": "任务类型",
   "tapestry.picker.title.multiSprint": "迭代",
   "tapestry.picker.title.range": "时间范围",
   "tapestry.picker.title.section": "汇总方式",

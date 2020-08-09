@@ -6599,6 +6599,7 @@
   "tapestry.picker.title.duedateRange": "截止時間",
   "tapestry.picker.title.executor": "執行者",
   "tapestry.picker.title.mixed": "任務範圍",
+  "tapestry.picker.title.multiScenariofieldConfig": "任務類型",
   "tapestry.picker.title.multiSprint": "迭代",
   "tapestry.picker.title.range": "時間範圍",
   "tapestry.picker.title.section": "匯總管道",
