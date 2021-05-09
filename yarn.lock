@@ -2111,9 +2111,9 @@ lodash@^3.10.0:
   integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
 lodash@^4.0.0, lodash@^4.3.0, lodash@^4.8.2:
-  version "4.17.10"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-  integrity sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 lodash@~1.0.1:
   version "1.0.2"
@@ -2446,7 +2446,7 @@ onesky-utils@0.0.3:
 
 onetime@^1.0.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
+  resolved "https://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
   integrity sha1-ofeDj4MUxRbwXs78vEzP4EtO14k=
 
 onetime@^2.0.0:
@@ -2964,7 +2964,7 @@ shelljs@^0.8.2:
 
 should-equal@0.8.0:
   version "0.8.0"
-  resolved "http://registry.npmjs.org/should-equal/-/should-equal-0.8.0.tgz#a3f05732ff45bac1b7ba412f8408856819641299"
+  resolved "https://registry.npmjs.org/should-equal/-/should-equal-0.8.0.tgz#a3f05732ff45bac1b7ba412f8408856819641299"
   integrity sha1-o/BXMv9FusG3ukEvhAiFaBlkEpk=
   dependencies:
     should-type "0.2.0"
@@ -3305,7 +3305,7 @@ thunkify@^2.1.2:
 
 thunks@^4.9.0:
   version "4.9.2"
-  resolved "http://r.cnpmjs.org/thunks/download/thunks-4.9.2.tgz#aac2d353812512160a4611e3008d7a96e3756f8e"
+  resolved "https://r.cnpmjs.org/thunks/download/thunks-4.9.2.tgz#aac2d353812512160a4611e3008d7a96e3756f8e"
   integrity sha1-qsLTU4ElEhYKRhHjAI16luN1b44=
 
 tildify@^1.0.0:
