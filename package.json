@@ -39,7 +39,7 @@
     "gulp-util": "^3.0.7",
     "inquirer": "^5.2.0",
     "isomorphic-fetch": "^2.2.1",
-    "loader-utils": "^0.2.12",
+    "loader-utils": "^1.4.1",
     "lodash": "^4.8.2",
     "minimist": "^1.2.0",
     "natives": "1.1.6",
